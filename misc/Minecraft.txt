@@ -1,0 +1,3 @@
+user == 0
+default == 1
+school.name == "Made be a student in the Beaverton Academy Of Science and Engineering (BASE)"
