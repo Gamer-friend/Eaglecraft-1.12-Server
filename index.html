@@ -1,0 +1,24 @@
+<html>
+  <body style="background:black; display: flex; justify-content: center; align-items: center; height: 100vh;">
+    
+    <div style="text-align: center;">
+      <button style="margin: 10px;" id="beta">BETA VERSION</button>
+      <button style="margin: 10px;" id="main">MAIN VERSION</button>
+    </div>
+
+    <script>
+      document.getElementById("beta").onclick = function(){
+        wind = window.open("");
+        wind.document.body.innerHTML = `<iframe src="betatest.html" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>`;
+      }
+
+      document.getElementById("main").onclick = function(){
+        wind = window.open("");
+        wind.document.body.innerHTML = `<iframe src="eaglersecure.html" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>`;
+      }
+    </script>
+
+    <h1 style="color:white;">Note that this website uses a school IP. May take some time to load all data.</h1>
+    <h2 style="color:white;">Please note that loading time may take some time. Data transfer is slow. Also, Do not expect servers to work while using a school network. Thank you for your understanding.</h2>
+  </body>
+</html>

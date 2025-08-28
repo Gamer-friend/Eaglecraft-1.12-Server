@@ -1,0 +1,5 @@
+M2.3 insert user.23
+  {
+    server:SQL TYPE=true
+    server:HIDDEN=TRUE
+    }
