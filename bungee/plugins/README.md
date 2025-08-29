@@ -1,0 +1,1 @@
+This is the folders plugin for your host provider; it can contain jar files like voice chat, tab list...etc. you can find BUNGEE/SPIGOT plugins for waterfall at https://mc-plugins.net/bungee/
