@@ -1,3 +1,5 @@
+## BEFORE YOU DO ANYTHING, FORK THIS REPO.<img width="1365" height="749" alt="Screenshot 2025-08-29 7 49 38 AM" src="https://github.com/user-attachments/assets/12996047-9fa5-4268-8346-707291f09dbd" />
+
 ## >>SERVER INSTRUCTIONS START<<
 
 First, go to the top of the repo (on the `master` branch) and click on code > codespaces > create codespace
