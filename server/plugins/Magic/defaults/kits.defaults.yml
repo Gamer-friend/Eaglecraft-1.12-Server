@@ -1,0 +1,62 @@
+# .
+# !! IMPORTANT !!
+# .
+# If you wish to customize this plugin, edit the "kits.yml" file instead.
+# .
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR kits.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+# .
+# .
+
+admin:
+  enabled: false
+  requirements:
+  - permission: Magic.admin
+  keep: true
+  remove: true
+  items:
+  - admintool
+daily:
+  cooldown: 1 days
+  items:
+    bread: 16
+    gold_nugget: 5
+    oak_planks: 8
+food:
+  cooldown: 2 hours
+  items:
+    bread: 16
+    carrot: 16
+loyalty:
+  enabled: false
+  starter: true
+  requirements:
+  - attribute:
+      attribute: play_time
+      min: 1 weeks
+  items:
+  - talisman
+starter:
+  enabled: false
+  starter: true
+  items:
+  - wooden_sword
+  - wooden_pickaxe
+  - wooden_shovel
+  - wooden_axe
+  - item: bread@32
+    slot: 8
+  - item: leather_helmet
+    slot: helmet
+  - item: leather_chestplate
+    slot: chestplate
+  - item: leather_leggings
+    slot: leggings
+  - item: leather_boots
+    slot: boots
+welcome:
+  enabled: false
+  welcome_wand: true
+  starter: true
+  items:
+  - wand

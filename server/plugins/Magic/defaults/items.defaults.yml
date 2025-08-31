@@ -1,0 +1,3372 @@
+# .
+# !! IMPORTANT !!
+# .
+# If you wish to customize this plugin, edit the "items.yml" file instead.
+# .
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR items.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+# .
+# This file is merged from the files in the following folder:
+# .
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/items
+# .
+# This file defines which items are used as icons for spells, wands and other magic items
+# this makes it easier to customize the resource pack by letting you change the item used for all spells
+# (for instance) with a single line.
+
+spell_icon: diamond_axe
+spell_icon_disabled: diamond_hoe
+wand_icon: wood_hoe
+sword_icon: gold_sword
+shield_icon: shield
+bow_icon: bow
+war_icon: diamond_pickaxe
+bigdragonwingleftred:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonbodyred:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingrightred:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingleftblue:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonbodyblue:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingrightblue:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingleftgreen:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonbodygreen:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingrightgreen:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingleftgrey:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonbodygrey:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingrightgrey:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingleftpurple:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonbodypurple:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+bigdragonwingrightpurple:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+black: stick{CustomModelData:18025}
+broomstick_handle:
+  replace_on_equip: true
+  tags:
+    unmoveable: true
+    unstashable: true
+    unswappable: true
+    undroppable: false
+    temporary: true
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Broomstick Handle
+coffee1:
+  worth: 10.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: Cup o' Jo
+      potion-type: minecraft:swiftness
+coffee2:
+  worth: 20.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: Espresso
+      potion-type: minecraft:long_swiftness
+coffee3:
+  worth: 50
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: Double Espresso
+      potion-type: minecraft:strong_swiftness
+skull_dice_1:
+  item: skull:http://textures.minecraft.net/texture/6e22c298e7c6336af17909ac1f1ee6834b58b1a3cc99aba255ca7eaeb476173
+  worth: 200
+  name: '&bDice'
+skull_dice_2:
+  item: skull:http://textures.minecraft.net/texture/71b7a73fc934c9de9160c0fd59df6e42efd5d0378e342b68612cfec3e894834a
+  worth: 200
+  name: '&bDice'
+skull_dice_3:
+  item: skull:http://textures.minecraft.net/texture/abe677a1e163a9f9e0afcfcde0c95365553478f99ab11152a4d97cf85dbe66f
+  worth: 200
+  name: '&bDice'
+skull_dice_4:
+  item: skull:http://textures.minecraft.net/texture/af2996efc2bb054f53fb0bd106ebae675936efe1fef441f653c2dce349738e
+  worth: 200
+  name: '&bDice'
+skull_dice_5:
+  item: skull:http://textures.minecraft.net/texture/e0d2a3ce4999fed330d3a5d0a9e218e37f4f57719808657396d832239e12
+  worth: 200
+  name: '&bDice'
+skull_dice_6:
+  item: skull:http://textures.minecraft.net/texture/41a2c088637fee9ae3a36dd496e876e657f509de55972dd17c18767eae1f3e9
+  worth: 200
+  name: '&bDice'
+dragonbodyblue:
+  item: feather
+  color:
+    red: 60
+    blue: 170
+    green: 68
+dragonbodybrown:
+  item: feather
+  color:
+    red: 131
+    blue: 50
+    green: 84
+dragonbodycyan:
+  item: feather
+  color:
+    red: 22
+    blue: 156
+    green: 156
+dragonbodygrey:
+  item: feather
+  color:
+    red: 128
+    blue: 128
+    green: 128
+dragonbodyblack:
+  item: feather
+  color:
+    red: 29
+    blue: 33
+    green: 29
+dragonbodygreen:
+  item: feather
+  color:
+    red: 94
+    blue: 22
+    green: 124
+dragonbodylightblue:
+  item: feather
+  color:
+    red: 58
+    blue: 218
+    green: 179
+dragonbodylightgrey:
+  item: feather
+  color:
+    red: 157
+    blue: 151
+    green: 157
+dragonbodylightred:
+  item: feather
+  color:
+    red: 176
+    blue: 38
+    green: 46
+dragonbodylime:
+  item: feather
+  color:
+    red: 128
+    blue: 31
+    green: 199
+dragonbodymagenta:
+  item: feather
+  color:
+    red: 199
+    blue: 189
+    green: 78
+dragonbodyorange:
+  item: feather
+  color:
+    red: 249
+    blue: 29
+    green: 128
+dragonbodypink:
+  item: feather
+  color:
+    red: 243
+    blue: 170
+    green: 139
+dragonbodypurple:
+  item: feather
+  color:
+    red: 137
+    blue: 184
+    green: 50
+dragonbodyred:
+  item: feather
+  color:
+    red: 176
+    blue: 38
+    green: 46
+dragonbodywhite:
+  item: feather
+  color:
+    red: 249
+    blue: 254
+    green: 255
+dragonbodyyellow:
+  item: feather
+  color:
+    red: 254
+    blue: 61
+    green: 216
+dragonleftgreen:
+  item: feather
+  color:
+    red: 94
+    blue: 22
+    green: 124
+dragonwingleftblack:
+  item: feather
+  color:
+    red: 29
+    blue: 33
+    green: 29
+dragonwingleftblue:
+  item: feather
+  color:
+    red: 60
+    blue: 170
+    green: 68
+dragonwingleftbrown:
+  item: feather
+  color:
+    red: 131
+    blue: 50
+    green: 84
+dragonwingleftcyan:
+  item: feather
+  color:
+    red: 22
+    blue: 156
+    green: 156
+dragonwingleftgrey:
+  item: feather
+  color:
+    red: 71
+    blue: 82
+    green: 79
+dragonwingleftgreen:
+  item: feather
+  color:
+    red: 94
+    blue: 22
+    green: 124
+dragonwingleftlightblue:
+  item: feather
+  color:
+    red: 22
+    blue: 156
+    green: 156
+dragonwingleftlightgrey:
+  item: feather
+  color:
+    red: 157
+    blue: 151
+    green: 157
+dragonwingleftlime:
+  item: feather
+  color:
+    red: 128
+    blue: 31
+    green: 199
+dragonwingleftmagenta:
+  item: feather
+  color:
+    red: 199
+    blue: 189
+    green: 78
+dragonwingleftorange:
+  item: feather
+  color:
+    red: 249
+    blue: 29
+    green: 128
+dragonwingleftpink:
+  item: feather
+  color:
+    red: 243
+    blue: 170
+    green: 139
+dragonwingleftpurple:
+  item: feather
+  color:
+    red: 137
+    blue: 184
+    green: 50
+dragonwingleftred:
+  item: feather
+  color:
+    red: 176
+    blue: 38
+    green: 46
+dragonwingleftwhite:
+  item: feather
+  color:
+    red: 249
+    blue: 254
+    green: 255
+dragonwingleftyellow:
+  item: feather
+  color:
+    red: 254
+    blue: 61
+    green: 216
+dragonwingrightblack:
+  item: feather
+  color:
+    red: 29
+    blue: 33
+    green: 29
+dragonwingrightblue:
+  item: feather
+  color:
+    red: 60
+    blue: 170
+    green: 68
+dragonwingrightbrown:
+  item: feather
+  color:
+    red: 131
+    blue: 50
+    green: 84
+dragonwingrightcyan:
+  item: feather
+  color:
+    red: 22
+    blue: 156
+    green: 156
+dragonwingrightgrey:
+  item: feather
+  color:
+    red: 71
+    blue: 82
+    green: 79
+dragonwingrightgreen:
+  item: feather
+  color:
+    red: 94
+    blue: 22
+    green: 124
+dragonwingrightlightblue:
+  item: feather
+  color:
+    red: 58
+    blue: 218
+    green: 179
+dragonwingrightlightgrey:
+  item: feather
+  color:
+    red: 157
+    blue: 151
+    green: 157
+dragonwingrightlightgreen:
+  item: feather
+  color:
+    red: 128
+    blue: 31
+    green: 199
+dragonwingrightlime:
+  item: feather
+  color:
+    red: 128
+    blue: 31
+    green: 199
+dragonwingrightmagenta:
+  item: feather
+  color:
+    red: 199
+    blue: 189
+    green: 78
+dragonwingrightorange:
+  item: feather
+  color:
+    red: 249
+    blue: 29
+    green: 128
+dragonwingrightpink:
+  item: feather
+  color:
+    red: 243
+    blue: 170
+    green: 139
+dragonwingrightpurple:
+  item: feather
+  color:
+    red: 137
+    blue: 184
+    green: 50
+dragonwingrightred:
+  item: feather
+  color:
+    red: 176
+    blue: 38
+    green: 46
+dragonwingrightwhite:
+  item: feather
+  color:
+    red: 249
+    blue: 254
+    green: 255
+dragonwingrightyellow:
+  item: feather
+  color:
+    red: 254
+    blue: 61
+    green: 216
+thorns:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        THORNS: 3
+acacia_boat:
+  worth: 2.13
+acacia_button:
+  worth: 0.62
+acacia_door:
+  worth: 0.76
+acacia_fence:
+  worth: 1.03
+acacia_fence_gate:
+  worth: 1.37
+acacia_leaves:
+  worth: 1
+acacia_log:
+  worth: 0.96
+acacia_planks:
+  worth: 0.34
+acacia_pressure_plate:
+  worth: 1.51
+acacia_sapling:
+  worth: 1.85
+acacia_sign:
+  worth: 0.89
+acacia_slab:
+  worth: 0.27
+acacia_stairs:
+  worth: 1.24
+acacia_trapdoor:
+  worth: 1.1
+acacia_wall_sign:
+  worth: 0.89
+acacia_wood:
+  worth: 1.85
+activator_rail:
+  worth: 7.42
+allium:
+  worth: 2.68
+ancient_debris:
+  worth: 800
+andesite:
+  worth: 0.96
+andesite_slab:
+  worth: 0.55
+andesite_stairs:
+  worth: 2.13
+andesite_wall:
+  worth: 1.24
+anvil:
+  worth: 30
+apple:
+  worth: 1
+armor_stand:
+  worth: 2.68
+arrow:
+  worth: 0.5
+attached_melon_stem:
+  worth: 5
+attached_pumpkin_stem:
+  worth: 5
+azure_bluet:
+  worth: 1.85
+baked_potato:
+  worth: 0.3
+bamboo:
+  worth: 1.37
+bamboo_sapling:
+  worth: 3
+barrel:
+  worth: 2.7
+barrier:
+  worth: 10000
+basalt:
+  worth: 2.68
+bat_spawn_egg:
+  worth: 500
+beacon:
+  worth: 5494.16
+bedrock:
+  worth: 10000
+bee_nest:
+  worth: 36.61
+bee_spawn_egg:
+  worth: 500
+beef:
+  worth: 0.5
+beehive:
+  worth: 9.41
+beetroot:
+  worth: 0.3
+beetroot_seeds:
+  worth: 0.5
+beetroot_soup:
+  worth: 5
+beetroots:
+  worth: 1.37
+bell:
+  worth: 300
+birch_boat:
+  worth: 2.13
+birch_button:
+  worth: 0.62
+birch_door:
+  worth: 0.76
+birch_fence:
+  worth: 1.03
+birch_fence_gate:
+  worth: 1.37
+birch_leaves:
+  worth: 1
+birch_log:
+  worth: 0.96
+birch_planks:
+  worth: 0.34
+birch_pressure_plate:
+  worth: 1.51
+birch_sapling:
+  worth: 1.85
+birch_sign:
+  worth: 0.89
+birch_slab:
+  worth: 0.27
+birch_stairs:
+  worth: 1.24
+birch_trapdoor:
+  worth: 1.1
+birch_wall_sign:
+  worth: 0.89
+birch_wood:
+  worth: 1.85
+black_banner:
+  worth: 6.46
+black_bed:
+  worth: 3.98
+black_carpet:
+  worth: 0.76
+black_concrete:
+  worth: 1.37
+black_concrete_powder:
+  worth: 1.58
+black_dye:
+  worth: 3.64
+black_glazed_terracotta:
+  worth: 3.57
+black_shulker_box:
+  worth: 800
+black_stained_glass:
+  worth: 1.79
+black_stained_glass_pane:
+  worth: 0.76
+black_terracotta:
+  worth: 2.68
+black_wall_banner:
+  worth: 6.46
+black_wool:
+  worth: 0.96
+blackstone:
+  worth: 2.68
+blackstone_slab:
+  worth: 1.44
+blackstone_stairs:
+  worth: 4.81
+blackstone_wall:
+  worth: 3.02
+blast_furnace:
+  worth: 50
+blaze_powder:
+  worth: 10
+blaze_rod:
+  worth: 13.19
+blaze_spawn_egg:
+  worth: 500
+blue_banner:
+  worth: 6.46
+blue_bed:
+  worth: 6.39
+blue_carpet:
+  worth: 1.24
+blue_concrete:
+  worth: 1.37
+blue_concrete_powder:
+  worth: 1.44
+blue_dye:
+  worth: 2.13
+blue_glazed_terracotta:
+  worth: 3.43
+blue_ice:
+  worth: 18
+blue_orchid:
+  worth: 3
+blue_shulker_box:
+  worth: 800
+blue_stained_glass:
+  worth: 1.65
+blue_stained_glass_pane:
+  worth: 0.76
+blue_terracotta:
+  worth: 2.47
+blue_wall_banner:
+  worth: 6.46
+blue_wool:
+  worth: 3.37
+boat:
+  worth: 2.13
+bone:
+  worth: 1
+bone_block:
+  worth: 9
+bone_meal:
+  worth: 1.24
+book:
+  worth: 5.15
+bookshelf:
+  worth: 10
+bow:
+  worth: 4
+bowl:
+  worth: 0.55
+brain_coral:
+  worth: 2.68
+brain_coral_block:
+  worth: 2.68
+brain_coral_fan:
+  worth: 2.68
+brain_coral_wall_fan:
+  worth: 2.68
+bread:
+  worth: 4.74
+brewing_stand:
+  worth: 15
+brick:
+  worth: 1.65
+brick_slab:
+  worth: 3.71
+brick_stairs:
+  worth: 11.74
+brick_wall:
+  worth: 7.62
+bricks:
+  worth: 7.28
+brown_banner:
+  worth: 6.46
+brown_bed:
+  worth: 3.98
+brown_carpet:
+  worth: 0.76
+brown_concrete:
+  worth: 1.37
+brown_concrete_powder:
+  worth: 1.85
+brown_dye:
+  worth: 5.63
+brown_glazed_terracotta:
+  worth: 3.85
+brown_mushroom:
+  worth: 1.37
+brown_mushroom_block:
+  worth: 0.96
+brown_shulker_box:
+  worth: 800
+brown_stained_glass:
+  worth: 2.06
+brown_stained_glass_pane:
+  worth: 0.89
+brown_terracotta:
+  worth: 2.88
+brown_wall_banner:
+  worth: 6.46
+brown_wool:
+  worth: 0.96
+bubble_column:
+  worth: 20
+bubble_coral:
+  worth: 2.68
+bubble_coral_block:
+  worth: 2.68
+bubble_coral_fan:
+  worth: 2.68
+bubble_coral_wall_fan:
+  worth: 2.68
+bucket:
+  worth: 15.11
+cactus:
+  worth: 1.37
+cake:
+  worth: 25.07
+campfire:
+  worth: 3.5
+carrot:
+  worth: 0.96
+carrot_on_a_stick:
+  worth: 0
+carrots:
+  worth: 0.96
+cartography_table:
+  worth: 0
+carved_pumpkin:
+  worth: 0
+cat_spawn_egg:
+  worth: 500
+cauldron:
+  worth: 0
+cave_spider_spawn_egg:
+  worth: 500
+chain:
+  worth: 6.66
+chain_command_block:
+  worth: 0
+chainmail_boots:
+  worth: 0
+chainmail_chestplate:
+  worth: 0
+chainmail_helmet:
+  worth: 0
+chainmail_leggings:
+  worth: 0
+charcoal:
+  worth: 0.25
+chest:
+  worth: 2
+chest_minecart:
+  worth: 0
+chicken_spawn_egg:
+  worth: 500
+chipped_anvil:
+  worth: 0
+chiseled_nether_bricks:
+  worth: 4.33
+chiseled_polished_blackstone:
+  worth: 3.78
+chiseled_quartz_block:
+  worth: 15.59
+chiseled_red_sandstone:
+  worth: 7.01
+chiseled_sandstone:
+  worth: 2.68
+chiseled_stone_bricks:
+  worth: 3.3
+chorus_flower:
+  worth: 3.3
+chorus_fruit:
+  worth: 3.3
+chorus_plant:
+  worth: 1.99
+clay:
+  worth: 0.5
+clay_ball:
+  worth: 0.96
+clock:
+  worth: 81.59
+coal:
+  worth: 0.25
+coal_block:
+  worth: 0
+coal_ore:
+  worth: 2.68
+coarse_dirt:
+  worth: 1.37
+cobblestone:
+  worth: 0.05
+cobblestone_slab:
+  worth: 1.03
+cobblestone_stairs:
+  worth: 0.05
+cobblestone_wall:
+  worth: 2.13
+cobweb:
+  worth: 3.37
+cocoa:
+  worth: 5.29
+cocoa_beans:
+  worth: 5.29
+cod:
+  worth: 13.6
+cod_bucket:
+  worth: 0
+cod_spawn_egg:
+  worth: 500
+command_block:
+  worth: 0
+command_block_minecart:
+  worth: 0
+comparator:
+  worth: 25.41
+compass:
+  worth: 26.58
+composter:
+  worth: 0.41
+conduit:
+  worth: 7458.79
+cooked_beef:
+  worth: 0.6
+cooked_chicken:
+  worth: 0.6
+cooked_cod:
+  worth: 13.74
+cooked_mutton:
+  worth: 0.6
+cooked_porkchop:
+  worth: 0.6
+cooked_rabbit:
+  worth: 0.5
+cooked_salmon:
+  worth: 18.27
+cookie:
+  worth: 1.79
+cornflower:
+  worth: 1.85
+cow_spawn_egg:
+  worth: 500
+cracked_nether_bricks:
+  worth: 4.46
+cracked_polished_blackstone_bricks:
+  worth: 3.98
+cracked_stone_bricks:
+  worth: 3.5
+crafting_table:
+  worth: 0
+creeper_head:
+  worth: 775
+creeper_spawn_egg:
+  worth: 500
+creeper_wall_head:
+  worth: 0
+crimson_button:
+  worth: 1.1
+crimson_door:
+  worth: 1.65
+crimson_fence:
+  worth: 1.65
+crimson_fence_gate:
+  worth: 2.34
+crimson_fungus:
+  worth: 2.68
+crimson_hyphae:
+  worth: 4.26
+crimson_nylium:
+  worth: 1.37
+crimson_planks:
+  worth: 0.76
+crimson_pressure_plate:
+  worth: 2.47
+crimson_roots:
+  worth: 0
+crimson_sign:
+  worth: 1.79
+crimson_slab:
+  worth: 0.55
+crimson_stairs:
+  worth: 1.99
+crimson_stem:
+  worth: 2.68
+crimson_trapdoor:
+  worth: 2.4
+crimson_wall_sign:
+  worth: 0.89
+crossbow:
+  worth: 17.93
+crying_obsidian:
+  worth: 75
+cut_red_sandstone:
+  worth: 6.8
+cut_red_sandstone_slab:
+  worth: 3.5
+cut_sandstone:
+  worth: 2.4
+cut_sandstone_slab:
+  worth: 1.44
+cyan_banner:
+  worth: 6.46
+cyan_bed:
+  worth: 6.52
+cyan_carpet:
+  worth: 1.24
+cyan_concrete:
+  worth: 1.37
+cyan_concrete_powder:
+  worth: 1.44
+cyan_dye:
+  worth: 2.27
+cyan_glazed_terracotta:
+  worth: 3.43
+cyan_shulker_box:
+  worth: 800
+cyan_stained_glass:
+  worth: 1.65
+cyan_stained_glass_pane:
+  worth: 0.76
+cyan_terracotta:
+  worth: 2.47
+cyan_wall_banner:
+  worth: 6.46
+cyan_wool:
+  worth: 3.5
+damaged_anvil:
+  worth: 0
+dandelion:
+  worth: 3
+dark_oak_boat:
+  worth: 2.13
+dark_oak_button:
+  worth: 0.62
+dark_oak_door:
+  worth: 0.76
+dark_oak_fence:
+  worth: 0.3
+dark_oak_fence_gate:
+  worth: 1.37
+dark_oak_leaves:
+  worth: 1
+dark_oak_log:
+  worth: 0.96
+dark_oak_planks:
+  worth: 0.34
+dark_oak_pressure_plate:
+  worth: 1.51
+dark_oak_sapling:
+  worth: 1.85
+dark_oak_sign:
+  worth: 0.89
+dark_oak_slab:
+  worth: 0.27
+dark_oak_stairs:
+  worth: 1.24
+dark_oak_trapdoor:
+  worth: 1.1
+dark_oak_wall_sign:
+  worth: 0.89
+dark_oak_wood:
+  worth: 1.85
+dark_prismarine:
+  worth: 191.07
+dark_prismarine_slab:
+  worth: 95.67
+dark_prismarine_stairs:
+  worth: 287.5
+daylight_detector:
+  worth: 3
+dead_brain_coral:
+  worth: 0.69
+dead_brain_coral_block:
+  worth: 0.69
+dead_brain_coral_fan:
+  worth: 0.69
+dead_brain_coral_wall_fan:
+  worth: 0.69
+dead_bubble_coral:
+  worth: 0.69
+dead_bubble_coral_block:
+  worth: 0.69
+dead_bubble_coral_fan:
+  worth: 0.69
+dead_bubble_coral_wall_fan:
+  worth: 0.69
+dead_bush:
+  worth: 3
+dead_fire_coral:
+  worth: 0.69
+dead_fire_coral_block:
+  worth: 0.69
+dead_fire_coral_fan:
+  worth: 0.69
+dead_fire_coral_wall_fan:
+  worth: 0.69
+dead_horn_coral:
+  worth: 0.69
+dead_horn_coral_block:
+  worth: 0.69
+dead_horn_coral_fan:
+  worth: 0.69
+dead_horn_coral_wall_fan:
+  worth: 0.69
+dead_tube_coral:
+  worth: 0.69
+dead_tube_coral_block:
+  worth: 0.69
+dead_tube_coral_fan:
+  worth: 0.69
+dead_tube_coral_wall_fan:
+  worth: 0.69
+debug_stick:
+  worth: 0
+detector_rail:
+  worth: 8.59
+diamond:
+  worth: 100
+diamond_axe:
+  worth: 300
+diamond_block:
+  worth: 900
+diamond_boots:
+  worth: 400
+diamond_chestplate:
+  worth: 800
+diamond_helmet:
+  worth: 500
+diamond_hoe:
+  worth: 200
+diamond_horse_armor:
+  worth: 700
+diamond_leggings:
+  worth: 700
+diamond_ore:
+  worth: 100
+diamond_pickaxe:
+  worth: 300
+diamond_shovel:
+  worth: 96.09
+diamond_sword:
+  worth: 200
+diorite:
+  worth: 0.96
+diorite_slab:
+  worth: 0.55
+diorite_stairs:
+  worth: 2.13
+diorite_wall:
+  worth: 1.24
+dirt:
+  worth: 0.05
+dispenser:
+  worth: 2
+dolphin_spawn_egg:
+  worth: 500
+donkey_spawn_egg:
+  worth: 500
+dragon_breath:
+  worth: 892.86
+dragon_egg:
+  worth: 0
+dragon_head:
+  worth: 769.23
+dragon_wall_head:
+  worth: 0
+dried_kelp:
+  worth: 1.03
+dried_kelp_block:
+  worth: 0
+dropper:
+  worth: 3
+drowned_spawn_egg:
+  worth: 500
+egg:
+  worth: 0.5
+elder_guardian_spawn_egg:
+  worth: 500
+elytra:
+  worth: 769.23
+emerald:
+  worth: 50
+emerald_block:
+  worth: 450
+emerald_ore:
+  worth: 150
+enchanted_book:
+  worth: 178.57
+enchanted_golden_apple:
+  worth: 1000
+enchanting_table:
+  worth: 0
+end_crystal:
+  worth: 771.63
+end_gateway:
+  worth: 0
+end_portal:
+  worth: 0
+end_portal_frame:
+  worth: 0
+end_rod:
+  worth: 11.81
+end_stone:
+  worth: 1.85
+end_stone_brick_slab:
+  worth: 1.24
+end_stone_brick_stairs:
+  worth: 4.33
+end_stone_brick_wall:
+  worth: 2.68
+end_stone_bricks:
+  worth: 2.34
+ender_chest:
+  worth: 10
+ender_eye:
+  worth: 30.77
+ender_pearl:
+  worth: 10
+enderman_spawn_egg:
+  worth: 500
+endermite_spawn_egg:
+  worth: 500
+evoker_spawn_egg:
+  worth: 500
+experience_bottle:
+  worth: 5000
+eye_of_ender:
+  worth: 0
+farmland:
+  worth: 0
+feather:
+  worth: 4.53
+fermented_spider_eye:
+  worth: 6.87
+fern:
+  worth: 3
+filled_map:
+  worth: 0
+fire:
+  worth: 100
+fire_charge:
+  worth: 5.29
+fire_coral:
+  worth: 2.68
+fire_coral_block:
+  worth: 2.68
+fire_coral_fan:
+  worth: 2.68
+fire_coral_wall_fan:
+  worth: 2.68
+firework_rocket:
+  worth: 0
+firework_star:
+  worth: 0
+fishing_rod:
+  worth: 4
+fletching_table:
+  worth: 0
+flint:
+  worth: 0.25
+flint_and_steel:
+  worth: 7.28
+flower_pot:
+  worth: 4.88
+fox_spawn_egg:
+  worth: 500
+frosted_ice:
+  worth: 10
+furnace:
+  worth: 1
+furnace_minecart:
+  worth: 0
+ghast_spawn_egg:
+  worth: 500
+ghast_tear:
+  worth: 2
+gilded_blackstone:
+  worth: 19.64
+glass:
+  worth: 0.4
+glass_bottle:
+  worth: 1.37
+glass_pane:
+  worth: 0.55
+glistering_melon_slice:
+  worth: 8
+glowstone:
+  worth: 4.67
+glowstone_dust:
+  worth: 1.03
+gold_block:
+  worth: 243
+gold_ingot:
+  worth: 27
+gold_nugget:
+  worth: 3
+gold_ore:
+  worth: 6
+golden_apple:
+  worth: 20
+golden_axe:
+  worth: 0
+golden_boots:
+  worth: 85.71
+golden_carrot:
+  worth: 20
+golden_chestplate:
+  worth: 171.43
+golden_helmet:
+  worth: 107.14
+golden_hoe:
+  worth: 0
+golden_horse_armor:
+  worth: 189
+golden_leggings:
+  worth: 150
+golden_pickaxe:
+  worth: 81
+golden_shovel:
+  worth: 54
+golden_sword:
+  worth: 39.77
+granite:
+  worth: 0.96
+granite_slab:
+  worth: 0.55
+granite_stairs:
+  worth: 2.13
+granite_wall:
+  worth: 1.24
+grass:
+  worth: 0.1
+grass_block:
+  worth: 0.27
+grass_path:
+  worth: 0
+gravel:
+  worth: 0.25
+gray_banner:
+  worth: 6.46
+gray_bed:
+  worth: 3.98
+gray_carpet:
+  worth: 0.76
+gray_concrete:
+  worth: 1.37
+gray_concrete_powder:
+  worth: 1.51
+gray_dye:
+  worth: 2.75
+gray_glazed_terracotta:
+  worth: 3.5
+gray_shulker_box:
+  worth: 800
+gray_stained_glass:
+  worth: 1.72
+gray_stained_glass_pane:
+  worth: 0.76
+gray_terracotta:
+  worth: 2.61
+gray_wall_banner:
+  worth: 6.46
+gray_wool:
+  worth: 0.96
+green_banner:
+  worth: 6.46
+green_bed:
+  worth: 6.04
+green_carpet:
+  worth: 1.17
+green_concrete:
+  worth: 1.37
+green_concrete_powder:
+  worth: 1.37
+green_dye:
+  worth: 1.85
+green_glazed_terracotta:
+  worth: 3.37
+green_shulker_box:
+  worth: 800
+green_stained_glass:
+  worth: 1.51
+green_stained_glass_pane:
+  worth: 0.69
+green_terracotta:
+  worth: 2.4
+green_wall_banner:
+  worth: 6.46
+green_wool:
+  worth: 3.02
+grindstone:
+  worth: 0
+guardian_spawn_egg:
+  worth: 500
+gunpowder:
+  worth: 7.55
+hay_block:
+  worth: 0
+heart_of_the_sea:
+  worth: 769.23
+heavy_weighted_pressure_plate:
+  worth: 11.54
+hoglin_spawn_egg:
+  worth: 500
+honey_block:
+  worth: 2.27
+honey_bottle:
+  worth: 10
+honeycomb:
+  worth: 5
+honeycomb_block:
+  worth: 2.27
+hopper:
+  worth: 3
+hopper_minecart:
+  worth: 0
+horn_coral:
+  worth: 2.68
+horn_coral_block:
+  worth: 2.68
+horn_coral_fan:
+  worth: 2.68
+horn_coral_wall_fan:
+  worth: 2.68
+horse_spawn_egg:
+  worth: 500
+husk_spawn_egg:
+  worth: 500
+ice:
+  worth: 0.2
+infested_chiseled_stone_bricks:
+  worth: 0
+infested_cobblestone:
+  worth: 0
+infested_cracked_stone_bricks:
+  worth: 0
+infested_mossy_stone_bricks:
+  worth: 0
+infested_stone:
+  worth: 0
+infested_stone_bricks:
+  worth: 0
+ink_sac:
+  worth: 3.02
+iron_axe:
+  worth: 30
+iron_bars:
+  worth: 4.67
+iron_block:
+  worth: 81
+iron_boots:
+  worth: 40
+iron_chestplate:
+  worth: 80
+iron_door:
+  worth: 13.19
+iron_helmet:
+  worth: 50
+iron_hoe:
+  worth: 20
+iron_horse_armor:
+  worth: 63
+iron_ingot:
+  worth: 9
+iron_leggings:
+  worth: 70
+iron_nugget:
+  worth: 1
+iron_ore:
+  worth: 0.5
+iron_pickaxe:
+  worth: 30
+iron_shovel:
+  worth: 6.32
+iron_sword:
+  worth: 20
+iron_trapdoor:
+  worth: 21.29
+item_frame:
+  worth: 2
+jack_o_lantern:
+  worth: 2
+jigsaw:
+  worth: 0
+jukebox:
+  worth: 80
+jungle_boat:
+  worth: 2.13
+jungle_button:
+  worth: 0.62
+jungle_door:
+  worth: 0.76
+jungle_fence:
+  worth: 1.03
+jungle_fence_gate:
+  worth: 1.37
+jungle_leaves:
+  worth: 1
+jungle_log:
+  worth: 0.96
+jungle_planks:
+  worth: 0.34
+jungle_pressure_plate:
+  worth: 1.51
+jungle_sapling:
+  worth: 1.85
+jungle_sign:
+  worth: 0.89
+jungle_slab:
+  worth: 0.27
+jungle_stairs:
+  worth: 1.24
+jungle_trapdoor:
+  worth: 1.1
+jungle_wall_sign:
+  worth: 0.89
+jungle_wood:
+  worth: 1.85
+kelp:
+  worth: 0.96
+kelp_plant:
+  worth: 0
+knowledge_book:
+  worth: 0
+ladder:
+  worth: 0.5
+lantern:
+  worth: 6.8
+lapis_block:
+  worth: 144
+lapis_lazuli:
+  worth: 16
+lapis_ore:
+  worth: 29.46
+large_fern:
+  worth: 3
+lava:
+  worth: 10
+lava_bucket:
+  worth: 25
+lead:
+  worth: 12.91
+leather:
+  worth: 1
+leather_boots:
+  worth: 4
+leather_chestplate:
+  worth: 8
+leather_helmet:
+  worth: 5
+leather_horse_armor:
+  worth: 7
+leather_leggings:
+  worth: 7
+lectern:
+  worth: 0
+lever:
+  worth: 0.8
+light_blue_banner:
+  worth: 6.46
+light_blue_bed:
+  worth: 6.39
+light_blue_carpet:
+  worth: 1.24
+light_blue_concrete:
+  worth: 1.37
+light_blue_concrete_powder:
+  worth: 1.44
+light_blue_dye:
+  worth: 2.13
+light_blue_glazed_terracotta:
+  worth: 3.43
+light_blue_shulker_box:
+  worth: 800
+light_blue_stained_glass:
+  worth: 1.65
+light_blue_stained_glass_pane:
+  worth: 0.76
+light_blue_terracotta:
+  worth: 2.47
+light_blue_wall_banner:
+  worth: 6.46
+light_blue_wool:
+  worth: 3.37
+light_gray_banner:
+  worth: 6.46
+light_gray_bed:
+  worth: 3.98
+light_gray_carpet:
+  worth: 0.76
+light_gray_concrete:
+  worth: 1.37
+light_gray_concrete_powder:
+  worth: 1.44
+light_gray_dye:
+  worth: 2.13
+light_gray_glazed_terracotta:
+  worth: 3.43
+light_gray_shulker_box:
+  worth: 800
+light_gray_stained_glass:
+  worth: 1.65
+light_gray_stained_glass_pane:
+  worth: 0.76
+light_gray_terracotta:
+  worth: 2.47
+light_gray_wall_banner:
+  worth: 6.46
+light_gray_wool:
+  worth: 0.96
+light_weighted_pressure_plate:
+  worth: 38.6
+lilac:
+  worth: 7.9
+lily_of_the_valley:
+  worth: 2.68
+lily_pad:
+  worth: 0
+lime_banner:
+  worth: 6.46
+lime_bed:
+  worth: 5.77
+lime_carpet:
+  worth: 1.17
+lime_concrete:
+  worth: 1.37
+lime_concrete_powder:
+  worth: 1.37
+lime_dye:
+  worth: 1.51
+lime_glazed_terracotta:
+  worth: 3.37
+lime_shulker_box:
+  worth: 800
+lime_stained_glass:
+  worth: 1.51
+lime_stained_glass_pane:
+  worth: 0.69
+lime_terracotta:
+  worth: 2.4
+lime_wall_banner:
+  worth: 6.46
+lime_wool:
+  worth: 2.75
+lingering_potion:
+  worth: 178.57
+llama_spawn_egg:
+  worth: 500
+lodestone:
+  worth: 1583.24
+log:
+  worth: 0.82
+loom:
+  worth: 0
+magenta_banner:
+  worth: 6.46
+magenta_bed:
+  worth: 6.32
+magenta_carpet:
+  worth: 1.24
+magenta_concrete:
+  worth: 1.37
+magenta_concrete_powder:
+  worth: 1.44
+magenta_dye:
+  worth: 2.06
+magenta_glazed_terracotta:
+  worth: 3.43
+magenta_shulker_box:
+  worth: 800
+magenta_stained_glass:
+  worth: 1.65
+magenta_stained_glass_pane:
+  worth: 0.76
+magenta_terracotta:
+  worth: 2.47
+magenta_wall_banner:
+  worth: 6.46
+magenta_wool:
+  worth: 3.3
+magma_block:
+  worth: 2.68
+magma_cream:
+  worth: 8
+magma_cube_spawn_egg:
+  worth: 500
+map:
+  worth: 30.49
+melon:
+  worth: 0.5
+melon_seeds:
+  worth: 0.5
+melon_slice:
+  worth: 0.96
+melon_stem:
+  worth: 0
+milk_bucket:
+  worth: 20
+minecart:
+  worth: 0
+mooshroom_spawn_egg:
+  worth: 500
+mossy_cobblestone:
+  worth: 2.68
+mossy_cobblestone_slab:
+  worth: 1.44
+mossy_cobblestone_stairs:
+  worth: 4.81
+mossy_cobblestone_wall:
+  worth: 3.02
+mossy_stone_brick_slab:
+  worth: 1.85
+mossy_stone_brick_stairs:
+  worth: 6.04
+mossy_stone_brick_wall:
+  worth: 3.85
+mossy_stone_bricks:
+  worth: 3.5
+moving_piston:
+  worth: 0
+mule_spawn_egg:
+  worth: 500
+mushroom_stem:
+  worth: 0.96
+mushroom_stew:
+  worth: 5
+music_disc_11:
+  worth: 0
+music_disc_13:
+  worth: 0
+music_disc_blocks:
+  worth: 0
+music_disc_cat:
+  worth: 0
+music_disc_chirp:
+  worth: 0
+music_disc_far:
+  worth: 0
+music_disc_mall:
+  worth: 0
+music_disc_mellohi:
+  worth: 0
+music_disc_pigstep:
+  worth: 0
+music_disc_stal:
+  worth: 0
+music_disc_strad:
+  worth: 0
+music_disc_wait:
+  worth: 0
+music_disc_ward:
+  worth: 0
+mutton:
+  worth: 0.5
+mycelium:
+  worth: 2.68
+name_tag:
+  worth: 1000
+nautilus_shell:
+  worth: 769.23
+nether_brick:
+  worth: 0.82
+nether_brick_fence:
+  worth: 3.3
+nether_brick_slab:
+  worth: 1.99
+nether_brick_stairs:
+  worth: 6.52
+nether_brick_wall:
+  worth: 4.12
+nether_bricks:
+  worth: 3.85
+nether_gold_ore:
+  worth: 31.46
+nether_portal:
+  worth: 0
+nether_quartz_ore:
+  worth: 3.3
+nether_sprouts:
+  worth: 0
+nether_star:
+  worth: 5000
+nether_wart:
+  worth: 1.37
+nether_wart_block:
+  worth: 0
+netherite_axe:
+  worth: 3000
+netherite_block:
+  worth: 9000
+netherite_boots:
+  worth: 4000
+netherite_chestplate:
+  worth: 8000
+netherite_helmet:
+  worth: 5000
+netherite_hoe:
+  worth: 2000
+netherite_ingot:
+  worth: 1000
+netherite_leggings:
+  worth: 7000
+netherite_pickaxe:
+  worth: 3000
+netherite_scrap:
+  worth: 394.23
+netherite_shovel:
+  worth: 1000
+netherite_sword:
+  worth: 2000
+netherrack:
+  worth: 0.1
+note_block:
+  worth: 2
+oak_boat:
+  worth: 2.13
+oak_button:
+  worth: 0.62
+oak_door:
+  worth: 0.76
+oak_fence:
+  worth: 1.03
+oak_fence_gate:
+  worth: 1.37
+oak_leaves:
+  worth: 1
+oak_log:
+  worth: 0.96
+oak_planks:
+  worth: 0.34
+oak_pressure_plate:
+  worth: 1.51
+oak_sapling:
+  worth: 1.85
+oak_sign:
+  worth: 0.89
+oak_slab:
+  worth: 0.27
+oak_stairs:
+  worth: 1.24
+oak_trapdoor:
+  worth: 1.1
+oak_wall_sign:
+  worth: 0.89
+oak_wood:
+  worth: 1.85
+observer:
+  worth: 27.2
+obsidian:
+  worth: 19.64
+ocelot_spawn_egg:
+  worth: 500
+orange_banner:
+  worth: 6.46
+orange_bed:
+  worth: 6.39
+orange_carpet:
+  worth: 1.24
+orange_concrete:
+  worth: 1.37
+orange_concrete_powder:
+  worth: 1.44
+orange_dye:
+  worth: 2.13
+orange_glazed_terracotta:
+  worth: 3.43
+orange_shulker_box:
+  worth: 800
+orange_stained_glass:
+  worth: 1.65
+orange_stained_glass_pane:
+  worth: 0.76
+orange_terracotta:
+  worth: 2.47
+orange_tulip:
+  worth: 3
+orange_wall_banner:
+  worth: 6.46
+orange_wool:
+  worth: 3.37
+oxeye_daisy:
+  worth: 3
+packed_ice:
+  worth: 2
+painting:
+  worth: 2
+panda_spawn_egg:
+  worth: 500
+paper:
+  worth: 0.34
+parrot_spawn_egg:
+  worth: 500
+peony:
+  worth: 7.9
+petrified_oak_slab:
+  worth: 0
+phantom_membrane:
+  worth: 183.93
+phantom_spawn_egg:
+  worth: 500
+pig_spawn_egg:
+  worth: 500
+piglin_spawn_egg:
+  worth: 500
+pillager_spawn_egg:
+  worth: 500
+pink_banner:
+  worth: 6.46
+pink_bed:
+  worth: 6.18
+pink_carpet:
+  worth: 1.24
+pink_concrete:
+  worth: 1.37
+pink_concrete_powder:
+  worth: 1.44
+pink_dye:
+  worth: 1.92
+pink_glazed_terracotta:
+  worth: 3.43
+pink_shulker_box:
+  worth: 800
+pink_stained_glass:
+  worth: 1.65
+pink_stained_glass_pane:
+  worth: 0.76
+pink_terracotta:
+  worth: 2.47
+pink_tulip:
+  worth: 3
+pink_wall_banner:
+  worth: 6.46
+pink_wool:
+  worth: 3.16
+piston:
+  worth: 19.64
+piston_head:
+  worth: 0
+player_head:
+  worth: 0
+player_wall_head:
+  worth: 0
+podzol:
+  worth: 2.68
+poisonous_potato:
+  worth: 0
+polar_bear_spawn_egg:
+  worth: 500
+polished_andesite:
+  worth: 1.37
+polished_andesite_slab:
+  worth: 0.76
+polished_andesite_stairs:
+  worth: 2.82
+polished_basalt:
+  worth: 3.02
+polished_blackstone:
+  worth: 3.23
+polished_blackstone_brick_slab:
+  worth: 1.79
+polished_blackstone_brick_stairs:
+  worth: 5.77
+polished_blackstone_brick_wall:
+  worth: 3.64
+polished_blackstone_bricks:
+  worth: 3.3
+polished_blackstone_button:
+  worth: 3.3
+polished_blackstone_pressure_plate:
+  worth: 6.94
+polished_blackstone_slab:
+  worth: 1.72
+polished_blackstone_stairs:
+  worth: 5.77
+polished_blackstone_wall:
+  worth: 3.57
+polished_diorite:
+  worth: 1.37
+polished_diorite_slab:
+  worth: 0.76
+polished_diorite_stairs:
+  worth: 2.82
+polished_granite:
+  worth: 1.37
+polished_granite_slab:
+  worth: 0.76
+polished_granite_stairs:
+  worth: 2.82
+popped_chorus_fruit:
+  worth: 3.98
+poppy:
+  worth: 3
+porkchop:
+  worth: 0.5
+potato:
+  worth: 0.96
+potatoes:
+  worth: 0.96
+potion:
+  worth: 178.57
+potted_acacia_sapling:
+  worth: 0
+potted_allium:
+  worth: 0
+potted_azure_bluet:
+  worth: 0
+potted_bamboo:
+  worth: 0
+potted_birch_sapling:
+  worth: 0
+potted_blue_orchid:
+  worth: 0
+potted_brown_mushroom:
+  worth: 0
+potted_cactus:
+  worth: 0
+potted_cornflower:
+  worth: 0
+potted_crimson_fungus:
+  worth: 0
+potted_crimson_roots:
+  worth: 0
+potted_dandelion:
+  worth: 0
+potted_dark_oak_sapling:
+  worth: 0
+potted_dead_bush:
+  worth: 0
+potted_fern:
+  worth: 0
+potted_jungle_sapling:
+  worth: 0
+potted_lily_of_the_valley:
+  worth: 0
+potted_oak_sapling:
+  worth: 0
+potted_orange_tulip:
+  worth: 0
+potted_oxeye_daisy:
+  worth: 0
+potted_pink_tulip:
+  worth: 0
+potted_poppy:
+  worth: 0
+potted_red_mushroom:
+  worth: 0
+potted_red_tulip:
+  worth: 0
+potted_spruce_sapling:
+  worth: 0
+potted_warped_fungus:
+  worth: 0
+potted_warped_roots:
+  worth: 0
+potted_white_tulip:
+  worth: 0
+potted_wither_rose:
+  worth: 0
+powered_rail:
+  worth: 21.22
+prismarine:
+  worth: 94.3
+prismarine_brick_slab:
+  worth: 97.18
+prismarine_brick_stairs:
+  worth: 292.1
+prismarine_bricks:
+  worth: 210.37
+prismarine_crystals:
+  worth: 30
+prismarine_shard:
+  worth: 20
+prismarine_slab:
+  worth: 47.25
+prismarine_stairs:
+  worth: 142.38
+prismarine_wall:
+  worth: 87.36
+pufferfish:
+  worth: 35.71
+pufferfish_bucket:
+  worth: 20
+pufferfish_spawn_egg:
+  worth: 500
+pumpkin:
+  worth: 1
+pumpkin_pie:
+  worth: 2
+pumpkin_seeds:
+  worth: 0.5
+pumpkin_stem:
+  worth: 0
+purple_banner:
+  worth: 6.46
+purple_bed:
+  worth: 6.46
+purple_carpet:
+  worth: 1.24
+purple_concrete:
+  worth: 1.37
+purple_concrete_powder:
+  worth: 1.44
+purple_dye:
+  worth: 2.2
+purple_glazed_terracotta:
+  worth: 3.43
+purple_shulker_box:
+  worth: 800
+purple_stained_glass:
+  worth: 1.65
+purple_stained_glass_pane:
+  worth: 0.76
+purple_terracotta:
+  worth: 2.47
+purple_wall_banner:
+  worth: 6.46
+purple_wool:
+  worth: 3.43
+purpur_block:
+  worth: 4.67
+purpur_pillar:
+  worth: 5.91
+purpur_slab:
+  worth: 2.61
+purpur_stairs:
+  worth: 8.45
+quartz:
+  worth: 0.1
+quartz_block:
+  worth: 13.87
+quartz_bricks:
+  worth: 14.35
+quartz_pillar:
+  worth: 15.73
+quartz_slab:
+  worth: 7.01
+quartz_stairs:
+  worth: 0.5
+rabbit:
+  worth: 0.5
+rabbit_foot:
+  worth: 20
+rabbit_hide:
+  worth: 0.5
+rabbit_spawn_egg:
+  worth: 500
+rabbit_stew:
+  worth: 5
+rail:
+  worth: 2.4
+ravager_spawn_egg:
+  worth: 500
+red_banner:
+  worth: 6.46
+red_bed:
+  worth: 5.91
+red_carpet:
+  worth: 1.17
+red_concrete:
+  worth: 1.37
+red_concrete_powder:
+  worth: 1.37
+red_dye:
+  worth: 1.72
+red_glazed_terracotta:
+  worth: 3.37
+red_mushroom:
+  worth: 2
+red_mushroom_block:
+  worth: 0.96
+red_nether_brick_slab:
+  worth: 2.47
+red_nether_brick_stairs:
+  worth: 8.04
+red_nether_brick_wall:
+  worth: 5.15
+red_nether_bricks:
+  worth: 4.81
+red_sand:
+  worth: 1.37
+red_sandstone:
+  worth: 5.98
+red_sandstone_slab:
+  worth: 3.09
+red_sandstone_stairs:
+  worth: 9.75
+red_sandstone_wall:
+  worth: 6.32
+red_shulker_box:
+  worth: 800
+red_stained_glass:
+  worth: 1.51
+red_stained_glass_pane:
+  worth: 0.69
+red_terracotta:
+  worth: 2.4
+red_tulip:
+  worth: 3
+red_wall_banner:
+  worth: 6.46
+red_wool:
+  worth: 2.88
+redstone:
+  worth: 1
+redstone_block:
+  worth: 9
+redstone_lamp:
+  worth: 22.12
+redstone_ore:
+  worth: 3.3
+redstone_torch:
+  worth: 4.67
+redstone_wall_torch:
+  worth: 0
+redstone_wire:
+  worth: 0
+repeater:
+  worth: 21.63
+repeating_command_block:
+  worth: 0
+respawn_anchor:
+  worth: 440.04
+rose_bush:
+  worth: 7.9
+rotten_flesh:
+  worth: 1
+saddle:
+  worth: 1500
+salmon:
+  worth: 18.13
+salmon_bucket:
+  worth: 20
+salmon_spawn_egg:
+  worth: 500
+sand:
+  worth: 0.48
+sandstone:
+  worth: 2.06
+sandstone_slab:
+  worth: 1.17
+sandstone_stairs:
+  worth: 3.98
+sandstone_wall:
+  worth: 2.4
+scaffolding:
+  worth: 1.85
+scute:
+  worth: 15.73
+sea_lantern:
+  worth: 100
+sea_pickle:
+  worth: 50
+seagrass:
+  worth: 0
+shears:
+  worth: 10.3
+sheep_spawn_egg:
+  worth: 500
+shield:
+  worth: 7.55
+shroomlight:
+  worth: 100
+shulker_box:
+  worth: 785.99
+shulker_shell:
+  worth: 390.38
+shulker_spawn_egg:
+  worth: 500
+sign:
+  worth: 1
+silverfish_spawn_egg:
+  worth: 500
+skeleton_horse_spawn_egg:
+  worth: 500
+skeleton_skull:
+  worth: 773.08
+skeleton_spawn_egg:
+  worth: 500
+skeleton_wall_skull:
+  worth: 0
+slime_ball:
+  worth: 20
+slime_block:
+  worth: 59.68
+slime_spawn_egg:
+  worth: 500
+smithing_table:
+  worth: 22
+smoker:
+  worth: 5
+smooth_quartz:
+  worth: 15.73
+smooth_quartz_slab:
+  worth: 7.97
+smooth_quartz_stairs:
+  worth: 24.52
+smooth_red_sandstone:
+  worth: 7.14
+smooth_red_sandstone_slab:
+  worth: 3.71
+smooth_red_sandstone_stairs:
+  worth: 11.61
+smooth_sandstone:
+  worth: 2.75
+smooth_sandstone_slab:
+  worth: 1.51
+smooth_sandstone_stairs:
+  worth: 4.95
+smooth_stone:
+  worth: 3.02
+smooth_stone_slab:
+  worth: 1.58
+snow:
+  worth: 0.1
+snow_block:
+  worth: 0.25
+snowball:
+  worth: 0.05
+soul_campfire:
+  worth: 6
+soul_fire:
+  worth: 100
+soul_lantern:
+  worth: 8.04
+soul_sand:
+  worth: 2.68
+soul_soil:
+  worth: 2.68
+soul_torch:
+  worth: 1.79
+soul_wall_torch:
+  worth: 1.79
+spawner:
+  worth: 10000
+spectral_arrow:
+  worth: 5.01
+spider_eye:
+  worth: 0.5
+spider_spawn_egg:
+  worth: 500
+splash_potion:
+  worth: 178.57
+sponge:
+  worth: 178.57
+spruce_boat:
+  worth: 2.13
+spruce_button:
+  worth: 0.62
+spruce_door:
+  worth: 0.76
+spruce_fence:
+  worth: 0.3
+spruce_fence_gate:
+  worth: 1.37
+spruce_leaves:
+  worth: 1
+spruce_log:
+  worth: 0.96
+spruce_planks:
+  worth: 0.34
+spruce_pressure_plate:
+  worth: 1.51
+spruce_sapling:
+  worth: 1.85
+spruce_sign:
+  worth: 0.89
+spruce_slab:
+  worth: 0.27
+spruce_stairs:
+  worth: 1.24
+spruce_trapdoor:
+  worth: 1.1
+spruce_wall_sign:
+  worth: 0.89
+spruce_wood:
+  worth: 1.85
+squid_spawn_egg:
+  worth: 500
+stick:
+  worth: 0.1
+sticky_piston:
+  worth: 29.46
+stone:
+  worth: 0.2
+stone_axe:
+  worth: 0.1
+stone_brick_slab:
+  worth: 1.51
+stone_brick_stairs:
+  worth: 5.08
+stone_brick_wall:
+  worth: 3.16
+stone_bricks:
+  worth: 2.82
+stone_button:
+  worth: 0.4
+stone_hoe:
+  worth: 0.1
+stone_pickaxe:
+  worth: 0.15
+stone_pressure_plate:
+  worth: 5.15
+stone_shovel:
+  worth: 0
+stone_slab:
+  worth: 1.17
+stone_stairs:
+  worth: 3.98
+stone_sword:
+  worth: '0.10'
+stray_spawn_egg:
+  worth: 500
+strider_spawn_egg:
+  worth: 500
+string:
+  worth: 1
+stripped_acacia_log:
+  worth: 0.96
+stripped_acacia_wood:
+  worth: 1.85
+stripped_birch_log:
+  worth: 0.96
+stripped_birch_wood:
+  worth: 1.85
+stripped_crimson_hyphae:
+  worth: 2.47
+stripped_crimson_stem:
+  worth: 1.37
+stripped_dark_oak_log:
+  worth: 0.96
+stripped_dark_oak_wood:
+  worth: 1.85
+stripped_jungle_log:
+  worth: 0.96
+stripped_jungle_wood:
+  worth: 1.85
+stripped_oak_log:
+  worth: 0.96
+stripped_oak_wood:
+  worth: 1.85
+stripped_spruce_log:
+  worth: 0.96
+stripped_spruce_wood:
+  worth: 1.85
+stripped_warped_hyphae:
+  worth: 2.47
+stripped_warped_stem:
+  worth: 1.37
+structure_block:
+  worth: 10000
+structure_void:
+  worth: 10000
+sugar:
+  worth: 0.25
+sugar_cane:
+  worth: 0.27
+sunflower:
+  worth: 7.9
+suspicious_stew:
+  worth: 0
+sweet_berries:
+  worth: 1
+sweet_berry_bush:
+  worth: 0.27
+tall_grass:
+  worth: 0
+tall_seagrass:
+  worth: 0
+target:
+  worth: 18.13
+terracotta:
+  worth: 1.65
+tipped_arrow:
+  worth: 178.57
+tnt:
+  worth: 44.51
+tnt_minecart:
+  worth: 0
+torch:
+  worth: 0.1
+totem_of_undying:
+  worth: 5151.1
+trader_llama_spawn_egg:
+  worth: 500
+trapped_chest:
+  worth: 6.59
+trident:
+  worth: 769.23
+tripwire:
+  worth: 0
+tripwire_hook:
+  worth: 1
+tropical_fish:
+  worth: 24.73
+tropical_fish_bucket:
+  worth: 20
+tropical_fish_spawn_egg:
+  worth: 500
+tube_coral:
+  worth: 2.68
+tube_coral_block:
+  worth: 2.68
+tube_coral_fan:
+  worth: 2.68
+tube_coral_wall_fan:
+  worth: 2.68
+turtle_egg:
+  worth: 5.29
+turtle_helmet:
+  worth: 85.71
+turtle_spawn_egg:
+  worth: 500
+twisting_vines:
+  worth: 0
+twisting_vines_plant:
+  worth: 0
+vex_spawn_egg:
+  worth: 500
+villager_spawn_egg:
+  worth: 500
+vindicator_spawn_egg:
+  worth: 500
+vine:
+  worth: 2
+wall_sign:
+  worth: 0.89
+wall_torch:
+  worth: 0
+wandering_trader_spawn_egg:
+  worth: 500
+warped_button:
+  worth: 1.1
+warped_door:
+  worth: 1.65
+warped_fence:
+  worth: 1.65
+warped_fence_gate:
+  worth: 2.34
+warped_fungus:
+  worth: 2.68
+warped_fungus_on_a_stick:
+  worth: 0
+warped_hyphae:
+  worth: 4.26
+warped_nylium:
+  worth: 2.68
+warped_planks:
+  worth: 0.76
+warped_pressure_plate:
+  worth: 2.47
+warped_roots:
+  worth: 0
+warped_sign:
+  worth: 1.79
+warped_slab:
+  worth: 0.55
+warped_stairs:
+  worth: 1.99
+warped_stem:
+  worth: 2.68
+warped_trapdoor:
+  worth: 2.4
+warped_wall_sign:
+  worth: 0.89
+warped_wart_block:
+  worth: 2.68
+water:
+  worth: 5
+water_bucket:
+  worth: 20
+weeping_vines:
+  worth: 0
+weeping_vines_plant:
+  worth: 0
+wet_sponge:
+  worth: 0
+wheat:
+  worth: 1.37
+wheat_seeds:
+  worth: 1.37
+white_banner:
+  worth: 6.46
+white_bed:
+  worth: 3.98
+white_carpet:
+  worth: 0.76
+white_concrete:
+  worth: 1.37
+white_concrete_powder:
+  worth: 1.37
+white_dye:
+  worth: 1.51
+white_glazed_terracotta:
+  worth: 3.37
+white_shulker_box:
+  worth: 800
+white_stained_glass:
+  worth: 1.51
+white_stained_glass_pane:
+  worth: 0.69
+white_terracotta:
+  worth: 2.4
+white_tulip:
+  worth: 3
+white_wall_banner:
+  worth: 6.46
+white_wool:
+  worth: 0.96
+witch_spawn_egg:
+  worth: 500
+wither_rose:
+  worth: 5357.14
+wither_skeleton_skull:
+  worth: 775
+wither_skeleton_spawn_egg:
+  worth: 500
+wither_skeleton_wall_skull:
+  worth: 0
+wolf_spawn_egg:
+  worth: 500
+wooden_axe:
+  worth: 1.85
+wooden_hoe:
+  worth: 1.51
+wooden_pickaxe:
+  worth: 2.13
+wooden_shovel:
+  worth: 1.24
+wooden_sword:
+  worth: 1.37
+wool:
+  worth: 0.82
+writable_book:
+  worth: 14.84
+written_book:
+  worth: 0
+yellow_banner:
+  worth: 6.46
+yellow_bed:
+  worth: 6.39
+yellow_carpet:
+  worth: 1.24
+yellow_concrete:
+  worth: 1.37
+yellow_concrete_powder:
+  worth: 1.44
+yellow_dye:
+  worth: 2.13
+yellow_glazed_terracotta:
+  worth: 3.43
+yellow_shulker_box:
+  worth: 800
+yellow_stained_glass:
+  worth: 1.65
+yellow_stained_glass_pane:
+  worth: 0.76
+yellow_terracotta:
+  worth: 2.47
+yellow_wall_banner:
+  worth: 6.46
+yellow_wool:
+  worth: 3.37
+zoglin_spawn_egg:
+  worth: 500
+zombie_head:
+  worth: 773.08
+zombie_horse_spawn_egg:
+  worth: 500
+zombie_spawn_egg:
+  worth: 500
+zombie_villager_spawn_egg:
+  worth: 500
+zombie_wall_head:
+  worth: 0
+zombified_piglin_spawn_egg:
+  worth: 500
+emerald_sword:
+  creator_id: 4cb358ae-719c-4423-93c7-8769ce46e9c3
+  creator: NathanWolf
+  worth: 1000
+  attributes:
+  - type: GENERIC_ATTACK_DAMAGE
+    amount: 8.0
+    name: Equipment Modifier
+    slot: HAND
+    uuid: be7c088e-291d-4497-b54d-5b1b15979cd1
+    operation: 0
+  - type: GENERIC_ATTACK_SPEED
+    amount: 2.0
+    name: Equipment Modifier
+    slot: HAND
+    uuid: 5665f95b-de79-4453-a315-cc5874910086
+    operation: 0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_SWORD
+    damage: 7
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Emerald Sword
+      Unbreakable: true
+helmet_of_blinding:
+  worth: 750
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Helmet of Blinding
+      lore:
+      - For use outside of water
+      enchants:
+        WATER_WORKER: 10
+dwarven_battle_axe:
+  worth: 1000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Dwarven Battle Axe
+      enchants:
+        DAMAGE_ALL: 8
+        DURABILITY: 5
+dwarven_spade:
+  worth: 200
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SPADE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Dwarven Spade
+      lore:
+      - A spade used by many young dwarves
+      enchants:
+        DIG_SPEED: 1
+        DURABILITY: 1
+dwarven_axe:
+  worth: 500
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Dwarven Axe
+      lore:
+      - An axe used by many young dwarves
+      enchants:
+        DIG_SPEED: 1
+        DURABILITY: 1
+dwarven_pickaxe:
+  worth: 500
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Dwarven Pickaxe
+      enchants:
+        DIG_SPEED: 3
+        DURABILITY: 3
+dwarven_pickaxe_luck:
+  worth: 1337
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Dwarven Pickaxe of Luck
+      enchants:
+        DIG_SPEED: 3
+        DURABILITY: 3
+        LOOT_BONUS_BLOCKS: 3
+felicis_pickaxe:
+  worth: 2500
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Felicis Pickaxe
+      enchants:
+        LOOT_BONUS_BLOCKS: 5
+dwarven_felicis_pickaxe:
+  worth: 3333
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Dwarven Felicis Pickaxe
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 5
+        LOOT_BONUS_BLOCKS: 5
+loot3_pickaxe:
+  worth: 1000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOOT_BONUS_BLOCKS: 3
+loot5_pickaxe:
+  worth: 2500
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOOT_BONUS_BLOCKS: 5
+silk_touch_pickaxe:
+  worth: 3000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        SILK_TOUCH: 1
+hylian_shield:
+  worth: 200
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §aHylian Shield
+      lore:
+      - Link's Shield
+      internal: H4sIAAAAAAAA/3XOTQ5AMBQE4KFoVeJQxN7CBUrqJxpN9G3cnojFI7GcfDPJaECjrJwf1majhY7OTDlUa4jsvgUNIFOQT4YYei+Q1t75/SIJbqPjFnGL55lR8iIiRsWbwu/q80MgqUywdw0n1U4Sy9UAAAA=
+      blockMaterial: SHIELD
+invisible_item_frame:
+  item: item_frame
+  tags:
+    EntityTag:
+      Invisible: 1
+warlock_boots:
+  worth: 5000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 10
+warlock_chestplate:
+  worth: 4000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        THORNS: 3
+warlock_leggings:
+  worth: 4000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        THORNS: 3
+warlock_wand:
+  worth: 2000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_HOE
+    damage: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aWarlock wand
+      lore:
+      - It has lost its power
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+wizard_wand:
+  worth: 2000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_HOE
+    damage: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aWizard wand
+      lore:
+      - It has lost its power
+      Unbreakable: true
+madscientist_wand:
+  worth: 2000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_HOE
+    damage: 7
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aThe Wolf
+      lore:
+      - It has lost its power
+      Unbreakable: true
+madscientist_helmet:
+  worth: 4000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_HOE
+    damage: 17
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        THORNS: 3
+      Unbreakable: true
+archer_bow:
+  worth: 3000
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aMagic Bow
+      lore:
+      - It has lost its power
+      Unbreakable: true
+nothing:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_HOE
+    damage: 42
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Nothing
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true
+potion_splash_swiftness_long:
+  worth: 50
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_swiftness
+skull_ale:
+  item: skull:http://textures.minecraft.net/texture/8f7dc8c91f7a24ecd9c5e9d4d8c39f0ac8333ae4853559acb8b03866f9d
+  worth: 200
+  name: '&bAle'
+skull_apple:
+  item: skull:http://textures.minecraft.net/texture/85ee2debeff42d9a958428840680204179e23cbbdafd6040101503e1b8f55827
+  worth: 200
+  name: '&bApple'
+skull_aquarium:
+  item: skull:http://textures.minecraft.net/texture/6dd8a9258092f26f117357e1b52bac8f4cedc575b982f52a85df3a313696d88f
+  worth: 200
+  name: '&bAquarium'
+skull_arrowdown:
+  item: skull:http://textures.minecraft.net/texture/9b7ce683d0868aa4378aeb60caa5ea80596bcffdab6b5af2d12595837a84853
+  worth: 200
+  name: '&bArrow Down'
+skull_arrowleft:
+  item: skull:http://textures.minecraft.net/texture/bb0f6e8af46ac6faf88914191ab66f261d6726a7999c637cf2e4159fe1fc477
+  worth: 200
+  name: '&bArrow Left'
+skull_arrowright:
+  item: skull:http://textures.minecraft.net/texture/f2f3a2dfce0c3dab7ee10db385e5229f1a39534a8ba2646178e37c4fa93b
+  worth: 200
+  name: '&bArrow Right'
+skull_arrowup:
+  item: skull:http://textures.minecraft.net/texture/58fe251a40e4167d35d081c27869ac151af96b6bd16dd2834d5dc7235f47791d
+  worth: 200
+  name: '&bArrow Up'
+skull_bentobox:
+  item: skull:http://textures.minecraft.net/texture/fe3052c535e14597a413ec32b32aafdd28686fdab6eed73030e1b94f7c38ff
+  worth: 200
+  name: '&bBento Box'
+skull_books:
+  item: skull:http://textures.minecraft.net/texture/7dc985a7a68c574f683c0b859521feb3fc3d2ffa05fa09db0bae44b8ac29b385
+  worth: 200
+  name: '&bBooks'
+skull_bread:
+  item: skull:http://textures.minecraft.net/texture/51997da64043b284822115643a654fdc4e8a7226664b48a4e1dbb557b5c0fe14
+  worth: 200
+  name: '&bBread'
+skull_burningcube:
+  item: skull:http://textures.minecraft.net/texture/333052e6b7a87923bdb88f94185e84b562dc5b854b7bb01cc017f22c5a8a4
+  worth: 200
+  name: '&bBurning Cube'
+skull_cake:
+  item: skull:http://textures.minecraft.net/texture/f9136514f342e7c5208a1422506a866158ef84d2b249220139e8bf6032e193
+  worth: 200
+  name: '&bCake'
+skull_carrot:
+  item: skull:http://textures.minecraft.net/texture/2159988443ee75d20c49c89abad5545bb4fb453a42b0388b5466355698bfa
+  worth: 200
+  name: '&bCarrot'
+skull_cheese:
+  item: skull:http://textures.minecraft.net/texture/34febbc15d1d4cc62bedc5d7a2b6f0f46cd5b0696a884de75e289e35cbb53a0
+  worth: 200
+  name: '&bCheese'
+skull_chocolatebar:
+  item: skull:http://textures.minecraft.net/texture/819f948d17718adace5dd6e050c586229653fef645d7113ab94d17b639cc466
+  worth: 200
+  name: '&bChocolate Bar'
+skull_clock:
+  item: skull:http://textures.minecraft.net/texture/a1af7105d7549ca59e5ddd0a3d6ba6ec64413e070daf288a13d0c30961052398
+  worth: 200
+  name: '&bClock'
+skull_companion:
+  item: skull:http://textures.minecraft.net/texture/7fa0e897fc501068c8e50599e646c08f28f1b04796eec475b58a6d8b241b3474
+  worth: 200
+  name: '&bCompanion Cube'
+skull_cookie:
+  item: skull:http://textures.minecraft.net/texture/b592cf9f42a5a8c995968493fdd1b11e0b69aad6473ff45384abe58b7fc7c7
+  worth: 200
+  name: '&bCookie'
+skull_copperchunk:
+  item: skull{display:{Name:"{\"text\":\"Copper Chunk\"}"},SkullOwner:{Id:[I;-1036162939,-1851833705,-1803264362,-2044992477],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc2NDA2MGI4MThlNGE2NzA2NzEzYzg1MWRmNTJhZmZiNzAwODM3MDE5Y2JkNzcxMjZlYTE1NGU3MGNkNjcxYyJ9fX0="}]}}}
+  worth: 200
+skull_crate:
+  item: skull:http://textures.minecraft.net/texture/8358fba2f1bdc519ba85e5366bab8def9bbe404ef639c2e3c654d10a1d8d3
+  worth: 200
+  name: '&bCrate'
+skull_creeperstone:
+  item: skull:http://textures.minecraft.net/texture/b7a6636d96d08f61939a60f57ee0d0299c0bd273b2bd30c1efe4f74e433a
+  worth: 200
+  name: '&bCreeper Stone'
+skull_diamondblock:
+  item: skull:http://textures.minecraft.net/texture/9631597dce4e4051e8d5a543641966ab54fbf25a0ed6047f11e6140d88bf48f
+  worth: 200
+  name: '&bDiamond Block'
+skull_donut:
+  item: skull:http://textures.minecraft.net/texture/837c9b82b186656e9f6363a2a1c6a4b5b93cfa9ef4dad6f16b94ebb5e362678
+  worth: 200
+  name: '&bDonut'
+skull_emeraldblock:
+  item: skull:http://textures.minecraft.net/texture/ac906d688e65802569d9705b579bce56edc86ea5c36bdd6d6fc35516a77d4
+  worth: 200
+  name: '&bEmerald Block'
+skull_fries:
+  item: skull:http://textures.minecraft.net/texture/a0eacac41a9eaf051376ef2f959701e1bbe1bf4aa6715adc34b6dc29a13ea9
+  worth: 200
+  name: '&bFrench Fries'
+skull_furnace:
+  item: skull:http://textures.minecraft.net/texture/87c0748362e9a63e07aa2b08b5f7d101e5395aa21532a476722dbdd98c2f2
+  worth: 200
+  name: '&bFurnace'
+skull_glados:
+  item: skull:http://textures.minecraft.net/texture/d9d048ce03f44f190842e12a8507434045e52add01a4f3bb6cc674c1a17e98be
+  worth: 200
+  name: '&bGLaDOS'
+skull_globe:
+  item: skull:http://textures.minecraft.net/texture/cf40942f364f6cbceffcf1151796410286a48b1aeba77243e218026c09cd1
+  worth: 200
+  name: '&bGlobe'
+skull_goldblock:
+  item: skull:http://textures.minecraft.net/texture/54bf893fc6defad218f7836efefbe636f1c2cc1bb650c82fccd99f2c1ee6
+  worth: 200
+  name: '&bGold Block'
+skull_hamburger:
+  item: skull:http://textures.minecraft.net/texture/a6ef1c25f516f2e7d6f7667420e33adcf3cdf938cb37f9a41a8b35869f569b
+  worth: 200
+  name: '&bHamburger'
+skull_ironman:
+  item: skull:http://textures.minecraft.net/texture/7cb05fc0ee938f49eab166c393e607a4f5f8b7061bc1e5cdca965eb95146dc75
+  worth: 200
+  name: '&bIron Man'
+skull_lantern:
+  item: skull:http://textures.minecraft.net/texture/474f894940c84fa2671601c38f9bde547cfa2d7c1a0ca38df79cde37422d6c
+  worth: 200
+  name: '&bLantern'
+skull_lavabucket:
+  item: skull:http://textures.minecraft.net/texture/8d5427a83540a08a3fa2e655c2964a07243514584a71ec35d6b9e184dfbe318
+  worth: 200
+  name: '&bLava Bucket'
+skull_lavamonster:
+  item: skull:http://textures.minecraft.net/texture/d412342b6165e7ff251898d4c859befc45c89bc26e7243062193497385f3
+  worth: 200
+  name: '&bLava Monster'
+skull_lemon:
+  item: skull:http://textures.minecraft.net/texture/957fd56ca15978779324df519354b6639a8d9bc1192c7c3de925a329baef6c
+  worth: 200
+  name: '&bLemon'
+skull_luigi:
+  item: skull:http://textures.minecraft.net/texture/3f09df4e9ea64ca36b16d41bffeeb20f8d5c429b060d809aa41a64f37d5cf058
+  worth: 200
+  name: '&bLuigi'
+skull_mario:
+  item: skull:http://textures.minecraft.net/texture/cf00b855d6f4947b9aab1c10de4e908087456e9dffcf56811859bc9307e2bd44
+  worth: 200
+  name: '&bMario'
+skull_moneybag:
+  item: skull:http://textures.minecraft.net/texture/e36e94f6c34a35465fce4a90f2e25976389eb9709a12273574ff70fd4daa6852
+  worth: 200
+  name: '&bMoney Bag'
+skull_pancakes:
+  item: skull:http://textures.minecraft.net/texture/347f4f5a74c6691280cd80e7148b49b2ce17dcf64fd55368627f5d92a976a6a8
+  worth: 200
+  name: '&bPancakes'
+skull_pokeball:
+  item: skull:http://textures.minecraft.net/texture/782f734fbd660723c46a4d9e161e04a0530f0a71329716d44760dad4693e0c44
+  worth: 200
+  name: '&bPokeball'
+skull_popcorn:
+  item: skull:http://textures.minecraft.net/texture/70bb2f279162d877c18897639a99cb3b8d25e72e2bdf85fa90eac149f3de0cf6
+  worth: 200
+  name: '&bPopcorn'
+skull_present_green:
+  item: skull:http://textures.minecraft.net/texture/2e10ac999703c735bf7ba6da63f9842d415c5bde07a742f96f3060e11ccfa6c6
+  worth: 200
+  name: '&bPresent'
+skull_present_red:
+  item: skull:http://textures.minecraft.net/texture/407c0d34f90548abf94040e5167c1e07c3427b920f66680d7356e23e11c1a77f
+  worth: 200
+  name: '&bPresent'
+skull_soupcan:
+  item: skull:http://textures.minecraft.net/texture/fc91f9507b48b6f719714fbaba77cf68534aa5b728371b11866d55ff833a7f
+  worth: 200
+  name: '&bCan of Soup'
+skull_strawberryjam:
+  item: skull:http://textures.minecraft.net/texture/c0b8b5889ee1c6388dc6c2c5dbd70b6984aefe54319a095e64db7638097b821
+  worth: 200
+  name: '&bStrawberry Jam'
+skull_sushi:
+  item: skull:http://textures.minecraft.net/texture/23bf8fca2af3592c5574b13e3bcf61e2fae829788535f0ddeaa7a2e45b6ba4
+  worth: 200
+  name: '&bSushi'
+skull_sushiroll:
+  item: skull:http://textures.minecraft.net/texture/2e12f267953e76ae66a8dd025a3286aecbc64b4ad98eeb10b3c67a69aae15
+  worth: 200
+  name: '&bSushi Roll'
+skull_taco:
+  item: skull:http://textures.minecraft.net/texture/98ced74a22021a535f6bce21c8c632b273dc2d9552b71a38d57269b3538cf
+  worth: 200
+  name: '&bTaco'
+skull_tea:
+  item: skull:http://textures.minecraft.net/texture/d8e94ddd769a5bea748376b4ec7383fd36d267894d7c3bee011e8e4f5fcd7
+  worth: 200
+  name: '&bCup of Tea'
+skull_watermelon:
+  item: skull:http://textures.minecraft.net/texture/f3903066ccc4695e113fee314c96a544eb919622eee7daa1d1966374f3fe848
+  worth: 200
+  name: '&bWatermelon'
+skull_whitecandle:
+  item: skull:http://textures.minecraft.net/texture/781226656d825291b1d7e456b74ecdce28672169641e6c35b1e23b9b40274e
+  worth: 200
+  name: '&bWhite Candle'
+skull_wildboar:
+  item: skull:http://textures.minecraft.net/texture/ca67bfada26bfdf8b7a52bb292fede983d69b4f175c079227914947e8a5f82f
+  worth: 200
+  name: '&bWild Boar'
+skull_yoshi:
+  item: skull:http://textures.minecraft.net/texture/6eedf164b500a63149fecb21b590524eda532c20d60976656c6f91e11f2f8223
+  worth: 200
+  name: '&bYoshi'
+skull_computer:
+  item: skull:http://textures.minecraft.net/texture/71ead16d94045873da861abf94703e489f9cf498db5a2a33a41cabda93ae1825
+  worth: 200
+  name: '&bComputer'
+philbertegg:
+  worth: 500.0
+  item:
+    type: MONSTER_EGG
+    tags:
+      display:
+        Name: Spawn Philbert
+      EntityTag:
+        powered: true
+        CustomName: Philbert
+        id: minecraft:creeper
+mutantegg:
+  worth: 400.0
+  item:
+    type: MONSTER_EGG
+    tags:
+      display:
+        Name: Spawn Mutant
+      EntityTag:
+        CustomName: Mutant
+        HandItems:
+        - id: minecraft:iron_sword
+          Count: true
+          Damage: 0
+        ArmorItems:
+        - id: minecraft:iron_boots
+          Count: true
+          Damage: 0
+        - id: minecraft:iron_leggings
+          Count: true
+          Damage: 0
+        - id: minecraft:iron_chestplate
+          Count: true
+          Damage: 0
+        - id: minecraft:iron_helmet
+          Count: true
+          Damage: 0
+        id: minecraft:zombie_pigman
+witherarcheregg:
+  worth: 300.0
+  item:
+    type: MONSTER_EGG
+    tags:
+      display:
+        Name: Spawn Wither Archer
+      EntityTag:
+        CustomName: Wither Archer
+        HandItems:
+        - id: minecraft:bow
+          Count: true
+          Damage: 0
+        id: minecraft:wither_skeleton
+zombiehorseegg:
+  worth: 1000.0
+  item:
+    type: MONSTER_EGG
+    tags:
+      display:
+        Name: Spawn Zombie Horse
+      EntityTag:
+        CustomName: Zombie Horse
+        Age: 0
+        ForcedAge: 0
+        Tame: true
+        SaddleItem:
+          id: minecraft:saddle
+          Count: true
+          Damage: 0
+        id: minecraft:zombie_horse
+skelliehorseegg:
+  worth: 1000.0
+  item:
+    type: MONSTER_EGG
+    tags:
+      display:
+        Name: Spawn Skellie Horse
+      EntityTag:
+        CustomName: Skellie Horse
+        Age: 0
+        ForcedAge: 0
+        Tame: true
+        SaddleItem:
+          id: minecraft:saddle
+          Count: true
+          Damage: 0
+        id: minecraft:skeleton_horse
+warlockspawner:
+  worth: 50000.0
+  item:
+    type: MOB_SPAWNER
+    tags:
+      display:
+        Name: Warlock Spawner
+      BlockEntityTag:
+        SpawnPotentials: []
+        SpawnCount: 1
+        MaxNearbyEntities: 5
+        SpawnRange: 8
+        Delay: 100
+        MinSpawnDelay: 200
+        MaxSpawnDelay: 500
+        RequiredPlayerRange: 12
+        SpawnData:
+          id: Zombie
+          CustomName: Warlock
+          IsVillager: 1
+        EntityId: Zombie
+darkspiderspawner:
+  worth: 20000.0
+  item:
+    type: MOB_SPAWNER
+    tags:
+      display:
+        Name: Dark Spider Spawner
+      BlockEntityTag:
+        SpawnPotentials: []
+        SpawnCount: 1
+        MaxNearbyEntities: 5
+        SpawnRange: 8
+        Delay: 100
+        MinSpawnDelay: 200
+        MaxSpawnDelay: 500
+        RequiredPlayerRange: 12
+        SpawnData:
+          id: cave_spider
+          CustomName: Dark Spider
+        EntityId: cave_spider
+megaspiderspawner:
+  worth: 20000.0
+  item:
+    type: MOB_SPAWNER
+    tags:
+      display:
+        Name: Mega Spider Spawner
+      BlockEntityTag:
+        SpawnPotentials: []
+        SpawnCount: 1
+        MaxNearbyEntities: 5
+        SpawnRange: 8
+        Delay: 100
+        MinSpawnDelay: 200
+        MaxSpawnDelay: 500
+        RequiredPlayerRange: 12
+        SpawnData:
+          id: Spider
+          CustomName: Mega Spider
+        EntityId: Spider
+cavespiderspawner:
+  worth: 5000.0
+  item:
+    type: MOB_SPAWNER
+    tags:
+      display:
+        Name: Cave Spider Spawner
+      BlockEntityTag:
+        SpawnPotentials: []
+        SpawnCount: 1
+        MaxNearbyEntities: 5
+        SpawnRange: 8
+        Delay: 100
+        MinSpawnDelay: 200
+        MaxSpawnDelay: 500
+        RequiredPlayerRange: 12
+        SpawnData:
+          id: cave_spider
+        EntityId: cave_spider
+spiderspawner:
+  worth: 5000.0
+  item:
+    type: MOB_SPAWNER
+    tags:
+      display:
+        Name: Spider Spawner
+      BlockEntityTag:
+        SpawnPotentials: []
+        SpawnCount: 1
+        MaxNearbyEntities: 5
+        SpawnRange: 8
+        Delay: 100
+        MinSpawnDelay: 200
+        MaxSpawnDelay: 500
+        RequiredPlayerRange: 12
+        SpawnData:
+          id: Spider
+        EntityId: Spider
+zombiespawner:
+  worth: 20000.0
+  item:
+    type: MOB_SPAWNER
+    tags:
+      display:
+        Name: Zombie Spawner
+      BlockEntityTag:
+        SpawnPotentials: []
+        SpawnCount: 1
+        MaxNearbyEntities: 5
+        SpawnRange: 8
+        Delay: 100
+        MinSpawnDelay: 200
+        MaxSpawnDelay: 500
+        RequiredPlayerRange: 12
+        SpawnData:
+          id: Zombie
+        EntityId: Zombie
+skeletonspawner:
+  worth: 20000.0
+  item:
+    type: MOB_SPAWNER
+    tags:
+      display:
+        Name: Skeleton Spawner
+      BlockEntityTag:
+        SpawnPotentials: []
+        SpawnCount: 1
+        MaxNearbyEntities: 5
+        SpawnRange: 8
+        Delay: 100
+        MinSpawnDelay: 200
+        MaxSpawnDelay: 500
+        RequiredPlayerRange: 12
+        SpawnData:
+          id: Skeleton
+        EntityId: Skeleton
+superelytra:
+  worth: 10000.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Super Elytra
+      Unbreakable: true
+totem:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_HOE
+    damage: 40
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Totem
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true

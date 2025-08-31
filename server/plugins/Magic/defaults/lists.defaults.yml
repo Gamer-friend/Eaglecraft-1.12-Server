@@ -1,0 +1,580 @@
+# .
+# This file is merged from the files in the following folder:
+# .
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/lists
+# .
+# Take care editing these lists, as it may be important to let the defaults update in future versions.
+# .
+
+# Which mobs types should be considered friendly by default.
+# these mobs can still be targeted by damaging spells, but they can also be targeted by friendly healing or perk spells.
+friendly_entity_types:
+- chicken
+- cow
+- donkey
+- villager
+- horse
+- iron_golem
+- llama
+- mule
+- ocelot
+- parrot
+- pig
+- polar_bear
+- rabbit
+- sheep
+- snowman
+- wolf
+- fox
+- cat
+- strider
+
+# What entity types to always undo when auto-undoing a spell.
+# A spell that is countered or manually undone will undo all entity types.
+entity_undo_types:
+- item_frame
+- painting
+- fireball
+- small_fireball
+- wither_skull
+- arrow
+- snowball
+- egg
+- firework
+- primed_tnt
+- falling_block
+- armor_stand
+- dropped_item
+# This is a color map of blocks that can be used for colorizing construction.
+# It is primary used by the map brush, to create blocks based on a map item.
+# It may also be used for coloring blocks to match a player's custom color,
+# such as with the blob, reflect, shell and platform spells.
+material_colors:
+- white: concrete:0
+  orange: concrete:1
+  magenta: concrete:2
+  light_blue: concrete:3
+  yellow: concrete:4
+  lime: concrete:5
+  pink: concrete:6
+  gray: concrete:7
+  light_gray: concrete:8
+  cyan: concrete:9
+  purple: concrete:10
+  blue: concrete:11
+  brown: concrete:12
+  green: concrete:13
+  red: concrete:14
+  black: concrete:15
+- white: concrete_powder:0
+  orange: concrete_powder:1
+  magenta: concrete_powder:2
+  light_blue: concrete_powder:3
+  yellow: concrete_powder:4
+  lime: concrete_powder:5
+  pink: concrete_powder:6
+  gray: concrete_powder:7
+  light_gray: concrete_powder:8
+  cyan: concrete_powder:9
+  purple: concrete_powder:10
+  blue: concrete_powder:11
+  brown: concrete_powder:12
+  green: concrete_powder:13
+  red: concrete_powder:14
+  black: concrete_powder:15
+- white: white_glazed_terracotta
+  orange: orange_glazed_terracotta
+  magenta: magenta_glazed_terracotta
+  light_blue: light_blue_glazed_terracotta
+  yellow: yellow_glazed_terracotta
+  lime: lime_glazed_terracotta
+  pink: pink_glazed_terracotta
+  gray: gray_glazed_terracotta
+  light_gray: light_gray_glazed_terracotta
+  cyan: cyan_glazed_terracotta
+  purple: purple_glazed_terracotta
+  blue: blue_glazed_terracotta
+  brown: brown_glazed_terracotta
+  green: green_glazed_terracotta
+  red: red_glazed_terracotta
+  black: black_glazed_terracotta
+- white: stained_clay:0
+  orange: stained_clay:1
+  magenta: stained_clay:2
+  light_blue: stained_clay:3
+  yellow: stained_clay:4
+  lime: stained_clay:5
+  pink: stained_clay:6
+  gray: stained_clay:7
+  light_gray: stained_clay:8
+  cyan: stained_clay:9
+  purple: stained_clay:10
+  blue: stained_clay:11
+  brown: stained_clay:12
+  green: stained_clay:13
+  red: stained_clay:14
+  black: stained_clay:15
+- white: wool:0
+  orange: wool:1
+  magenta: wool:2
+  light_blue: wool:3
+  yellow: wool:4
+  lime: wool:5
+  pink: wool:6
+  gray: wool:7
+  light_gray: wool:8
+  cyan: wool:9
+  purple: wool:10
+  blue: wool:11
+  brown: wool:12
+  green: wool:13
+  red: wool:14
+  black: wool:15
+- white: carpet:0
+  orange: carpet:1
+  magenta: carpet:2
+  light_blue: carpet:3
+  yellow: carpet:4
+  lime: carpet:5
+  pink: carpet:6
+  gray: carpet:7
+  light_gray: carpet:8
+  cyan: carpet:9
+  purple: carpet:10
+  blue: carpet:11
+  brown: carpet:12
+  green: carpet:13
+  red: carpet:14
+  black: carpet:15
+- white: stained_glass:0
+  orange: stained_glass:1
+  magenta: stained_glass:2
+  light_blue: stained_glass:3
+  yellow: stained_glass:4
+  lime: stained_glass:5
+  pink: stained_glass:6
+  gray: stained_glass:7
+  light_gray: stained_glass:8
+  cyan: stained_glass:9
+  purple: stained_glass:10
+  blue: stained_glass:11
+  brown: stained_glass:12
+  green: stained_glass:13
+  red: stained_glass:14
+  black: stained_glass:15
+- white: stained_glass_pane:0
+  orange: stained_glass_pane:1
+  magenta: stained_glass_pane:2
+  light_blue: stained_glass_pane:3
+  yellow: stained_glass_pane:4
+  lime: stained_glass_pane:5
+  pink: stained_glass_pane:6
+  gray: stained_glass_pane:7
+  light_gray: stained_glass_pane:8
+  cyan: stained_glass_pane:9
+  purple: stained_glass_pane:10
+  blue: stained_glass_pane:11
+  brown: stained_glass_pane:12
+  green: stained_glass_pane:13
+  red: stained_glass_pane:14
+  black: stained_glass_pane:15
+- white: white_shulker_box
+  orange: orange_shulker_box
+  magenta: magenta_shulker_box
+  light_blue: light_blue_shulker_box
+  yellow: yellow_shulker_box
+  lime: lime_shulker_box
+  pink: pink_shulker_box
+  gray: gray_shulker_box
+  light_gray: light_gray_shulker_box
+  cyan: cyan_shulker_box
+  purple: purple_shulker_box
+  blue: blue_shulker_box
+  brown: brown_shulker_box
+  green: green_shulker_box
+  red: red_shulker_box
+  black: black_shulker_box
+
+# 1.13
+
+- white: white_concrete
+  orange: orange_concrete
+  magenta: magenta_concrete
+  light_blue: light_blue_concrete
+  yellow: yellow_concrete
+  lime: lime_concrete
+  pink: pink_concrete
+  gray: gray_concrete
+  light_gray: light_gray_concrete
+  cyan: cyan_concrete
+  purple: purple_concrete
+  blue: blue_concrete
+  brown: brown_concrete
+  green: green_concrete
+  red: red_concrete
+  black: black_concrete
+- white: white_concrete_powder
+  orange: orange_concrete_powder
+  magenta: magenta_concrete_powder
+  light_blue: light_blue_concrete_powder
+  yellow: yellow_concrete_powder
+  lime: lime_concrete_powder
+  pink: pink_concrete_powder
+  gray: gray_concrete_powder
+  light_gray: light_gray_concrete_powder
+  cyan: cyan_concrete_powder
+  purple: purple_concrete_powder
+  blue: blue_concrete_powder
+  brown: brown_concrete_powder
+  green: green_concrete_powder
+  red: red_concrete_powder
+  black: black_concrete_powder
+- white: white_glazed_terracotta
+  orange: orange_glazed_terracotta
+  magenta: magenta_glazed_terracotta
+  light_blue: light_blue_glazed_terracotta
+  yellow: yellow_glazed_terracotta
+  lime: lime_glazed_terracotta
+  pink: pink_glazed_terracotta
+  gray: gray_glazed_terracotta
+  light_gray: light_gray_glazed_terracotta
+  cyan: cyan_glazed_terracotta
+  purple: purple_glazed_terracotta
+  blue: blue_glazed_terracotta
+  brown: brown_glazed_terracotta
+  green: green_glazed_terracotta
+  red: red_glazed_terracotta
+  black: black_glazed_terracotta
+- white: white_terracotta
+  orange: orange_terracotta
+  magenta: magenta_terracotta
+  light_blue: light_blue_terracotta
+  yellow: yellow_terracotta
+  lime: lime_terracotta
+  pink: pink_terracotta
+  gray: gray_terracotta
+  light_gray: light_gray_terracotta
+  cyan: cyan_terracotta
+  purple: purple_terracotta
+  blue: blue_terracotta
+  brown: brown_terracotta
+  green: green_terracotta
+  red: red_terracotta
+  black: black_terracotta
+- white: white_wool
+  orange: orange_wool
+  magenta: magenta_wool
+  light_blue: light_blue_wool
+  yellow: yellow_wool
+  lime: lime_wool
+  pink: pink_wool
+  gray: gray_wool
+  light_gray: light_gray_wool
+  cyan: cyan_wool
+  purple: purple_wool
+  blue: blue_wool
+  brown: brown_wool
+  green: green_wool
+  red: red_wool
+  black: black_wool
+- white: white_carpet
+  orange: orange_carpet
+  magenta: magenta_carpet
+  light_blue: light_blue_carpet
+  yellow: yellow_carpet
+  lime: lime_carpet
+  pink: pink_carpet
+  gray: gray_carpet
+  light_gray: light_gray_carpet
+  cyan: cyan_carpet
+  purple: purple_carpet
+  blue: blue_carpet
+  brown: brown_carpet
+  green: green_carpet
+  red: red_carpet
+  black: black_carpet
+- white: white_stained_glass
+  orange: orange_stained_glass
+  magenta: magenta_stained_glass
+  light_blue: light_blue_stained_glass
+  yellow: yellow_stained_glass
+  lime: lime_stained_glass
+  pink: pink_stained_glass
+  gray: gray_stained_glass
+  light_gray: light_gray_stained_glass
+  cyan: cyan_stained_glass
+  purple: purple_stained_glass
+  blue: blue_stained_glass
+  brown: brown_stained_glass
+  green: green_stained_glass
+  red: red_stained_glass
+  black: black_stained_glass
+- white: white_stained_glass_pane
+  orange: orange_stained_glass_pane
+  magenta: magenta_stained_glass_pane
+  light_blue: light_blue_stained_glass_pane
+  yellow: yellow_stained_glass_pane
+  lime: lime_stained_glass_pane
+  pink: pink_stained_glass_pane
+  gray: gray_stained_glass_pane
+  light_gray: light_gray_stained_glass_pane
+  cyan: cyan_stained_glass_pane
+  purple: purple_stained_glass_pane
+  blue: blue_stained_glass_pane
+  brown: brown_stained_glass_pane
+  green: green_stained_glass_pane
+  red: red_stained_glass_pane
+  black: black_stained_glass_pane
+- white: white_shulker_box
+  orange: orange_shulker_box
+  magenta: magenta_shulker_box
+  light_blue: light_blue_shulker_box
+  yellow: yellow_shulker_box
+  lime: lime_shulker_box
+  pink: pink_shulker_box
+  gray: gray_shulker_box
+  light_gray: light_gray_shulker_box
+  cyan: cyan_shulker_box
+  purple: purple_shulker_box
+  blue: blue_shulker_box
+  brown: brown_shulker_box
+  green: green_shulker_box
+  red: red_shulker_box
+  black: black_shulker_box
+- white: white_bed
+  orange: orange_bed
+  magenta: magenta_bed
+  light_blue: light_blue_bed
+  yellow: yellow_bed
+  lime: lime_bed
+  pink: pink_bed
+  gray: gray_bed
+  light_gray: light_gray_bed
+  cyan: cyan_bed
+  purple: purple_bed
+  blue: blue_bed
+  brown: brown_bed
+  green: green_bed
+  red: red_bed
+  black: black_bed
+- white: white_banner
+  orange: orange_banner
+  magenta: magenta_banner
+  light_blue: light_blue_banner
+  yellow: yellow_banner
+  lime: lime_banner
+  pink: pink_banner
+  gray: gray_banner
+  light_gray: light_gray_banner
+  cyan: cyan_banner
+  purple: purple_banner
+  blue: blue_banner
+  brown: brown_banner
+  green: green_banner
+  red: red_banner
+  black: black_banner
+- white: white_wall_banner
+  orange: orange_wall_banner
+  magenta: magenta_wall_banner
+  light_blue: light_blue_wall_banner
+  yellow: yellow_wall_banner
+  lime: lime_wall_banner
+  pink: pink_wall_banner
+  gray: gray_wall_banner
+  light_gray: light_gray_wall_banner
+  cyan: cyan_wall_banner
+  purple: purple_wall_banner
+  blue: blue_wall_banner
+  brown: brown_wall_banner
+  green: green_wall_banner
+  red: red_wall_banner
+  black: black_wall_banner
+# This is list of lists of related materials
+# Colored blocks don't go in here, they should go in material_colors instead.
+material_variants:
+  - - oak_log
+    - dark_oak_log
+    - birch_log
+    - acacia_log
+    - jungle_log
+    - spruce_log
+  - - oak_planks
+    - dark_oak_planks
+    - birch_planks
+    - acacia_planks
+    - jungle_planks
+    - spruce_planks
+  - - oak_slab
+    - dark_oak_slab
+    - birch_slab
+    - acacia_slab
+    - jungle_slab
+    - spruce_slab
+  - - oak_sapling
+    - dark_oak_sapling
+    - birch_sapling
+    - acacia_sapling
+    - jungle_sapling
+    - spruce_sapling
+  - - oak_stairs
+    - dark_oak_stairs
+    - birch_stairs
+    - acacia_stairs
+    - jungle_stairs
+    - spruce_stairs
+  - - oak_trapdoor
+    - dark_oak_trapdoor
+    - birch_trapdoor
+    - acacia_trapdoor
+    - jungle_trapdoor
+    - spruce_trapdoor
+  - - oak_fence
+    - dark_oak_fence
+    - birch_fence
+    - acacia_fence
+    - jungle_fence
+    - spruce_fence
+  - - oak_pressure_plate
+    - dark_oak_pressure_plate
+    - birch_pressure_plate
+    - acacia_pressure_plate
+    - jungle_pressure_plate
+    - spruce_pressure_plate
+  - - oak_bark
+    - dark_oak_bark
+    - birch_bark
+    - acacia_bark
+    - jungle_bark
+    - spruce_bark
+  - - oak_button
+    - dark_oak_button
+    - birch_button
+    - acacia_button
+    - jungle_button
+    - spruce_button
+  - - oak_fence_gate
+    - dark_oak_fence_gate
+    - birch_fence_gate
+    - acacia_fence_gate
+    - jungle_fence_gate
+    - spruce_fence_gate
+  - - oak_leaves
+    - dark_oak_leaves
+    - birch_leaves
+    - acacia_leaves
+    - jungle_leaves
+    - spruce_leaves
+  - - stripped_oak_log
+    - stripped_dark_oak_log
+    - stripped_birch_log
+    - stripped_acacia_log
+    - stripped_jungle_log
+    - stripped_spruce_log
+  - - stripped_oak_wood
+    - stripped_dark_oak_wood
+    - stripped_birch_wood
+    - stripped_acacia_wood
+    - stripped_jungle_wood
+    - stripped_spruce_wood
+  - - flower_pot
+    - potted_acacia_sapling
+    - potted_allium
+    - potted_azure_bluet
+    - potted_birch_sapling
+    - potted_blue_orchid
+    - potted_brown_mushroom
+    - potted_cactus
+    - potted_dandelion
+    - potted_oak_sapling
+    - potted_dead_bush
+    - potted_fern
+    - potted_jungle_sapling
+    - potted_dark_oak_sapling
+    - potted_orange_tulip
+    - potted_oxeye_daisy
+    - potted_pink_tulip
+    - potted_poppy
+    - potted_red_mushroom
+    - potted_red_tulip
+    - potted_spruce_sapling
+    - potted_white_tulip
+  - - oak_door
+    - spruce_door
+    - birch_door
+    - jungle_door
+    - acacia_door
+    - dark_oak_door
+  - - player_head
+    - wither_skeleton_skull
+    - dragon_head
+    - zombie_head
+    - skeleton_skull
+    - creeper_head
+    - player_wall_head
+    - wither_skeleton_wall_skull
+    - dragon_wall_head
+    - zombie_wall_head
+    - skeleton_wall_skull
+    - creeper_wall_head
+  - - infested_cobblestone
+    - infested_chiseled_stone_bricks
+    - infested_cracked_stone_bricks
+    - infested_mossy_stone_bricks
+    - infested_stone
+    - infested_stone_bricks
+  - - horn_coral
+    - horn_coral_block
+    - horn_coral_fan
+    - horn_coral_wall_fan
+  - - tube_coral
+    - tube_coral_block
+    - tube_coral_fan
+    - tube_coral_wall_fan
+  - - fire_coral
+    - fire_coral_block
+    - fire_coral_fan
+    - fire_coral_wall_fans
+  - - dead_brain_coral_block
+    - dead_brain_coral_fan
+    - dead_brain_coral_wall_fan
+  - - dead_bubble_coral_block
+    - dead_bubble_coral_fan
+    - dead_bubble_coral_wall_fan
+  - - dead_fire_coral_block
+    - dead_fire_coral_fan
+    - dead_fire_coral_wall_fan
+  - - dead_horn_coral_block
+    - dead_horn_coral_fan
+    - dead_horn_coral_wall_fan
+  - - dead_tube_coral_block
+    - dead_tube_coral_fan
+    - dead_tube_coral_wall_fan
+  - - yellow_flower
+    - red_rose
+    - double_plant
+    - oxeye_daisy
+    - blue_orchid
+    - dandelion
+    - dead_bush
+    - fern
+    - orange_tulip
+    - pink_tulip
+    - poppy
+    - red_tulip
+    - white_tulip
+  - - air
+    - cave_air
+    - void_air
+  - - torch
+    - wall_torch
+  - - redstone_torch
+    - redstone_wall_torch
+  - - quartz_block
+    - quartz_pillar
+    - chiseled_quartz_block
+  - - sandstone
+    - chiseled_sandstone
+    - cut_sandstone
+  - - red_sandstone
+    - chiseled_red_sandstone
+    - cut_red_sandstone

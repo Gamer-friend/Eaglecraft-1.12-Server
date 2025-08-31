@@ -1,0 +1,1742 @@
+# .
+# !! IMPORTANT !!
+# .
+# If you wish to customize this plugin, edit the "wands.yml" file instead.
+# .
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR wands.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+# .
+# This file is merged from the files in the following folder:
+# .
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/wands
+# .
+base_magic:
+  hidden: true
+  effects:
+    open:
+    - sound: magic.wandup
+      sound_broadcast: false
+      sound_volume: 0.4
+    - sound: block_chest_open
+      sound_pitch: 1.5
+      sound_volume: 0.1
+      sound_broadcast: false
+    close:
+    - sound: magic.wanddown
+      sound_broadcast: false
+      sound_volume: 0.4
+    - sound: block_chest_close
+      sound_pitch: 1.5
+      sound_volume: 0.1
+      sound_broadcast: false
+    cycle:
+    - sound: magic.paperturn
+      sound_broadcast: false
+      sound_volume: 0.4
+    - sound: item_book_page_turn
+      sound_pitch: 1.5
+      sound_volume: 0.2
+      sound_broadcast: false
+base_undroppable:
+  inherit: base_magic
+  hidden: true
+  undroppable: true
+  unstashable: false
+  indestructible: true
+base_keep:
+  inherit: base_undroppable
+  hidden: true
+  keep: true
+  invulnerable: true
+base_bound:
+  inherit: base_keep
+  hidden: true
+  bound: true
+  immortal: true
+  track: true
+basic_wand:
+  inherit: base_magic
+  hidden: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  item_attributes:
+    GENERIC_ATTACK_SPEED: 10
+  item_attribute_slot: mainhand
+base_wand:
+  hidden: true
+  inherit: base_bound
+  mode: inventory
+  left_click: cast
+  drop: toggle
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  item_attributes:
+    GENERIC_ATTACK_SPEED: 10
+  item_attribute_slot: mainhand
+base_sword:
+  hidden: true
+  inherit: base_bound
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: none
+  right_click: toggle
+  swap: cycle_hotbar
+  quick_cast: true
+  quiet: 1
+base_bow:
+  hidden: true
+  inherit: base_bound
+  mode: inventory
+  drop: toggle
+  left_click: none
+  right_click: none
+  swap: cycle_hotbar
+  quiet: 1
+  cast_location: 0,0,0.35
+testwand:
+  inherit: base_wand
+  icon: wood_hoe:1
+  mana: 500
+  mana_max: 500
+  mana_regeneration: 50
+admin:
+  inherit: staff
+  legacy_icon: wand_icon:6
+  icon: stick{CustomModelData:18006}
+  migrate_icon: monster_eggs:2
+  cost_reduction: 2
+  cooldown_reduction: 1
+  protected: true
+  effect_color: '888888'
+  effect_bubbles: true
+  active_spell: levitate
+  spells:
+  - levitate
+  - superbroom
+  - blink|4
+  - missile|4
+  - cloak
+  - time
+  - heal
+  - phase
+  - gather
+  - supergather
+  - regenerate
+  - superregenerate
+  - pickpocket
+  - backup
+  - phasebackup
+  - repair
+  - superrepair
+admintool:
+  inherit: base_keep
+  icon: nether_star{"CustomModelData":18001}
+  mode: chest
+  unstashable: true
+  quick_cast: true
+  left_click: toggle
+  right_click: toggle
+  cost_reduction: 2
+  cooldown_reduction: 2
+  earn_multiplier: 0
+  spells:
+  - bring
+  - goto
+  - feed
+  - warpmenu
+  - day
+  - night
+  - weather
+appearance_beginner:
+  upgrade: true
+  legacy_icon: wand_icon:1
+  legacy_upgrade_icon: wand_icon:1
+  icon: stick{CustomModelData:18001}
+  upgrade_icon: stick{CustomModelData:18001}
+appearance_student:
+  upgrade: true
+  legacy_icon: wand_icon:2
+  legacy_upgrade_icon: wand_icon:2
+  icon: stick{CustomModelData:18002}
+  upgrade_icon: stick{CustomModelData:18002}
+appearance_apprentice:
+  upgrade: true
+  legacy_icon: wand_icon:3
+  legacy_upgrade_icon: wand_icon:3
+  icon: stick{CustomModelData:18003}
+  upgrade_icon: stick{CustomModelData:18003}
+appearance_master:
+  upgrade: true
+  legacy_icon: wand_icon:4
+  legacy_upgrade_icon: wand_icon:4
+  icon: stick{CustomModelData:18004}
+  upgrade_icon: stick{CustomModelData:18004}
+appearance_engineer:
+  upgrade: true
+  legacy_icon: wand_icon:5
+  legacy_upgrade_icon: wand_icon:5
+  icon: blaze_rod{CustomModelData:18005}
+  upgrade_icon: blaze_rod{CustomModelData:18005}
+appearance_conduit:
+  upgrade: true
+  legacy_icon: wand_icon:6
+  legacy_upgrade_icon: wand_icon:6
+  icon: blaze_rod{CustomModelData:18006}
+  upgrade_icon: blaze_rod{CustomModelData:18006}
+appearance_magicka:
+  upgrade: true
+  legacy_icon: wand_icon:9
+  legacy_upgrade_icon: wand_icon:9
+  icon: blaze_rod{CustomModelData:18009}
+  upgrade_icon: blaze_rod{CustomModelData:18009}
+appearance_moon:
+  upgrade: true
+  legacy_icon: wand_icon:10
+  legacy_upgrade_icon: wand_icon:10
+  icon: stick{CustomModelData:18010}
+  upgrade_icon: stick{CustomModelData:18010}
+appearance_spire:
+  upgrade: true
+  legacy_icon: wand_icon:35
+  legacy_upgrade_icon: wand_icon:35
+  icon: stick{CustomModelData:18035}
+  upgrade_icon: stick{CustomModelData:18035}
+appearance_claw:
+  upgrade: true
+  legacy_icon: wand_icon:36
+  legacy_upgrade_icon: wand_icon:36
+  icon: blaze_rod{CustomModelData:18036}
+  upgrade_icon: blaze_rod{CustomModelData:18036}
+appearance_orb:
+  upgrade: true
+  legacy_icon: wand_icon:37
+  legacy_upgrade_icon: wand_icon:37
+  icon: stick{CustomModelData:18037}
+  upgrade_icon: stick{CustomModelData:18037}
+appearance_architect:
+  upgrade: true
+  legacy_icon: wand_icon:39
+  legacy_upgrade_icon: wand_icon:39
+  icon: blaze_rod{CustomModelData:18039}
+  upgrade_icon: blaze_rod{CustomModelData:18039}
+appearance_green:
+  upgrade: true
+  legacy_icon: wand_icon:41
+  legacy_upgrade_icon: wand_icon:41
+  icon: stick{CustomModelData:18041}
+  upgrade_icon: stick{CustomModelData:18041}
+appearance_book:
+  upgrade: true
+  icon: enchanted_book{CustomModelData:18001}
+  upgrade_icon: enchanted_book{CustomModelData:18001}
+appearance_magma:
+  upgrade: true
+  legacy_icon: wand_icon:44
+  legacy_upgrade_icon: wand_icon:44
+  icon: stick{CustomModelData:18044}
+  upgrade_icon: stick{CustomModelData:18044}
+appearance_bow1:
+  upgrade: true
+  legacy_icon: bow_icon:1
+  legacy_upgrade_icon: bow_icon:1
+  icon: bow{CustomModelData:18001}
+  upgrade_icon: bow{CustomModelData:18001}
+appearance_bow2:
+  upgrade: true
+  legacy_icon: bow_icon:2
+  legacy_upgrade_icon: bow_icon:2
+  icon: bow{CustomModelData:18002}
+  upgrade_icon: bow{CustomModelData:18002}
+appearance_longbow:
+  upgrade: true
+  legacy_icon: bow_icon:3
+  legacy_upgrade_icon: bow_icon:3
+  icon: bow{CustomModelData:18003}
+  upgrade_icon: bow{CustomModelData:18003}
+glow_upgrade:
+  legacy_icon: spell_icon:233
+  icon: diamond{CustomModelData:18001}
+  upgrade: true
+  force: true
+  glow: true
+noglow_upgrade:
+  legacy_icon: spell_icon:233
+  icon: diamond{CustomModelData:18001}
+  upgrade: true
+  force: true
+  glow: false
+appearance_valk:
+  upgrade: true
+  legacy_icon: sword_icon:8
+  legacy_upgrade_icon: sword_icon:8
+  icon: netherite_sword{CustomModelData:18009}
+  upgrade_icon: netherite_sword{CustomModelData:18009}
+appearance_whitedagger:
+  upgrade: true
+  legacy_icon: sword_icon:9
+  legacy_upgrade_icon: sword_icon:9
+  icon: netherite_sword{CustomModelData:18010}
+  upgrade_icon: netherite_sword{CustomModelData:18010}
+appearance_demon:
+  upgrade: true
+  legacy_icon: sword_icon:10
+  legacy_upgrade_icon: sword_icon:10
+  icon: netherite_sword{CustomModelData:18011}
+  upgrade_icon: netherite_sword{CustomModelData:18011}
+appearance_felm:
+  upgrade: true
+  legacy_icon: sword_icon:11
+  legacy_upgrade_icon: sword_icon:11
+  icon: netherite_sword{CustomModelData:18012}
+  upgrade_icon: netherite_sword{CustomModelData:18012}
+appearance_riven:
+  upgrade: true
+  legacy_icon: sword_icon:12
+  legacy_upgrade_icon: sword_icon:12
+  icon: netherite_sword{CustomModelData:18013}
+  upgrade_icon: netherite_sword{CustomModelData:18013}
+appearance_silver:
+  upgrade: true
+  legacy_icon: sword_icon:13
+  legacy_upgrade_icon: sword_icon:13
+  icon: netherite_sword{CustomModelData:18014}
+  upgrade_icon: netherite_sword{CustomModelData:18014}
+appearance_lava:
+  upgrade: true
+  legacy_icon: sword_icon:14
+  legacy_upgrade_icon: sword_icon:14
+  icon: netherite_sword{CustomModelData:18015}
+  upgrade_icon: netherite_sword{CustomModelData:18015}
+apprentice:
+  inherit: student
+  legacy_icon: wand_icon:3
+  icon: stick{CustomModelData:18003}
+  effect_color: 22FF22
+  hotbar_count: 2
+  mana_regeneration: 40
+  mana_max: 200
+  mana: 200
+  spells:
+  - missile
+  - blink
+  - arrowrain
+  - boom
+  - familiar
+  - fling
+  - fire
+  - frost
+  - grenade
+  - heal
+  - monster
+  - lightning
+  - lava
+  - portal
+  - stream
+  - flamethrower
+  - wither
+  - mine
+  - chop
+  - shell
+  - tag
+  - blob
+  - disarm
+  - entangle
+  - poison
+  - laser
+  - tracking
+  - rocket
+  - shrink
+  - emp
+  - blessing
+  - breach
+  - disintegrate
+  - force
+  - hat
+  - music
+  - sandblast
+  - phase
+  - grow
+  - counterspell
+  - tent
+  - disc
+  - rubberize
+  - wound
+  - harden
+  - sponge
+  - flashbang
+  - gatling
+  - walls
+apprenticeboots:
+  icon: leather_boots:#00AAFF
+  indestructible: false
+  locked: true
+  keep: true
+  mana_max_boost: 0.05
+apprenticechestplate:
+  icon: leather_chestplate:#00AAFF
+  indestructible: false
+  locked: true
+  keep: true
+  mana_max_boost: 0.05
+apprenticehelmet:
+  icon: leather_helmet:#00AAFF
+  indestructible: false
+  locked: true
+  keep: true
+  mana_max_boost: 0.05
+apprenticeleggings:
+  icon: leather_leggings:#00AAFF
+  indestructible: false
+  locked: true
+  keep: true
+  mana_max_boost: 0.05
+arcticfoxhelmet:
+  icon: lectern{CustomModelData:18019}
+  worn: true
+  wearable: helmet
+battle:
+  hidden: true
+  migrate_to: magicsword
+beginner:
+  migrate_to: wand
+borealis:
+  inherit: master
+  legacy_icon: wand_icon:10
+  icon: stick{CustomModelData:18010}
+  migrate_icon: gold_axe
+  quiet: 2
+  effect_color: 00AACC
+  mode: chest
+  active_spell: levitate
+  cost_reduction: 2
+  cooldown_reduction: 2
+  consume_reduction: 1
+  protected: true
+  spells:
+  - levitate
+  - fling|2
+  - blink|3
+  - missile|4
+  - boon|2
+  - push
+  - heal
+  - pull
+  - day
+  - shell
+  - blob
+  - blast|4
+  - curse
+  - collapse|2
+  - recall
+  - tag
+  - pollinate
+  - torch|2
+  - weather
+  - ghast
+  - repair
+  - superalter
+  - tunnel
+  - familiar
+  - grow
+  - shrink
+  - force
+broom_booster:
+  icon: nether_star{CustomModelData:18002}
+  upgrade: true
+  locked: true
+  slot: broom_upgrade
+  class: broomrider
+  overrides:
+    max_speed: 1.5
+    max_acceleration: 0.02
+broom_glider:
+  icon: nether_star{CustomModelData:18003}
+  upgrade: true
+  locked: true
+  slot: broom_upgrade
+  class: broomrider
+  overrides:
+    duration: 0
+broomstick:
+  class: broomrider
+  path: broom
+  mode: cast
+  keep: true
+  locked: true
+  bound: false
+  locked_allow_upgrades: true
+  indestructible: true
+  active_spell: broom
+  migrate_icon: gold_spade
+  legacy_icon: wand_icon:11
+  icon: acacia_sapling{CustomModelData:18001}
+  discover_recipes:
+  - broom_booster
+  - broom_glider
+  migrate_legacy_icons:
+    wand_icon:11: acacia_sapling{CustomModelData:18001}
+    wand_icon:29: birch_sapling{CustomModelData:18001}
+  effect_color: '880088'
+  slots:
+  - broom_upgrade
+  spells:
+  - broom
+camera:
+  mode: cast
+  active_spell: camera
+  icon: skull:http://textures.minecraft.net/texture/e49b4f3261328c05350ee4031212d2fc7555f211af91c0f0278a5aaf9cec65
+  indestructible: false
+  locked: true
+  effect_color: '888888'
+  spells:
+  - camera
+  lore:
+  - $description
+  - '&3Takes 5 seconds to charge'
+  - '&bRequires 1 &fPaper'
+clericchestplate:
+  icon: chainmail_chestplate
+  indestructible: true
+  locked: true
+  keep: true
+  worn: true
+  mana_regeneration_boost: -0.2
+  cast_spell: healing
+  cast_interval: 2000
+crackedbroomstick:
+  mode: cast
+  uses: 10
+  active_spell: broom
+  migrate_icon: gold_spade
+  legacy_icon: wand_icon:11
+  icon: acacia_sapling{CustomModelData:18001}
+  locked: true
+  keep: true
+  effect_color: '220022'
+  indestructible: true
+  spells:
+  - broom
+cursedmeat:
+  icon: rotten_flesh
+  locked: true
+  potion_effects: hunger:20
+default:
+  migrate_to: wand
+developer:
+  inherit: staff
+  legacy_icon: wand_icon:10
+  icon: stick{CustomModelData:18010}
+  migrate_icon: monster_eggs:4
+  cost_reduction: 2
+  cooldown_reduction: 2
+  protected: true
+  effect_color: FFAA00
+  effect_bubbles: true
+  active_spell: levitate
+  spells:
+  - levitate
+  - superbroom
+  - blink|4
+  - missile|4
+  - projectile
+  - debugger
+  - testdummy
+  - time
+  - heal
+  - phase
+  - gather
+  - supergather
+  - phasebackup
+  - backup
+  - repair
+  - superrepair
+dice:
+  icon: skull_dice_1
+  mode: cast
+  left_click: cast
+  right_click: cast
+  active_spell: rolldice
+divinghelmet:
+  icon: light_blue_stained_glass{CustomModelData:18001}
+  migrate_legacy_icons:
+    light_blue_stained_glass: light_blue_stained_glass{CustomModelData:18001}
+    stained_glass:3: light_blue_stained_glass{CustomModelData:18001}
+  legacy_icon: stained_glass:3
+  indestructible: true
+  locked: true
+  keep: true
+  quiet: 2
+  mana_regeneration_boost: -0.1
+  potion_effects: water_breathing,night_vision
+  worn: true
+  wearable: helmet
+  enchantments:
+    oxygen: 3
+    water_worker: 1
+    depth_strider: 3
+whiteeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:0
+  effect_color: FFFFFF
+orangeeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:1
+  effect_color: FFAA00
+magentaeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:2
+  effect_color: FF00FF
+lightblueeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:3
+  effect_color: ADD8E6
+yelloweffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:4
+  effect_color: FFFF00
+greeneffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:5
+  effect_color: 00FF00
+pinkeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:6
+  effect_color: FAAFBE
+grayeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:7
+  effect_color: '808080'
+lightgrayeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:8
+  effect_color: D0D0D0
+aquaeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:9
+  effect_color: 00FFFF
+purpleeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:10
+  effect_color: '800080'
+blueeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:11
+  effect_color: 0000FF
+browneffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:12
+  effect_color: '806517'
+darkgreeneffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:13
+  effect_color: '254117'
+redeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:14
+  effect_color: FF0000
+blackeffects:
+  upgrade: true
+  indestructible: false
+  icon: carpet:15
+  effect_color: '010101'
+randomeffects:
+  upgrade: true
+  indestructible: false
+  icon: skull:http://textures.minecraft.net/texture/1adaf6e6e387bc18567671bb82e948488bbacff97763ee5985442814989f5d
+  effect_color: random
+bubbleeffects:
+  upgrade: true
+  indestructible: false
+  icon: glass_bottle
+  effect_bubbles: true
+cleareffects:
+  force: true
+  upgrade: true
+  effect_bubbles: false
+  effect_particle: ''
+  icon: barrier
+  effects:
+    activate: ''
+rainboweffects:
+  upgrade: true
+  indestructible: false
+  icon: magma_cream
+  effect_particle: spell_mob
+  effect_particle_data: 2
+  effect_particle_count: 10
+  effect_particle_radius: 2
+  effect_particle_interval: 500
+  effect_particle_offset: 0.5
+haloeffects:
+  upgrade: true
+  indestructible: false
+  icon: magma_cream
+  effect_particle: redstone
+  effect_particle_count: 6
+  effect_particle_interval: 100
+  effect_particle_data: 0
+  effect_particle_radius: 0.4
+  effect_particle_offset: 0.5
+wandeffects:
+  hidden: true
+  upgrade: true
+  indestructible: false
+  icon: feather
+  effect_bubbles: false
+  effect_particle: ''
+butterflyeffects:
+  inherit: wandeffects
+  effects:
+    activate: butterfly
+taileffects:
+  inherit: wandeffects
+  icon: leash
+  effects:
+    activate: tail
+crowneffects:
+  inherit: wandeffects
+  icon: gold_nugget
+  effects:
+    activate: crown
+empty:
+  inherit: base_wand
+  icon: stick{CustomModelData:18001}
+  effect_color: random
+  tags:
+  - buffable
+  - transformable
+  - effectable
+  - tweakable
+extinguisher:
+  mode: cast
+  legacy_icon: wand_icon:32
+  icon: stick{CustomModelData:18032}
+  indestructible: true
+  undroppable: true
+  spells: extinguish
+  uses: 10
+  cost_reduction: 2
+  locked: true
+flashboots:
+  icon: chainmail_boots
+  indestructible: true
+  locked: true
+  keep: true
+  worn: true
+  mana_regeneration_boost: -0.5
+  potion_effects: speed:10,jump:2
+  glow: true
+  effect_particle: lava
+  effect_particle_count: 4
+  effect_particle_interval: 100
+  effect_particle_min_velocity: 5
+  effect_particle_offset: -1.5
+foxhelmet:
+  icon: lectern{CustomModelData:18018}
+  worn: true
+  wearable: helmet
+gamemode:
+  hidden: true
+  inherit: base_wand
+  icon: diamond_axe:79
+  quick_cast: true
+  mode: chest
+  name: Game Mode
+  spells:
+  - tocreative
+  - tosurvival
+gauntlet:
+  inherit: base_wand
+  bound: false
+  undroppable: false
+  legacy_icon: wand_icon:43
+  icon: stick{CustomModelData:18043}
+  alternate_spell: powerstone
+  mode: cast
+  right_click: cast
+  left_click: alt_cast
+  track: false
+goggles:
+  icon: acacia_fence_gate{CustomModelData:18017}
+  legacy_icon: wand_icon:16
+  indestructible: true
+  locked: true
+  keep: true
+  worn: true
+  mana_regeneration_boost: -0.1
+  potion_effects: night_vision:3
+  glow: true
+  quiet: 2
+  wearable: helmet
+heroes:
+  effect_color: random
+  quiet: 1
+  icon: stick
+  indestructible: true
+  heroes: true
+  undroppable: true
+  mode: inventory
+  right_click: toggle
+  drop: none
+  left_click: cast
+hulkboots:
+  icon: diamond_boots
+  indestructible: true
+  locked: true
+  keep: true
+  worn: true
+  mana_regeneration_boost: -0.3
+  glow: true
+  protection:
+    fall: 1
+  cast_spell: hulkleap
+  cast_parameters: min_speed 5 max_speed 5
+  cast_interval: 5000
+  cast_min_velocity: 0.5
+  cast_velocity_direction: 0,1,0
+iceskates:
+  icon: iron_boots:190
+  name: Ice Skates
+  lore: []
+  passive: true
+  cast_interval: 500
+  cast_spell: skating
+invisiblecloak:
+  mode: cast
+  active_spell: invisiblecloak
+  icon: blackstone_stairs{CustomModelData:18017}
+  legacy_icon: wand_icon:15
+  indestructible: true
+  locked: true
+  keep: true
+  mana_regeneration_boost: -0.5
+  potion_effects: invisibility
+  wearable: helmet
+  worn: true
+  glow: true
+  spells:
+  - invisiblecloak
+learnspell:
+  active_spell: addspell
+  left_click: cast
+  uses: 1
+  icon: book:blast
+  overrides:
+    spell: blast
+ledger:
+  active_spell: ledger
+  migrate_icon: paper
+  icon: written_book
+  undroppable: true
+  keep: true
+  indestructible: false
+  mode: cast
+  locked: true
+  spells:
+  - ledger
+magicbow:
+  inherit: base_bow
+  class: archer_mage
+  icon: bow{CustomModelData:18001}
+  legacy_icon: bow_icon:1
+  migrate_legacy_icons:
+    bow_icon:1: bow{CustomModelData:18001}
+    bow_icon:2: bow{CustomModelData:18002}
+    bow_icon:3: bow{CustomModelData:18003}
+    bow_icon:4: bow{CustomModelData:18004}
+  tags:
+  - transformablebow
+magiccrossbow:
+  inherit: base_bow
+  class: archer_mage
+  icon: crossbow
+magichat:
+  mode: cast
+  active_spell: magichat
+  icon: lectern{CustomModelData:18017}
+  legacy_icon: wand_icon:17
+  indestructible: true
+  locked: true
+  keep: true
+  effect_color: '888888'
+  mana_max_boost: 0.2
+  mana_regeneration_boost: 0.1
+  wearable: helmet
+  spells:
+  - magichat
+magicheart:
+  icon: heart_of_the_sea{CustomModelData:18001}
+  legacy_icon: wand_icon:30
+  indestructible: true
+  craftable: true
+  discover_recipes:
+  - spellbook
+  - wand
+magicsword:
+  inherit: base_sword
+  class: battle_mage
+  icon: netherite_sword{CustomModelData:18009}
+  legacy_icon: sword_icon:8
+  effect_color: 11FF11
+  hide_flags: 61
+  active_spell: missile
+  limit_spells_to_path: true
+  limit_brushes_to_path: true
+  enchantable: true
+  item_attribute_slot: mainhand
+  item_attributes:
+    GENERIC_ATTACK_DAMAGE: 6
+  tags:
+  - buffable
+  - sharpenable
+  - transformablesword
+magictorch:
+  icon: torch
+  locked: true
+  cast_spell: magictorch
+  cast_interval: 200
+  requires: LightAPI
+  undroppable: true
+  drop: alt_cast
+  alternate_spell: throwmagictorch
+  lore:
+  - $description
+magneticleggings:
+  icon: iron_leggings
+  indestructible: true
+  locked: true
+  keep: true
+  worn: true
+  mana_regeneration_boost: -0.3
+  cast_spell: grab
+  cast_interval: 5000
+master:
+  inherit: apprentice
+  legacy_icon: wand_icon:4
+  icon: stick{CustomModelData:18004}
+  migrate_icon: gold_axe
+  mana_regeneration: 50
+  mana_max: 250
+  mana: 250
+  hotbar_count: 3
+  spells:
+  - missile
+  - blink
+  - arrowrain
+  - boom
+  - familiar
+  - fling
+  - fire
+  - frost
+  - grenade
+  - heal
+  - monster
+  - lightning
+  - lava
+  - portal
+  - stream
+  - flamethrower
+  - wither
+  - mine
+  - chop
+  - shell
+  - tag
+  - blob
+  - disarm
+  - entangle
+  - poison
+  - laser
+  - tracking
+  - rocket
+  - shrink
+  - emp
+  - blessing
+  - breach
+  - disintegrate
+  - force
+  - hat
+  - music
+  - sandblast
+  - phase
+  - grow
+  - counterspell
+  - tent
+  - disc
+  - rubberize
+  - wound
+  - harden
+  - sponge
+  - flashbang
+  - gatling
+mastersword:
+  inherit: base_bound
+  icon: diamond_sword{CustomModelData:18002}
+  legacy_icon: sword_icon:1
+  effect_color: 11FF88
+  hide_flags: 61
+  alternate_spell: masterattack
+  drop: alt_cast
+  enchantable: true
+  item_attribute_slot: mainhand
+  item_attributes:
+    GENERIC_ATTACK_DAMAGE: 10
+  tags:
+  - buffable
+  - sharpenable
+minister:
+  mode: cast
+  path: broom
+  bound: true
+  active_spell: broom
+  migrate_icon: gold_spade
+  legacy_icon: wand_icon:29
+  icon: birch_sapling{CustomModelData:18001}
+  indestructible: true
+  locked: true
+  keep: true
+  effect_color: 00AAFF
+  overrides:
+  - broom.mount_boost 4
+  - broom.mount_boost_ticks 600
+  - broom.mount_health 20
+  - broom.slow_ticks 1
+  - broom.steer_speed 0
+  - broom.slow_steer_speed 0.05
+  - broom.mount_boost_per_jump 0.5
+  - broom.effect_confusion 0
+  spells:
+  - broom
+miniwolf:
+  inherit: master
+  legacy_icon: wand_icon:8
+  icon: stick{CustomModelData:18008}
+  migrate_icon: gold_axe
+  hotbar_count: 2
+  effect_color: 00AACC
+  mode: inventory
+  active_spell: levitate
+  mana_max: 250
+  mana_regeneration: 50
+  spells:
+  - blast|3@0
+  - collapse|2@1
+  - harden|2@2
+  - missile|4@3
+  - levitate|5@4
+  - fling|4@5
+  - blink|6@6
+  - counterspell|2@7
+  - reflect|3@8
+  - day@9
+  - arrow|4@10
+  - boom|2@11
+  - disarm@12
+  - push@13
+  - grenade@14
+  - curse@15
+  - boon|2
+  - lightning
+  - stash
+  - emp
+  - force
+  - fireball
+  - torch
+  - fire
+  - pull
+  - shell
+  - shrink
+  - blob
+  - blessing
+  - heal
+  - wither
+  - recall
+  - phase
+  - portal
+  - disintegrate
+  - neutron
+  - laser
+  - flamethrower
+  - tag
+  - mount
+mirrorshield:
+  icon: shield{18001}
+  legecy_icon: shield:1
+  indestructible: true
+  mode: none
+  bound: true
+  keep: true
+  block_reflect_chance: 0.75
+  block_chance: 1
+  block_fov: 0.5
+  block_mage_cooldown: 3000
+  block_cooldown: 5000
+ocarina:
+  legacy_icon: wand_icon:18
+  icon: stick{CustomModelData:18018}
+  locked: true
+  keep: false
+  quick_cast: true
+  mode: inventory
+  right_click: toggle
+  swap: cycle_hotbar
+  left_click: cast
+  undroppable: false
+  indestructible: true
+  hotbar_count: 3
+  spells:
+  - note01
+  - note02
+  - note03
+  - note04
+  - note05
+  - note06
+  - note07
+  - note08
+  - note09
+  - note10
+  - note11
+  - note12
+  - note13
+  - note14
+  - note15
+  - note16
+  - note17
+  - note18
+  - note19
+  - note20
+  - note21
+  - note22
+  - note23
+  - note24
+student_upgrade:
+  legacy_icon: wand_icon:2
+  icon: stick{CustomModelData:18002}
+  upgrade: true
+  hidden: true
+  indestructible: false
+apprentice_upgrade:
+  legacy_icon: wand_icon:3
+  icon: stick{CustomModelData:18003}
+  upgrade: true
+  hidden: true
+  indestructible: false
+master_upgrade:
+  legacy_icon: wand_icon:4
+  icon: stick{CustomModelData:18004}
+  upgrade: true
+  hidden: true
+  indestructible: false
+squire_upgrade:
+  upgrade: true
+  hidden: true
+  indestructible: false
+  hotbar_count: 2
+soldier_upgrade:
+  upgrade: true
+  hidden: true
+  indestructible: false
+  hotbar_count: 2
+knight_upgrade:
+  upgrade: true
+  hidden: true
+  indestructible: false
+  hotbar_count: 3
+potion_sp100:
+  icon: potion:FFD700
+  consume_spell: addsp
+purger:
+  inherit: base_wand
+  legacy_icon: wand_icon:3
+  icon: stick{CustomModelData:18003}
+  path: apprentice
+  spell_levels:
+    missile: 3
+    blink: 3
+    fling: 3
+    blast: 2
+  mana: 200.0
+  mana_regeneration: 40.0
+  effect_color: e7af8f15e46d,a2d692205c9e,375aa4521cf2
+  mana_max: 200.0
+  spells:
+  - blink
+  - fling
+  - disintegrate
+  - missile
+  - blast
+  - collapse
+  - boom
+  - grenade
+  - heal
+  - boon
+  - cure
+  - rubberize
+  - harden
+  - smite
+  - fireball
+  - shell
+  - blob
+  - breach
+  - bubble
+  - push
+  - pull
+  - peek
+  - recall
+  - reflect
+  - frost
+  - lava
+  - stream
+  - sandblast
+  - counterspell
+  - platform
+  - wound
+  - walls
+  hotbar_count: 2
+  active_spell: blast
+questscompass:
+  active_spell: quests
+  icon: compass
+  undroppable: true
+  indestructible: false
+  mode: cast
+  locked: true
+  keep: true
+  spells:
+  - quests
+rabbitboots:
+  icon: leather_boots
+  indestructible: false
+  locked: true
+  keep: false
+  worn: true
+  mana_regeneration_boost: -0.1
+  potion_effects: speed:4,jump:4
+  enchantments:
+    protection_fall: 5
+rage:
+  inherit: base_sword
+  icon: diamond_sword
+  effect_color: 11FF11
+  path: battle
+  locked: true
+  mana_regeneration: 0
+  mana_max: 200
+  mana: 100
+  mana_per_damage: 5
+  glow: true
+  spells:
+  - missile
+  - arrow
+  - boom
+  - curse
+  - fire
+  - fireball
+  - grenade
+  - push
+rainbowboots:
+  icon: leather_boots:#random
+  indestructible: false
+  locked: true
+  keep: true
+  cast_spell: rainbowboots
+  cast_interval: 100
+  passive: true
+rainbowchestplate:
+  icon: leather_chestplate:#random
+  indestructible: false
+  locked: true
+  keep: true
+  cast_spell: rainbowchestplate
+  cast_interval: 100
+  passive: true
+rainbowhelmet:
+  icon: leather_helmet:#random
+  indestructible: false
+  locked: true
+  keep: true
+  cast_spell: rainbowhelmet
+  cast_interval: 100
+  passive: true
+rainbowleggings:
+  icon: leather_leggings:#random
+  indestructible: false
+  locked: true
+  keep: true
+  cast_spell: rainbowleggings
+  cast_interval: 100
+  passive: true
+recalltoken:
+  mode: cast
+  active_spell: recall
+  icon: compass
+  indestructible: false
+  locked: true
+  uses: 5
+  keep: true
+  effect_color: FF0000
+  spells:
+  - recall
+respawntoken:
+  mode: cast
+  active_spell: respawn
+  icon: compass
+  indestructible: false
+  locked: true
+  uses: 10
+  keep: true
+  effect_color: FF0000
+  spells:
+  - respawn
+rocketboots:
+  icon: diamond_boots
+  indestructible: true
+  locked: true
+  keep: true
+  worn: true
+  mana_regeneration_boost: -0.1
+  potion_effects: speed:2,jump:20
+  glow: true
+  protection:
+    fall: 1
+shoptoken:
+  inherit: base_magic
+  icon: nether_star{"CustomModelData":18001}
+  mode: cast
+  left_click: cast
+  right_click: right
+  active_spell: createshop
+  interactible: ''
+  uses: 1
+  preuse: true
+shoptool:
+  inherit: base_bound
+  icon: nether_star{"CustomModelData":18001}
+  mode: cast
+  left_click: cast
+  right_click: right
+  active_spell: manageshop
+  interactible: anvil
+skillbook:
+  mode: cast
+  active_spell: skills
+  icon: book{CustomModelData:18001}
+  legacy_icon: book
+  indestructible: false
+  locked: true
+  spells:
+  - skills
+spellbook:
+  mode: skills
+  icon: enchanted_book{CustomModelData:18001}
+  legacy_icon: wand_icon:31
+  indestructible: true
+  drop: toggle
+  left_click: toggle
+  right_click: toggle
+  undroppable: true
+  keep: true
+  bound: true
+  spell_glow: true
+  class: mage
+  storage:
+    effect_color: subclass
+  skills:
+    keep: true
+  discover_recipes:
+  - magicbow
+  - magicsword
+  - talisman
+  - wizardboots
+  - wizardchestplate
+  - wizardleggings
+  - wizardhelmet
+  - broomstick
+  - camera
+  - divinghelmet
+  - flashboots
+  - goggles
+  - magichat
+  - magictorch
+  - mastersword
+  - mirrorshield
+  - rabbitboots
+  - rocketboots
+spleef:
+  inherit: base_wand
+  locked: true
+  icon: stick
+  glow: true
+  uses: 100
+  effect_color: '880000'
+  indestructible: false;
+  mana_max: 100
+  mana_regeneration: 10
+  active_spell: blast
+  spells:
+  - blast
+  - collapse
+  - harden
+staff:
+  icon: blaze_rod{CustomModelData:18006}
+  legacy_icon: wand_icon:6
+  legacy_migrate_icon: gold_pickaxe
+  inherit: base_wand
+  path: staff
+  hotbar_count: 2
+  active_spell: levitate|4
+  cost_reduction: 2
+  effect_color: 00FFAA
+  protected: true
+  sp_multiplier: 0
+  spells:
+  - blink|6
+  - cloak
+  - gather
+  - heal
+  - levitate|4
+  - missile|4
+  - pickpocket
+  - lockpick
+  - snoop
+  - time
+  - torch|4
+  - fling|4
+starter:
+  inherit: wand
+  max_enchant_count: 3
+student:
+  inherit: base_wand
+  active_spell: missile
+  legacy_icon: wand_icon:2
+  icon: stick{CustomModelData:18002}
+  migrate_icon: wand_icon
+  effect_color: 00FF00
+  mana_regeneration: 30
+  mana_max: 150
+  mana: 150
+  spells:
+  - missile
+  - blink
+  - arrowrain
+  - boom
+  - familiar
+  - fling
+  - fire
+  - frost
+  - grenade
+  - heal
+  - monster
+  - lightning
+  - lava
+  - portal
+  - stream
+  - flamethrower
+  - wither
+  - mine
+  - chop
+  - shell
+  - tag
+  - blob
+  - disarm
+  - entangle
+  - poison
+  - laser
+  - tracking
+  - rocket
+  - shrink
+talisman:
+  legacy_icon: wand_icon:30
+  icon: nether_star{CustomModelData:18001}
+  indestructible: true
+  mana_max_boost: 0.3
+  mana_regeneration_boost: 0.2
+  earn_multiplier: 1.5
+  protection:
+    magic: 0.2
+    poison: 0.1
+  color: random
+  keep: true
+  locked: true
+  glow: true
+quickcast_enable:
+  icon: warped_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:206
+  upgrade: true
+  force: true
+  quick_cast: true
+quickcast_disable:
+  icon: crimson_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:207
+  upgrade: true
+  force: true
+  quick_cast: disable
+quickcast_manual:
+  icon: acacia_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:208
+  upgrade: true
+  force: true
+  quick_cast: manual
+quickcast_normal:
+  icon: oak_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:209
+  upgrade: true
+  force: true
+  quick_cast: normal
+mode_drop:
+  icon: birch_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:210
+  upgrade: true
+  force: true
+  drop: toggle
+  right_click: none
+  left_click: cast
+  swap: cycle_hotbar
+  quick_cast: false
+mode_rightclick:
+  icon: dark_oak_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:211
+  upgrade: true
+  force: true
+  drop: toggle
+  right_click: toggle
+  left_click: cast
+  swap: none
+  quick_cast: false
+mode_sword:
+  icon: diamond_sword{CustomModelData:18106}
+  legacy_icon: diamond_axe:212
+  upgrade: true
+  force: true
+  drop: toggle
+  right_click: none
+  left_click: none
+  swap: cycle_hotbar
+  quick_cast: true
+mode_swap:
+  icon: acacia_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:213
+  upgrade: true
+  force: true
+  drop: cycle_hotbar
+  right_click: none
+  left_click: cast
+  swap: toggle
+  quick_cast: false
+chestmode:
+  icon: chest{CustomModelData:18001}
+  legacy_icon: diamond_axe:205
+  upgrade: true
+  indestructible: false
+  mode: chest
+inventorymode:
+  icon: oak_sign{CustomModelData:18001}
+  legacy_icon: spell_icon:214
+  upgrade: true
+  indestructible: false
+  mode: inventory
+cyclemode:
+  icon: music_disc_wait{CustomModelData:18001}
+  legacy_icon: diamond_axe:215
+  upgrade: true
+  indestructible: false
+  mode: cycle
+organizer:
+  icon: crimson_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:216
+  upgrade: true
+  indestructible: false
+  organize: true
+alphabetizer:
+  icon: warped_sign{CustomModelData:18001}
+  legacy_icon: diamond_axe:217
+  upgrade: true
+  indestructible: false
+  alphabetize: true
+loud:
+  icon: music_disc_blocks{CustomModelData:18001}
+  legacy_icon: diamond_axe:218
+  upgrade: true
+  indestructible: false
+  quiet: 0
+quiet:
+  icon: music_disc_stal{CustomModelData:18001}
+  legacy_icon: diamond_axe:219
+  upgrade: true
+  indestructible: false
+  quiet: 1
+silent:
+  icon: music_disc_11{CustomModelData:18001}
+  legacy_icon: diamond_axe:220
+  upgrade: true
+  indestructible: false
+  quiet: 2
+uberwand:
+  inherit: master
+  icon: blaze_rod{CustomModelData:18006}
+  legacy_icon: wand_icon:6
+  legacy_migrate_icon: gold_pickaxe
+  path: staff
+  hotbar_count: 3
+  protected: true
+  cost_reduction: 2.0
+  cooldown_reduction: 2.0
+  sp_multiplier: 0
+  mode: inventory
+  effect_particle: ENCHANTMENT_TABLE
+  potion_effects:
+  - SATURATION
+  - REGENERATION
+  - SPEED
+  active_spell: missile|4
+  spells:
+  - levitate@0
+  - blink|3@1
+  - fling|2@2
+  - missile|4@3
+  - day@4
+  - superkill@5
+  - testdummy@6
+  - debugger@7
+  - recall@8
+  - push@9
+hotbar1:
+  icon: diamond_axe:221
+  upgrade: true
+  hotbar_count: 1
+  force: true
+hotbar2:
+  icon: diamond_axe:222
+  upgrade: true
+  indestructible: false
+  hotbar_count: 2
+hotbar3:
+  icon: diamond_axe:223
+  upgrade: true
+  indestructible: false
+  hotbar_count: 3
+undroppable:
+  icon: diamond_axe:224
+  upgrade: true
+  indestructible: false
+  undroppable: true
+antihunger:
+  icon: diamond_axe:225
+  upgrade: true
+  potion_effects: saturation
+wand:
+  inherit: base_wand
+  class: mage
+  legacy_icon: wand_icon:1
+  icon: stick{CustomModelData:18001}
+  migrate_legacy_icons:
+    wand_icon:1: stick{CustomModelData:18001}
+    wand_icon:2: stick{CustomModelData:18002}
+    wand_icon:3: stick{CustomModelData:18003}
+    wand_icon:4: stick{CustomModelData:18004}
+    wand_icon:5: blaze_rod{CustomModelData:18005}
+    wand_icon:6: blaze_rod{CustomModelData:18006}
+    wand_icon:7: blaze_rod{CustomModelData:18007}
+    wand_icon:8: stick{CustomModelData:18008}
+    wand_icon:9: blaze_rod{CustomModelData:18009}
+    wand_icon:10: stick{CustomModelData:18010}
+    wand_icon:35: stick{CustomModelData:18035}
+    wand_icon:36: stick{CustomModelData:18036}
+    wand_icon:37: stick{CustomModelData:18037}
+    wand_icon:39: blaze_rod{CustomModelData:18039}
+    wand_icon:41: stick{CustomModelData:18041}
+    wand_icon:44: stick{CustomModelData:18044}
+  effect_color: random
+  active_spell: missile
+  tags:
+  - buffable
+  - transformable
+  - effectable
+  - tweakable
+  discover_recipes:
+  - magicbow
+  - magicsword
+  - talisman
+  - wizardboots
+  - wizardchestplate
+  - wizardleggings
+  - wizardhelmet
+  - broomstick
+  - camera
+  - divinghelmet
+  - flashboots
+  - goggles
+  - magichat
+  - magictorch
+  - mastersword
+  - mirrorshield
+  - rabbitboots
+  - rocketboots
+wizardboots:
+  icon: chainmail_boots
+  locked: true
+  keep: true
+  mana_max_boost: 0.1
+  mana_regeneration_boost: 0.05
+  passive: true
+  enchantable: true
+  hide_flags: 61
+  potion_effects:
+    speed: 0
+  protection:
+    magic: 0.1
+wizardchestplate:
+  icon: chainmail_chestplate
+  locked: true
+  keep: true
+  mana_max_boost: 0.1
+  mana_regeneration_boost: 0.05
+  passive: true
+  enchantable: true
+  hide_flags: 61
+  protection:
+    magic: 0.1
+wizardhelmet:
+  icon: chainmail_helmet
+  locked: true
+  keep: true
+  mana_max_boost: 0.1
+  mana_regeneration_boost: 0.05
+  passive: true
+  enchantable: true
+  hide_flags: 61
+  protection:
+    magic: 0.1
+    drowning: 0.2
+wizardleggings:
+  icon: chainmail_leggings
+  locked: true
+  keep: true
+  mana_max_boost: 0.1
+  mana_regeneration_boost: 0.05
+  passive: true
+  enchantable: true
+  hide_flags: 61
+  protection:
+    magic: 0.1

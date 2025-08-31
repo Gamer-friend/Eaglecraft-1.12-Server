@@ -1,0 +1,881 @@
+# .
+# !! IMPORTANT !!
+# .
+# If you wish to customize this plugin, edit the "mobs.yml" file instead.
+# .
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR mobs.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+# .
+# This file is merged from the files in the following folder:
+# .
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/mobs
+# .
+base_npc:
+  hidden: true
+  npc: true
+  type: villager
+  use_npc_name: true
+  villager_profession: librarian
+  ai: false
+  invulnerable: true
+  silent: true
+  gravity: false
+  remove_when_far_away: false
+  interact_spell_target: none
+  interact_spell_source: player
+  interact_command_source: console
+  dialog_interval: 3000
+  dialog_range: 4
+  cancel_interact: true
+  prevent_dismount: true
+archer:
+  type: skeleton
+  item: archer_bow
+  cast_requires_item: archer_bow
+  chestplate: warlock_chestplate
+  leggings: warlock_leggings
+  helmet: chainmail_helmet
+  boots: warlock_boots
+  health: 50
+  default_drops: false
+  protection:
+    fall: 1
+  triggers:
+    launch:
+      cast:
+        arrow_regular: 50
+        arrow_bomb: 20
+        arrow_blink: 20
+        arrow_poison: 50
+        arrow_fire: 50
+        arrow_ice: 50
+        arrow_light: 10
+        arrow_shock: 10
+        none: 30
+  drops:
+  - gold_nugget@16
+  - sp:16
+fireproof_zombie:
+  type: zombie
+  combustible: false
+fireproof_drowned:
+  type: drowned
+  combustible: false
+  item: fishing_rod
+trident_drowned:
+  type: drowned
+  combustible: false
+  item: trident
+fireproof_stray:
+  type: stray
+  combustible: false
+fireproof_skeleton:
+  type: skeleton
+  combustible: false
+  item: bow
+contained_enderman:
+  type: enderman
+  prevent_teleport: true
+armed_wither_skeleton:
+  type: wither_skeleton
+  item: stone_sword
+atm:
+  inherit: base_npc
+  requires: Vault
+  type: armor_stand
+  marker: true
+  baby: true
+  show_name: true
+  invisible: true
+  remove_mounts: '*'
+  potion_effects: invisibility
+  interact_spell: atm
+  helmet: melon_seeds{18003}
+  mount:
+    type: zombie
+    show_name: false
+    name: Grumm
+    interact_spell: atm
+    remove_mounts: '*'
+    helmet: skull:http://textures.minecraft.net/texture/71ead16d94045873da861abf94703e489f9cf498db5a2a33a41cabda93ae1825
+    baby: false
+    ai: false
+    silent: true
+    potion_effects: invisibility
+    mount:
+      type: zombie
+      name: Grumm
+      interact_spell: atm
+      show_name: false
+      baby: true
+      ai: false
+      silent: true
+      helmet: iron_block
+      potion_effects: invisibility
+bigbluedragon:
+  inherit: base_dragon
+  hidden: false
+  item: bigdragonwingrightblue
+  offhand: bigdragonwingleftblue
+  helmet: bigdragonbodyblue
+  triggers:
+    launch:
+      cast:
+        dragonwater: 30
+    damage:
+      cast:
+        dragonexplodewater: 30
+        dragonwater: 10
+        dragonwingblast: 30
+biggreendragon:
+  inherit: base_dragon
+  hidden: false
+  item: bigdragonwingrightgreen
+  offhand: bigdragonwingleftgreen
+  helmet: bigdragonbodygreen
+  triggers:
+    launch:
+      cast:
+        dragonpoison: 30
+    damage:
+      cast:
+        dragonexplodepoison: 30
+        dragonpoison: 10
+        dragonwingblast: 30
+biggreydragon:
+  inherit: base_dragon
+  hidden: false
+  item: bigdragonwingrightgrey
+  offhand: bigdragonwingleftgrey
+  helmet: bigdragonbodygrey
+  triggers:
+    launch:
+      cast:
+        dragondark: 30
+    damage:
+      cast:
+        dragonexplodedark: 30
+        dragondark: 10
+        dragonwingblast: 30
+bigpurpledragon:
+  inherit: base_dragon
+  hidden: false
+  item: bigdragonwingrightpurple
+  offhand: bigdragonwingleftpurple
+  helmet: bigdragonbodypurple
+  triggers:
+    launch:
+      cast:
+        dragonlightning: 30
+    damage:
+      cast:
+        dragonexplodelightning: 30
+        dragonlightning: 10
+        dragonwingblast: 30
+bigreddragon:
+  inherit: base_dragon
+  hidden: false
+  item: bigdragonwingrightred
+  offhand: bigdragonwingleftred
+  helmet: bigdragonbodyred
+  triggers:
+    launch:
+      cast:
+        dragonfire: 30
+    damage:
+      cast:
+        dragonexplodefire: 30
+        dragonfire: 10
+        dragonwingblast: 30
+boomer:
+  type: magma_cube
+  size: 3
+  triggers:
+    spawn:
+      cast: blast pdy -1 pdx 0 pdz 0 radius 4
+cube:
+  type: slime
+  health: 25
+  size: 10
+  split: false
+dailykit:
+  inherit: base_npc
+  interact_spell: dailykit
+  villager_profession: librarian
+  dialog:
+  - Come get your daily rewards!
+dark_spider:
+  type: cave_spider
+  health: 20
+  default_drops: false
+  interval: 1000
+  triggers:
+    interval:
+      cast:
+        webbing: 100
+        poison|3: 100
+        none: 50
+  drops:
+  - gold_nugget@8
+  - sp:8
+  potion_effects:
+  - type: speed
+    amplifier: 0
+dark_wizard:
+  type: zombie
+  zombie_type: villager
+  item: wizard_wand
+  chestplate: warlock_chestplate
+  leggings: warlock_leggings
+  helmet: iron_helmet
+  boots: warlock_boots
+  health: 100
+  default_drops: false
+  interval: 1000
+  boss_bar:
+    bar_color: red
+    bar_flags:
+    - create_fog
+    - darken_sky
+    - play_boss_music
+  triggers:
+    damage1:
+      type: damage
+      min_health: 100
+      cast:
+        push|4: 150
+        push|3: 100
+        none: 50
+    damage2:
+      type: damage
+      max_health: 100
+      cast:
+        missile|4: 150
+        railgun: 100
+        push|4: 70
+        shell: 20
+        none: 20
+    death:
+      cast:
+        neutron: 10
+        fury: 50
+    interval:
+      cast:
+        missile|4: 20
+        railgun: 10
+        poison: 30
+        pull: 100
+        push|4: 150
+        curse: 100
+        blob: 20
+        lava: 10
+        shell: 20
+        torture: 1
+        arrow: 50
+        arrowrain: 20
+        fury: 5
+        chainlightning: 2
+        blink: 10
+        fling: 50
+        blind: 10
+        disarm: 5
+        frost|2: 10
+        gatling: 5
+        homing: 10
+        petrify: 10
+        none: 20
+  drops:
+  - gold_ingot@24
+  - sp:100
+  potion_effects:
+  - type: speed
+    amplifier: 1
+base_dragon:
+  hidden: true
+  type: Ghast
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+  chestplate: thorns
+  leggings: thorns
+  boots: thorns
+  health: 100
+  drop_xp: 100
+  persist: true
+  invisible: true
+  silent: true
+  boss_bar:
+    bar_color: red
+    bar_flags:
+    - play_boss_music
+  protection:
+    projectile: 0.9
+    magic: 0.2
+  default_drops: false
+  entity_attributes:
+    generic_attack_damage: 5.75
+    generic_armor: 20
+    generic_armor_toughness: 1
+    generic_movement_speed: 0.22
+    generic_knockback_resistance: 0.5
+  drops:
+  - gold_ingot: 100
+    iron_ingot: 50
+  - diamond: 10
+    emerald: 15
+    gold_nugget@18: 50
+    gold_nugget@16: 100
+    gold_nugget@12: 50
+    gold_nugget@8: 20
+    iron_nugget@4: 10
+  - sp:50
+  potion_effects:
+  - type: regeneration
+    amplifier: 0
+bluedragon:
+  inherit: base_dragon
+  hidden: false
+  item: dragonwingrightblue
+  offhand: dragonwingleftblue
+  helmet: dragonbodyblue
+  triggers:
+    launch:
+      cast:
+        dragonwater: 30
+    damage:
+      cast:
+        dragonexplodewater: 30
+        dragonwater: 10
+        dragonwingblast: 30
+cyandragon:
+  inherit: bluedragon
+  hidden: false
+  item: dragonwingrightcyan
+  offhand: dragonwingleftcyan
+  helmet: dragonbodycyan
+lightbluedragon:
+  inherit: bluedragon
+  item: dragonwingrightlightblue
+  offhand: dragonwingleftlightblue
+  helmet: dragonbodylightblue
+greendragon:
+  inherit: base_dragon
+  hidden: falses
+  item: dragonwingrightgreen
+  offhand: dragonwingleftgreen
+  helmet: dragonbodygreen
+  triggers:
+    launch:
+      cast:
+        dragonpoison: 30
+    damage:
+      cast:
+        dragonexplodepoison: 30
+        dragonpoison: 10
+        dragonwingblast: 30
+limedragon:
+  inherit: greendragon
+  item: dragonwingrightlime
+  offhand: dragonwingleftlime
+  helmet: dragonbodylime
+greydragon:
+  inherit: base_dragon
+  hidden: false
+  item: dragonwingrightgrey
+  offhand: dragonwingleftgrey
+  helmet: dragonbodygrey
+  triggers:
+    launch:
+      cast:
+        dragondark: 30
+    damage:
+      cast:
+        dragonexplodedark: 30
+        dragondark: 10
+        dragonwingblast: 30
+whitedragon:
+  inherit: base_dragon
+  hidden: false
+  item: dragonwingrightwhite
+  offhand: dragonwingleftwhite
+  helmet: dragonbodywhite
+  triggers:
+    launch:
+      cast:
+        dragonwater: 30
+        dragonpoison: 30
+        dragonfire: 30
+        dragonlightning: 30
+    damage:
+      cast:
+        dragonexplodewater: 30
+        dragonwater: 10
+        dragonexplodepoison: 30
+        dragonpoison: 10
+        dragonexplodefire: 30
+        dragonfire: 10
+        dragonexplodelightning: 30
+        dragonlightning: 10
+        dragonwingblast: 50
+lightgreydragon:
+  inherit: greydragon
+  item: dragonwingrightlightgrey
+  offhand: dragonwingleftlightgrey
+  helmet: dragonbodylightgrey
+purpledragon:
+  inherit: base_dragon
+  hidden: false
+  item: dragonwingrightpurple
+  offhand: dragonwingleftpurple
+  helmet: dragonbodypurple
+  triggers:
+    launch:
+      cast:
+        dragonlightning: 30
+    damage:
+      cast:
+        dragonexplodelightning: 30
+        dragonlightning: 10
+        dragonwingblast: 30
+blackdragon:
+  inherit: greydragon
+  item: dragonwingrightblack
+  offhand: dragonwingleftblack
+  helmet: dragonbodyblack
+reddragon:
+  inherit: base_dragon
+  hidden: false
+  item: dragonwingrightred
+  offhand: dragonwingleftred
+  helmet: dragonbodyred
+  triggers:
+    launch:
+      cast:
+        dragonfire: 30
+    damage:
+      cast:
+        dragonexplodefire: 30
+        dragonfire: 10
+        dragonwingblast: 30
+lightreddragon:
+  inherit: reddragon
+  item: dragonwingrightlightgrey
+  offhand: dragonwingleftlightgrey
+  helmet: dragonbodylightgrey
+magentadragon:
+  inherit: reddragon
+  item: dragonwingrightmagenta
+  offhand: dragonwingleftmagenta
+  helmet: dragonbodymagenta
+pinkdragon:
+  inherit: reddragon
+  item: dragonwingrightpink
+  offhand: dragonwingleftpink
+  helmet: dragonbodypink
+orangedragon:
+  inherit: reddragon
+  item: dragonwingrightorange
+  offhand: dragonwingleftorange
+  helmet: dragonbodyorange
+yellowdragon:
+  inherit: reddragon
+  item: dragonwingrightyellow
+  offhand: dragonwingleftyellow
+  helmet: dragonbodyyellow
+browndragon:
+  inherit: base_dragon
+  hidden: false
+  item: dragonwingrightbrown
+  offhand: dragonwingleftbrown
+  helmet: dragonbodybrown
+  triggers:
+    launch:
+      cast:
+        dragonfire: 30
+    damage:
+      cast:
+        dragonexplodefire: 30
+        dragonfire: 10
+        dragonwingblast: 30
+rainbowdragon:
+  inherit: base_dragon
+  hidden: false
+  item: dragonwingrightwhite
+  offhand: dragonwingleftwhite
+  helmet: dragonbodywhite
+  interval: 100
+  interval_requires_target: false
+  triggers:
+    interval:
+      cast: rainbowdragon
+    launch:
+      cast:
+        dragonwater: 30
+        dragonpoison: 30
+        dragonfire: 30
+        dragonlightning: 30
+    damage:
+      cast:
+        dragonexplodewater: 30
+        dragonwater: 10
+        dragonexplodepoison: 30
+        dragonpoison: 10
+        dragonexplodefire: 30
+        dragonfire: 10
+        dragonexplodelightning: 30
+        dragonlightning: 10
+        dragonwingblast: 50
+dummy:
+  type: zombie
+  health: 100
+  protection:
+    fire: 2
+  weakness:
+    water: 1
+  potion_effects:
+  - type: slow
+    amplifier: 10
+dummynoai:
+  type: zombie
+  health: 100
+  protection:
+    fire: 2
+  weakness:
+    water: 1
+  ai: false
+extraspellshop:
+  inherit: base_npc
+  interact_spell: extraspellshop
+  villager_profession: librarian
+  dialog:
+  - I've got some more spells for you!
+fairy:
+  type: villager
+  health: 100
+  lifetime: 10000
+  mage:
+    effect_color: random
+  potion_effects:
+  - type: levitation
+    amplifier: 1
+  triggers:
+    spawn:
+      effects: butterfly
+    death:
+      effects:
+      - particle: smoke_large
+        particle_count: 50
+        particle_data: 1
+        particle_offset_x: 1.2
+        particle_offset_y: 2.5
+        particle_offset_z: 1.2
+      - particle: smoke_large
+        particle_count: 50
+        particle_offset_x: 1.2
+        particle_offset_y: 2.5
+        particle_offset_z: 1.2
+  drops:
+  - glowstone_dust redstone sulphur
+fire_elemental:
+  type: blaze
+  health: 30
+  default_drops: false
+  protection:
+    fire: 2
+  weakness:
+    water: 1
+  interval: 5000
+  triggers:
+    interval:
+      cast:
+        fire: 100
+        flamethrower: 100
+        none: 50
+  drops:
+  - gold_nugget@8
+  - sp:10
+  potion_effects:
+  - type: speed
+    amplifier: 0
+ghost:
+  type: creeper
+  powered: true
+  cancel_explosion: true
+  potion_effects:
+  - invisibility
+healer:
+  inherit: base_npc
+  interact_spell: heal
+  interact_spell_source: npc
+  interact_spell_target: player
+  villager_profession: librarian
+  dialog:
+  - Are you hurt?
+ironman:
+  type: zombie
+  disguise:
+    type: player
+    name: Iron Man
+    skin: '{"id":"4cb358ae-719c-4423-93c7-8769ce46e9c3","name":"NathanWolf","properties":[{"name":"textures","value":"ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiMTFmYTVkZjc1YWEzNDI3NWJhYzY3N2VmZTk1MWYyY2YiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZlNWI2YmU5Y2E0ZDgwMWM4YTY3OTdiYmE5NTYzNDhlZDRjMDlmZGQwOGRmZDRmMDU4MzY4MzJjNjg3MzQxNSIsCiAgICAgICJwcm9maWxlSWQiIDogIjRjYjM1OGFlNzE5YzQ0MjM5M2M3ODc2OWNlNDZlOWMzIiwKICAgICAgInRleHR1cmVJZCIgOiAiZTZlNWI2YmU5Y2E0ZDgwMWM4YTY3OTdiYmE5NTYzNDhlZDRjMDlmZGQwOGRmZDRmMDU4MzY4MzJjNjg3MzQxNSIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiMTFmYTVkZjc1YWEzNDI3NWJhYzY3N2VmZTk1MWYyY2YiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNmU1YjZiZTljYTRkODAxYzhhNjc5N2JiYTk1NjM0OGVkNGMwOWZkZDA4ZGZkNGYwNTgzNjgzMmM2ODczNDE1IiwKICAgICJwcm9maWxlSWQiIDogIjRjYjM1OGFlNzE5YzQ0MjM5M2M3ODc2OWNlNDZlOWMzIiwKICAgICJ0ZXh0dXJlSWQiIDogImU2ZTViNmJlOWNhNGQ4MDFjOGE2Nzk3YmJhOTU2MzQ4ZWQ0YzA5ZmRkMDhkZmQ0ZjA1ODM2ODMyYzY4NzM0MTUiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=","signature":"IEukMP2jcECju2t19zfYSeUCkM4XfTzvLUgz8CaJdbnzBi1c7te1C7Ym/zx8hUHtok3wxkUtVoMjjbiE1lh9o/YrNaDcwAcgloeNBTYtBrBYdgqGnzxcdjyBkcOuNIy+gcv0yT4uB+FOHXkYPGXOJFBXH5vnF1Hz+Ig5cXFO7SseC7dcvYMriesEXOU5wDzPCUYY3HkRSbcZxptgT4VKboPT0mDXwzjKLgX+tFJQDW7PmkrNcZana7opSOEPatWmEeLoJasV4gXJvCUlyO+W49JebWV/StMnH0j/BUF9JB8xjq7XgLiNXFz9EaS/nR2PYRIxVLv2KLRSPwOB7IcaDAm7MuSipbk395JawLrJJumb9oOcwZYhYEMAOGulKx37b+7jMABcTSJ00dcBtWzLT423eN++RdMOBy9ngQOF4iM9+GeDsxPEn1Aw1GKjq3fWPwIo/CZvb75eoVV8qOqzjrO8ZYZZTlxtNxlApPJIWK03RKUPp8hdkJj98SV82+n52sV1FMgdKgNx1dxtnspHZdvwVCCXdslib7WzzYhNMfea1ARLYsGO4nGIEFXO2b0HxELOUzz7QnzN1K16kdcNHMo40PmpzeVjwGbMRlgD0NX/4vuOytKcbD7qrLLzVjX2feklXhnO2msi1QyCMNEH0Xa9ffvOjdT37iVLnaLstqk="}],"legacy":false}'
+  health: 1000
+  default_drops: false
+  interval: 1000
+  helmet: nothing
+  triggers:
+    interval:
+      cast:
+        missile|4: 200
+        none: 20
+  drops:
+  - gold_ingot@30
+  - sp:200
+  potion_effects:
+  - type: speed
+    amplifier: 1
+killer_bunny:
+  type: rabbit
+  rabbit_type: the_killer_bunny
+  health: 25
+  default_drops: false
+  aggro: true
+  drops:
+  - gold_nugget@10
+  - sp:10
+kingslime:
+  type: slime
+  size: 18
+  interval: 3000
+  split: false
+  cast_requires_target: false
+  health: 75
+  triggers:
+    interval:
+      cast:
+        none: 100
+        rubberize pdy -1 pdx 0 pdz 0: 50
+madscientist:
+  type: zombie
+  disguise:
+    type: player
+    skin: NathanWolf
+  item: madscientist_wand
+  chestplate: warlock_chestplate
+  leggings: warlock_leggings
+  helmet: madscientist_helmet
+  boots: warlock_boots
+  health: 150
+  default_drops: false
+  interval: 1000
+  triggers:
+    interval:
+      cast:
+        missile|4: 200
+        none: 20
+  drops:
+  - gold_ingot@30
+  - sp:50
+  potion_effects:
+  - type: speed
+    amplifier: 1
+magicitemshop:
+  inherit: base_npc
+  interact_spell: magicitemshop
+  villager_profession: librarian
+  dialog:
+  - Get your magic items here!
+mega_phantom:
+  type: ghast
+  size: 100
+  interval: 5000
+  health: 80
+  interval_requires_target: false
+  persist: false
+  protection:
+    fire: 100
+  triggers:
+    death:
+      effects:
+      - particle: smoke_large
+        particle_count: 50
+        particle_data: 1
+        particle_offset_x: 3
+        particle_offset_y: 3
+        particle_offset_z: 3
+    spawn:
+      effects:
+      - effectlib:
+          class: Smoke
+          disappear_with_origin_entity: true
+          particle_count: 5
+          particle_offset_x: 2
+          particle_offset_y: 2
+          particle_offset_z: 2
+    interval:
+      cast:
+        fury: 100
+        neutron: 100
+        none: 200
+mega_spider:
+  type: spider
+  health: 25
+  default_drops: false
+  interval: 1000
+  triggers:
+    interval:
+      cast:
+        webbing: 100
+        poison|3: 100
+        none: 50
+  drops:
+  - gold_nugget@10
+  - sp:10
+  potion_effects:
+  - type: increase_damage
+    amplifier: 0
+mutant:
+  type: pig_zombie
+  item: iron_sword
+  chestplate: iron_chestplate
+  leggings: iron_leggings
+  helmet: iron_helmet
+  boots: iron_boots
+  health: 20
+  default_drops: false
+  transformable: false
+  drops:
+  - gold_nugget@5
+mutant_captain:
+  type: pig_zombie
+  item: iron_sword
+  chestplate: gold_chestplate
+  leggings: gold_leggings
+  helmet: gold_helmet
+  boots: gold_boots
+  health: 30
+  default_drops: false
+  transformable: false
+  drops:
+  - gold_nugget@10
+  - sp:8
+  potion_effects:
+  - type: speed
+    amplifier: 0
+  entity_attributes:
+    generic_knockback_resistance: 1
+    generic_attack_speed: 3
+mutant_spider:
+  type: cave_spider
+  health: 20
+  drops:
+  - gold_nugget@8
+  - spider_eye@2
+mutant_villager:
+  type: pig_zombie
+  health: 10
+  default_drops: false
+  transformable: false
+  drops:
+  - gold_nugget@2
+playershop:
+  inherit: base_npc
+  interact_spell: playershop
+  villager_profession: librarian
+polterghast:
+  type: ghast
+  health: 50
+  drops:
+  - gold_nugget@10
+  - sp:5
+  potion_effects:
+  - type: speed
+    amplifier: 2
+skater:
+  inherit: base_npc
+  interact_spell: wearskates
+  villager_profession: librarian
+  dialog:
+  - Let's go ice skating!
+spellshop:
+  inherit: base_npc
+  interact_spell: spellshop
+  villager_profession: librarian
+  disguise:
+    type: player
+    skin: NathanWolf
+  dialog:
+  - Want to learn some new spells?
+totem:
+  type: armor_stand
+  invisible: true
+  helmet: totem
+undead_minion:
+  type: skeleton
+  item: iron_sword
+  health: 25
+undead_overlord:
+  type: skeleton
+  skeleton_type: wither
+  item: iron_sword
+  health: 50
+  potion_effects:
+  - type: increase_damage
+    amplifier: 1
+warlock:
+  type: zombie
+  villager_profession: butcher
+  item: warlock_wand
+  cast_requires_item: warlock_wand
+  chestplate: warlock_chestplate
+  leggings: warlock_leggings
+  helmet: chainmail_helmet
+  boots: warlock_boots
+  health: 50
+  default_drops: false
+  transformable: false
+  protection:
+    fall: 1
+  interval: 1000
+  triggers:
+    interval:
+      cast:
+        missile: 20
+        poison: 30
+        pull: 100
+        curse: 100
+        blob: 20
+        lava: 10
+        shell: 20
+        none: 300
+  drops:
+  - diamond: 10
+    emerald: 15
+    gold_nugget@18: 50
+    gold_nugget@16: 100
+    gold_nugget@12: 50
+    gold_nugget@8: 20
+  - sp:16
+werewolf:
+  type: zombie
+  helmet: skull:MHF_Wolf
+  chestplate: leather_chestplate:#000000
+  leggings: leather_leggings:#000000
+  health: 40
+  default_drops: false
+  drops:
+  - bone@3
+  - sp:5
+  entity_attributes:
+    generic_knockback_resistance: 1
+    generic_attack_speed: 3
+    generic_attack_damage: 0.3
+  triggers:
+    spawn:
+      effects:
+      - sound: entity_wolf_howl
+        sound_volume: 2
+        sound_pitch: 0.2
+      - sound: entity_wolf_growl
+        sound_volume: 1.5
+        sound_pitch: 0.5

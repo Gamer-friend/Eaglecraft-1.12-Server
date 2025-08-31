@@ -1,0 +1,78 @@
+# .
+# !! IMPORTANT !!
+# .
+# If you wish to customize this plugin, edit the "classes.yml" file instead.
+# .
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR classes.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+# .
+# This file is merged from the files in the following folder:
+# .
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/classes
+# .
+base:
+  storage:
+    path: subclass
+    mana_max: subclass,class
+    mana_regeneration: subclass,class
+    mana: mana_regeneration
+    mana_timestamp: mana_regeneration
+    spell_levels: class
+    spells: class
+    brushes: class
+    hotbar_count: subclass
+    attributes: mage,wand
+archer_mage:
+  inherit: base
+  locked: false
+  path: archer
+  active_spell: arrow_regular
+  spells:
+  - arrow_regular
+  - arrow_poison
+battle_mage:
+  parent: caster
+  locked: false
+  path: battle
+  spells:
+  - missile
+  - arrow
+  - fire
+  - push
+  mana_max: 50
+  mana_regeneration: 5
+broomrider:
+  storage:
+    spell_levels: class
+caster:
+  inherit: base
+  locked: false
+  spells:
+  - missile
+mage:
+  parent: caster
+  locked: false
+  effect_color: random
+  path: beginner
+  spells:
+  - missile
+  mana_max: 50
+  mana_regeneration: 5
+butterfly:
+  icon: feather
+  passive: true
+  triggers:
+    join:
+      effects: butterfly
+crown:
+  icon: gold_nugget
+  passive: true
+  triggers:
+    join:
+      effects: crown
+tail:
+  icon: leash
+  passive: true
+  triggers:
+    join:
+      effects: tail

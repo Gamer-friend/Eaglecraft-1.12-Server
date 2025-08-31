@@ -1,0 +1,74 @@
+id: 069f2062-1280-3e1e-8739-95d27b37f0d2
+name: ViggYigg3378
+created: 1756507662500
+updated: 1756509642750
+last_cast: 1756507783739
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 1756507783740
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §7Beginner §rMagic Wand
+        - §3§oBound to ViggYigg3378
+        - '§eMana: 50'
+        - '§eMana Regeneration: 5/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0VQO07DQBCdEBMcE4QUJBoaitAlyB/iDwUiEimQCBRRkKistXecrLC9xl4noucAnAKJG3AIKg7BATgBa6OEkaaY0Zs37z0NoAHKI2LW0EBZkZSqsM1XKebQuWfz+YNsy3JcFVSBSRYTgWtYh4SCLdEvMoxj2ElYUbAY5R6jCEPhhzzmOZxEFh16dkAdg9C+pQ9pYITRmY59qg8D17PRtfVI0tdPfUahp9teZOq2OTBMVx9YaODAdSxv4A2p6QSWE+nUVEFhIU9BW3FO/QXHc0OD/VqKz9IlpoLnz82NKgDYAjkuMS+YPANoNeFwwUVA8n+8lFymAqpIGrBbpjTnWUaCGBtt6I6EyFlQCpxwyiImibQKqYA6m11fTXghfpTX7/ht/KFAu1rdICnEy9HX+8Wn1W1Ba5RU7Jc9qEsamMZcgJoQli7qQPc2L25JgnAwR5kIC0+JECR8nGaItAntuwxzIv5MVCw1tjt+KlmWSBvHa3kAv+DYkufcAQAA
+    wand:
+      owner: ViggYigg3378
+      template: wand
+      active_spell: missile
+      effect_color: f3d596bd71ad,305db1cf40e,d05b896e860f
+      owner_id: 069f2062-1280-3e1e-8739-95d27b37f0d2
+      icon: wood_hoe:1
+      spell_inventory:
+        missile: 2
+      version: 6
+      hotbar_inventory_count: 1
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 6cdb6927893e,c8efefab3a4e,f21ba09b70cd
+    mana_timestamp: 1756509642550
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 20.0
