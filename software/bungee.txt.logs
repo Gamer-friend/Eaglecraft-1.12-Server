@@ -1,0 +1,39 @@
+[14:52:48 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
+[14:52:48 INFO]: Loading localizations...
+[14:52:48 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[14:52:49 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[14:52:49 WARN]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[14:52:49 INFO]: Loading plugins...
+[14:52:49 ERROR]: Unable to load plugin plugins/AntiVPN_1.1.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file AntiVPN_1.1.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+        at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[bungee.jar:3.4.0-SNAPSHOT (git-965db127-b454)]
+        at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[bungee.jar:3.4.0-SNAPSHOT (git-965db127-b454)]
+        at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:101) ~[bungee.jar:3.4.0-SNAPSHOT (git-965db127-b454)]
+        at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:418) ~[bungee.jar:3.4.0-SNAPSHOT (git-965db127-b454)]
+        at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:289) ~[bungee.jar:3.4.0-SNAPSHOT (git-965db127-b454)]
+        at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[bungee.jar:3.4.0-SNAPSHOT (git-965db127-b454)]
+[14:52:49 ERROR]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:52:49 ERROR]: :>  
+[14:52:49 ERROR]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[14:52:49 ERROR]: :>  
+[14:52:49 ERROR]: :>  This plugin wasn't tested to be 'working'
+[14:52:49 ERROR]: :>  with ANY version of Velocity (and forks)
+[14:52:49 ERROR]: :>  apart from the versions listed below:
+[14:52:49 ERROR]: :>  
+[14:52:49 ERROR]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
+[14:52:49 ERROR]: :>  
+[14:52:49 ERROR]: :>  This is not a Bukkit/Spigot plugin!
+[14:52:49 ERROR]: :>  
+[14:52:49 ERROR]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[14:52:49 ERROR]: :>  
+[14:52:49 ERROR]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:52:49 INFO]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
+[14:52:49 INFO]: Loaded 2 plugins
+[14:52:49 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[14:52:49 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[14:52:49 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[14:52:49 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[14:52:50 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[14:52:50 INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[14:52:50 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25577
+[14:52:50 INFO]: Done (2.17s)!
