@@ -1,0 +1,22 @@
+{
+  "id": "{{*/**pkg?=any}}",
+  "version": "1.0.1",
+  "authors": [
+    "Minecraft Package"
+  ],
+  "description": "Use this for something idk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gamer-friend/Eaglecraft-1.12-Server"
+  },
+  "license": "MIT",
+  "tags": [
+    "tag1",
+    "tag2",
+    "tag3"
+  ],
+  "dependencies": {
+    "SomeDependency": "1.0.0"
+  },
+  "projectUrl": "https://github.com/Gamer-friend/Eaglecraft-1.12-Server"
+}
