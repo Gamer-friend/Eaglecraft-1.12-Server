@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework> <!-- Specify your target framework -->
+    <PackageId>Minecraft-Package</PackageId> <!-- Replace with your package ID -->
+    <Version>1.0.1</Version> <!-- Replace with your version -->
+    <Authors>gamer-friend</Authors> <!-- Replace with your name or organization -->
+    <Company>Your Company</Company> <!-- Replace with your company name -->
+    <Description>A simple nuget package.</Description> <!-- Replace with your description -->
+    <RepositoryUrl>https://github.com/Gamer-friend/Eaglecraft-1.12-Server</RepositoryUrl> <!-- Replace with your repository URL -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression> <!-- Specify your license -->
+    <PackageProjectUrl>https://github.com/Gamer-friend/Eaglecraft-1.12-Server</PackageProjectUrl> <!-- Replace with your project URL -->
+    <PackageTags>v1.0.0</PackageTags> <!-- Replace with relevant tags -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json " Version="1.0.0" /> <!-- Add any dependencies here -->
+  </ItemGroup>
+
+</Project>
