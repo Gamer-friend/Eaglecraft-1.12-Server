@@ -28,6 +28,6 @@ jobs:
         run: dotnet pack ./nuget.csproj --configuration Release --output ./nupkgs  # Use the correct .csproj file name
 
       - name: Push to GitHub Packages
-        run: dotnet nuget push ./nupkgs/*.nupkg --source "https://github.com/Gamer-friend/Eaglecraft-1.12-Server/index.json" --skip-duplicate --api-key "${{ secrets.GITHUB_TOKEN }}"
+        run: dotnet nuget push ./nupkgs/*.nupkg --source "https://nuget.pkg.github.com/Gamer-friend/index.json" --skip-duplicate --api-key "${{ secrets.GITHUB_TOKEN }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for authentication
