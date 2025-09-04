@@ -2,45 +2,6 @@ last_version: 2.24.5
 FkPI:
   RulesManager:
     Rules:
-      DeepPause:
-        value: true
-      HealthBelowName:
-        value: true
-      PrivateChests:
-        value: false
-      EternalDay:
-        value: false
-      PvpCap:
-        value: 3
-      PlaceBlockInCave:
-        value: false
-        MinimumBlocs: 3
-      NetherAssault:
-        value: false
-      BucketAssault:
-        value: false
-      EnderpearlAssault:
-        value: true
-      GlobalChatPrefix:
-        value: '!'
-      RespawnAtHome:
-        value: false
-      FriendlyFire:
-        value: true
-      DisabledPotions: {}
-      ChargedCreepers:
-        value: 10050001
-      DayDuration:
-        value: 24000
-      ChestLimit:
-        value: 20
-      CaptureRate:
-        value: 100
-      TntCap:
-        value: 6
-      AutoPause:
-        after-day: false
-        after-capture: false
       AllowedBlocks:
         value:
         - TORCH
@@ -48,17 +9,56 @@ FkPI:
         - SIGN_POST
         - WALL_SIGN
         - REDSTONE_TORCH_ON
+      ChestLimit:
+        value: 20
+      PlaceBlockInCave:
+        value: false
+        MinimumBlocs: 3
+      TntCap:
+        value: 6
+      CaptureRate:
+        value: 100
+      BucketAssault:
+        value: false
+      FriendlyFire:
+        value: true
+      RespawnAtHome:
+        value: false
+      TntJump:
+        value: true
+      NetherCap:
+        value: 1
+      NetherAssault:
+        value: false
+      DisabledPotions: {}
+      DeathLimit:
+        value: 0
+      PrivateChests:
+        value: false
+      EternalDay:
+        value: false
+      EndCap:
+        value: 1
+      ChargedCreepers:
+        value: 10050001
+      AutoPause:
+        after-day: false
+        after-capture: false
       BlastProofBase:
         value: false
       VerticalLimit:
         value: 40
-      DeathLimit:
-        value: 0
-      EndCap:
-        value: 1
-      NetherCap:
-        value: 1
-      TntJump:
+      GlobalChatPrefix:
+        value: '!'
+      HealthBelowName:
+        value: true
+      DeepPause:
+        value: true
+      PvpCap:
+        value: 3
+      DayDuration:
+        value: 24000
+      EnderpearlAssault:
         value: true
   TeamManager:
     nametag-integration:

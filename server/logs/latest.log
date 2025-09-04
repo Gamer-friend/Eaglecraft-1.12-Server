@@ -1,14 +1,14 @@
-[00:58:46] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[00:58:46] [Server thread/INFO]: Loading properties
-[00:58:46] [Server thread/INFO]: Default game type: SURVIVAL
-[00:58:46] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[00:58:46] [Server thread/INFO]: Debug logging is disabled
-[00:58:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:58:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:58:46] [Server thread/INFO]: Generating keypair
-[00:58:46] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[00:58:46] [Server thread/INFO]: Using default channel type
-[00:58:47] [Server thread/ERROR]: Could not load 'plugins/Heartbreaker PvP-1.0-BETA.jar' in folder 'plugins'
+[01:20:20] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[01:20:20] [Server thread/INFO]: Loading properties
+[01:20:20] [Server thread/INFO]: Default game type: SURVIVAL
+[01:20:20] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[01:20:20] [Server thread/INFO]: Debug logging is disabled
+[01:20:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:20:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:20:20] [Server thread/INFO]: Generating keypair
+[01:20:20] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[01:20:20] [Server thread/INFO]: Using default channel type
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/Heartbreaker PvP-1.0-BETA.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -18,8 +18,8 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:48] [Server thread/ERROR]: Could not load 'plugins/Clans v1.3_1.3.jar' in folder 'plugins': uses the space-character (0x20) in its name
-[00:58:48] [Server thread/ERROR]: Could not load 'plugins/meteorist-1.12.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/Clans v1.3_1.3.jar' in folder 'plugins': uses the space-character (0x20) in its name
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/meteorist-1.12.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -29,7 +29,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:48] [Server thread/ERROR]: Could not load 'plugins/shopgui-api-3.0.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/shopgui-api-3.0.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -39,7 +39,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:50] [Server thread/ERROR]: Could not load 'plugins/FancyHolograms-2.5.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/FancyHolograms-2.5.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -49,7 +49,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:50] [Server thread/ERROR]: Could not load 'plugins/FastCrystal-1.1-SNAPSHOT-OBF.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/FastCrystal-1.1-SNAPSHOT-OBF.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -59,7 +59,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:50] [Server thread/ERROR]: Could not load 'plugins/SimpleProxyChat-0.5.7.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/SimpleProxyChat-0.5.7.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -69,7 +69,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:50] [Server thread/ERROR]: Could not load 'plugins/BungeeJoinMOTD_1.0.5.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/BungeeJoinMOTD_1.0.5.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -79,9 +79,9 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:50] [Server thread/ERROR]: Ambiguous plugin name `BedwarsRel' for files `plugins/BedwarsRel-1.3.6.jar' and `plugins/BedwarsRel-1.3.6 (1).jar' in `plugins'
-[00:58:51] [Server thread/ERROR]: Ambiguous plugin name `Essentials' for files `plugins/EssentialsX-2.21.0.jar' and `plugins/Essentials.jar' in `plugins'
-[00:58:51] [Server thread/ERROR]: Could not load 'plugins/ClanSystem_3.2.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Ambiguous plugin name `BedwarsRel' for files `plugins/BedwarsRel-1.3.6.jar' and `plugins/BedwarsRel-1.3.6 (1).jar' in `plugins'
+[01:20:20] [Server thread/ERROR]: Ambiguous plugin name `Essentials' for files `plugins/EssentialsX-2.21.0.jar' and `plugins/Essentials.jar' in `plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/ClanSystem_3.2.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -91,7 +91,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:51] [Server thread/ERROR]: Could not load 'plugins/meteorist.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/meteorist.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -101,8 +101,8 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:52] [Server thread/ERROR]: Ambiguous plugin name `AAC' for files `plugins/AAC 1.9.10_2.jar' and `plugins/AAC-1.8.25.jar' in `plugins'
-[00:58:52] [Server thread/ERROR]: Could not load 'plugins/paperrecord-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Ambiguous plugin name `AAC' for files `plugins/AAC 1.9.10_2.jar' and `plugins/AAC-1.8.25.jar' in `plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/paperrecord-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -112,7 +112,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:52] [Server thread/ERROR]: Could not load 'plugins/Crystal Client 1.21.5 1.0.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/Crystal Client 1.21.5 1.0.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -122,7 +122,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:52] [Server thread/ERROR]: Could not load 'plugins/Shop.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/Shop.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -132,7 +132,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/BungeeFakerPlayers_1.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/BungeeFakerPlayers_1.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -142,8 +142,8 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:53] [Server thread/ERROR]: Ambiguous plugin name `CustomJoinMessages' for files `plugins/custom-join-messages-17.8.0.jar' and `plugins/CustomJoinMessages-1.0.jar' in `plugins'
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/FastLoginBungee.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Ambiguous plugin name `CustomJoinMessages' for files `plugins/custom-join-messages-17.8.0.jar' and `plugins/CustomJoinMessages-1.0.jar' in `plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/FastLoginBungee.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -153,8 +153,8 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[00:58:53] [Server thread/ERROR]: Ambiguous plugin name `Spawn' for files `plugins/Spawn-2.4.1.jar' and `plugins/Spawn.jar' in `plugins'
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/MinecraftMarket-Bungee.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Ambiguous plugin name `Spawn' for files `plugins/Spawn-2.4.1.jar' and `plugins/Spawn.jar' in `plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/MinecraftMarket-Bungee.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: authors are of wrong type
 	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:965) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:228) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -167,8 +167,8 @@ org.bukkit.plugin.InvalidDescriptionException: authors are of wrong type
 Caused by: java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Iterable (java.lang.String and java.lang.Iterable are in module java.base of loader 'bootstrap')
 	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:961) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 7 more
-[00:58:53] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/Boxed-2.8.0-2.jar' in folder 'plugins'
+[01:20:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/Boxed-2.8.0-2.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: world/bentobox/bentobox/api/addons/Pladdon
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -210,7 +210,7 @@ Caused by: java.lang.ClassNotFoundException: world.bentobox.bentobox.api.addons.
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 6 more
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/Holography-1.1.3.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/Holography-1.1.3.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: 'io.papermc.paper.plugin.configuration.PluginMeta de.leghast.holography.Holography.getPluginMeta()'
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -229,14 +229,14 @@ Caused by: java.lang.NoSuchMethodError: 'io.papermc.paper.plugin.configuration.P
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:94) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 6 more
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/BingoReloaded-2.1.4.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/BingoReloaded-2.1.4.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: packetevents
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/UltimateBingo-1.0.1.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/UltimateBingo-1.0.1.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field 'org.bukkit.Material LIME_CONCRETE'
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -255,63 +255,63 @@ Caused by: java.lang.NoSuchFieldError: Class org.bukkit.Material does not have m
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:94) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 6 more
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/AAC 1.9.10_2.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/AAC 1.9.10_2.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:53] [Server thread/ERROR]: Could not load 'plugins/CoinsEngine-2.4.2.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/CoinsEngine-2.4.2.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: nightcore
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/ArenaSpleef.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/ArenaSpleef.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: BattleArena
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/KenshinsHideAndSeek-1.7.6.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/KenshinsHideAndSeek-1.7.6.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/AntiCheatReloaded.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/AntiCheatReloaded.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/InteractiveChat-4.3.0.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/InteractiveChat-4.3.0.0.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: PlaceholderAPI
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/LotterySix-1.10.21.0 (1).jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/LotterySix-1.10.21.0 (1).jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: PlaceholderAPI
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/HologramLib-1.6.9.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/HologramLib-1.6.9.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: packetevents
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/BlocklyNukkit-12911.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/BlocklyNukkit-12911.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: cn/nukkit/event/Listener
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -353,7 +353,7 @@ Caused by: java.lang.ClassNotFoundException: cn.nukkit.event.Listener
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 6 more
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/Showcase-1.3.4.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/Showcase-1.3.4.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: 'io.papermc.paper.plugin.configuration.PluginMeta de.leghast.showcase.Showcase.getPluginMeta()'
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -372,28 +372,28 @@ Caused by: java.lang.NoSuchMethodError: 'io.papermc.paper.plugin.configuration.P
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:94) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 6 more
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/ArenaCTF.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/ArenaCTF.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: BattleArena
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/ajLeaderboards-2.10.1.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/ajLeaderboards-2.10.1.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: PlaceholderAPI
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/HoloPlots-7.1.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/HoloPlots-7.1.0.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: PlotSquared
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/AcidIsland-1.20.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/AcidIsland-1.20.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: world/bentobox/bentobox/api/addons/Pladdon
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -435,7 +435,7 @@ Caused by: java.lang.ClassNotFoundException: world.bentobox.bentobox.api.addons.
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 6 more
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/TNE-BungeeCore-0.1.3.1-RELEASE-1 (1).jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/TNE-BungeeCore-0.1.3.1-RELEASE-1 (1).jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -477,257 +477,257 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 6 more
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/TChat-4.3.0.0.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/TChat-4.3.0.0.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: PlaceholderAPI
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/ERROR]: Could not load 'plugins/HypixelRushModeAddon-1.0.4.jar' in folder 'plugins'
+[01:20:20] [Server thread/ERROR]: Could not load 'plugins/HypixelRushModeAddon-1.0.4.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: MBedwars
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:58:54] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ v2.14.0
-[00:58:54] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ...
-[00:58:54] [Server thread/INFO]: [FK] Loading FallenKingdom v2.24.5
-[00:58:54] [Server thread/INFO]: [Spawn] Loading Spawn v2.4.1
-[00:58:54] [Server thread/INFO]: [Holograms] Loading Holograms v1.0-SNAPSHOT
-[00:58:54] [Server thread/INFO]: [MinecraftManhunt] Loading MinecraftManhunt v1.4.1
-[00:58:54] [Server thread/INFO]: [GreatLifeSteal] Loading GreatLifeSteal v1.7.1-SNAPSHOT
-[00:58:54] [Server thread/INFO]: [PackSelector] Loading PackSelector v1.0
-[00:58:54] [Server thread/INFO]: [DiamondRain] Loading DiamondRain v1.0
-[00:58:54] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[00:58:54] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[00:58:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:58:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:58:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:58:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:58:55] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[00:58:55] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
-[00:58:55] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Loading OreAnnouncer v2.8.5
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Loading libraries of OreAnnouncer v2.8.5, this may take a while
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jar-relocator
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for asm
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for asm-commons
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for gson
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jdbi3-core
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for geantyref
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for caffeine
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jdbi3-stringtemplate4
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for ST4
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for antlr-runtime
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jdbi3-sqlobject
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for slf4j-api
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for slf4j-simple
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for HikariCP
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for mariadb-java-client
-[00:58:55] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for mysql-connector-j
-[00:58:56] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for postgresql
-[00:58:56] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for h2
-[00:58:56] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.6-dev
-[00:58:56] [Server thread/INFO]: [LifeWars] Loading LifeWars v1.0
-[00:58:56] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
-[00:58:56] [Server thread/INFO]: [RealSkywars] Loading RealSkywars v0.3
-[00:58:56] [Server thread/INFO]: [ChessCraft] Loading ChessCraft v0.5.1
-[00:58:56] [Server thread/INFO]: [Kboss] Loading KinglyBosses v4.0-Mini
-[00:58:56] [Server thread/INFO]: [GlassJoin] Loading GlassJoin v1.1.1
-[00:58:56] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[00:58:56] [Server thread/INFO]: [ClansX] Loading ClansX v1.0.0
-[00:58:56] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[00:58:56] [Server thread/INFO]: [ClansLite] Loading ClansLite v1.4.0
-[00:58:56] [Server thread/INFO]: [ImprovedFactions] Loading ImprovedFactions v2.3.0
-[00:58:56] [Server thread/INFO]: [BedwarsRel] Loading BedwarsRel v1.3.6
-[00:58:56] [Server thread/INFO]: [TheBridge] Loading TheBridge v3.2.0
-[00:58:56] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[00:58:56] [Server thread/INFO]: [MineTinker] Loading MineTinker v1.8.1
-[00:58:56] [Server thread/INFO]: [LobbyUltimate] Loading LobbyUltimate v1.0-SNAPSHOT
-[00:58:56] [Server thread/INFO]: [Capture-the-Flag] Loading Capture-the-Flag v3b
-[00:58:56] [Server thread/INFO]: [FluffyLobby] Loading FluffyLobby v1.6
-[00:58:56] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[00:58:56] [Server thread/INFO]: [BurlanGuns] Loading BurlanGuns v1.0
-[00:58:56] [Server thread/INFO]: [SimpleLifesteal] Loading SimpleLifesteal v1.2
-[00:58:56] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
-[00:58:56] [Server thread/INFO]: [CreativeParkour] Loading CreativeParkour v2.11.10
-[00:58:56] [Server thread/INFO]: [InvSee++] Loading InvSeePlusPlus v0.29.20
-[00:58:56] [Server thread/INFO]: [HubParkour] Loading HubParkour v2.7.4
-[00:58:56] [Server thread/INFO]: [squidgame] Loading squidgame v3.1
-[00:58:56] [Server thread/INFO]: [BetterTeams] Loading BetterTeams v4.3.3
-[00:58:56] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[00:58:56] [Server thread/INFO]: [BetterTeams] File is up to date
-[00:58:56] [Server thread/INFO]: [ajParkour] Loading ajParkour v2.12.10
-[00:58:56] [Server thread/INFO]: [EggWarsReloaded] Loading EggWarsReloaded v0.2.1
-[00:58:56] [Server thread/INFO]: [FAuction] Loading FAuction v1.8.12
-[00:58:56] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0
-[00:58:56] [Server thread/INFO]: [PVP Arena] Loading pvparena v2.0.0
-[00:58:56] [Server thread/INFO]: [CustomJoinMessages] Loading CustomJoinMessages v17.8.0
-[00:58:56] [Server thread/INFO]: [CTSNC] Loading CTSNC v11.7
-[00:58:56] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.13.0
-[00:58:56] [Server thread/INFO]: [OpenAudioMc] Loading OpenAudioMc v6.10.10
-[00:58:56] [Server thread/INFO]: [UltimateArena] Loading UltimateArena v3.0
-[00:58:56] [Server thread/INFO]: [NameColor] Loading NameColor v1.9
-[00:58:56] [Server thread/INFO]: [Duels] Loading Duels v3.9
-[00:58:56] [Server thread/INFO]: [MobArena] Loading MobArena v0.109
-[00:58:56] [Server thread/INFO]: [Magic] Loading Magic v9.0-SNAPSHOT-31c848c
-[00:58:56] [Server thread/INFO]: [Magic] Loading legacy compatibility layer for server version 1.12.0
-[00:58:56] [Server thread/WARN]: [Magic] [33m Player.openBook method not found, BookAction can't show virtual books[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Skull profile method not available, this is normal if you're on a legacy Minecraft version[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m EntityTransformEvent not found, can't prevent mobs naturally transforming[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m TimeSkipEvent not found, can't synchronize time between worlds[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Entity.persistentInvisibility field not found, invisibility may not reliably restore[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Use an updated version of Spigot for better knowledge book recipes[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Could not bind to chunk ticket API, chunk locking will not work[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m No phantoms on this version[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Could not bind to persist entity tag, can't make mobs persistent[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Could not bind to selectEntities method, command target selectors may not work[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Couldn't find recipe removal method, this is odd since we did find NamespacedKey[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Couldn't find recipe discover method, this is odd since we did find NamespacedKey[0m
-[00:58:56] [Server thread/WARN]: [Magic] [33m Could not bind to auto block state methods[0m
-[00:58:56] [Server thread/INFO]: [Magic] Persistent metadata is not available, will rely on custom names to restore persistent magic mobs
-[00:58:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:58:56] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[00:58:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[00:58:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[00:58:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[00:58:57] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
-[00:58:57] [Server thread/INFO]: [Magic] Enabling Magic v9.0-SNAPSHOT-31c848c
-[00:58:57] [Server thread/INFO]: [Magic] EffectLib initialized
-[00:58:57] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
-[00:58:57] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
-[00:58:57] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/materials.yml
-[00:58:57] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/spells.yml
-[00:58:57] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/wands.yml
-[00:58:57] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/items.yml
-[00:58:57] [Server thread/INFO]: [Magic]  Using inherited compatibility configs: examples/1.12/crafting.yml
-[00:58:57] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/mobs.yml
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 0 attributes
-[00:58:57] [Server thread/WARN]: [Magic] [33m Unknown entity type: fox in friendly_entity_types[0m
-[00:58:57] [Server thread/WARN]: [Magic] [33m Unknown entity type: cat in friendly_entity_types[0m
-[00:58:57] [Server thread/WARN]: [Magic] [33m Unknown entity type: strider in friendly_entity_types[0m
-[00:58:57] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: barrel
-[00:58:57] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: smoker
-[00:58:57] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: blast_furnace
-[00:58:57] [Server thread/INFO]: [Magic] Wand crafting is enabled
-[00:58:57] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
-[00:58:57] [Server thread/INFO]: [Magic] Registered attributes: [bowpull, damage, damage_dealt, luck, weeks, target_hunger, location_x, location_y, target_mana, attack_damage, epoch, air, bowpower, degrees, knockback_resistance, seconds, location_z, target_air, target_mana_max, health_max, hours, target_luck, level, minutes, target_armor, health, fall_distance, target_air_max, hunger, play_time, target_health_max, moon, armor, air_max, mana, target_health, xp, target_location_x, mana_max, days, pi, target_location_y, target_knockback_resistance, target_location_z, time]
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 12 effect lists
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 1248 items
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 162 wands
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 2 kits
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 9 classes
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 3 classes
-[00:58:57] [Server thread/WARN]: [Magic] [33m  Invalid entity type: drowned in mob config fireproof_drowned[0m
-[00:58:57] [Server thread/WARN]: [Magic] [33m  Invalid entity type: drowned in mob config trident_drowned[0m
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 66 mob templates
-[00:58:57] [Server thread/INFO]: [Magic] Loaded 6 automata templates
-[00:58:57] [Server thread/INFO]: [Magic] Activated BStats
-[00:58:57] [Server thread/WARN]: [MobArena] Failed to register monster type 'babydrowned', because its type was not found: DROWNED
-[00:58:57] [Server thread/INFO]: [Magic] Integrated with MobArena, use "magic:<itemkey>" in arena configs for Magic items, magic mobs can be used in monster configurations
-[00:58:57] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
-[00:58:57] [Server thread/INFO]: [Magic] Vault found, 'currency' cost types available
-[00:58:57] [Server thread/INFO]: Magic checking resource pack for updates: http://rp.elmakers.com/Magic-RP-7.zip
-[00:58:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:58:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:58:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:58:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:58:57] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[00:58:57] [Server thread/INFO]: Preparing level "world"
-[00:58:57] [Server thread/INFO]: -------- World Settings For [world] --------
-[00:58:57] [Server thread/INFO]: Mob Spawn Range: 4
-[00:58:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:58:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[00:58:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:58:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:58:57] [Server thread/INFO]: Random Lighting Updates: false
-[00:58:57] [Server thread/INFO]: Structure Info Saving: true
-[00:58:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[00:58:57] [Server thread/INFO]: Max TNT Explosions: 100
-[00:58:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:58:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:58:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:58:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:58:57] [Server thread/INFO]: View Distance: 4
-[00:58:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[00:58:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:58:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:58:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:58:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[00:58:58] [Server thread/INFO]: Mob Spawn Range: 4
-[00:58:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[00:58:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:58:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:58:58] [Server thread/INFO]: Random Lighting Updates: false
-[00:58:58] [Server thread/INFO]: Structure Info Saving: true
-[00:58:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[00:58:58] [Server thread/INFO]: Max TNT Explosions: 100
-[00:58:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:58:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:58:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:58:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:58:58] [Server thread/INFO]: View Distance: 4
-[00:58:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[00:58:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:58:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:58:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:58:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[00:58:58] [Server thread/INFO]: Mob Spawn Range: 4
-[00:58:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:58:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[00:58:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:58:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:58:58] [Server thread/INFO]: Random Lighting Updates: false
-[00:58:58] [Server thread/INFO]: Structure Info Saving: true
-[00:58:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[00:58:58] [Server thread/INFO]: Max TNT Explosions: 100
-[00:58:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:58:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:58:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:58:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:58:58] [Server thread/INFO]: View Distance: 4
-[00:58:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[00:58:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:58:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:58:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:58:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2271987458253385624)
-[00:58:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2271987458253385624)
-[00:58:58] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2271987458253385624)
-[00:58:58] [Server thread/INFO]: [LifeStealZ] Enabling LifeStealZ v2.14.0
-[00:58:58] [Server thread/INFO]: [LifeStealZ] Using language file: plugins/LifeStealZ/lang/en-US.yml
-[00:58:58] [Server thread/INFO]: [LifeStealZ] Using SQLite storage
-[00:58:58] [Server thread/ERROR]: Error occurred while enabling LifeStealZ v2.14.0 (Is it up to date?)
+[01:20:21] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ v2.14.0
+[01:20:21] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ...
+[01:20:21] [Server thread/INFO]: [FK] Loading FallenKingdom v2.24.5
+[01:20:21] [Server thread/INFO]: [Spawn] Loading Spawn v2.4.1
+[01:20:21] [Server thread/INFO]: [Holograms] Loading Holograms v1.0-SNAPSHOT
+[01:20:21] [Server thread/INFO]: [MinecraftManhunt] Loading MinecraftManhunt v1.4.1
+[01:20:21] [Server thread/INFO]: [GreatLifeSteal] Loading GreatLifeSteal v1.7.1-SNAPSHOT
+[01:20:21] [Server thread/INFO]: [PackSelector] Loading PackSelector v1.0
+[01:20:21] [Server thread/INFO]: [DiamondRain] Loading DiamondRain v1.0
+[01:20:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[01:20:21] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[01:20:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:20:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:20:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:20:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:20:21] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[01:20:21] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[01:20:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Loading OreAnnouncer v2.8.5
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Loading libraries of OreAnnouncer v2.8.5, this may take a while
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jar-relocator
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for asm
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for asm-commons
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for gson
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jdbi3-core
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for geantyref
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for caffeine
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jdbi3-stringtemplate4
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for ST4
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for antlr-runtime
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for jdbi3-sqlobject
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for slf4j-api
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for slf4j-simple
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for HikariCP
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for mariadb-java-client
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for mysql-connector-j
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for postgresql
+[01:20:21] [Server thread/INFO]: [OreAnnouncer] Verifying checksum for h2
+[01:20:21] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.6-dev
+[01:20:21] [Server thread/INFO]: [LifeWars] Loading LifeWars v1.0
+[01:20:21] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[01:20:21] [Server thread/INFO]: [RealSkywars] Loading RealSkywars v0.3
+[01:20:21] [Server thread/INFO]: [ChessCraft] Loading ChessCraft v0.5.1
+[01:20:21] [Server thread/INFO]: [Kboss] Loading KinglyBosses v4.0-Mini
+[01:20:21] [Server thread/INFO]: [GlassJoin] Loading GlassJoin v1.1.1
+[01:20:21] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[01:20:21] [Server thread/INFO]: [ClansX] Loading ClansX v1.0.0
+[01:20:21] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[01:20:21] [Server thread/INFO]: [ClansLite] Loading ClansLite v1.4.0
+[01:20:21] [Server thread/INFO]: [ImprovedFactions] Loading ImprovedFactions v2.3.0
+[01:20:21] [Server thread/INFO]: [BedwarsRel] Loading BedwarsRel v1.3.6
+[01:20:21] [Server thread/INFO]: [TheBridge] Loading TheBridge v3.2.0
+[01:20:21] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[01:20:21] [Server thread/INFO]: [MineTinker] Loading MineTinker v1.8.1
+[01:20:21] [Server thread/INFO]: [LobbyUltimate] Loading LobbyUltimate v1.0-SNAPSHOT
+[01:20:21] [Server thread/INFO]: [Capture-the-Flag] Loading Capture-the-Flag v3b
+[01:20:21] [Server thread/INFO]: [FluffyLobby] Loading FluffyLobby v1.6
+[01:20:21] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[01:20:21] [Server thread/INFO]: [BurlanGuns] Loading BurlanGuns v1.0
+[01:20:21] [Server thread/INFO]: [SimpleLifesteal] Loading SimpleLifesteal v1.2
+[01:20:21] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[01:20:21] [Server thread/INFO]: [CreativeParkour] Loading CreativeParkour v2.11.10
+[01:20:21] [Server thread/INFO]: [InvSee++] Loading InvSeePlusPlus v0.29.20
+[01:20:21] [Server thread/INFO]: [HubParkour] Loading HubParkour v2.7.4
+[01:20:21] [Server thread/INFO]: [squidgame] Loading squidgame v3.1
+[01:20:21] [Server thread/INFO]: [BetterTeams] Loading BetterTeams v4.3.3
+[01:20:21] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[01:20:21] [Server thread/INFO]: [BetterTeams] File is up to date
+[01:20:21] [Server thread/INFO]: [ajParkour] Loading ajParkour v2.12.10
+[01:20:21] [Server thread/INFO]: [EggWarsReloaded] Loading EggWarsReloaded v0.2.1
+[01:20:21] [Server thread/INFO]: [FAuction] Loading FAuction v1.8.12
+[01:20:21] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0
+[01:20:21] [Server thread/INFO]: [PVP Arena] Loading pvparena v2.0.0
+[01:20:21] [Server thread/INFO]: [CustomJoinMessages] Loading CustomJoinMessages v17.8.0
+[01:20:21] [Server thread/INFO]: [CTSNC] Loading CTSNC v11.7
+[01:20:21] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.13.0
+[01:20:21] [Server thread/INFO]: [OpenAudioMc] Loading OpenAudioMc v6.10.10
+[01:20:21] [Server thread/INFO]: [UltimateArena] Loading UltimateArena v3.0
+[01:20:21] [Server thread/INFO]: [NameColor] Loading NameColor v1.9
+[01:20:21] [Server thread/INFO]: [Duels] Loading Duels v3.9
+[01:20:21] [Server thread/INFO]: [MobArena] Loading MobArena v0.109
+[01:20:21] [Server thread/INFO]: [Magic] Loading Magic v9.0-SNAPSHOT-31c848c
+[01:20:21] [Server thread/INFO]: [Magic] Loading legacy compatibility layer for server version 1.12.0
+[01:20:21] [Server thread/WARN]: [Magic] [33m Player.openBook method not found, BookAction can't show virtual books[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Skull profile method not available, this is normal if you're on a legacy Minecraft version[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m EntityTransformEvent not found, can't prevent mobs naturally transforming[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m TimeSkipEvent not found, can't synchronize time between worlds[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Entity.persistentInvisibility field not found, invisibility may not reliably restore[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Use an updated version of Spigot for better knowledge book recipes[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Could not bind to chunk ticket API, chunk locking will not work[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m No phantoms on this version[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Could not bind to persist entity tag, can't make mobs persistent[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Could not bind to selectEntities method, command target selectors may not work[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Couldn't find recipe removal method, this is odd since we did find NamespacedKey[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Couldn't find recipe discover method, this is odd since we did find NamespacedKey[0m
+[01:20:21] [Server thread/WARN]: [Magic] [33m Could not bind to auto block state methods[0m
+[01:20:21] [Server thread/INFO]: [Magic] Persistent metadata is not available, will rely on custom names to restore persistent magic mobs
+[01:20:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:20:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[01:20:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[01:20:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:20:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[01:20:21] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[01:20:21] [Server thread/INFO]: [Magic] Enabling Magic v9.0-SNAPSHOT-31c848c
+[01:20:21] [Server thread/INFO]: [Magic] EffectLib initialized
+[01:20:21] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
+[01:20:21] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
+[01:20:22] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/materials.yml
+[01:20:22] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/spells.yml
+[01:20:22] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/wands.yml
+[01:20:22] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/items.yml
+[01:20:22] [Server thread/INFO]: [Magic]  Using inherited compatibility configs: examples/1.12/crafting.yml
+[01:20:22] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/1.12/mobs.yml
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 0 attributes
+[01:20:22] [Server thread/WARN]: [Magic] [33m Unknown entity type: fox in friendly_entity_types[0m
+[01:20:22] [Server thread/WARN]: [Magic] [33m Unknown entity type: cat in friendly_entity_types[0m
+[01:20:22] [Server thread/WARN]: [Magic] [33m Unknown entity type: strider in friendly_entity_types[0m
+[01:20:22] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: barrel
+[01:20:22] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: smoker
+[01:20:22] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: blast_furnace
+[01:20:22] [Server thread/INFO]: [Magic] Wand crafting is enabled
+[01:20:22] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
+[01:20:22] [Server thread/INFO]: [Magic] Registered attributes: [bowpull, damage, damage_dealt, luck, weeks, target_hunger, location_x, location_y, target_mana, attack_damage, epoch, air, bowpower, degrees, knockback_resistance, seconds, location_z, target_air, target_mana_max, health_max, hours, target_luck, level, minutes, target_armor, health, fall_distance, target_air_max, hunger, play_time, target_health_max, moon, armor, air_max, mana, target_health, xp, target_location_x, mana_max, days, pi, target_location_y, target_knockback_resistance, target_location_z, time]
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 12 effect lists
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 1248 items
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 162 wands
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 2 kits
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 9 classes
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 3 classes
+[01:20:22] [Server thread/WARN]: [Magic] [33m  Invalid entity type: drowned in mob config fireproof_drowned[0m
+[01:20:22] [Server thread/WARN]: [Magic] [33m  Invalid entity type: drowned in mob config trident_drowned[0m
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 66 mob templates
+[01:20:22] [Server thread/INFO]: [Magic] Loaded 6 automata templates
+[01:20:22] [Server thread/INFO]: [Magic] Activated BStats
+[01:20:22] [Server thread/WARN]: [MobArena] Failed to register monster type 'babydrowned', because its type was not found: DROWNED
+[01:20:22] [Server thread/INFO]: [Magic] Integrated with MobArena, use "magic:<itemkey>" in arena configs for Magic items, magic mobs can be used in monster configurations
+[01:20:22] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
+[01:20:22] [Server thread/INFO]: [Magic] Vault found, 'currency' cost types available
+[01:20:22] [Server thread/INFO]: Magic checking resource pack for updates: http://rp.elmakers.com/Magic-RP-7.zip
+[01:20:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:20:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:20:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:20:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:20:22] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:20:22] [Server thread/INFO]: Preparing level "world"
+[01:20:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:20:22] [Server thread/INFO]: Mob Spawn Range: 4
+[01:20:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[01:20:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:20:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:20:22] [Server thread/INFO]: Random Lighting Updates: false
+[01:20:22] [Server thread/INFO]: Structure Info Saving: true
+[01:20:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[01:20:22] [Server thread/INFO]: Max TNT Explosions: 100
+[01:20:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:20:22] [Server thread/INFO]: View Distance: 4
+[01:20:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:20:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:20:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:20:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:20:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:20:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:20:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:20:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:20:22] [Server thread/INFO]: Mob Spawn Range: 4
+[01:20:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[01:20:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:20:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:20:22] [Server thread/INFO]: Random Lighting Updates: false
+[01:20:22] [Server thread/INFO]: Structure Info Saving: true
+[01:20:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[01:20:22] [Server thread/INFO]: Max TNT Explosions: 100
+[01:20:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:20:22] [Server thread/INFO]: View Distance: 4
+[01:20:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:20:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:20:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:20:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:20:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:20:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:20:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:20:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:20:22] [Server thread/INFO]: Mob Spawn Range: 4
+[01:20:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:20:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[01:20:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:20:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:20:22] [Server thread/INFO]: Random Lighting Updates: false
+[01:20:22] [Server thread/INFO]: Structure Info Saving: true
+[01:20:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[01:20:22] [Server thread/INFO]: Max TNT Explosions: 100
+[01:20:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:20:22] [Server thread/INFO]: View Distance: 4
+[01:20:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:20:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:20:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:20:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:20:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:20:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:20:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:20:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2271987458253385624)
+[01:20:23] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2271987458253385624)
+[01:20:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2271987458253385624)
+[01:20:23] [Server thread/INFO]: [LifeStealZ] Enabling LifeStealZ v2.14.0
+[01:20:23] [Server thread/INFO]: [LifeStealZ] Using language file: plugins/LifeStealZ/lang/en-US.yml
+[01:20:23] [Server thread/INFO]: [LifeStealZ] Using SQLite storage
+[01:20:23] [Server thread/ERROR]: Error occurred while enabling LifeStealZ v2.14.0 (Is it up to date?)
 java.lang.NoClassDefFoundError: org/bukkit/inventory/RecipeChoice
 	at org.strassburger.lifestealz.util.customitems.recipe.RecipeManager.<init>(RecipeManager.java:20) ~[?:?]
 	at org.strassburger.lifestealz.LifeStealZ.onEnable(LifeStealZ.java:83) ~[?:?]
@@ -748,40 +748,40 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.inventory.RecipeChoice
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[00:58:58] [Server thread/INFO]: [LifeStealZ] Disabling LifeStealZ v2.14.0
-[00:58:58] [Server thread/INFO]: [LifeStealZ] Canceling all running tasks...
-[00:58:58] [Server thread/INFO]: [LifeStealZ] LifeStealZ disabled!
-[00:58:58] [Server thread/INFO]: [FK] Enabling FallenKingdom v2.24.5
-[00:58:58] [Server thread/INFO]: [FK] Enable asynchronous tab completion...
-[00:58:59] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
-[00:58:59] [Server thread/INFO]: [Holograms] Enabling Holograms v1.0-SNAPSHOT
-[00:58:59] [Server thread/INFO]: [MinecraftManhunt] Enabling MinecraftManhunt v1.4.1
-[00:58:59] [Server thread/INFO]: [MinecraftManhunt] Minecraft Manhunt plugin enabled!
-[00:58:59] [Server thread/INFO]: [MinecraftManhunt] Send usage data: true
-[00:58:59] [Server thread/INFO]: [MinecraftManhunt] Found server uuid: c8b35b91-9892-4215-86b9-8bbb4aeabb8e
-[00:58:59] [Server thread/INFO]: [GreatLifeSteal] Enabling GreatLifeSteal v1.7.1-SNAPSHOT
-[00:58:59] [Server thread/INFO]: [GreatLifeSteal] Using v1.12.2 version of the adapter.
-[00:58:59] [Server thread/INFO]: [GreatLifeSteal] Choosing SQLite as a storage provider.
-[00:58:59] [Server thread/INFO]: [GreatLifeSteal] Added the new heart item recipe.
-[00:58:59] [Server thread/WARN]: [GreatLifeSteal] PlaceholderAPI plugin has not been found, external placeholders will not work.
-[00:59:00] [Server thread/WARN]: [GreatLifeSteal] You are using an outdated version of the plugin!
-[00:59:00] [Server thread/WARN]: [GreatLifeSteal] You can download the latest one here:
-[00:59:00] [Server thread/WARN]: [GreatLifeSteal] https://www.spigotmc.org/resources/greatlifesteal.102206/
-[00:59:00] [Server thread/INFO]: [PackSelector] Enabling PackSelector v1.0
-[00:59:00] [Server thread/INFO]: [PackSelector] Loading configured packs..
-[00:59:00] [Server thread/INFO]: [PackSelector] Loading database connection..
-[00:59:00] [Server thread/INFO]: [PackSelector] Loaded database connection. [SQLite]
-[00:59:00] [Server thread/INFO]: [PackSelector] Loading listeners..
-[00:59:00] [Server thread/INFO]: [PackSelector] PackSelector loaded.
-[00:59:00] [Server thread/INFO]: [DiamondRain] Enabling DiamondRain v1.0
-[00:59:00] [Server thread/INFO]: [DiamondRain] 📝 Loaded config values: maxDiamonds=10, areaSize=20, despawnTime=1200
-[00:59:00] [Server thread/INFO]: [DiamondRain] ✅💎 DiamondRain plugin has been enabled!
-[00:59:00] [Server thread/INFO]: [DiamondRain] ✅💎 DiamondRain plugin has been enabled!
-[00:59:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[00:59:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
-[00:59:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[00:59:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:59:00] [Server thread/WARN]: [WorldEdit] 
+[01:20:23] [Server thread/INFO]: [LifeStealZ] Disabling LifeStealZ v2.14.0
+[01:20:23] [Server thread/INFO]: [LifeStealZ] Canceling all running tasks...
+[01:20:23] [Server thread/INFO]: [LifeStealZ] LifeStealZ disabled!
+[01:20:23] [Server thread/INFO]: [FK] Enabling FallenKingdom v2.24.5
+[01:20:23] [Server thread/INFO]: [FK] Enable asynchronous tab completion...
+[01:20:23] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
+[01:20:23] [Server thread/INFO]: [Holograms] Enabling Holograms v1.0-SNAPSHOT
+[01:20:23] [Server thread/INFO]: [MinecraftManhunt] Enabling MinecraftManhunt v1.4.1
+[01:20:23] [Server thread/INFO]: [MinecraftManhunt] Minecraft Manhunt plugin enabled!
+[01:20:23] [Server thread/INFO]: [MinecraftManhunt] Send usage data: true
+[01:20:23] [Server thread/INFO]: [MinecraftManhunt] Found server uuid: c8b35b91-9892-4215-86b9-8bbb4aeabb8e
+[01:20:23] [Server thread/INFO]: [GreatLifeSteal] Enabling GreatLifeSteal v1.7.1-SNAPSHOT
+[01:20:23] [Server thread/INFO]: [GreatLifeSteal] Using v1.12.2 version of the adapter.
+[01:20:23] [Server thread/INFO]: [GreatLifeSteal] Choosing SQLite as a storage provider.
+[01:20:23] [Server thread/INFO]: [GreatLifeSteal] Added the new heart item recipe.
+[01:20:23] [Server thread/WARN]: [GreatLifeSteal] PlaceholderAPI plugin has not been found, external placeholders will not work.
+[01:20:24] [Server thread/WARN]: [GreatLifeSteal] You are using an outdated version of the plugin!
+[01:20:24] [Server thread/WARN]: [GreatLifeSteal] You can download the latest one here:
+[01:20:24] [Server thread/WARN]: [GreatLifeSteal] https://www.spigotmc.org/resources/greatlifesteal.102206/
+[01:20:24] [Server thread/INFO]: [PackSelector] Enabling PackSelector v1.0
+[01:20:24] [Server thread/INFO]: [PackSelector] Loading configured packs..
+[01:20:24] [Server thread/INFO]: [PackSelector] Loading database connection..
+[01:20:24] [Server thread/INFO]: [PackSelector] Loaded database connection. [SQLite]
+[01:20:24] [Server thread/INFO]: [PackSelector] Loading listeners..
+[01:20:24] [Server thread/INFO]: [PackSelector] PackSelector loaded.
+[01:20:24] [Server thread/INFO]: [DiamondRain] Enabling DiamondRain v1.0
+[01:20:24] [Server thread/INFO]: [DiamondRain] 📝 Loaded config values: maxDiamonds=10, areaSize=20, despawnTime=1200
+[01:20:24] [Server thread/INFO]: [DiamondRain] ✅💎 DiamondRain plugin has been enabled!
+[01:20:24] [Server thread/INFO]: [DiamondRain] ✅💎 DiamondRain plugin has been enabled!
+[01:20:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[01:20:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
+[01:20:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[01:20:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:20:24] [Server thread/WARN]: [WorldEdit] 
 **********************************************
 ** This WorldEdit version does not fully support your version of Bukkit.
 **
@@ -792,30 +792,30 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.inventory.RecipeChoice
 ** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
 **********************************************
 
-[00:59:00] [Server thread/INFO]: [OreAnnouncer] Enabling OreAnnouncer v2.8.5
-[00:59:00] [Server thread/INFO]: [OreAnnouncer] Initializing OreAnnouncer v2.8.5
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_EMERALD_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_DIAMOND_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_GOLD_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_REDSTONE_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'COPPER_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_IRON_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'NETHER_QUARTZ_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'ANCIENT_DEBRIS'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_EMERALD_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_DIAMOND_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_GOLD_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_REDSTONE_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'COPPER_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_IRON_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'NETHER_QUARTZ_ORE'
-[00:59:00] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'ANCIENT_DEBRIS'
-[00:59:00] [Server thread/INFO]: [OreAnnouncer] OreAnnouncer v2.8.5 enabled
-[00:59:00] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.6-dev
-[00:59:01] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
-[00:59:01] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
-[00:59:01] [Server thread/INFO]: [LifeWars] Enabling LifeWars v1.0
-[00:59:01] [Server thread/ERROR]: Error occurred while enabling LifeWars v1.0 (Is it up to date?)
+[01:20:24] [Server thread/INFO]: [OreAnnouncer] Enabling OreAnnouncer v2.8.5
+[01:20:24] [Server thread/INFO]: [OreAnnouncer] Initializing OreAnnouncer v2.8.5
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_EMERALD_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_DIAMOND_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_GOLD_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_REDSTONE_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'COPPER_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_IRON_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'NETHER_QUARTZ_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'ANCIENT_DEBRIS'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_EMERALD_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_DIAMOND_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_GOLD_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_REDSTONE_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'COPPER_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the variant block 'DEEPSLATE_IRON_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'NETHER_QUARTZ_ORE'
+[01:20:24] [Server thread/ERROR]: [OreAnnouncer] Cannot find the block 'ANCIENT_DEBRIS'
+[01:20:24] [Server thread/INFO]: [OreAnnouncer] OreAnnouncer v2.8.5 enabled
+[01:20:24] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.6-dev
+[01:20:24] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[01:20:24] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[01:20:24] [Server thread/INFO]: [LifeWars] Enabling LifeWars v1.0
+[01:20:24] [Server thread/ERROR]: Error occurred while enabling LifeWars v1.0 (Is it up to date?)
 java.lang.NoSuchMethodError: 'org.bukkit.inventory.ShapedRecipe org.bukkit.inventory.ShapedRecipe.setIngredient(char, org.bukkit.inventory.ItemStack)'
 	at com.vitaxses.lifesteal.CraftingRecipes.registerRecipe(CraftingRecipes.java:42) ~[?:?]
 	at com.vitaxses.lifesteal.LifeWars.onEnable(LifeWars.java:72) ~[?:?]
@@ -830,17 +830,17 @@ java.lang.NoSuchMethodError: 'org.bukkit.inventory.ShapedRecipe org.bukkit.inven
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:01] [Server thread/INFO]: [LifeWars] Disabling LifeWars v1.0
-[00:59:01] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
-[00:59:01] [Server thread/INFO]: [RealSkywars] Enabling RealSkywars v0.3
-[00:59:01] [Server thread/INFO]: [RealSkywars] <------------- RealSkywars | 0.3 ------------->
-[00:59:01] [Server thread/INFO]: [RealSkywars] Your server is running version v1_12_R1
-[00:59:01] [Server thread/ERROR]: [RealSkywars] Your server version is not currently supported by RealSkywars.
-[00:59:01] [Server thread/ERROR]: [RealSkywars] If you think this is a bug, contact JoseGamer_PT.
-[00:59:01] [Server thread/INFO]: [RealSkywars] <------------- RealSkywars | 0.3 ------------->
-[00:59:01] [Server thread/INFO]: [RealSkywars] Disabling RealSkywars v0.3
-[00:59:01] [Server thread/INFO]: [ChessCraft] Enabling ChessCraft v0.5.1
-[00:59:01] [Server thread/ERROR]: [ChessCraft] 
+[01:20:24] [Server thread/INFO]: [LifeWars] Disabling LifeWars v1.0
+[01:20:24] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[01:20:25] [Server thread/INFO]: [RealSkywars] Enabling RealSkywars v0.3
+[01:20:25] [Server thread/INFO]: [RealSkywars] <------------- RealSkywars | 0.3 ------------->
+[01:20:25] [Server thread/INFO]: [RealSkywars] Your server is running version v1_12_R1
+[01:20:25] [Server thread/ERROR]: [RealSkywars] Your server version is not currently supported by RealSkywars.
+[01:20:25] [Server thread/ERROR]: [RealSkywars] If you think this is a bug, contact JoseGamer_PT.
+[01:20:25] [Server thread/INFO]: [RealSkywars] <------------- RealSkywars | 0.3 ------------->
+[01:20:25] [Server thread/INFO]: [RealSkywars] Disabling RealSkywars v0.3
+[01:20:25] [Server thread/INFO]: [ChessCraft] Enabling ChessCraft v0.5.1
+[01:20:25] [Server thread/ERROR]: [ChessCraft] 
 ====================================================
  ChessCraft requires a newer version of Paper.
  You can often find a list of supported game versions
@@ -861,90 +861,90 @@ xyz.jpenilla.chesscraft.dependency.io.papermc.papertrail.UnsupportedPlatformExce
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:01] [Server thread/INFO]: [ChessCraft] Disabling ChessCraft v0.5.1
-[00:59:01] [Server thread/INFO]: [Kboss] Enabling KinglyBosses v4.0-Mini
-[00:59:01] [Server thread/INFO]: [Kboss] Using standard Bukkit scheduler
-[00:59:01] [Server thread/INFO]: [Kboss] El idioma seleccionado es: en_us
-[00:59:01] [Server thread/INFO]: Temporizador 'boss_group_2' iniciado por 2000 segundos.
-[00:59:01] [Server thread/INFO]: Temporizador 'elite_group_1' iniciado por 1500 segundos.
-[00:59:01] [Server thread/INFO]: Temporizador 'epic_boss' iniciado por 1200 segundos.
-[00:59:01] [Server thread/INFO]: ≪── K I N G L Y B O S S E S ──≫
-[00:59:01] [Server thread/INFO]: > V4.0 - Mini Edition // Unleash the Epic <
-[00:59:01] [Server thread/INFO]: ├──────────────────────────────────────────────┤
-[00:59:01] [Server thread/INFO]: │ Prepare for the ultimate challenge...
-[00:59:01] [Server thread/INFO]: │ Slay Legendary Beasts and claim your glory!
-[00:59:01] [Server thread/INFO]: ├─ MODULES ONLINE ────────────────────────┤
-[00:59:01] [Server thread/INFO]: ║  • Bosses: 3 loaded                        ║
-[00:59:01] [Server thread/INFO]: ║  • Attacks: 12 loaded                       ║
-[00:59:01] [Server thread/INFO]: ║  • Items: 4 loaded                         ║
-[00:59:01] [Server thread/INFO]: ║  • Groups: 3 loaded                        ║
-[00:59:01] [Server thread/INFO]: ║  • Mythics: 1 loaded                       ║
-[00:59:01] [Server thread/INFO]: ║  • Particles: 3 loaded                     ║
-[00:59:01] [Server thread/INFO]: ║  • Structures: 0 loaded                    ║
-[00:59:01] [Server thread/INFO]: ║  • ItemsGroups: 0 loaded                   ║
-[00:59:01] [Server thread/INFO]: ║  • Animations: 0 loaded                    ║
-[00:59:01] [Server thread/INFO]: ║  • Conditionals: 0 loaded                  ║
-[00:59:01] [Server thread/INFO]: ║  • Schedules: 0 loaded                     ║
-[00:59:01] [Server thread/INFO]: ║  • Structures: 0 loaded                    ║
-[00:59:01] [Server thread/INFO]: ║  • Triggers: 0 loaded                      ║
-[00:59:01] [Server thread/INFO]: ├─ DEPENDENCIES CHECK ───────────────────┤
-[00:59:01] [Server thread/INFO]: ║  ✗ MythicMobs not found or disabled!               ║
-[00:59:01] [Server thread/INFO]: ║  ✗ WorldGuard not found or disabled!               ║
-[00:59:01] [Server thread/INFO]: ║  ✓ WorldEdit loaded successfully!                ║
-[00:59:01] [Server thread/INFO]: ║  ✗ FastAsyncWorldEdit not found or disabled!       ║
-[00:59:01] [Server thread/INFO]: ║  ✗ Denarius not found or disabled!                 ║
-[00:59:01] [Server thread/INFO]: └──────────────────────────────────────────────┘
-[00:59:01] [Server thread/INFO]: KinglyBosses - V4.0 > Let the Battle Begin!
-[00:59:01] [Server thread/INFO]: [Kboss] KinglyBosses plugin has been enabled!
-[00:59:01] [Server thread/INFO]: §x§x§F§x§F§AKK§xK§x§Fii§xi§x§Ei§x§E§Cnn§xn§x§E§Agg§xg§x§Dg§x§D§E§Bll§xl§x§D§B§Fy§Fy§x§Fy§x§D§C§EB§EB§x§EB§x§C§D§Do§Do§x§Do§x§C§D§Bs§Bs§x§Bs§x§B§Bs§x§B§B§D§As§As§x§As§x§B§Eee§xe§x§Ae§x§A§D§Es: AttackScheduler: Timer started.
-[00:59:01] [Server thread/INFO]: [GlassJoin] Enabling GlassJoin v1.1.1
-[00:59:01] [Server thread/INFO]: ----------------------------------
-[00:59:01] [Server thread/INFO]: [GlassJoin] By @IEmatu Verion 1.0!
-[00:59:01] [Server thread/INFO]: [-----A-p-o-r-t-a--I-d-e-a-s-----]
-[00:59:01] [Server thread/INFO]: ----------------------------------
-[00:59:01] [Server thread/INFO]: Thanks for using my plugin by Ematu
-[00:59:01] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[00:59:01] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[00:59:01] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[00:59:01] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[00:59:01] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[00:59:01] [Server thread/INFO]: [ClansX] Enabling ClansX v1.0.0
-[00:59:01] [Server thread/INFO]: <------------------->
-[00:59:01] [Server thread/INFO]: ClansX (v1.0.0)
-[00:59:01] [Server thread/INFO]: has been activated!
-[00:59:01] [Server thread/INFO]: By X360
-[00:59:01] [Server thread/INFO]: <------------------->
-[00:59:01] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[00:59:01] [Server thread/INFO]: [ClansLite] Enabling ClansLite v1.4.0
-[00:59:01] [Server thread/INFO]: -------------------------------------------
-[00:59:01] [Server thread/INFO]: ClansLite: Your server version is: git-Paper-1620 (MC: 1.12.2)
-[00:59:01] [Server thread/INFO]: ClansLite: This plugin is only supported on the Minecraft versions listed below:
-[00:59:01] [Server thread/INFO]: ClansLite: 1.13.x
-[00:59:01] [Server thread/INFO]: ClansLite: 1.14.x
-[00:59:01] [Server thread/INFO]: ClansLite: 1.15.x
-[00:59:01] [Server thread/INFO]: ClansLite: 1.16.x
-[00:59:01] [Server thread/INFO]: ClansLite: 1.17.x
-[00:59:01] [Server thread/INFO]: ClansLite: 1.18.x
-[00:59:01] [Server thread/INFO]: ClansLite: 1.19.x
-[00:59:01] [Server thread/INFO]: ClansLite: 1.20.x
-[00:59:01] [Server thread/INFO]: ClansLite: Is now disabling!
-[00:59:01] [Server thread/INFO]: -------------------------------------------
-[00:59:01] [Server thread/INFO]: [ClansLite] Disabling ClansLite v1.4.0
-[00:59:01] [Server thread/INFO]: -------------------------------------------
-[00:59:01] [Server thread/INFO]: ClansLite: Plugin by: Loving11ish
-[00:59:01] [Server thread/INFO]: ClansLite: Background tasks have disabled successfully!
-[00:59:01] [Server thread/INFO]: ClansLite: Failed to save clans to clans.yml!
-[00:59:01] [Server thread/INFO]: ClansLite: Failed to save usermap to usermap.yml!
-[00:59:01] [Server thread/INFO]: ClansLite: Plugin Version: 1.4.0
-[00:59:01] [Server thread/INFO]: ClansLite: Has been shutdown successfully
-[00:59:01] [Server thread/INFO]: ClansLite: Goodbye!
-[00:59:01] [Server thread/INFO]: -------------------------------------------
-[00:59:01] [Server thread/INFO]: [ImprovedFactions] Enabling ImprovedFactions v2.3.0
-[00:59:01] [Server thread/INFO]: [ImprovedFactions] [dynmap] Dynmap module is enabled but Dynmap is not installed. Disabling Dynmap module.
-[00:59:01] [Server thread/INFO]: [ImprovedFactions] [gui] Gui module is enabled but GuiEngine is not installed. Disabling Gui module.
-[00:59:02] [Server thread/INFO]: [ImprovedFactions] Checking for updates...
-[00:59:02] [Server thread/INFO]: [ImprovedFactions] Config is up to date
-[00:59:02] [Server thread/ERROR]: Error occurred while enabling ImprovedFactions v2.3.0 (Is it up to date?)
+[01:20:25] [Server thread/INFO]: [ChessCraft] Disabling ChessCraft v0.5.1
+[01:20:25] [Server thread/INFO]: [Kboss] Enabling KinglyBosses v4.0-Mini
+[01:20:25] [Server thread/INFO]: [Kboss] Using standard Bukkit scheduler
+[01:20:25] [Server thread/INFO]: [Kboss] El idioma seleccionado es: en_us
+[01:20:25] [Server thread/INFO]: Temporizador 'boss_group_2' iniciado por 2000 segundos.
+[01:20:25] [Server thread/INFO]: Temporizador 'elite_group_1' iniciado por 1500 segundos.
+[01:20:25] [Server thread/INFO]: Temporizador 'epic_boss' iniciado por 1200 segundos.
+[01:20:25] [Server thread/INFO]: ≪── K I N G L Y B O S S E S ──≫
+[01:20:25] [Server thread/INFO]: > V4.0 - Mini Edition // Unleash the Epic <
+[01:20:25] [Server thread/INFO]: ├──────────────────────────────────────────────┤
+[01:20:25] [Server thread/INFO]: │ Prepare for the ultimate challenge...
+[01:20:25] [Server thread/INFO]: │ Slay Legendary Beasts and claim your glory!
+[01:20:25] [Server thread/INFO]: ├─ MODULES ONLINE ────────────────────────┤
+[01:20:25] [Server thread/INFO]: ║  • Bosses: 3 loaded                        ║
+[01:20:25] [Server thread/INFO]: ║  • Attacks: 12 loaded                       ║
+[01:20:25] [Server thread/INFO]: ║  • Items: 4 loaded                         ║
+[01:20:25] [Server thread/INFO]: ║  • Groups: 3 loaded                        ║
+[01:20:25] [Server thread/INFO]: ║  • Mythics: 1 loaded                       ║
+[01:20:25] [Server thread/INFO]: ║  • Particles: 3 loaded                     ║
+[01:20:25] [Server thread/INFO]: ║  • Structures: 0 loaded                    ║
+[01:20:25] [Server thread/INFO]: ║  • ItemsGroups: 0 loaded                   ║
+[01:20:25] [Server thread/INFO]: ║  • Animations: 0 loaded                    ║
+[01:20:25] [Server thread/INFO]: ║  • Conditionals: 0 loaded                  ║
+[01:20:25] [Server thread/INFO]: ║  • Schedules: 0 loaded                     ║
+[01:20:25] [Server thread/INFO]: ║  • Structures: 0 loaded                    ║
+[01:20:25] [Server thread/INFO]: ║  • Triggers: 0 loaded                      ║
+[01:20:25] [Server thread/INFO]: ├─ DEPENDENCIES CHECK ───────────────────┤
+[01:20:25] [Server thread/INFO]: ║  ✗ MythicMobs not found or disabled!               ║
+[01:20:25] [Server thread/INFO]: ║  ✗ WorldGuard not found or disabled!               ║
+[01:20:25] [Server thread/INFO]: ║  ✓ WorldEdit loaded successfully!                ║
+[01:20:25] [Server thread/INFO]: ║  ✗ FastAsyncWorldEdit not found or disabled!       ║
+[01:20:25] [Server thread/INFO]: ║  ✗ Denarius not found or disabled!                 ║
+[01:20:25] [Server thread/INFO]: └──────────────────────────────────────────────┘
+[01:20:25] [Server thread/INFO]: KinglyBosses - V4.0 > Let the Battle Begin!
+[01:20:25] [Server thread/INFO]: [Kboss] KinglyBosses plugin has been enabled!
+[01:20:25] [Server thread/INFO]: §x§x§F§x§F§AKK§xK§x§Fii§xi§x§Ei§x§E§Cnn§xn§x§E§Agg§xg§x§Dg§x§D§E§Bll§xl§x§D§B§Fy§Fy§x§Fy§x§D§C§EB§EB§x§EB§x§C§D§Do§Do§x§Do§x§C§D§Bs§Bs§x§Bs§x§B§Bs§x§B§B§D§As§As§x§As§x§B§Eee§xe§x§Ae§x§A§D§Es: AttackScheduler: Timer started.
+[01:20:25] [Server thread/INFO]: [GlassJoin] Enabling GlassJoin v1.1.1
+[01:20:25] [Server thread/INFO]: ----------------------------------
+[01:20:25] [Server thread/INFO]: [GlassJoin] By @IEmatu Verion 1.0!
+[01:20:25] [Server thread/INFO]: [-----A-p-o-r-t-a--I-d-e-a-s-----]
+[01:20:25] [Server thread/INFO]: ----------------------------------
+[01:20:25] [Server thread/INFO]: Thanks for using my plugin by Ematu
+[01:20:25] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[01:20:25] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[01:20:25] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[01:20:25] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[01:20:25] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[01:20:25] [Server thread/INFO]: [ClansX] Enabling ClansX v1.0.0
+[01:20:25] [Server thread/INFO]: <------------------->
+[01:20:25] [Server thread/INFO]: ClansX (v1.0.0)
+[01:20:25] [Server thread/INFO]: has been activated!
+[01:20:25] [Server thread/INFO]: By X360
+[01:20:25] [Server thread/INFO]: <------------------->
+[01:20:25] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[01:20:25] [Server thread/INFO]: [ClansLite] Enabling ClansLite v1.4.0
+[01:20:25] [Server thread/INFO]: -------------------------------------------
+[01:20:25] [Server thread/INFO]: ClansLite: Your server version is: git-Paper-1620 (MC: 1.12.2)
+[01:20:25] [Server thread/INFO]: ClansLite: This plugin is only supported on the Minecraft versions listed below:
+[01:20:25] [Server thread/INFO]: ClansLite: 1.13.x
+[01:20:25] [Server thread/INFO]: ClansLite: 1.14.x
+[01:20:25] [Server thread/INFO]: ClansLite: 1.15.x
+[01:20:25] [Server thread/INFO]: ClansLite: 1.16.x
+[01:20:25] [Server thread/INFO]: ClansLite: 1.17.x
+[01:20:25] [Server thread/INFO]: ClansLite: 1.18.x
+[01:20:25] [Server thread/INFO]: ClansLite: 1.19.x
+[01:20:25] [Server thread/INFO]: ClansLite: 1.20.x
+[01:20:25] [Server thread/INFO]: ClansLite: Is now disabling!
+[01:20:25] [Server thread/INFO]: -------------------------------------------
+[01:20:25] [Server thread/INFO]: [ClansLite] Disabling ClansLite v1.4.0
+[01:20:25] [Server thread/INFO]: -------------------------------------------
+[01:20:25] [Server thread/INFO]: ClansLite: Plugin by: Loving11ish
+[01:20:25] [Server thread/INFO]: ClansLite: Background tasks have disabled successfully!
+[01:20:25] [Server thread/INFO]: ClansLite: Failed to save clans to clans.yml!
+[01:20:25] [Server thread/INFO]: ClansLite: Failed to save usermap to usermap.yml!
+[01:20:25] [Server thread/INFO]: ClansLite: Plugin Version: 1.4.0
+[01:20:25] [Server thread/INFO]: ClansLite: Has been shutdown successfully
+[01:20:25] [Server thread/INFO]: ClansLite: Goodbye!
+[01:20:25] [Server thread/INFO]: -------------------------------------------
+[01:20:25] [Server thread/INFO]: [ImprovedFactions] Enabling ImprovedFactions v2.3.0
+[01:20:25] [Server thread/INFO]: [ImprovedFactions] [dynmap] Dynmap module is enabled but Dynmap is not installed. Disabling Dynmap module.
+[01:20:25] [Server thread/INFO]: [ImprovedFactions] [gui] Gui module is enabled but GuiEngine is not installed. Disabling Gui module.
+[01:20:25] [Server thread/INFO]: [ImprovedFactions] Checking for updates...
+[01:20:25] [Server thread/INFO]: [ImprovedFactions] Config is up to date
+[01:20:25] [Server thread/ERROR]: Error occurred while enabling ImprovedFactions v2.3.0 (Is it up to date?)
 java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field 'org.bukkit.Material WOODEN_SWORD'
 	at io.github.toberocat.improvedfactions.factions.Factions.<clinit>(Factions.kt:26) ~[?:?]
 	at io.github.toberocat.improvedfactions.ImprovedFactionsPlugin.loadConfig(ImprovedFactionsPlugin.kt:134) ~[?:?]
@@ -960,40 +960,40 @@ java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:02] [Server thread/INFO]: [ImprovedFactions] Disabling ImprovedFactions v2.3.0
-[00:59:02] [Server thread/INFO]: [BedwarsRel] Enabling BedwarsRel v1.3.6
-[00:59:02] [Server thread/WARN]: java.lang.RuntimeException: Unable to override the old entity RegistryMaterials
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.CustomEntityRegistry.getInstance(CustomEntityRegistry.java:56)
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.CustomEntityRegistry.addCustomEntity(CustomEntityRegistry.java:32)
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.TNTSheepRegister.registerEntities(TNTSheepRegister.java:24)
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.shop.Specials.TNTSheepListener.<init>(TNTSheepListener.java:30)
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.shop.Specials.SpecialItem.loadSpecials(SpecialItem.java:38)
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.BedwarsRel.registerListener(BedwarsRel.java:897)
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.BedwarsRel.onEnable(BedwarsRel.java:791)
-[00:59:02] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[00:59:02] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
-[00:59:02] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
-[00:59:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
-[00:59:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
-[00:59:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
-[00:59:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
-[00:59:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
-[00:59:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289)
-[00:59:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
-[00:59:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[00:59:02] [Server thread/WARN]: Caused by: java.lang.NoSuchFieldException: modifiers
-[00:59:02] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-[00:59:02] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.CustomEntityRegistry.getInstance(CustomEntityRegistry.java:47)
-[00:59:02] [Server thread/WARN]: 	... 17 more
-[00:59:02] [Server thread/INFO]: [TheBridge] Enabling TheBridge v3.2.0
-[00:59:02] [Server thread/INFO]: [TheBridge] Your server is running version v1_12_R1
-[00:59:02] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[00:59:02] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[00:59:02] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.4
-[00:59:02] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[00:59:02] [Server thread/INFO]: [MineTinker] Enabling MineTinker v1.8.1
-[00:59:02] [Server thread/INFO]: [MineTinker] LanguageManager loaded en_US successfully!
-[00:59:02] [Server thread/ERROR]: Error occurred while enabling MineTinker v1.8.1 (Is it up to date?)
+[01:20:25] [Server thread/INFO]: [ImprovedFactions] Disabling ImprovedFactions v2.3.0
+[01:20:25] [Server thread/INFO]: [BedwarsRel] Enabling BedwarsRel v1.3.6
+[01:20:25] [Server thread/WARN]: java.lang.RuntimeException: Unable to override the old entity RegistryMaterials
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.CustomEntityRegistry.getInstance(CustomEntityRegistry.java:56)
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.CustomEntityRegistry.addCustomEntity(CustomEntityRegistry.java:32)
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.TNTSheepRegister.registerEntities(TNTSheepRegister.java:24)
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.shop.Specials.TNTSheepListener.<init>(TNTSheepListener.java:30)
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.shop.Specials.SpecialItem.loadSpecials(SpecialItem.java:38)
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.BedwarsRel.registerListener(BedwarsRel.java:897)
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.BedwarsRel.onEnable(BedwarsRel.java:791)
+[01:20:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[01:20:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
+[01:20:25] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[01:20:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
+[01:20:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
+[01:20:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
+[01:20:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
+[01:20:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
+[01:20:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289)
+[01:20:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[01:20:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:20:25] [Server thread/WARN]: Caused by: java.lang.NoSuchFieldException: modifiers
+[01:20:25] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[01:20:25] [Server thread/WARN]: 	at io.github.bedwarsrel.com.v1_12_r1.CustomEntityRegistry.getInstance(CustomEntityRegistry.java:47)
+[01:20:25] [Server thread/WARN]: 	... 17 more
+[01:20:25] [Server thread/INFO]: [TheBridge] Enabling TheBridge v3.2.0
+[01:20:25] [Server thread/INFO]: [TheBridge] Your server is running version v1_12_R1
+[01:20:25] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[01:20:25] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[01:20:25] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.4
+[01:20:25] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[01:20:25] [Server thread/INFO]: [MineTinker] Enabling MineTinker v1.8.1
+[01:20:25] [Server thread/INFO]: [MineTinker] LanguageManager loaded en_US successfully!
+[01:20:25] [Server thread/ERROR]: Error occurred while enabling MineTinker v1.8.1 (Is it up to date?)
 java.lang.NoClassDefFoundError: org/bukkit/persistence/PersistentDataType
 	at de.flo56958.minetinker.MineTinker.onEnable(MineTinker.java:79) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -1013,18 +1013,18 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.persistence.PersistentDa
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 12 more
-[00:59:02] [Server thread/INFO]: [MineTinker] Disabling MineTinker v1.8.1
-[00:59:02] [Server thread/INFO]: [MineTinker] Shutting down!
-[00:59:02] [Server thread/INFO]: [LobbyUltimate] Enabling LobbyUltimate v1.0-SNAPSHOT
-[00:59:02] [Server thread/INFO]: [LobbyUltimate] Is Lobby Server: false
-[00:59:02] [Server thread/INFO]: [Capture-the-Flag] Enabling Capture-the-Flag v3b
-[00:59:02] [Server thread/INFO]: [Capture-the-Flag] Metrics enabled!
-[00:59:02] [Server thread/INFO]: [Capture-the-Flag] Welcome to ctf, it appears you have not setup an arena to use yet.
-[00:59:02] [Server thread/INFO]: [Capture-the-Flag] Please do this by using /ctfsetup when you are in-game.
-[00:59:02] [Server thread/INFO]: [Capture-the-Flag] Capture the Flag has been enabled.
-[00:59:02] [Server thread/INFO]: [FluffyLobby] Enabling FluffyLobby v1.6
-[00:59:02] [Server thread/INFO]: [FluffyLobby] Config is already valid.
-[00:59:02] [Server thread/ERROR]: Error occurred while enabling FluffyLobby v1.6 (Is it up to date?)
+[01:20:25] [Server thread/INFO]: [MineTinker] Disabling MineTinker v1.8.1
+[01:20:25] [Server thread/INFO]: [MineTinker] Shutting down!
+[01:20:25] [Server thread/INFO]: [LobbyUltimate] Enabling LobbyUltimate v1.0-SNAPSHOT
+[01:20:25] [Server thread/INFO]: [LobbyUltimate] Is Lobby Server: false
+[01:20:25] [Server thread/INFO]: [Capture-the-Flag] Enabling Capture-the-Flag v3b
+[01:20:25] [Server thread/INFO]: [Capture-the-Flag] Metrics enabled!
+[01:20:25] [Server thread/INFO]: [Capture-the-Flag] Welcome to ctf, it appears you have not setup an arena to use yet.
+[01:20:25] [Server thread/INFO]: [Capture-the-Flag] Please do this by using /ctfsetup when you are in-game.
+[01:20:25] [Server thread/INFO]: [Capture-the-Flag] Capture the Flag has been enabled.
+[01:20:25] [Server thread/INFO]: [FluffyLobby] Enabling FluffyLobby v1.6
+[01:20:25] [Server thread/INFO]: [FluffyLobby] Config is already valid.
+[01:20:25] [Server thread/ERROR]: Error occurred while enabling FluffyLobby v1.6 (Is it up to date?)
 java.lang.NoSuchFieldError: Class org.bukkit.Particle does not have member field 'org.bukkit.Particle CHERRY_LEAVES'
 	at lobby.fluffylobby.effects.ParticleHaloManager.<clinit>(ParticleHaloManager.java:15) ~[?:?]
 	at lobby.fluffylobby.FluffyLobby.onEnable(FluffyLobby.java:51) ~[?:?]
@@ -1039,17 +1039,17 @@ java.lang.NoSuchFieldError: Class org.bukkit.Particle does not have member field
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:02] [Server thread/INFO]: [FluffyLobby] Disabling FluffyLobby v1.6
-[00:59:02] [Server thread/INFO]: [BurlanGuns] Enabling BurlanGuns v1.0
-[00:59:02] [Server thread/INFO]: [BurlanGuns] Loaded gun: Pistol
-[00:59:02] [Server thread/INFO]: [BurlanGuns] Loaded gun: Kar98k
-[00:59:02] [Server thread/INFO]: [BurlanGuns] Loaded gun: Grenade Launcher
-[00:59:02] [Server thread/INFO]: [BurlanGuns] Loaded ammo: Pistol Ammo
-[00:59:02] [Server thread/INFO]: [BurlanGuns] Loaded grenade: Explosive Grenade
-[00:59:02] [Server thread/INFO]: [SimpleLifesteal] Enabling SimpleLifesteal v1.2
-[00:59:02] [Server thread/INFO]: [SimpleLifesteal] SimpleLifesteal enabled!
-[00:59:02] [Server thread/INFO]: [SimpleLifesteal] Successfully connected to SQLite database.
-[00:59:02] [Server thread/ERROR]: Error occurred while enabling SimpleLifesteal v1.2 (Is it up to date?)
+[01:20:25] [Server thread/INFO]: [FluffyLobby] Disabling FluffyLobby v1.6
+[01:20:25] [Server thread/INFO]: [BurlanGuns] Enabling BurlanGuns v1.0
+[01:20:25] [Server thread/INFO]: [BurlanGuns] Loaded gun: Pistol
+[01:20:25] [Server thread/INFO]: [BurlanGuns] Loaded gun: Kar98k
+[01:20:25] [Server thread/INFO]: [BurlanGuns] Loaded gun: Grenade Launcher
+[01:20:25] [Server thread/INFO]: [BurlanGuns] Loaded ammo: Pistol Ammo
+[01:20:25] [Server thread/INFO]: [BurlanGuns] Loaded grenade: Explosive Grenade
+[01:20:25] [Server thread/INFO]: [SimpleLifesteal] Enabling SimpleLifesteal v1.2
+[01:20:25] [Server thread/INFO]: [SimpleLifesteal] SimpleLifesteal enabled!
+[01:20:25] [Server thread/INFO]: [SimpleLifesteal] Successfully connected to SQLite database.
+[01:20:25] [Server thread/ERROR]: Error occurred while enabling SimpleLifesteal v1.2 (Is it up to date?)
 java.lang.NoClassDefFoundError: net/kyori/adventure/text/format/TextColor
 	at com.jellypudding.simpleLifesteal.SimpleLifesteal.onEnable(SimpleLifesteal.java:52) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -1070,12 +1070,12 @@ Caused by: java.lang.ClassNotFoundException: net.kyori.adventure.text.format.Tex
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 12 more
-[00:59:02] [Server thread/INFO]: [SimpleLifesteal] Disabling SimpleLifesteal v1.2
-[00:59:02] [Server thread/INFO]: [SimpleLifesteal] Saving all player heart data synchronously...
-[00:59:02] [Server thread/INFO]: [SimpleLifesteal] Finished saving player heart data synchronously.
-[00:59:02] [Server thread/INFO]: [SimpleLifesteal] SimpleLifesteal disabled.
-[00:59:02] [Server thread/INFO]: [CreativeParkour] Enabling CreativeParkour v2.11.10
-[00:59:02] [Server thread/ERROR]: Error occurred while enabling CreativeParkour v2.11.10 (Is it up to date?)
+[01:20:25] [Server thread/INFO]: [SimpleLifesteal] Disabling SimpleLifesteal v1.2
+[01:20:25] [Server thread/INFO]: [SimpleLifesteal] Saving all player heart data synchronously...
+[01:20:25] [Server thread/INFO]: [SimpleLifesteal] Finished saving player heart data synchronously.
+[01:20:25] [Server thread/INFO]: [SimpleLifesteal] SimpleLifesteal disabled.
+[01:20:25] [Server thread/INFO]: [CreativeParkour] Enabling CreativeParkour v2.11.10
+[01:20:25] [Server thread/ERROR]: Error occurred while enabling CreativeParkour v2.11.10 (Is it up to date?)
 java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field 'org.bukkit.Material LEGACY_WOOD_AXE'
 	at net.creativeparkour.Config.enable(Config.java:140) ~[?:?]
 	at net.creativeparkour.CreativeParkour.onEnable(CreativeParkour.java:94) ~[?:?]
@@ -1090,123 +1090,123 @@ java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:02] [Server thread/INFO]: [CreativeParkour] Disabling CreativeParkour v2.11.10
-[00:59:02] [Server thread/INFO]: [CreativeParkour] CreativeParkour disabled, thank you for using it!
-[00:59:02] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.20
-[00:59:02] [Server thread/INFO]: [HubParkour] Enabling HubParkour v2.7.4
-[00:59:02] [Server thread/INFO]: [HubParkour] Legacy server version detected (1.8-1.12).
-[00:59:02] [Server thread/INFO]: [HubParkour] Server UUID has been registered as: 6a792b50-ec90-4aa3-aa24-d5bf92b89da8
-[00:59:02] [Server thread/INFO]: [HubParkour] DecentHolograms has been detected detected.
-[00:59:02] [Server thread/INFO]: [HubParkour] Plugin successfully enabled!
-[00:59:03] [Server thread/INFO]: [HubParkour] HubParkour v2.8.2 is out now! I highly recommend you download the new version!
-[00:59:03] [Server thread/INFO]: [squidgame] Enabling squidgame v3.1
-[00:59:03] [Server thread/INFO]: [squidgame] Hooked into WorldEdit
-[00:59:03] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.3.3
-[00:59:03] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[00:59:03] [Server thread/INFO]: [BetterTeams] File is up to date
-[00:59:03] [Server thread/INFO]: Display team name config value: prefix
-[00:59:03] [Server thread/INFO]: Loading below name. Type: PREFIX
-[00:59:03] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@61ce6673
-[00:59:03] [Server thread/INFO]: [ajParkour] Enabling ajParkour v2.12.10
-[00:59:03] [Server thread/INFO]: ajParkour v2.12.10 by ajgeiss0702 has been enabled!
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Enabling EggWarsReloaded v0.2.1
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Loading config
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Looking for hooks
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Hooked into Vault!
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Registering command
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Registering listeners
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Loading arenas
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] No arenas found!
-[00:59:03] [Server thread/ERROR]: [EggWarsReloaded] Plugin EggWarsReloaded v0.2.1 has failed to register events for class net.pistonmaster.eggwarsreloaded.utils.SignManager because org/bukkit/block/data/type/WallSign does not exist.
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Checking for updates
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] There is not a new update available.
-[00:59:03] [Server thread/INFO]: [EggWarsReloaded] Loading metrics
-[00:59:03] [Server thread/INFO]: [FAuction] Enabling FAuction v1.8.12
-[00:59:03] [Server thread/INFO]: [FAuction] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:59:03] [Server thread/INFO]: [FAuction] Registered Vault Permissions
-[00:59:03] [Server thread/INFO]: [FAuction] Registered Vault Economy
-[00:59:03] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-[00:59:03] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[00:59:03] [Server thread/INFO]: [FAuction] Initialized database tables
-[00:59:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
-[00:59:03] [Server thread/INFO]: [Essentials] Loading Name->UUID cache from disk...
-[00:59:03] [Server thread/INFO]: [Essentials] Loading UUID cache from disk...
-[00:59:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:59:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider BlockMetaSpawnerItemProvider for SpawnerItemProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflSpawnerBlockProvider for SpawnerBlockProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider BukkitSpawnerBlockProvider for SpawnerBlockProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider LegacySpawnEggProvider for SpawnEggProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflSpawnEggProvider for SpawnEggProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider FlatSpawnEggProvider for SpawnEggProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PrehistoricPotionMetaProvider for PotionMetaProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider LegacyPotionMetaProvider for PotionMetaProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernPotionMetaProvider for PotionMetaProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider LegacyBannerDataProvider for BannerDataProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider BaseBannerDataProvider for BannerDataProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflServerStateProvider for ServerStateProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PaperServerStateProvider for ServerStateProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PaperContainerProvider for ContainerProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PaperSerializationProvider for SerializationProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflKnownCommandsProvider for KnownCommandsProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PaperKnownCommandsProvider for KnownCommandsProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflFormattedCommandAliasProvider for FormattedCommandAliasProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider BukkitMaterialTagProvider for MaterialTagProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PaperMaterialTagProvider for MaterialTagProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflSyncCommandsProvider for SyncCommandsProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernSyncCommandsProvider for SyncCommandsProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflPersistentDataProvider for PersistentDataProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernPersistentDataProvider for PersistentDataProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflOnlineModeProvider for OnlineModeProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider LegacyItemUnbreakableProvider for ItemUnbreakableProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernItemUnbreakableProvider for ItemUnbreakableProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider FixedHeightWorldInfoProvider for WorldInfoProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ReflDataWorldInfoProvider for WorldInfoProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernDataWorldInfoProvider for WorldInfoProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernSignDataProvider for SignDataProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernPlayerLocaleProvider for PlayerLocaleProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider LegacyPlayerLocaleProvider for PlayerLocaleProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider ModernDamageEventProvider for DamageEventProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider LegacyDamageEventProvider for DamageEventProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider LegacyInventoryViewProvider for InventoryViewProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider BaseInventoryViewProvider for InventoryViewProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PaperBiomeKeyProvider for BiomeKeyProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Registered provider PaperTickCountProvider for TickCountProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
-[00:59:03] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
-[00:59:03] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[00:59:03] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[00:59:03] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
-[00:59:03] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[00:59:03] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[00:59:03] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[00:59:03] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
-[00:59:03] [Server thread/INFO]: [Essentials] Trying to deserialize item 'blue_dye' with resolver 'essentials:custom_items'...
-[00:59:03] [Server thread/INFO]: [Essentials] Trying to deserialize item 'sand' with resolver 'essentials:custom_items'...
-[00:59:03] [Server thread/INFO]: [Essentials] Trying to deserialize item 'cooked_porkchop' with resolver 'essentials:custom_items'...
-[00:59:03] [Server thread/INFO]: [Essentials] Using locale en
-[00:59:03] [Server thread/INFO]: [Essentials] Registering Listeners
-[00:59:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:59:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:59:03] [Server thread/INFO]: [Essentials] Essentials load execution time: AdventureUpgrade: 134.293ms - I18n1: 5.860ms - Upgrade: 12.359ms - Settings: 56.244ms - Upgrade2: 0.013ms - Init(Mail): 0.832ms - Init(Usermap): 3.360ms - Init(BalanceTop): 0.473ms - Kits: 3.233ms - Init(RandomTeleport): 0.951ms - Upgrade3: 0.154ms - Init(Warp): 0.847ms - Init(Worth): 2.991ms - Init(ItemDB): 2.405ms - Init(CustomItemResolver): 0.986ms - Init(Jails): 0.804ms - Init(EconomyLayers): 0.212ms - Init(Providers): 22.643ms - Reload(Settings): 7.733ms - Reload(Kits): 0.638ms - Reload(RandomTeleport): 0.961ms - Reload(Warps): 0.039ms - Reload(Worth): 1.452ms - Reload(LegacyItemDb): 36.321ms - Reload(CustomItemResolver): 3.075ms - Reload(Jails): 0.082ms - RegHandler: 186.038ms - Init(External): 16.304ms - Total: 501.303ms
-[00:59:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[00:59:03] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:59:03] [Server thread/INFO]: [PVP Arena] Enabling pvparena v2.0.0
-[00:59:03] [Server thread/ERROR]: Error occurred while enabling pvparena v2.0.0 (Is it up to date?)
+[01:20:25] [Server thread/INFO]: [CreativeParkour] Disabling CreativeParkour v2.11.10
+[01:20:25] [Server thread/INFO]: [CreativeParkour] CreativeParkour disabled, thank you for using it!
+[01:20:25] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.20
+[01:20:25] [Server thread/INFO]: [HubParkour] Enabling HubParkour v2.7.4
+[01:20:25] [Server thread/INFO]: [HubParkour] Legacy server version detected (1.8-1.12).
+[01:20:25] [Server thread/INFO]: [HubParkour] Server UUID has been registered as: 6a792b50-ec90-4aa3-aa24-d5bf92b89da8
+[01:20:25] [Server thread/INFO]: [HubParkour] DecentHolograms has been detected detected.
+[01:20:25] [Server thread/INFO]: [HubParkour] Plugin successfully enabled!
+[01:20:25] [Server thread/INFO]: [HubParkour] HubParkour v2.8.2 is out now! I highly recommend you download the new version!
+[01:20:25] [Server thread/INFO]: [squidgame] Enabling squidgame v3.1
+[01:20:25] [Server thread/INFO]: [squidgame] Hooked into WorldEdit
+[01:20:25] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.3.3
+[01:20:25] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[01:20:25] [Server thread/INFO]: [BetterTeams] File is up to date
+[01:20:25] [Server thread/INFO]: Display team name config value: prefix
+[01:20:25] [Server thread/INFO]: Loading below name. Type: PREFIX
+[01:20:25] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@51eae3fe
+[01:20:25] [Server thread/INFO]: [ajParkour] Enabling ajParkour v2.12.10
+[01:20:25] [Server thread/INFO]: ajParkour v2.12.10 by ajgeiss0702 has been enabled!
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Enabling EggWarsReloaded v0.2.1
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Loading config
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Looking for hooks
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Hooked into Vault!
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Registering command
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Registering listeners
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Loading arenas
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] No arenas found!
+[01:20:25] [Server thread/ERROR]: [EggWarsReloaded] Plugin EggWarsReloaded v0.2.1 has failed to register events for class net.pistonmaster.eggwarsreloaded.utils.SignManager because org/bukkit/block/data/type/WallSign does not exist.
+[01:20:25] [Server thread/INFO]: [EggWarsReloaded] Checking for updates
+[01:20:26] [Server thread/INFO]: [EggWarsReloaded] There is not a new update available.
+[01:20:26] [Server thread/INFO]: [EggWarsReloaded] Loading metrics
+[01:20:26] [Server thread/INFO]: [FAuction] Enabling FAuction v1.8.12
+[01:20:26] [Server thread/INFO]: [FAuction] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:20:26] [Server thread/INFO]: [FAuction] Registered Vault Permissions
+[01:20:26] [Server thread/INFO]: [FAuction] Registered Vault Economy
+[01:20:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[01:20:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[01:20:26] [Server thread/INFO]: [FAuction] Initialized database tables
+[01:20:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[01:20:26] [Server thread/INFO]: [Essentials] Loading Name->UUID cache from disk...
+[01:20:26] [Server thread/INFO]: [Essentials] Loading UUID cache from disk...
+[01:20:26] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:20:26] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider BlockMetaSpawnerItemProvider for SpawnerItemProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflSpawnerBlockProvider for SpawnerBlockProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider BukkitSpawnerBlockProvider for SpawnerBlockProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider LegacySpawnEggProvider for SpawnEggProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflSpawnEggProvider for SpawnEggProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider FlatSpawnEggProvider for SpawnEggProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PrehistoricPotionMetaProvider for PotionMetaProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider LegacyPotionMetaProvider for PotionMetaProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernPotionMetaProvider for PotionMetaProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider LegacyBannerDataProvider for BannerDataProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider BaseBannerDataProvider for BannerDataProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflServerStateProvider for ServerStateProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PaperServerStateProvider for ServerStateProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PaperContainerProvider for ContainerProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PaperSerializationProvider for SerializationProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflKnownCommandsProvider for KnownCommandsProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PaperKnownCommandsProvider for KnownCommandsProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflFormattedCommandAliasProvider for FormattedCommandAliasProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider BukkitMaterialTagProvider for MaterialTagProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PaperMaterialTagProvider for MaterialTagProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflSyncCommandsProvider for SyncCommandsProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernSyncCommandsProvider for SyncCommandsProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflPersistentDataProvider for PersistentDataProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernPersistentDataProvider for PersistentDataProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflOnlineModeProvider for OnlineModeProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider LegacyItemUnbreakableProvider for ItemUnbreakableProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernItemUnbreakableProvider for ItemUnbreakableProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider FixedHeightWorldInfoProvider for WorldInfoProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ReflDataWorldInfoProvider for WorldInfoProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernDataWorldInfoProvider for WorldInfoProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernSignDataProvider for SignDataProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernPlayerLocaleProvider for PlayerLocaleProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider LegacyPlayerLocaleProvider for PlayerLocaleProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider ModernDamageEventProvider for DamageEventProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider LegacyDamageEventProvider for DamageEventProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider LegacyInventoryViewProvider for InventoryViewProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider BaseInventoryViewProvider for InventoryViewProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PaperBiomeKeyProvider for BiomeKeyProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Registered provider PaperTickCountProvider for TickCountProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[01:20:26] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[01:20:26] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[01:20:26] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[01:20:26] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[01:20:26] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[01:20:26] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[01:20:26] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[01:20:26] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[01:20:26] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[01:20:26] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[01:20:26] [Server thread/INFO]: [Essentials] Trying to deserialize item 'blue_dye' with resolver 'essentials:custom_items'...
+[01:20:26] [Server thread/INFO]: [Essentials] Trying to deserialize item 'sand' with resolver 'essentials:custom_items'...
+[01:20:26] [Server thread/INFO]: [Essentials] Trying to deserialize item 'cooked_porkchop' with resolver 'essentials:custom_items'...
+[01:20:26] [Server thread/INFO]: [Essentials] Using locale en
+[01:20:26] [Server thread/INFO]: [Essentials] Registering Listeners
+[01:20:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:20:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:20:26] [Server thread/INFO]: [Essentials] Essentials load execution time: AdventureUpgrade: 81.598ms - I18n1: 5.029ms - Upgrade: 8.177ms - Settings: 40.868ms - Upgrade2: 0.009ms - Init(Mail): 0.712ms - Init(Usermap): 2.577ms - Init(BalanceTop): 0.369ms - Kits: 2.640ms - Init(RandomTeleport): 0.989ms - Upgrade3: 0.155ms - Init(Warp): 0.704ms - Init(Worth): 2.340ms - Init(ItemDB): 1.157ms - Init(CustomItemResolver): 0.628ms - Init(Jails): 0.674ms - Init(EconomyLayers): 0.181ms - Init(Providers): 20.217ms - Reload(Settings): 6.455ms - Reload(Kits): 0.576ms - Reload(RandomTeleport): 0.406ms - Reload(Warps): 0.040ms - Reload(Worth): 1.319ms - Reload(LegacyItemDb): 39.631ms - Reload(CustomItemResolver): 2.970ms - Reload(Jails): 0.074ms - RegHandler: 174.377ms - Init(External): 16.493ms - Total: 411.365ms
+[01:20:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[01:20:26] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[01:20:26] [Server thread/INFO]: [PVP Arena] Enabling pvparena v2.0.0
+[01:20:26] [Server thread/ERROR]: Error occurred while enabling pvparena v2.0.0 (Is it up to date?)
 java.lang.NoSuchFieldError: Class org.bukkit.potion.PotionEffectType does not have member field 'org.bukkit.potion.PotionEffectType SLOW_FALLING'
 	at net.slipcor.pvparena.compatibility.EffectTypeAdapter.<clinit>(EffectTypeAdapter.java:39) ~[?:?]
 	at net.slipcor.pvparena.listeners.EntityListener.<clinit>(EntityListener.java:71) ~[?:?]
@@ -1222,139 +1222,139 @@ java.lang.NoSuchFieldError: Class org.bukkit.potion.PotionEffectType does not ha
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:03] [Server thread/INFO]: [PVP Arena] Disabling pvparena v2.0.0
-[00:59:03] [Server thread/INFO]: [PVP Arena] disabled (version pvparena v2.0.0)
-[00:59:03] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v17.8.0
-[00:59:04] [Server thread/INFO]: [CustomJoinMessages] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:59:04] [Server thread/INFO]: [CTSNC] Enabling CTSNC v11.7
-[00:59:04] [Server thread/INFO]: [CTSNC] You need to download TTA!
-[00:59:04] [Server thread/INFO]: [CTSNC] CTSNC will now shut down!
-[00:59:04] [Server thread/INFO]: [CTSNC] Disabling CTSNC v11.7
-[00:59:04] [Server thread/INFO]: [CTSNC] Version: 11.7 by [Herbystar] disabled!
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.13.0
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[00:59:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 244ms to complete
-[00:59:04] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.13.0 but found v6.14.5.
-[00:59:04] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.10.10
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Starting OpenAudioMc, build 1543 by Mats
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Detected md_5 chat support, using default user adapter
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Skipped 45/45 migrations.
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] ModuleLoaderService: Loading modules from /workspaces/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces/server/plugins/OpenAudioMc/modules
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Using networking class com.craftmend.openaudiomc.generic.networking.DefaultNetworkingService
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Initializing connection service...
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Starting authentication module
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] This server already has an account, skipping sign up.
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Adding spigot tables
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Alias
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (alias<->Alias.java)
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for ClientDataStore
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MojangProfile
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for RegionProperties
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Speaker
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for StoredWorldChunk
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for TimedRegionProperties
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MediaRule
-[00:59:04] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
-[00:59:05] [Server thread/INFO]: [OpenAudioMc] [info] Initializing account details
-[00:59:05] [Server thread/INFO]: [OpenAudioMc] [info] The server is empty! ignoring voice chat.
-[00:59:05] [Server thread/INFO]: [OpenAudioMc] [info] Loading aliases...
-[00:59:05] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 aliases
-[00:59:05] [Server thread/INFO]: [OpenAudioMc] [info] Detected version type: LEGACY
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the 1.12 speaker system
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Hooking speakers attempt 1..
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Starting redstone speaker tick task with interval 5 ticks
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Playlist
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlists<->Playlist.java)
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for PlaylistEntry
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlist_entries<->PlaylistEntry.java)
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 media chunks from file.
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Loading static voice channels..
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: survival
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: off-topic
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: staff-chat
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 3 static voice channels
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Plugin Essentials is already enabled, running handler
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] The legacy cdn exporter is disabled, skipping boot.
-[00:59:06] [Server thread/INFO]: [OpenAudioMc] [info] Starting and loading took 11638MS
-[00:59:06] [Server thread/INFO]: [UltimateArena] Enabling UltimateArena v3.0
-[00:59:06] [Server thread/WARN]: [UltimateArena] UltimateArena does not support Minecraft 1.12.2. Check for an update!
-[00:59:06] [Server thread/INFO]: [UltimateArena] Loaded 8 classes.
-[00:59:06] [Server thread/INFO]: [UltimateArena] Loaded 0 signs.
-[00:59:06] [Server thread/INFO]: [UltimateArena] Essentials integration successful.
-[00:59:06] [Server thread/INFO]: [UltimateArena] Vault integration successful.
-[00:59:06] [Server thread/INFO]: [UltimateArena] WorldEdit integration successful.
-[00:59:06] [Server thread/INFO]: [UltimateArena] UltimateArena v3.0 has been enabled. Took 55 ms.
-[00:59:06] [Server thread/INFO]: [NameColor] Enabling NameColor v1.9
-[00:59:06] [Server thread/INFO]: [NameColor] Using Essentials mode
-[00:59:06] [Server thread/INFO]: [NameColor] Configuration found.
-[00:59:06] [Server thread/INFO]: +-----------[NameColor]-----------+
-[00:59:06] [Server thread/INFO]: |    A new update is available!   |
-[00:59:06] [Server thread/INFO]: |          Download at:           |
-[00:59:06] [Server thread/INFO]: |  https://wiicart.net/namecolor  |
-[00:59:06] [Server thread/INFO]: +---------------------------------+
-[00:59:06] [Server thread/INFO]: [NameColor] NameColor version 1.9 enabled.
-[00:59:06] [Server thread/INFO]: [Duels] Enabling Duels v3.9
-[00:59:07] [Server thread/INFO]: ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-[00:59:07] [Server thread/INFO]: ║  ██████╗ ██╗   ██╗███████╗██╗     ███████╗     ██████╗ ██████╗ ████████╗██╗███╗   ███╗██╗███████╗███████╗██████╗  ║
-[00:59:07] [Server thread/INFO]: ║  ██╔══██╗██║   ██║██╔════╝██║     ██╔════╝    ██╔═══██╗██╔══██╗╚══██╔══╝██║████╗ ████║██║██╔════╝██╔════╝██╔══██╗ ║
-[00:59:07] [Server thread/INFO]: ║  ██║  ██║██║   ██║█████╗  ██║     ███████╗    ██║   ██║██████╔╝   ██║   ██║██╔████╔██║██║███████╗█████╗  ██║  ██║ ║
-[00:59:07] [Server thread/INFO]: ║  ██║  ██║██║   ██║██╔══╝  ██║     ╚════██║    ██║   ██║██╔═══╝    ██║   ██║██║╚██╔╝██║██║╚════██║██╔══╝  ██║  ██║ ║
-[00:59:07] [Server thread/INFO]: ║  ██████╔╝╚██████╔╝███████╗███████╗███████║    ╚██████╔╝██║        ██║   ██║██║ ╚═╝ ██║██║███████║███████╗██████╔╝ ║
-[00:59:07] [Server thread/INFO]: ║  ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝     ╚═════╝ ╚═╝        ╚═╝   ╚═╝╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═════╝  ║
-[00:59:07] [Server thread/INFO]: ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
-[00:59:07] [Server thread/INFO]: Duels Optimised » Starting to load log manager
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded Log Manager in [4ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Starting to load loadables
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded config in [4ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded lang in [0ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded user manager in [4ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded gui listener in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded party manager in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded kit manager in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded arena manager in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded settings manager in [1ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded player manager in [3ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded spectate manager in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded betting manager in [1ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded inventory manager in [1ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded duel manager in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded queue manager in [4ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded queue signs in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded request manager in [2ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully hooked into 'Essentials'!
-[00:59:07] [Server thread/INFO]: [Duels] Using Economy Provider: com.earth2me.essentials.economy.vault.VaultEconomyProvider
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully hooked into 'Vault'!
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded hook manager in [5ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded validator manager in [0ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded teleport manager in [1ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully loaded extension manager in [1ms]
-[00:59:07] [Server thread/INFO]: Duels Optimised » Registering commands...
-[00:59:07] [Server thread/INFO]: Duels Optimised » Successfully registered commands [0ms]
-[00:59:07] [Server thread/ERROR]: [[Duels-Optimised]] Error loading KitManagerImpl
+[01:20:26] [Server thread/INFO]: [PVP Arena] Disabling pvparena v2.0.0
+[01:20:26] [Server thread/INFO]: [PVP Arena] disabled (version pvparena v2.0.0)
+[01:20:26] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v17.8.0
+[01:20:26] [Server thread/INFO]: [CustomJoinMessages] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:20:26] [Server thread/INFO]: [CTSNC] Enabling CTSNC v11.7
+[01:20:26] [Server thread/INFO]: [CTSNC] You need to download TTA!
+[01:20:26] [Server thread/INFO]: [CTSNC] CTSNC will now shut down!
+[01:20:26] [Server thread/INFO]: [CTSNC] Disabling CTSNC v11.7
+[01:20:26] [Server thread/INFO]: [CTSNC] Version: 11.7 by [Herbystar] disabled!
+[01:20:26] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.13.0
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[01:20:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 233ms to complete
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.10.10
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Starting OpenAudioMc, build 1543 by Mats
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Detected md_5 chat support, using default user adapter
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Skipped 45/45 migrations.
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] ModuleLoaderService: Loading modules from /workspaces/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces/server/plugins/OpenAudioMc/modules
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Using networking class com.craftmend.openaudiomc.generic.networking.DefaultNetworkingService
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Initializing connection service...
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Starting authentication module
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] This server already has an account, skipping sign up.
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Adding spigot tables
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Alias
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (alias<->Alias.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for ClientDataStore
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MojangProfile
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for RegionProperties
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Speaker
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for StoredWorldChunk
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for TimedRegionProperties
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MediaRule
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
+[01:20:27] [Server thread/INFO]: [OpenAudioMc] [info] Initializing account details
+[01:20:27] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.13.0 but found v6.14.5.
+[01:20:27] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] The server is empty! ignoring voice chat.
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Loading aliases...
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 aliases
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Detected version type: LEGACY
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the 1.12 speaker system
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Hooking speakers attempt 1..
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Starting redstone speaker tick task with interval 5 ticks
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Playlist
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlists<->Playlist.java)
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for PlaylistEntry
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlist_entries<->PlaylistEntry.java)
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 media chunks from file.
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Loading static voice channels..
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: survival
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: off-topic
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: staff-chat
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 3 static voice channels
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Plugin Essentials is already enabled, running handler
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] The legacy cdn exporter is disabled, skipping boot.
+[01:20:28] [Server thread/INFO]: [OpenAudioMc] [info] Starting and loading took 7480MS
+[01:20:28] [Server thread/INFO]: [UltimateArena] Enabling UltimateArena v3.0
+[01:20:28] [Server thread/WARN]: [UltimateArena] UltimateArena does not support Minecraft 1.12.2. Check for an update!
+[01:20:28] [Server thread/INFO]: [UltimateArena] Loaded 8 classes.
+[01:20:28] [Server thread/INFO]: [UltimateArena] Loaded 0 signs.
+[01:20:28] [Server thread/INFO]: [UltimateArena] Essentials integration successful.
+[01:20:28] [Server thread/INFO]: [UltimateArena] Vault integration successful.
+[01:20:28] [Server thread/INFO]: [UltimateArena] WorldEdit integration successful.
+[01:20:28] [Server thread/INFO]: [UltimateArena] UltimateArena v3.0 has been enabled. Took 55 ms.
+[01:20:28] [Server thread/INFO]: [NameColor] Enabling NameColor v1.9
+[01:20:28] [Server thread/INFO]: [NameColor] Using Essentials mode
+[01:20:28] [Server thread/INFO]: [NameColor] Configuration found.
+[01:20:28] [Server thread/INFO]: +-----------[NameColor]-----------+
+[01:20:28] [Server thread/INFO]: |    A new update is available!   |
+[01:20:28] [Server thread/INFO]: |          Download at:           |
+[01:20:28] [Server thread/INFO]: |  https://wiicart.net/namecolor  |
+[01:20:28] [Server thread/INFO]: +---------------------------------+
+[01:20:28] [Server thread/INFO]: [NameColor] NameColor version 1.9 enabled.
+[01:20:28] [Server thread/INFO]: [Duels] Enabling Duels v3.9
+[01:20:29] [Server thread/INFO]: ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+[01:20:29] [Server thread/INFO]: ║  ██████╗ ██╗   ██╗███████╗██╗     ███████╗     ██████╗ ██████╗ ████████╗██╗███╗   ███╗██╗███████╗███████╗██████╗  ║
+[01:20:29] [Server thread/INFO]: ║  ██╔══██╗██║   ██║██╔════╝██║     ██╔════╝    ██╔═══██╗██╔══██╗╚══██╔══╝██║████╗ ████║██║██╔════╝██╔════╝██╔══██╗ ║
+[01:20:29] [Server thread/INFO]: ║  ██║  ██║██║   ██║█████╗  ██║     ███████╗    ██║   ██║██████╔╝   ██║   ██║██╔████╔██║██║███████╗█████╗  ██║  ██║ ║
+[01:20:29] [Server thread/INFO]: ║  ██║  ██║██║   ██║██╔══╝  ██║     ╚════██║    ██║   ██║██╔═══╝    ██║   ██║██║╚██╔╝██║██║╚════██║██╔══╝  ██║  ██║ ║
+[01:20:29] [Server thread/INFO]: ║  ██████╔╝╚██████╔╝███████╗███████╗███████║    ╚██████╔╝██║        ██║   ██║██║ ╚═╝ ██║██║███████║███████╗██████╔╝ ║
+[01:20:29] [Server thread/INFO]: ║  ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝     ╚═════╝ ╚═╝        ╚═╝   ╚═╝╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═════╝  ║
+[01:20:29] [Server thread/INFO]: ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+[01:20:29] [Server thread/INFO]: Duels Optimised » Starting to load log manager
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded Log Manager in [3ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Starting to load loadables
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded config in [3ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded lang in [0ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded user manager in [4ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded gui listener in [2ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded party manager in [1ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded kit manager in [3ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded arena manager in [2ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded settings manager in [1ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded player manager in [3ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded spectate manager in [2ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded betting manager in [0ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded inventory manager in [1ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded duel manager in [2ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded queue manager in [3ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded queue signs in [2ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded request manager in [1ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully hooked into 'Essentials'!
+[01:20:29] [Server thread/INFO]: [Duels] Using Economy Provider: com.earth2me.essentials.economy.vault.VaultEconomyProvider
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully hooked into 'Vault'!
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded hook manager in [4ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded validator manager in [1ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded teleport manager in [0ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully loaded extension manager in [1ms]
+[01:20:29] [Server thread/INFO]: Duels Optimised » Registering commands...
+[01:20:29] [Server thread/INFO]: Duels Optimised » Successfully registered commands [1ms]
+[01:20:29] [Server thread/ERROR]: [[Duels-Optimised]] Error loading KitManagerImpl
 java.lang.NullPointerException: Cannot invoke "org.bukkit.Material.getId()" because "type" is null
 	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:72) ~[patched_1.12.2.jar:git-Paper-1620]
 	at com.meteordevelopments.duels.util.inventory.ItemBuilder.<init>(ItemBuilder.java:32) ~[?:?]
@@ -1376,12 +1376,12 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.Material.getId()" beca
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:07] [Server thread/INFO]: Duels Optimised » There was an error while loading KitManagerImpl! If you believe this is an issue from the plugin, please contact the developer.
-[00:59:07] [Server thread/INFO]: [Duels] Disabling Duels v3.9
-[00:59:07] [Server thread/INFO]: Duels Optimised » Disable process took 2ms.
-[00:59:07] [Server thread/INFO]: Duels Optimised » Starting to load pre-listeners
-[00:59:07] [Server thread/ERROR]: Error occurred while enabling Duels v3.9 (Is it up to date?)
-org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register com.meteordevelopments.duels.listeners.KitItemListener@658761ec while not enabled
+[01:20:29] [Server thread/INFO]: Duels Optimised » There was an error while loading KitManagerImpl! If you believe this is an issue from the plugin, please contact the developer.
+[01:20:29] [Server thread/INFO]: [Duels] Disabling Duels v3.9
+[01:20:29] [Server thread/INFO]: Duels Optimised » Disable process took 3ms.
+[01:20:29] [Server thread/INFO]: Duels Optimised » Starting to load pre-listeners
+[01:20:29] [Server thread/ERROR]: Error occurred while enabling Duels v3.9 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register com.meteordevelopments.duels.listeners.KitItemListener@7840ca5d while not enabled
 	at org.bukkit.plugin.SimplePluginManager.registerEvents(SimplePluginManager.java:541) ~[patched_1.12.2.jar:git-Paper-1620]
 	at com.meteordevelopments.duels.listeners.KitItemListener.<init>(KitItemListener.java:42) ~[?:?]
 	at com.meteordevelopments.duels.DuelsPlugin.loadPreListeners(DuelsPlugin.java:500) ~[?:?]
@@ -1397,8 +1397,8 @@ org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register com
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:07] [Server thread/INFO]: [MobArena] Enabling MobArena v0.109
-[00:59:07] [Server thread/ERROR]: Error occurred while enabling MobArena v0.109 (Is it up to date?)
+[01:20:29] [Server thread/INFO]: [MobArena] Enabling MobArena v0.109
+[01:20:29] [Server thread/ERROR]: Error occurred while enabling MobArena v0.109 (Is it up to date?)
 java.lang.IllegalStateException: Incompatible server version! This build does not work on 1.12.2. Perhaps you downloaded the wrong build?
 	at com.garbagemule.MobArena.ServerVersionCheck.fail(ServerVersionCheck.java:40) ~[?:?]
 	at com.garbagemule.MobArena.ServerVersionCheck.check(ServerVersionCheck.java:22) ~[?:?]
@@ -1414,18 +1414,31 @@ java.lang.IllegalStateException: Incompatible server version! This build does no
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:07] [Server thread/INFO]: [MobArena] Disabling MobArena v0.109
-[00:59:07] [Server thread/INFO]: Done (9.535s)! For help, type "help" or "?"
-[00:59:07] [Server thread/INFO]: Timings Reset
-[00:59:07] [Craft Scheduler Thread - 4/INFO]: [DecentHolograms] Loading holograms... 
-[00:59:07] [Craft Scheduler Thread - 13/INFO]: [Essentials] Fetching version information...
-[00:59:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
-[00:59:07] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[00:59:07] [Craft Scheduler Thread - 4/INFO]: [DecentHolograms] Loaded 1 holograms!
-[00:59:07] [Craft Scheduler Thread - 5/INFO]: [SimpleTpa] There is a new update available.
-[00:59:07] [Craft Scheduler Thread - 5/INFO]: [SimpleTpa] There is a new update available:
-[00:59:07] [Craft Scheduler Thread - 5/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
-[00:59:07] [Craft Scheduler Thread - 7/WARN]: [Kboss] Plugin KinglyBosses v4.0-Mini generated an exception while executing task 511
+[01:20:29] [Server thread/INFO]: [MobArena] Disabling MobArena v0.109
+[01:20:29] [Server thread/INFO]: Done (6.764s)! For help, type "help" or "?"
+[01:20:29] [Server thread/INFO]: Timings Reset
+[01:20:29] [Craft Scheduler Thread - 4/INFO]: [DecentHolograms] Loading holograms... 
+[01:20:29] [Craft Scheduler Thread - 13/INFO]: [Essentials] Fetching version information...
+[01:20:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[01:20:29] [Craft Scheduler Thread - 4/INFO]: [DecentHolograms] Loaded 1 holograms!
+[01:20:29] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[01:20:29] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[01:20:29] [Server thread/INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
+[01:20:29] [Craft Scheduler Thread - 5/INFO]: [SimpleTpa] There is a new update available.
+[01:20:29] [Craft Scheduler Thread - 5/INFO]: [SimpleTpa] There is a new update available:
+[01:20:29] [Craft Scheduler Thread - 5/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
+[01:20:29] [Craft Scheduler Thread - 6/INFO]: 
+A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[01:20:29] [Craft Scheduler Thread - 11/INFO]: [BetterTeams] An update for BetterTeams has been released. Update here (https://www.spigotmc.org/resources/better-teams.17129/)
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_column_up[0m
+[01:20:29] [Craft Scheduler Thread - 1/INFO]: [Spawn] An update is available! Latest version: 2.4.2, you are using: 2.4.1
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type flash[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_signal_smoke[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_cosy_smoke[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_signal_smoke[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_cosy_smoke[0m
+[01:20:29] [Craft Scheduler Thread - 7/WARN]: [Kboss] Plugin KinglyBosses v4.0-Mini generated an exception while executing task 511
 java.lang.NoSuchMethodError: 'com.google.gson.JsonElement com.google.gson.JsonParser.parseString(java.lang.String)'
 	at kinglyfs.kinglybosses.util.config.UpdateChecker.lambda$checkForUpdates$1(UpdateChecker.java:42) ~[?:?]
 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -1434,97 +1447,54 @@ java.lang.NoSuchMethodError: 'com.google.gson.JsonElement com.google.gson.JsonPa
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:59:07] [Craft Scheduler Thread - 6/INFO]: 
-A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
-[00:59:07] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[00:59:07] [Server thread/INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
-[00:59:07] [Craft Scheduler Thread - 11/INFO]: [BetterTeams] An update for BetterTeams has been released. Update here (https://www.spigotmc.org/resources/better-teams.17129/)
-[00:59:07] [Craft Scheduler Thread - 1/INFO]: [Spawn] An update is available! Latest version: 2.4.2, you are using: 2.4.1
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_column_up[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type flash[0m
-[00:59:07] [Craft Scheduler Thread - 12/INFO]: [ajParkour] You are up to date! (2.12.10)
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_signal_smoke[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_cosy_smoke[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_signal_smoke[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type campfire_cosy_smoke[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
-[00:59:07] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
-[00:59:08] [Server thread/INFO]: [Magic] Loaded 527 spells
-[00:59:08] [Server thread/INFO]: [Magic] Loaded 12 progression paths
-[00:59:08] [Server thread/INFO]: [Magic] Loaded 32 crafting recipes
-[00:59:08] [Server thread/INFO]: [Magic] LogBlock not found
-[00:59:08] [Server thread/INFO]: [Magic] Integrating with Essentials for vanish detection
-[00:59:08] [Server thread/INFO]: [Magic] Integrating with Essentials for Recall warps
-[00:59:08] [Server thread/INFO]: [Magic] Essentials found, hooked up custom item handler
-[00:59:08] [Server thread/INFO]: [Magic] Factions not found
-[00:59:08] [Server thread/INFO]: [Magic] WorldGuard not found, region protection and pvp checks will not be used.
-[00:59:08] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
-[00:59:08] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
-[00:59:08] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
-[00:59:08] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
-[00:59:08] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
-[00:59:08] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
-[00:59:08] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
-[00:59:08] [Server thread/INFO]: [Magic] ajParkour found, wands will close when entering parkour
-[00:59:08] [Server thread/INFO]: [Magic] Finished loading configuration
-[00:59:08] [Server thread/INFO]: [Magic] Loading image map data from imagemaps.yml
-[00:59:08] [Server thread/INFO]: [Magic] Loaded 0 image maps
-[00:59:08] [Server thread/INFO]: [Magic] Finished loading data.
-[00:59:08] [Server thread/INFO]: Resource pack has not changed, using hash XXwMvDZbIpjdKdbSWZPDNBLHxIk= (1614208353000 <= 1614208353000)
-[00:59:08] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[00:59:08] [Craft Scheduler Thread - 10/INFO]: [Vault] Checking for Updates ... 
-[00:59:08] [Craft Scheduler Thread - 14/WARN]: [CustomJoinMessages] A new version of CustomJoinMessages is available (17.9.1)!
-[00:59:08] [Craft Scheduler Thread - 14/WARN]: [CustomJoinMessages] You can download it at https://hangar.papermc.io/Insprill/368/versions?channel=Release
-[00:59:08] [Craft Scheduler Thread - 10/INFO]: [Vault] No new version available
-[00:59:08] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.2, you're on: 4.10.2
-[00:59:08] [Craft Scheduler Thread - 13/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
-[00:59:08] [Craft Scheduler Thread - 13/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[01:01:49] [Server thread/WARN]: [Essentials] Missing translation key "broadcastworldCommandUsage2" in translation file en
-java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key broadcastworldCommandUsage2
-	at java.util.ResourceBundle.getObject(ResourceBundle.java:567) ~[?:?]
-	at java.util.ResourceBundle.getObject(ResourceBundle.java:561) ~[?:?]
-	at java.util.ResourceBundle.getString(ResourceBundle.java:523) ~[?:?]
-	at com.earth2me.essentials.I18n.translate(I18n.java:155) ~[?:?]
-	at com.earth2me.essentials.I18n.tlLocale(I18n.java:93) ~[?:?]
-	at com.earth2me.essentials.I18n.tlLiteral(I18n.java:77) ~[?:?]
-	at com.earth2me.essentials.commands.EssentialsCommand.<init>(EssentialsCommand.java:59) ~[?:?]
-	at com.earth2me.essentials.commands.Commandbroadcastworld.<init>(Commandbroadcastworld.java:18) ~[?:?]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at com.earth2me.essentials.Essentials.loadCommand(Essentials.java:632) ~[?:?]
-	at com.earth2me.essentials.Essentials.onTabCompleteEssentials(Essentials.java:687) ~[?:?]
-	at com.earth2me.essentials.Essentials.onTabComplete(Essentials.java:645) ~[?:?]
-	at org.bukkit.command.PluginCommand.tabComplete(PluginCommand.java:135) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.command.Command.tabComplete(Command.java:90) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.command.SimpleCommandMap.tabComplete(SimpleCommandMap.java:231) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.command.SimpleCommandMap.tabComplete(SimpleCommandMap.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.craftbukkit.v1_12_R1.command.ConsoleCommandCompleter$2.evaluate(ConsoleCommandCompleter.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.craftbukkit.v1_12_R1.command.ConsoleCommandCompleter$2.evaluate(ConsoleCommandCompleter.java:65) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.craftbukkit.v1_12_R1.util.Waitable.run(Waitable.java:24) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:861) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[01:01:53] [Server thread/INFO]: [Essentials] Searching for alternative to: broadcastworld
-[01:01:53] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcastworld world main
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[01:20:29] [Server thread/WARN]: [Magic] [33m Unknown particle type soul[0m
+[01:20:29] [Server thread/INFO]: [Magic] Loaded 527 spells
+[01:20:29] [Server thread/INFO]: [Magic] Loaded 12 progression paths
+[01:20:29] [Server thread/INFO]: [Magic] Loaded 32 crafting recipes
+[01:20:29] [Server thread/INFO]: [Magic] LogBlock not found
+[01:20:29] [Server thread/INFO]: [Magic] Integrating with Essentials for vanish detection
+[01:20:29] [Server thread/INFO]: [Magic] Integrating with Essentials for Recall warps
+[01:20:29] [Server thread/INFO]: [Magic] Essentials found, hooked up custom item handler
+[01:20:29] [Server thread/INFO]: [Magic] Factions not found
+[01:20:29] [Server thread/INFO]: [Magic] WorldGuard not found, region protection and pvp checks will not be used.
+[01:20:29] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+[01:20:29] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+[01:20:29] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+[01:20:29] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
+[01:20:29] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
+[01:20:29] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
+[01:20:29] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
+[01:20:29] [Server thread/INFO]: [Magic] ajParkour found, wands will close when entering parkour
+[01:20:29] [Server thread/INFO]: [Magic] Finished loading configuration
+[01:20:29] [Server thread/INFO]: [Magic] Loading image map data from imagemaps.yml
+[01:20:29] [Server thread/INFO]: [Magic] Loaded 0 image maps
+[01:20:29] [Server thread/INFO]: [Magic] Finished loading data.
+[01:20:29] [Server thread/INFO]: Resource pack has not changed, using hash XXwMvDZbIpjdKdbSWZPDNBLHxIk= (1614208353000 <= 1614208353000)
+[01:20:29] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[01:20:29] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[01:20:29] [Craft Scheduler Thread - 12/INFO]: [ajParkour] You are up to date! (2.12.10)
+[01:20:29] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
+[01:20:29] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.2, you're on: 4.10.2
+[01:20:30] [Craft Scheduler Thread - 14/WARN]: [CustomJoinMessages] A new version of CustomJoinMessages is available (17.9.1)!
+[01:20:30] [Craft Scheduler Thread - 14/WARN]: [CustomJoinMessages] You can download it at https://hangar.papermc.io/Insprill/368/versions?channel=Release
+[01:20:30] [Craft Scheduler Thread - 13/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
+[01:20:30] [Craft Scheduler Thread - 13/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable

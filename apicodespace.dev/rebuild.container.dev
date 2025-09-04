@@ -1,0 +1,66 @@
+Configuration starting...
+Cloning...
+Using image: mcr.microsoft.com/devcontainers/universal
+Creating container...
+$ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --skip-post-create --remove-existing-container --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+[130 ms] @devcontainers/cli 0.80.0. Node.js v18.20.6. linux 6.8.0-1030-azure x64.
+[514 ms] Start: Run: docker run --sig-proxy=false -a STDOUT -a STDERR --mount type=bind,src=/var/lib/docker/codespacemount/workspace,dst=/workspaces --mount type=volume,src=dind-var-lib-docker-0hcbhh2c7vldoj773drm1bjldnb89u0rt96sl9nju22d9ou8d14n,dst=/var/lib/docker --mount type=volume,src=minikube-config,dst=/home/vscode/.minikube --mount source=/root/.codespaces/shared,target=/workspaces/.codespaces/shared,type=bind --mount source=/var/lib/docker/codespacemount/.persistedshare,target=/workspaces/.codespaces/.persistedshare,type=bind --mount source=/.codespaces/agent/mount,target=/.codespaces/bin,type=bind --mount source=/mnt/containerTmp,target=/tmp,type=bind --mount type=bind,src=/.codespaces/agent/mount/cache,dst=/vscode -l Type=codespaces -e CODESPACES=******** -e ContainerVersion=13 -e RepositoryName=Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces -u codespace --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --privileged --init --label CodespacesImageType=Default --label ContainerVersion=13 --hostname codespaces-64f919 --add-host codespaces-64f919:127.0.0.1 --cap-add sys_nice --network host --init --privileged --cap-add SYS_PTRACE --security-opt seccomp=unconfined --entrypoint /bin/sh -l devcontainer.metadata=[{"id":"ghcr.io/devcontainers/features/common-utils:2"},{"id":"ghcr.io/devcontainers/features/git:1"},{"id":"ghcr.io/devcontainers/features/dotnet:2"},{"id":"ghcr.io/devcontainers/features/hugo:1"},{"id":"ghcr.io/devcontainers/features/node:1"},{"id":"./local-features/nvs"},{"id":"ghcr.io/devcontainers/features/conda:1"},{"id":"./local-features/patch-conda"},{"id":"ghcr.io/devcontainers/features/php:1"},{"id":"ghcr.io/devcontainers/features/ruby:1"},{"id":"ghcr.io/devcontainers/features/java:1"},{"id":"ghcr.io/devcontainers/features/sshd:1","entrypoint":"/usr/local/share/ssh-init.sh"},{"id":"ghcr.io/devcontainers/features/git-lfs:1","postCreateCommand":"/usr/local/share/pull-git-lfs-artifacts.sh"},{"id":"ghcr.io/devcontainers/features/github-cli:1"},{"id":"ghcr.io/devcontainers/features/docker-in-docker:2","privileged":********,"entrypoint":"/usr/local/share/docker-init.sh","mounts":[{"source":"dind-var-lib-docker-${devcontainerId}","target":"/var/lib/docker","type":"volume"}]},{"id":"ghcr.io/devcontainers/features/kubectl-helm-minikube:1","mounts":[{"source":"minikube-config","target":"/home/vscode/.minikube","type":"volume"}]},{"id":"ghcr.io/devcontainers/features/go:1","init":********,"capAdd":["SYS_PTRACE"],"securityOpt":["seccomp=unconfined"]},{"id":"./local-features/jekyll"},{"id":"ghcr.io/devcontainers/features/oryx:1"},{"id":"ghcr.io/devcontainers/features/python:1"},{"id":"./local-features/patch-python"},{"id":"./local-features/machine-learning-packages"},{"id":"./local-features/setup-user"},{"customizations":{"vscode":{"settings":{"go.toolsManagement.checkForUpdates":"local","go.useLanguageServer":********,"go.gopath":"/go","python.defaultInterpreterPath":"/home/codespace/.python/current/bin/python3","jupyter.kernels.filter":[{"path":"/opt/conda/bin/python","type":"pythonEnvironment"},{"path":"/usr/local/python/current/bin/python3","type":"pythonEnvironment"},{"path":"/usr/local/python/current/bin/python","type":"pythonEnvironment"},{"path":"/usr/bin/python3","type":"pythonEnvironment"},{"path":"/bin/python3","type":"pythonEnvironment"}],"lldb.executable":"/usr/bin/lldb"},"extensions":["GitHub.vscode-pull-request-github"]}},"containerUser":"codespace","remoteUser":"codespace"},{"customizations":{"vscode":{"settings":{"go.toolsManagement.checkForUpdates":"local","go.useLanguageServer":********,"go.gopath":"/go","python.defaultInterpreterPath":"/home/codespace/.python/current/bin/python3","jupyter.kernels.filter":[{"path":"/opt/conda/bin/python","type":"pythonEnvironment"},{"path":"/bin/python2","type":"pythonEnvironment"},{"path":"/usr/bin/python2","type":"pythonEnvironment"},{"path":"/usr/local/python/current/bin/python3","type":"pythonEnvironment"},{"path":"/usr/local/python/current/bin/python","type":"pythonEnvironment"},{"path":"/usr/bin/python3","type":"pythonEnvironment"},{"path":"/bin/python3","type":"pythonEnvironment"}],"lldb.executable":"/usr/bin/lldb"}}},"mounts":["source=/root/.codespaces/shared,target=/workspaces/.codespaces/shared,type=bind","source=/var/lib/docker/codespacemount/.persistedshare,target=/workspaces/.codespaces/.persistedshare,type=bind","source=/.codespaces/agent/mount,target=/.codespaces/bin,type=bind","source=/mnt/containerTmp,target=/tmp,type=bind"],"containerEnv":{"CODESPACES":"********","ContainerVersion":"13","RepositoryName":"Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces"},"remoteUser":"codespace"}] mcr.microsoft.com/devcontainers/universal:latest -c echo Container started
+Unable to find image 'mcr.microsoft.com/devcontainers/universal:latest' locally
+latest: Pulling from devcontainers/universal
+76249c7cd503: Pulling fs layer 
+c4b5392a4138: Pulling fs layer 
+01faee07801e: Pulling fs layer 
+103afe1a7036: Waiting 
+bdc3585c18ec: Waiting 
+4f4fb700ef54: Waiting 
+bdb1cde3c43f: Waiting 
+3e0480e7fb92: Waiting 
+77b5a14fd593: Waiting 
+4f5d57132c30: Waiting 
+d55b2e8618bb: Pull complete 
+5aff070b19c8: Pull complete 
+d7f2ac0a6759: Pull complete 
+d0799eab8575: Pull complete 
+73a0ca270614: Pull complete 
+c66f3e73da13: Pull complete 
+6a0b73b07728: Pull complete 
+ff637a34f686: Pull complete 
+c00dc2074433: Pull complete 
+8a0fd60b8149: Pull complete 
+ec4730cd30e1: Pull complete 
+a4a11b6d9d97: Pull complete 
+b476144c59b7: Pull complete 
+6429214d09b6: Pull complete 
+a2a9c327cbcb: Pull complete 
+09eea6adb519: Pull complete 
+551d09bb908f: Pull complete 
+d01990bae6f2: Pull complete 
+ae59736f5ed1: Pull complete 
+bed9a6c1b5ad: Pull complete 
+0581fbe549e3: Pull complete 
+0285575dadff: Pull complete 
+611ed0e7ce2e: Pull complete 
+Digest: sha256:dc99dc131e18b6dc6630514715aa213a4f90448b38023df5024ab375a8c08ea5
+Status: Downloaded newer image for mcr.microsoft.com/devcontainers/universal:latest
+Container started
+Outcome: success User: codespace WorkspaceFolder: /workspaces/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces
+devcontainer process exited with exit code 0
+Running blocking commands...
+$ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --expect-existing-container --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+[139 ms] @devcontainers/cli 0.80.0. Node.js v18.20.6. linux 6.8.0-1030-azure x64.
+Outcome: success User: codespace WorkspaceFolder: /workspaces/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces
+devcontainer process exited with exit code 0
+Configuring codespace...
+Running oryx...
+Running commands...
+$ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces --expect-existing-container --skip-post-attach --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+[132 ms] @devcontainers/cli 0.80.0. Node.js v18.20.6. linux 6.8.0-1030-azure x64.
+Running the postCreateCommand from Feature 'ghcr.io/devcontainers/features/git-lfs:1'...
+
+/usr/local/share/pull-git-lfs-artifacts.sh
+Fetching git lfs artifacts...
+Updated Git hooks.
+Git LFS initialized.
+Outcome: success User: codespace WorkspaceFolder: /workspaces/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces
+devcontainer process exited with exit code 0
+Finished configuring codespace.
