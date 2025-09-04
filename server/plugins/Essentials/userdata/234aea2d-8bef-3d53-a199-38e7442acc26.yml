@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756930582373
+  login: 1756928521597
+money: '999999999997967872.0'
+nickname: §fJude_x§r
+last-account-name: Jude_x
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 236.72189653037645
+  y: 24.0
+  z: -509.38592530097685
+  yaw: -261.2322998046875
+  pitch: 38.54999542236328

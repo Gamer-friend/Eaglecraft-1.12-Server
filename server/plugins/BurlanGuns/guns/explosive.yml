@@ -1,0 +1,9 @@
+ID: 3
+Name: "Grenade Launcher"
+Damage: 20.0
+Ammo: 6
+Lore:
+  - "A grenade launcher."
+  - "Deals massive damage."
+firingMode: "GRENADE"
+AmmoID: 1

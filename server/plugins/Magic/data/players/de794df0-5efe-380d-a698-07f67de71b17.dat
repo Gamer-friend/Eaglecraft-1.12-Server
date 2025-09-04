@@ -1,0 +1,39 @@
+id: de794df0-5efe-380d-a698-07f67de71b17
+name: Oliver123
+created: 1756864261873
+updated: 1756864657665
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 200d8c66f3cd,29d93663fec3,fe1e4f523f5e
+    mana_timestamp: 1756864657515
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 19.0

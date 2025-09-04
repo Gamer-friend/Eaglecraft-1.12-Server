@@ -1,0 +1,39 @@
+id: 48363c9d-7fcd-3303-afdc-9a66cea9a8cd
+name: PinkPony
+created: 1756864382605
+updated: 1756866644186
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 171731380486,527e963db0cd,d9fa028745c
+    mana_timestamp: 1756866643933
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 11.5

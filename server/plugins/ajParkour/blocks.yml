@@ -1,0 +1,13 @@
+# This is where you can set what blocks to use.
+# Here is a guide for the special things you can do in this file: https://wiki.ajg0702.us/ajparkour/configs/Blocks
+# Here is a list of block types for each version made by brc: https://wiki.brcdev.net/Materials
+#  Make sure to only use blocks (not items) or it will break!
+blocks:
+- MOSSY_COBBLESTONE
+- NETHER_BRICK
+- QUARTZ_BLOCK
+- WOOD
+- WOOL:true
+- RED_SANDSTONE
+- SMOOTH_BRICK
+- BRICK

@@ -1,0 +1,38 @@
+id: 408e3cea-cc67-3be9-ae43-96da84e455d8
+name: andrewstupidahhh
+created: 1756868667357
+updated: 1756868700367
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: 3864968dd1d0,9e6b204c58f7,39ce808e2274
+    mana_timestamp: 1756868700213
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 19.833332061767578

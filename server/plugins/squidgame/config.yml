@@ -1,0 +1,3 @@
+rewards:
+  - say %squidgame_arena_winner% is the winner!
+  - eco give %squidgame_arena_winner% 10

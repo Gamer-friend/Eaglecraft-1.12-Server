@@ -1,0 +1,13 @@
+# Main configuration file for the bomb arena type
+# https://github.com/MineSworn/UltimateArena/wiki/Configuration
+
+gameTime: 900
+lobbyTime: 70
+maxDeaths: 990
+allowTeamKilling: false
+countMobKills: false
+rewardBasedOnXp: true
+cashReward: 100
+rewards:
+- GOLD_INGOT, 3
+- TNT, 1

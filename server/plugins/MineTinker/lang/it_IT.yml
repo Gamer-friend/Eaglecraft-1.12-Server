@@ -1,0 +1,84 @@
+Alert:
+  OnItemBreak: '%RED%Sembra che il tuo strumento si sia rotto! Te l''ho ridato in
+    dietro con durabilità 1.'
+StartUp:
+  Commands: Comandi Registrati!
+  BuildersWands: Abilitata la bacchetta dei costruttori!
+  EasyHarvest: Abilitata la mietitura facile
+  Events: Eventi Registrati!
+  GUIs: Caricamento delle interfacce utente
+  StdLogging: Le log sandard sono abilitate, Puoi disabilitarle nelle configurazioni
+    sotto la voce Logging.Standard
+  DebugLogging: Le log debug sono abilitate, Puoi disabilitarle nelle configurazioni
+    sotto la voce Logging.Debug
+  Incompatible:
+    Start: Inizio della ricerca di plugin non compatibili, Puoi disabilitare questa
+      funzione nelle configurazioni principali!
+    Found: '%plugin trovato. Ottimizzo MineTinker per la migliore compatibilità!'
+Builderswand:
+  NameWood: Bacchetta dei costruttori in legno
+  NameStone: Bacchetta dei costruttori  in pietra
+  NameIron: Bacchetta dei costruttori  in ferro
+  NameGold: Bacchetta dei costruttori  in oro
+  NameDiamond: Bacchetta dei costruttori  in diamante
+  Description: '%WHITE%MineTinker-Bacchetta dei costruttori '
+  Error:
+    CraftWood: Impossibile registrare la ricetta per la bacchetta dei costruttori
+      in legno!
+    CraftStone: Impossibile registrare la ricetta per la bacchetta dei costruttori
+      in pietra!
+    CraftIron: Impossibile registrare la ricetta per la bacchetta dei costruttori
+      in ferro!
+    CraftGold: Impossibile registrare la ricetta per la bacchetta dei costruttori
+      in oro!
+    CraftDiamond: Impossibile registrare la ricetta per la bacchetta dei costruttori
+      in diamante!
+Commands:
+  Info:
+    Line1: MineTinker (%ver) è un Plugin fatto con amore da Flo56958
+    Line2: 'è ispirata da differenti mods come: (TinkerConstruct)'
+  InvalidArguments: Hai inserito un numero non valido di argomenti nel comando!
+  InvalidTool: Hai bisogno di uno strumento adatto in mano per eseguire questo comando!
+  NoPermission: Non hai i permessi per effettuare questa azione!
+  Reload:
+    Note1: |-
+      NOTA: è possibile che dopo un reload il plugin non funzioni correttamente!
+      é raccomandato un riavvio del server!
+    Recipes: Eliminazione ricette!
+    Configs: Reload delle configurazioni!
+    ModManager: Reload del ModManager!
+    Builderswands: Reload della Bacchetta dei costruttori!
+    GUIs: Reload delle interfacce utente
+    Finish: il reload è terminato
+  ModList: 'Modifiche Possibili:'
+  CheckUpdate:
+    Start: Controllo se ci sono aggiornamenti...
+    Disabled: Il controllo degli aggiornamenti è disabilitato dall'Amministratore
+      del server!
+  ItemStatistics:
+    Head: Statistiche dell'oggetto per %toolname
+    Level: '%GOLD%Livello: %WHITE%%level'
+    Exp: '%GOLD%Exp: %WHITE%%current / %nextlevel'
+    FreeSlots: '%GOLD%Slot modificatori liberi: %WHITE%%slots'
+    Modifiers: '%WHITE%Modificatori:'
+GUI:
+  ButtonAction:
+    REQUEST_INPUT: Il tuo input è necessario per %data. Il prossimo messaggio di chat
+      che invierai verrà catturato da MineTinker e sarà il tuo input.
+GUIs:
+  Forward: Inoltrare
+  Back: Indietro
+  LeftClick: Tasto sinistro
+  RightClick: Tasto destro
+  MiddleClick: Click centrale
+  BackOtherMenu: Torna all'altro menu
+  Modifiers:
+    Title: Modificatori MineTinker, %pageNo
+    MaxLevel: 'Livello massimo: %maxLevel'
+    WorksOn: 'Funziona su:'
+    CanApply: 'Applicabile su:'
+    IncompatibleWith: 'Incompatibile con:'
+    EnchantCost: 'Costo incantesimo: %WHITE%%enchantCost'
+    ClickToRecipe: '%key per mostrare la ricetta di costruzione'
+  ConfigurationEditor:
+    Type: 'Tipo: %type'

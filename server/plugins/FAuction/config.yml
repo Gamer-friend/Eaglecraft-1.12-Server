@@ -1,0 +1,44 @@
+version: 8
+lang: en
+
+currencyUse: VAULT # VAULT, EXPERIENCE, LEVEL
+
+defaultGui: AUCTION # The default gui open with /ah command
+
+feature-flipping:
+  item-expiration: true
+  cache-update: true
+
+decimalFormat: '0.00'
+
+orderBy: ASC # ASC or DESC / ASC : More recent to older / DESC : Older to more recent
+dateFormat: dd/MM/yyyy ':' HH:mm
+remainingDateFormat: MMM ddd HHh mmm sss
+securityForSpammingPacket: true
+onBuy:
+  sendCommand: # Command sends if item is buying
+    use: false
+    command: ''
+expiration:
+  time: 3600 #In seconds 3600 seconds == 1 Hour
+  checkEvery: 72000 #In ticks 72000 ticks == 1 Hour
+currencyCheck:
+  time: 3600 #In seconds 3600 seconds == 1 Hour
+  checkEvery: 72000 #In ticks 72000 ticks == 1 Hour
+
+cacheUpdate: 72000 #In ticks 72000 ticks == 1 Hour
+
+limitations-use-meta-luckperms: false
+limitations: # Number of auction per rank
+  default: 5
+min-price-default:
+  enable: false
+  value: 0
+max-price-default:
+  enable: false
+  value: 100000000
+min-price: # Min price per item. Ex : 1 CobbleStone at 0.5. Set {} to disable it
+  COBBLESTONE: 0.5
+max-price: # Max price per item. Ex : 1 CobbleStone at 0.5. Set {} to disable it
+  COBBLESTONE: 5
+item-blacklist: []

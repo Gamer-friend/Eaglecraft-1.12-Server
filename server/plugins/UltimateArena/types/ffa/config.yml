@@ -1,0 +1,13 @@
+# Main configuration file for the ffa arena type
+# https://github.com/MineSworn/UltimateArena/wiki/Configuration
+
+gameTime: 600
+lobbyTime: 70
+maxDeaths: 3
+allowTeamKilling: true
+rewardBasedOnXp: true
+countMobKills: false
+cashReward: 100
+rewards:
+- GOLD_INGOT, 3
+- TNT, 1

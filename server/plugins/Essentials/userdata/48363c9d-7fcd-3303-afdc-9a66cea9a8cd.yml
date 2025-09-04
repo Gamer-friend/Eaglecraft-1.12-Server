@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756866762140
+  login: 1756866649399
+money: '1000000000000000000'
+nickname: §fPinkPony§r
+last-account-name: PinkPony
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 143.88839017993604
+  y: 62.0
+  z: 436.77895398905
+  yaw: 25.650033950805664
+  pitch: 47.84999465942383

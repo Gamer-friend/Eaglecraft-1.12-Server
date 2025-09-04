@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756930587221
+  login: 1756928834099
+money: '999999999999738046.0'
+nickname: §fSQDWoggo§r
+last-account-name: SQDWoggo
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 281.9192707456601
+  y: 64.5
+  z: -519.5185228965316
+  yaw: 271.560546875
+  pitch: 44.39999771118164

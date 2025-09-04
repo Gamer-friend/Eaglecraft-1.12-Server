@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756872731162
+  login: 1756871686316
+money: '1000000000000000000'
+nickname: §fKels_y§r
+last-account-name: Kels_y
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 141.44882371596424
+  y: 20.0
+  z: 193.53058400556793
+  yaw: 192.45001220703125
+  pitch: 30.449995040893555

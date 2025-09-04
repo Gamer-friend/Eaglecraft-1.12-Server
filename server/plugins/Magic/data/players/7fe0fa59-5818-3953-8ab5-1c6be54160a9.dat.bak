@@ -1,0 +1,39 @@
+id: 7fe0fa59-5818-3953-8ab5-1c6be54160a9
+name: Oliver13
+created: 1756855776522
+updated: 1756861532637
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 182.4318462118356,32.608605581765644,209.41237021071365,world,-335.97556,41.699993
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: a04553b32cf4,49f012f6e3db,28363bec8b9a
+    mana_timestamp: 1756861532617
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 18.847999572753906

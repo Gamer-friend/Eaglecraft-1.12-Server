@@ -1,0 +1,7 @@
+version: 1
+database:
+  type: SQLite
+  url: jdbc:sqlite:plugins/FAuction/database.db
+  user: root
+  password: ''
+  maximumPoolSize: 50

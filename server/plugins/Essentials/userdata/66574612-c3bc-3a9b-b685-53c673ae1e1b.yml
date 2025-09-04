@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756868645992
+  login: 1756868534800
+money: '1000000000000000000'
+nickname: §foliverstupidahhh§r
+last-account-name: oliverstupidahhh
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 185.5
+  y: 71.0
+  z: 250.5
+  yaw: 0.0
+  pitch: 0.0

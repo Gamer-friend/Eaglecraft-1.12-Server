@@ -1,0 +1,5 @@
+ID: 4
+Name: "Explosive Grenade"
+Damage: 20.0
+ExplosionTime: 5
+CustomModelData: 51

@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756868700323
+  login: 1756868667403
+money: '1000000000000000000'
+nickname: §fandrewstupidahhh§r
+last-account-name: andrewstupidahhh
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 165.93827483633947
+  y: 64.0
+  z: 265.30000001192093
+  yaw: 39.27353286743164
+  pitch: -12.750000953674316

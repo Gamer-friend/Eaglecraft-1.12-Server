@@ -1,0 +1,11 @@
+# Server Configuration
+is_lobby_server: false  # Set to true only on your lobby server
+
+# Spawn Location (will be set by /setspawn command)
+spawn:
+  world: ''
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0 

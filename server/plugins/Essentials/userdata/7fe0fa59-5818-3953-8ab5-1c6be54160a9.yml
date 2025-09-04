@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756861597187
+  login: 1756860659195
+money: '1000000000000000000'
+nickname: §fOliver13§r
+last-account-name: Oliver13
+lastlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 171.57370408646338
+  y: 71.0
+  z: 255.443664910587
+  yaw: -104.0755615234375
+  pitch: -8.250000953674316
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 118.47441872243601
+  y: 33.0
+  z: 17.904320373507836
+  yaw: -158.95523071289062
+  pitch: 90.0

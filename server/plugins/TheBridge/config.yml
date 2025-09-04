@@ -1,0 +1,187 @@
+# THE BRIDGE
+# CREATED BY ALANDIODA
+# VERSION 3.2.0
+
+Teams:
+   Team1:
+      ColorPrefx: '&4'
+      ColorName: 'RED'
+      Color:
+         r: 237
+         g: 40
+         b: 40
+      BlockMaterial: RED_TERRACOTTA
+   Team2:
+      ColorPrefx: '&1'
+      ColorName: 'BLUE'
+      Color:
+         r: 0
+         g: 100
+         b: 255
+      BlockMaterial: BLUE_TERRACOTTA
+   Team3:
+      ColorPrefx: '&e'
+      ColorName: 'YELLOW'
+      Color: 
+         r: 255
+         g: 255
+         b: 0
+      BlockMaterial: YELLOW_TERRACOTTA
+   Team4:
+      ColorPrefx: '&a'
+      ColorName: 'GREEN'
+      Color:
+         r: 100
+         g: 255
+         b: 0
+      BlockMaterial: LIME_TERRACOTTA
+
+# If you want to save user data locally set it to true.
+# If you want to save user data in a database then set it to false.
+Save_Locally: true
+          
+################## Properties ##################
+need_permission_to_join: false
+Fireworks_enabled: true
+Save_players_inventory: false
+Fall_damage: false
+
+lobby:
+   enabled: true
+   world: world
+   x: 0.5
+   y: 100.0
+   z: 0.5
+   yaw: 0.0
+   pitch: 0.0
+
+# Command that every player in the game executes at the end
+End_Command: ''
+
+################## Timing ##################
+# Waiting for players in lobby time (in seconds)
+Waiting_In_Lobby: 30
+# Waiting for next round (in seconds)
+Waiting_For_Next_Round: 5
+# End waiting to execute the command "end_command" (in seconds)
+Waiting_Before_End: 20
+
+################## Constants ##################
+# How many times to score to win the game.
+Winning_Score: 5
+# Auto start game percentage (0.0 - 1.0). Higher the percentage more 
+# players will it require before the game autostarts.
+Start_percentage: 0.75
+# Arrow refresh rate (in seconds).
+Arrow_refresh: 3
+# Spectator border
+Spectator_border: 20
+Border_side: 3
+Border_Up: 5
+# Pit radius
+pit_radius: 2
+
+################## Messages ##################
+# Color codes can be used in all minecraft messages
+# &0 = black     | &1 = Dark Blue   | &2 = Dark Green
+# &3 = Dark Aqua | &4 = Dark Red    | &5 = Dark Purple
+# &6 = Gold      | &7 = Gray        | &8 = Dark Gray
+# &9 = Blue      | &a = Green       | &b = Aqua
+# &c = Red       | &d = Light Purple| &e = Yellow
+# &f = White
+# &k = Obfuscated| &l = Bold        | &m = Strikethrough
+# &n = Underline | &o = Italic      | &r = Reset
+
+# time = <time>
+Starting_Title: '&aGame starts in'
+Starting_Subtitle: '<time> seconds!'
+Starting_Actionbar: '&aStarting in <time> seconds.'
+Waiting_For_Players_Title: '&6Waiting for players!'
+No_games_available: '&cNo games available!'
+Game_ending: '&cThis game is ending!'
+Starting_game: '&6Starting the game!'
+Fight: '&aGo!'
+# team name = <team>
+Team_wins: '<team> team wins!'
+
+# player = <player>
+Player_scores: '<player> scored!'
+
+All_Player_leave: '&cAll players left!'
+
+You_are_already_in_game: '&8[&6TheBridge&8] &cYou are already in a game!'
+You_are_not_in_game: '&8[&6TheBridge&8] &cYou are not in a game!'
+Game_couldnt_be_found: '&8[&6TheBridge&8] &cGame could not be found.'
+incorrect_use_of_command: '&8[&6TheBridge&8] &cIncorrect use of command!'
+too_many_players: '&8[&6TheBridge&8] &dThere were to may players in teams. You are now a spectator!'
+
+# player = <victim>, damager player = <damager>
+killed_msg: '&8[&6TheBridge&8] &f<victim> &fdied!'
+killed_by_killer_msg: '&8[&6TheBridge&8] &f<victim> &fhas been slain by <damager>'
+death_knocked_msg: '&8[&6TheBridge&8] &f<victim> &fhas been knocked into the void by <damager>'
+death_fall_void_msg: '&8[&6TheBridge&8] &f<victim> &ffell into the void!'
+
+# player = <player>
+join_msg: '&8[&6TheBridge&8] &a<player> &fjoined the game!'
+leave_msg: '&8[&6TheBridge&8] &a<player> &fleft the game!'
+
+# Exit item
+Exit: 
+  name: '&cExit'
+  list:
+  - '&7Click to exit.'
+  material: RED_BED
+
+# Scoreboard while waiting
+Lobby:
+   Scoreboard_Title: '&e&lThe Bridge Lobby'
+   waiting_text: 'Wainting'
+
+# Scoreboard while plying
+Game:
+   Scoreboard_Title: '&e&lThe Bridge'
+   kills_text: 'Kills'
+   scores_text: 'Scores'
+
+# Menu Titles \/ \/ don't support color codes.
+
+Menu:
+   Title: 'Play TheBridge'
+   Item:
+      Material: ORANGE_TERRACOTTA
+   two_teams:
+      solo:
+         title: '&a1vs1'
+         lore:
+         - '&eClick to join the game.'
+      double:
+         title: '&a2vs2'
+         lore:
+         - '&eClick to join the game.'
+      triple:
+         title: '&a3vs3'
+         lore:
+         - '&eClick to join the game.'
+      quadruple:
+         title: '&a4vs4'
+         lore:
+         - '&eClick to join the game.'
+   four_teams:
+      solo:
+         title: '&a1vs1vs1vs1'
+         lore:
+         - '&eClick to join the game.'
+      double:
+         title: '&a2vs2vs2vs2'
+         lore:
+         - '&eClick to join the game.'
+      triple:
+         title: '&a3vs3vs3vs3'
+         lore:
+         - '&eClick to join the game.'
+      quadruple:
+         title: '&a4vs4vs4vs4'
+         lore:
+         - '&eClick to join the game.'
+
+

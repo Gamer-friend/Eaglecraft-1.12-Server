@@ -1,0 +1,12 @@
+armor:
+  chestplate: IRON_CHESTPLATE, 1, prot:1
+  leggings: IRON_LEGGINGS, 1, prot:1
+  boots: IRON_BOOTS, 1, prot:1
+tools:
+  '1': DIAMOND_SWORD, 1, sharp:3, knockback:2, fireaspect:2
+  '2': GOLDEN_APPLE, 2
+  '3': SLIME_BALL, 5
+essentialsKit: ''
+useHelmet: true
+potionEffects: ''
+icon: DIAMOND_SWORD, 1

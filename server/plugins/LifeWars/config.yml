@@ -1,0 +1,74 @@
+# If you are new to configuration im here to help you :)
+
+# - 'true' means enabled, 'false' means disabled.
+# - Keep the ':' before your statement.
+# - Use single quotes ('') for message strings.
+
+Enabled: true
+
+# ==Easy-Configuration==
+
+Revive: true
+# "Revive" is when a player uses the reviveItem
+
+WithdrawCm: true
+# Withdraw can be used as hearts to give other players and crafting recipe's!
+
+MaxHealthPoints: 40  # Maximum health points for players
+# MaxHealthPoints determines the maximum health a player can have on your server.
+
+# HealthPoints:
+# 1 heart is equivalent to 2 health points, so with a value of 40, players
+# have a maximum of 20 hearts. The same with ReviveHealth.
+
+ReviveHealth: 10  # Health granted upon Revive (5 normal hearts!).
+
+Use/EquipHearts: true  # Enable or disable the use and equipping of hearts
+
+# ==Lore&Names==
+HeartLore: 'right click to equip/use hearts'
+HeartName: 'Heart'
+
+# Revive item Name is the name of the item!
+ReviveItemName: 'Revive-Item'
+# Revive Item Lore is the lore of the item, if you don't know what lore is, it's the message under the Name and is often purple
+ReviveItemLore: 'Rename this book with the player(s) name you want to Revive'
+
+# ==Message(s)==
+
+YouDontHaveEnoughHearts: 'You dont have enough Hearts to withdraw'
+
+DisabledInConfigMsg: 'This is disabled in the config!'
+
+SuccessWithDraw:  'Successfully withdrew '
+
+CantUseBannedItem: ' ' #Nothing
+
+ReviveAnnouncement: ' has just revived: '
+
+EliminatedBanMsg: 'Eliminated'
+EliminatedBanMsgAfter1: 'Ran out of lives.'
+
+# YouCantGoOverMaxHearts is when you try to use the Hearts, but is at maximum hearts.
+YouCantGoOverMaxHearts: 'Hey, you cant go over '
+YouCantGoOverMaxHearts2: ' Hearts'
+
+# ==Recipe(s)==
+CustomRecipes: true  # Enables the crafting recipes.
+
+HeartRecipe: true  # Enable crafting of hearts (DO NOT enabled if the CustomRecipes is false).
+ReviveRecipe: true  # Enable crafting of revival item (DO NOT enabled if the CustomRecipes is false).
+
+# ==BanItem(s)==
+
+TNTminecart: true  # Allow the use of TNT mine-carts.
+EndCrystal: true  # Allow the use of End Crystals.
+RespawnAnchors: true  # Allow the use of Respawn Anchors.
+Over32GoldenApples: true  # Allow players to have more than 32 golden apples.
+Trident: true  # Allow the use/pickup of tridents.
+Netherite: true  # Allow the use of Netherite items.
+Totems: true  # Allow Totem of Undying.
+NoThornsEnchantMent: false  # Disable the Thorns enchantment.
+
+# ==Should-Not-Be-Edited==
+CoreLifestealMechanic: true

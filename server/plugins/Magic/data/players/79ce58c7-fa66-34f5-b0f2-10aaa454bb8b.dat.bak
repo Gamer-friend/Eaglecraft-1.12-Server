@@ -1,0 +1,39 @@
+id: 79ce58c7-fa66-34f5-b0f2-10aaa454bb8b
+name: Kelswee
+created: 1756855255935
+updated: 1756864246397
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 134.53348397365266,69.0,324.90938022861997,world,69.600006,19.500002
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: a28e04d3d102,2cfa72de7b4f,7a32e1a3d206
+    mana_timestamp: 1756864246147
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 19.999998092651367

@@ -1,0 +1,198 @@
+###################################
+# Please refrain from modifying this section
+ParticlesVersion: 0.5 # Updated version with new features
+###################################
+
+# Define particles used in the animation
+particles:
+  explosion:
+    type: "EXPLOSION_LARGE"
+    basic_properties:
+      size: 1.5  # Increased size for dramatic effect
+      color:
+        red: 255
+        green: 50
+        blue: 50
+        alpha: 255
+    physics:
+      gravity: 0.0
+      lifespan: 8
+      velocity:
+        x: 4.0
+        y: 4.0
+        z: 4.0
+      acceleration:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    animations:
+      scale_over_lifetime:
+        enabled: true
+        start_scale: 1.0
+        end_scale: 3.0
+      color_over_lifetime:
+        enabled: true
+        start_color:
+          red: 255
+          green: 50
+          blue: 50
+          alpha: 255
+        end_color:
+          red: 255
+          green: 255
+          blue: 255
+          alpha: 0
+      rotation_over_lifetime:
+        enabled: true
+        start_rotation: 0.0
+        end_rotation: 360.0
+    emission:
+      rate: 150
+      burst:
+        enabled: true
+        count: 80
+        interval: 0.8
+    emitter_shape:
+      type: "sphere"
+      radius: 1.5
+    collision: false
+
+  reverse_explosion:
+    type: "EXPLOSION_LARGE"
+    basic_properties:
+      size: 1.0
+      color:
+        red: 100
+        green: 100
+        blue: 255
+        alpha: 255
+    physics:
+      gravity: 0.0
+      lifespan: 8
+      velocity:
+        x: -4.0
+        y: -4.0
+        z: -4.0
+      acceleration:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    animations:
+      scale_over_lifetime:
+        enabled: true
+        start_scale: 2.0
+        end_scale: 0.5
+      color_over_lifetime:
+        enabled: true
+        start_color:
+          red: 100
+          green: 100
+          blue: 255
+          alpha: 255
+        end_color:
+          red: 255
+          green: 255
+          blue: 255
+          alpha: 0
+      rotation_over_lifetime:
+        enabled: true
+        start_rotation: 720.0
+        end_rotation: 0.0
+    emission:
+      rate: 150
+      burst:
+        enabled: true
+        count: 80
+        interval: 0.8
+    emitter_shape:
+      type: "sphere"
+      radius: 1.5
+    collision: false
+
+  wings:
+    left_wing:
+      type: "CLOUD"
+      basic_properties:
+        size: 0.2
+        color:
+          red: 255
+          green: 255
+          blue: 255
+          alpha: 200
+      physics:
+        gravity: 0.0
+        lifespan: 20
+        velocity:
+          x: -0.1
+          y: 0.5
+          z: 0.0
+        acceleration:
+          x: 0.0
+          y: -0.01
+          z: 0.0
+      animations:
+        scale_over_lifetime:
+          enabled: true
+          start_scale: 1.0
+          end_scale: 0.5
+        rotation_over_lifetime:
+          enabled: true
+          start_rotation: 0.0
+          end_rotation: 360.0
+      emission:
+        rate: 25
+        burst:
+          enabled: false
+        interval: 0
+      emitter_shape:
+        type: "line"
+        length: 1.0
+        angle: 45.0
+      collision: false
+
+    right_wing:
+      type: "CLOUD"
+      basic_properties:
+        size: 0.2
+        color:
+          red: 255
+          green: 255
+          blue: 255
+          alpha: 200
+      physics:
+        gravity: 0.0
+        lifespan: 20
+        velocity:
+          x: 0.1
+          y: 0.5
+          z: 0.0
+        acceleration:
+          x: 0.0
+          y: -0.01
+          z: 0.0
+      animations:
+        scale_over_lifetime:
+          enabled: true
+          start_scale: 1.0
+          end_scale: 0.5
+        rotation_over_lifetime:
+          enabled: true
+          start_rotation: 0.0
+          end_rotation: 360.0
+      emission:
+        rate: 25
+        burst:
+          enabled: false
+        interval: 0
+      emitter_shape:
+        type: "line"
+        length: 1.0
+        angle: -45.0
+      collision: false
+
+###################################
+# Additional Notes:
+# - Improved scalability with `scale_over_lifetime` animations.
+# - Detailed customization for left and right wing particles.
+# - Optimized for dynamic boss effects.
+###################################

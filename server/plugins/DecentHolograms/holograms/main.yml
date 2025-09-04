@@ -1,4 +1,4 @@
-location: world:176.517:63.000:266.936
+location: world:175.409:64.000:251.758
 enabled: true
 display-range: 48
 update-range: 48
@@ -7,6 +7,6 @@ facing: 0.0
 down-origin: false
 pages:
 - lines:
-  - content: Blank Line
+  - content: Press the button to get Started!
     height: 0.3
   actions: {}

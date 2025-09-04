@@ -1,0 +1,13 @@
+# Main configuration file for the ctf arena type
+# https://github.com/MineSworn/UltimateArena/wiki/Configuration
+
+gameTime: 440
+lobbyTime: 80
+maxDeaths: 999
+allowTeamKilling: false
+rewardBasedOnXp: true
+countMobKills: false
+cashReward: 100
+rewards:
+- GOLD_INGOT, 3
+- TNT, 1

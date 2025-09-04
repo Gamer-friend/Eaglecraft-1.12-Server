@@ -1,0 +1,67 @@
+Alert:
+  OnItemBreak: '%RED%ツールが壊れかけています!耐久値 1 で戻しました'
+StartUp:
+  Commands: コマンドが登録されました!
+  BuildersWands: Builderswandsが有効になりました!
+  EasyHarvest: EasyHarvestが有効になりました!
+  Events: イベントが登録されました!
+  GUIs: GUIsを読み込み中です!
+  StdLogging: Standard Loggingが有効になっています。 Logging.Standardの設定で無効にできます！
+  DebugLogging: Debug Loggingが有効になっています。 Logging.Debugの設定で無効にする必要があります！
+  Incompatible:
+    Start: 互換性のないプラグインの検索を開始しています...mainの設定でこの機能を無効にできます！
+    Found: '%pluginが見つかりました。 MineTinkerを調整して最高の互換性を実現！'
+Builderswand:
+  NameWood: Wooden Builderswand
+  NameStone: Stone Builderswand
+  NameIron: Iron Builderswand
+  NameGold: Golden Builderswand
+  NameDiamond: Diamond Builderswand
+  Description: '%WHITE%MineTinker-Builderswand'
+  Error:
+    CraftWood: Wooden Builderswandのレシピを登録できませんでした！
+    CraftStone: Stone Builderswandのレシピを登録できませんでした！
+    CraftIron: Iron Builderswandのレシピを登録できませんでした！
+    CraftGold: Golden Builderswandのレシピを登録できませんでした！
+    CraftDiamond: Diamond Builderswandのレシピを登録できませんでした！
+Commands:
+  Info:
+    Line1: MineTinker (%ver) は、Flo56958によって作成されたプラグインです。
+    Line2: さまざまなmodに触発されています（例：TinkersConstruct）
+  InvalidArguments: 無効なコマンド引数を入力しました！
+  InvalidTool: このコマンドを実行するには、メインハンドに有効なツールを保持する必要があります！
+  NoPermission: アクションを実行する権限がありません！
+  Reload:
+    Note1: 注：リロード後にプラグインが正しく機能しない可能性があります！サーバーの再起動をお勧めします！
+    Recipes: レシピをクリア！
+    Configs: 設定をリロード！
+    ModManager: ModManagerをリロードしています！
+    Builderswands: Builderswandsをリロードしています！
+    GUIs: GUIsをリロードしています！
+    Finish: リロード完了！
+  ModList: 使用可能なModifiers：
+  CheckUpdate:
+    Start: 更新を確認中...
+    Disabled: 更新の確認は、サーバー管理者によって無効にされています！
+  ItemStatistics:
+    Head: '%toolnameのアイテム統計'
+    Level: '%GOLD%Level: %WHITE%%level'
+    Exp: '%GOLD%Exp: %WHITE%%current / %nextlevel'
+    FreeSlots: '%GOLD%Free Modifier Slots: %WHITE%%slots'
+    Modifiers: '%WHITE%Modifiers:'
+GUI:
+  ButtonAction:
+    REQUEST_INPUT: '%dataには入力が必要です。次に送信するチャットメッセージはMineTinkerによってキャッチされ、入力になります。'
+GUIs:
+  BackOtherMenu: 他のメニューに戻る
+  Modifiers:
+    WorksOn: 対象：
+    CanApply: 適用可能：
+    IncompatibleWith: 互換性のないもの：
+    ClickToRecipe: '%keyを作成するレシピを表示します。'
+    BlockToEnchant: アイテムをエンチャントするために%blockに%matを持つ%key
+  ConfigurationEditor:
+    ReloadPlugin: MineTinkerをリロードする
+    Change: '%keyを%oldから%newに変更しました！'
+    UnsupportedType: このタイプは現在サポートされていないため、編集できません！
+    WrongInput: 入力が正しくありませんでした！ %typeが必要で、%inputを取得しました！

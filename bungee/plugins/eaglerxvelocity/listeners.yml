@@ -30,7 +30,7 @@ listener_01:
     page_index_name:
     - 'index.html'
     - 'index.htm'
-  allow_voice: false
+  allow_voice: true
   ratelimit:
     ip:
       enable: true

@@ -1,0 +1,377 @@
+# / ===================================================== \
+# |  This is the main configuration file of OreAnnouncer  |
+# \ ===================================================== /
+#
+# For any problem be sure to:
+# - Read the entire documentation on: https://alessiodp.com/docs/oreannouncer/
+# - Join our Discord for further help: https://discord.alessiodp.com/
+#
+
+# / =============================== \
+# |      OREANNOUNCER SETTINGS      |
+# \ =============================== /
+oreannouncer:
+  # [Check for plugins updates]
+  # OreAnnouncer will check for updates when the server finishes to load.
+  updates:
+    check: true
+    warn: true
+
+  # [Enable logging system]
+  # => debug:      Print debug messages
+  # => save-file:  Save any log into a text file
+  logging:
+    debug: false
+    save-file:
+      enable: false
+      format: "%date% [%time%] %message%\n"
+      file: log.txt
+
+  # [Enable debug command]
+  # Useful to debug problems related to the plugin
+  debug-command: true
+
+  # [Enable BungeeCord support]
+  # Any destroyed block will be handled by OreAnnouncer on BungeeCord.
+  bungeecord:
+    enable: false
+    # Name and id are used in placeholders %server_name% and %server_id%
+    # Feel free to use them if you wanna know where the message is coming from
+    server-name: ServerName
+    server-id: server
+
+
+# / =============================== \
+# |        STORAGE  SETTINGS        |
+# \ =============================== /
+storage:
+  # [Database type]
+  # What type of storage the plugin should use? Database storage types:
+  # => mariadb    | [Remote] Save the data into a MariaDB database
+  # => mysql      | [Remote] Save the data into a MySQL database
+  # => postgresql | [Remote] Save the data into a PostgreSQL database
+  # => sqlite     | [File]   Save the data into a SQLite database
+  # => h2         | [File]   Save the data into a H2 database (default)
+  database-storage-type: h2
+
+  storage-settings:
+    # [General SQL settings]
+    # General settings for sql databases, recommended to use default values
+    general-sql-settings:
+      prefix: 'oreannouncer_'
+
+    # [SQLite settings]
+    sqlite:
+      database-file: database.db
+
+    # [H2 settings]
+    h2:
+      database-file: database
+
+    # [Remote SQL settings - MySQL/MariaDB/PostgreSQL]
+    remote-sql:
+      address: localhost
+      port: '3306'
+      database: database
+      username: username
+      password: password
+      # Size of the connection pool
+      pool-size: 10
+      # Lifetime of each connection, in milliseconds (Default: 30 minutes = 1800000ms)
+      connection-lifetime: 1800000
+      # Property used to alert when the connection is not using a valid SSL certificate
+      use-ssl: false
+      charset: 'utf8'
+
+
+# / =============================== \
+# |         ALERTS SETTINGS         |
+# \ =============================== /
+alerts:
+  # [Enable alerts system]
+  # Whenever a player dig a block users/admins/console will receive a message
+  enable: true
+  console: true
+  # Edit the sound settings
+  # => volume:   The volume of the sound (0 to disable)
+  # => pitch:    The pitch of the sound
+  # => default:  Default sound of alerts ("" to disable)
+  sound:
+    volume: 1.0
+    pitch: 2.0
+    default: ""
+  # [Commands]
+  # Enable commands on destroy
+  # Special tags:
+  # => %player%:   Player name
+  # => %number%:   Number of blocks
+  # => any block tag
+  commands:
+    execute-on-destroy: []
+    execute-on-found: []
+  # [Coordinates]
+  # Enable the coordinates system:
+  # Print the coordinates of the player on block destroy:
+  # => %x%, %y% and %z%: Be sure to add them into messages/commands
+  coordinates:
+    enable: true
+    # [Hide real coordinates]
+    # Choose to hide/randomize the coordinates
+    # => count:        How many coordinates to hide
+    # => hidden-for:   Who should see hidden coordinates
+    # => hide:         Which coordinates to hide
+    # => format:       Set the format of an hidden coordinate
+    # => obfuscation:  Completely hide the hidden coordinate to bypass cheaters
+    hide-real-coordinates:
+      enable: false
+      # Coordinates are choose randomly if this number
+      #   is lower than existing coordinates number into the format
+      count: 1
+      hidden-for:
+        user: true
+        admin: false
+        console: false
+      hide:
+        x: true
+        y: true
+        z: true
+      format:
+        text: '&k%coordinate%'
+        # Warning: This is an advanced option, if you have problems
+        # with JSON and obfuscation consider to ask for help on Discord!
+        json: '%coordinate%","color":"gray","obfuscated":true},{"text":"'
+      obfuscation:
+        enable: true
+        # Replace any hidden coordinate with this value
+        character: '?'
+        # If greater than 0 replace the coordinate with exactly X character
+        # Otherwise it will maintain the coordinate length
+        fixed-length: 0
+  # [DiscordSRV]
+  # Enable support to DiscordSRV plugin
+  # Message format: text or embed
+  # Choose channels used to send alerts
+  #   Leave the channel empty to do not send alerts in that channel
+  discordsrv:
+    enable: false
+    message-format: embed
+    embed-avatars: true
+    # Set the name of the channel that you defined in DiscordSRV config.yml
+    # > Channels: {"global": "000000000000000000"}
+    channels:
+      user: ''
+      admin: global
+
+
+
+# / =============================== \
+# |         BLOCKS SETTINGS         |
+# \ =============================== /
+blocks:
+  # [Blocks]
+  # Various settings about mining blocks
+  # => bypass-player-blocks:    Do not count blocks placed by players (until server reload)
+  # => bypass-silk-touch:       Do not count blocks broken by silk touch tool
+  # => bypass-secure-counter:   This is a kill-switch used to avoid server crash when
+  #                               the server is trying to calculate nearest blocks. Do
+  #                               not touch it if you don't know what you are doing
+  bypass-player-blocks: false
+  bypass-silk-touch: false
+  bypass-secure-counter: false
+
+  # [Light level system]
+  # Enable a light level check on block destroy
+  # Choose to alert/count blocks only if light level is lower than an X number
+  # Note: you must define the light level in blocks.yml
+  light-level:
+    enable: false
+    alert-only-if-lower: true
+    count-only-if-lower: true
+
+  # [Height level system]
+  # Enable a height level check on block destroy
+  # Choose to alert/count blocks only if the height level is lower than an X number
+  # Note: you must define the height level in blocks.yml
+  height-level:
+    enable: false
+    alert-only-if-lower: true
+    count-only-if-lower: true
+
+  # [TNT Mining]
+  # Alert when blocks are destroyed by tnt instead of mining
+  # Unfortunately you won't be able to know who ignited indirectly the TNT
+  #   so it will be a generic alert message
+  # => alert-on-tnt-mining:   Send the alert
+  # => try-to-catch-player:  Try to get who ignites the tnt
+  # => count-on-destroy:     If the player is known, count the block destroy
+  tnt-mining:
+    alert-on-tnt-mining: true
+    try-to-catch-player: true
+    count-on-destroy: true
+
+  # [ItemMODS support]
+  # Enable ItemMODS plugin support
+  # Material name in blocks.yml must be ITEMMODS_<NAME>
+  itemmods:
+    enable: false
+
+  # [MMOItems support]
+  # Enable MMOItems plugin support
+  # Material name in blocks.yml must be MMOITEMS_<ID>
+  mmoitems:
+    enable: false
+
+# / =============================== \
+# |         STATS  SETTINGS         |
+# \ =============================== /
+stats:
+  # [Statistics system]
+  # Start to store any data about destroyed blocks, enables:
+  # => /oa stats:  Show destroyed blocks stats about a player
+  # => /oa top:    Show top players
+  # You can enable/disable every block manually with 'count-on-destroy' option
+  enable: true
+  # Order by:
+  # => priority = Block priority number
+  # => value    = Value
+  order-by: priority
+  # Values: destroy/found
+  values: destroy
+  # Allow values change with the command
+  change-values: false
+  # Insert any block that you want to blacklist from general listing
+  blacklist-blocks:
+    log: []
+    stats: []
+    top:
+      - 'STONE'
+  # [Advanced count]
+  # Store any data about found blocks, this will enable a time tracking logging
+  # of blocks for an improved anti x-ray system.
+  # You have to configure blocks options to use this.
+  advanced-count:
+    enable: true
+    # Time format:
+    # => y          years
+    # => M          months
+    # => d          days
+    # => H          hours
+    # => m          minutes
+    # => s          seconds
+    # => S          milliseconds
+    # => 'text'     arbitrary text content
+    # Formats:
+    # => large   = More than 1 hour
+    # => medium  = More than 1 minute
+    # => small   = More than 1 second
+    default-time-format-large: "H' hours'"
+    default-time-format-medium: "m' minutes'"
+    default-time-format-small: "s' seconds'"
+
+    log-command:
+      enable: true
+      # Simple date format
+      format-date: "yyyy-MM-dd 'at' HH:mm"
+      # See time format above
+      # => large     = More than 1 day
+      # => medium    = More than 1 hour
+      # => small     = More than 1 minute
+      # => smallest  = More than 0
+      format-date-elapsed-large: "d'd' H'h'"
+      format-date-elapsed-medium: "H'h' m'm'"
+      format-date-elapsed-small: "m'm' s's'"
+      format-date-elapsed-smallest: "s's'"
+      number-of-blocks: 8
+  top:
+    enable: true
+    # Order by: destroy/found
+    order-by: destroy
+    # Allow order change with the command
+    change-order: false
+    # Allow block change with the command
+    change-block: true
+    number-of-players: 5
+
+
+# / =============================== \
+# |    EXECUTE COMMANDS SETTINGS    |
+# \ =============================== /
+execute-commands:
+  # [Execute commands system]
+  # Execute custom commands on a specific event:
+  # => destroy: When a player destroy one block
+  # => found:   When a player found a group of blocks
+  # Stats system must be enabled to trigger execute commands.
+  # You can bypass this with relative permission.
+  enable: false
+  # Choose how to run commands:
+  # => console   : Run as console
+  # => player    : Run as player
+  # => custom    : Add a prefix to the command to choose how execute it
+  #              : "console:" and "player:", e.g.: "player:say hello" or "console:say hello"
+  run-as: console
+  # You can use messages placeholders here (like %player%, %material% etc..)
+  on-destroy: []
+  on-found: []
+
+
+# / =============================== \
+# |       WHITELIST  SETTINGS       |
+# \ =============================== /
+whitelist:
+  # [Whitelist system]
+  # Enable a command to whitelist players, so they won't trigger alerts and others stats
+  # => bypass   : Decide what the players bypass
+  enable: true
+  bypass:
+    alerts: true
+    destroy: true
+    found: true
+
+
+# / =============================== \
+# |        COMMANDS SETTINGS        |
+# \ =============================== /
+commands:
+  # Enable tab support (/oa <tab> to see every allowed command)
+  tab-support: true
+  main-commands:
+    oa:
+      command: 'oa'
+      description: 'OreAnnouncer help page'
+      aliases:
+        - oreannouncer
+  sub-commands:
+    help: help
+    alerts: alerts
+    debug: debug
+    log: log
+    reload: reload
+    stats: stats
+    top: top
+    version: version
+    whitelist: whitelist
+  misc-commands:
+    add: 'add'
+    alert: 'alert'
+    all: 'all'
+    block: 'block'
+    config: 'config'
+    player: 'player'
+    remove: 'remove'
+    word-on: 'on'
+    word-off: 'off'
+  order:
+    - help
+    - alerts
+    - log
+    - stats
+    - top
+    - whitelist
+    - reload
+    - debug
+    - version
+
+
+dont-edit-this:
+  version: 12

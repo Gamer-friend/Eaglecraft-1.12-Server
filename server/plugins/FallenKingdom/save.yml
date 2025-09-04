@@ -1,0 +1,96 @@
+last_version: 2.24.5
+FkPI:
+  RulesManager:
+    Rules:
+      DeepPause:
+        value: true
+      HealthBelowName:
+        value: true
+      PrivateChests:
+        value: false
+      EternalDay:
+        value: false
+      PvpCap:
+        value: 3
+      PlaceBlockInCave:
+        value: false
+        MinimumBlocs: 3
+      NetherAssault:
+        value: false
+      BucketAssault:
+        value: false
+      EnderpearlAssault:
+        value: true
+      GlobalChatPrefix:
+        value: '!'
+      RespawnAtHome:
+        value: false
+      FriendlyFire:
+        value: true
+      DisabledPotions: {}
+      ChargedCreepers:
+        value: 10050001
+      DayDuration:
+        value: 24000
+      ChestLimit:
+        value: 20
+      CaptureRate:
+        value: 100
+      TntCap:
+        value: 6
+      AutoPause:
+        after-day: false
+        after-capture: false
+      AllowedBlocks:
+        value:
+        - TORCH
+        - FIRE
+        - SIGN_POST
+        - WALL_SIGN
+        - REDSTONE_TORCH_ON
+      BlastProofBase:
+        value: false
+      VerticalLimit:
+        value: 40
+      DeathLimit:
+        value: 0
+      EndCap:
+        value: 1
+      NetherCap:
+        value: 1
+      TntJump:
+        value: true
+  TeamManager:
+    nametag-integration:
+      use-main-scoreboard: true
+  LockedChestsManager: {}
+  ChestsRoomsManager:
+    CaptureTime: 60
+    CoreHealth: 500
+    RegenerationPerMinute: 20
+    RegenerationPerMinutePerAlly: 10
+    Offset: 2
+    Enabled: true
+Game:
+  State: BEFORE_STARTING
+  Day: 0
+  Time: 23990
+PlayerManager:
+  Players:
+    SQDWoggo:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Legend:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Jude_x:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Dev90909:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+StarterInventoryManager: {}

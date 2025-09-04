@@ -1,0 +1,13 @@
+# Main configuration file for the spleef arena type
+# https://github.com/MineSworn/UltimateArena/wiki/Configuration
+
+gameTime: 600
+lobbyTime: 80
+maxDeaths: 2
+allowTeamKilling: true
+countMobKills: false
+rewardBasedOnXp: false
+cashReward: 100
+rewards:
+- GOLD_INGOT, 3
+- TNT, 1

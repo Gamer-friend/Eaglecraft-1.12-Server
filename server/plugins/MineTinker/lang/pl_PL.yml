@@ -1,0 +1,602 @@
+Alert:
+  OnItemBreak: '%RED%Wygląda na to że twoje narzędzie się zepsuło! Oddawanie narzędzia
+    z 1 wytrzymałością.'
+  OnItemGrind: '%RED%Nie możesz używać kamienia szlifierskiego dla przedmiotów MineTinker''a.'
+  ToolUpgradeFailure: '%RED%Ulepszenie nie powiodło się!'
+  InternalError: '%RED%Wystąpił błąd wewnętrzny!'
+  OnCooldown: '%RED%Ta umiejętność wciąż się odnawia!'
+  MinecraftAPI: '%RED%Nie można połączyć się z Minecraft API!'
+StartUp:
+  Commands: Zarejestrowano polecenia!
+  BuildersWands: Włączono Różdżki Budowniczego!
+  EasyHarvest: Włączono Łatwe Zbiory!
+  Events: Zarejestrowano wydarzenia!
+  GUIs: Ładowanie GUI!
+  StdLogging: Standardowe rejestrowanie jest włączone. Możesz to wyłączyć w konfiguracji
+    pod Logging.Standard!
+  DebugLogging: Rejestrowanie debugowania jest włączone. Powinieneś wyłączyć to w
+    konfiguracji w Logging.Debug!
+Builderswand:
+  Name:
+    Wood: Różdżka Budowniczego z drewna
+    Stone: Różdżka Budowniczego z kamienia
+    Iron: Różdżka Budowniczego z żelaza
+    Gold: Różdżka Budowniczego ze złota
+    Diamond: Różdżka Budowniczego z diamentu
+    Netherite: Różdżka Budowniczego z netherytu
+  Description: '%WHITE%MineTinker-Różdżka Budowniczego'
+  Error: Nie można zarejestrować przepisu na %wand!
+Commands:
+  Info:
+    Line1: MineTinker (%ver) jest pluginem stworzonym przez Flo56958.
+    Line2: Jest inspirowany różnymi modami (np. TinkersConstruct)
+  InvalidArguments: Wprowadziłeś nieprawidłowe argumenty polecenia!
+  InvalidTool: Aby wykonać to polecenie, musisz trzymać prawidłowe narzędzie w ręce!
+  NoPermission: Nie masz uprawnień do wykonania tej akcji!
+  Reload:
+    Note1: 'UWAGA: Możliwe, że plugin nie będzie działać poprawnie po przeładowaniu!
+      Zalecane jest ponowne uruchomienie serwera!'
+    Recipes: Czyszczenie przepisów!
+    Configs: Przeładowywanie konfiguracji!
+    ModManager: Przeładowywanie Mod Managera!
+    Builderswands: Przeładowywanie Różdżek Budowniczych!
+    GUIs: Przeładowywanie GUI!
+    Finish: Zakończono przeładowywanie!
+  ModList: 'Możliwe modyfikatory:'
+  CheckUpdate:
+    Start: Sprawdzanie aktualizacji...
+    Disabled: Sprawdzanie aktualizacji jest wyłączone przez administratora serwera!
+  ItemStatistics:
+    Head: Statystyki przedmiotu dla %toolname
+    Level: '%GOLD%Poziom: %WHITE%%level'
+    Exp: '%GOLD%Exp: %WHITE%%current / %nextlevel'
+    FreeSlots: '%GOLD%Wolne miejsca na modyfikatory: %WHITE%%slots'
+    Modifiers: '%WHITE%Modyfikatory:'
+  Failure:
+    Main: 'Polecenie nie powiodło się: %cause'
+    Cause:
+      PlayerNotFound: Gracz %p nie odnaleziony!
+      PlayerMissing: Brakuje Potrzebnych Informacji o Graczu!
+      InvalidArguments: Nieprawidłowe argumenty!
+      NumberFormatException: Liczby mają niewłaściwy format!
+      PlayerOnlyCommand: Polecenie jest tylko dla graczy!
+      UnknownCommand: Nieznane polecenie!
+      NoPermission: Brak pozwolenia!
+      InvalidItem: Nieprawidłowy przedmiot!
+      NameNotAllowed: Nazwa niedozwolona!
+GUI:
+  ButtonAction:
+    REQUEST_INPUT: Twoje dane wejściowe są potrzebne do %data. Następna wysłana wiadomość
+      czatu zostanie przechwycona przez MineTinker i będzie twoją odpowiedzią.
+GUIs:
+  Forward: Dalej
+  Back: Wstecz
+  LeftClick: LPM
+  RightClick: PPM
+  MiddleClick: ŚPM
+  BackOtherMenu: Powrót do innego menu
+  Modifiers:
+    Title: Modyfikatory MineTinker, %pageNo
+    MaxLevel: 'Maksymalny poziom: %maxLevel'
+    WorksOn: 'Działa na:'
+    CanApply: 'Działa jak:'
+    IncompatibleWith: 'Niekompatybilne z:'
+    EnchantCost: 'Koszt zaklinania: %WHITE%%enchantCost'
+    ClickToRecipe: '%key aby pokazać przepis rzemieślniczy.'
+    BlockToEnchant: '%key z %mat na %block by zakląć przedmiot.'
+    SlotCost: 'Wymagane wolne sloty na poziom: %WHITE%%amount'
+    MinimumToolLevel: 'Minimalny Poziom Narzędzia: %WHITE%%level'
+  ConfigurationEditor:
+    ReloadPlugin: Załaduj ponownie MineTinker
+    Change: Zmieniono %key z %old na %new!
+    Type: 'Wpisz: %type'
+    Value: 'Wartość: %GOLD%%value'
+    UnsupportedType: Ten typ jest obecnie nieobsługiwany i nie można go edytować!
+    WrongInput: Twoje dane wejściowe były nieprawidłowe! Oczekiwane %type, wprowadzone
+      %input!
+    Title: Menedżer konfiguracji, Strona %pageNo
+    TitleConfigs: '%config, Strona %pageNo'
+    IncrementValueClick: '%key do przyrostu o %amount!'
+    DecrementValueClick: '%key do spadku o %amount!'
+    InsertValue: '%key do wstawienia nowej wartości!'
+    ToggleValue: '%key do przełączenia wartości!'
+    config:
+      PluginIncompatibility:
+        Check: Włącza wyszukiwanie niezgodnych pluginów, a MineTinker próbuje odpowiednio
+          zareagować (np. zmienia ustawienia konfiguracji)
+        SkippedPlugins: Wyłącza wyszukiwanie określonych pluginów na tej liście
+      CheckForUpdates: Sprawdza dostępność aktualizacji podczas uruchamiania i ponownego
+        ładowania
+      chat-messages: Włącz wiadomości czatu (takie jak dane wyjściowe polecenia)
+      LevelStep: Wartość *(LevelFactor^LevelOfTool) [EXPONENTIAL]; *(LevelFactor*LevelOfTool)
+        [LINEAR]
+      ProgressionIsLinear: 'fałsz: wykładniczy, prawda: liniowy'
+      ResetAtVarOverflow: 'Resetuje poziom i exp przy Integer.MAX_VALUE lub Long.MAX_VALUE
+        z 1 i 0. fałsz: nie ma już wzmocnienia exp'
+      logging:
+        standard: rejestruje ważne działania gracza w MineTinker
+        debug: jeszcze więcej informacji jest wydrukowanych w konsoli
+        metrics: bStats-Metrics dla anonimowych statystyk dotyczących korzystania
+          z MineTinker
+  Statistics:
+    Title: Statystyki przedmiotu dla %tool
+    General:
+      Title: Statystyki Ogólne
+      Creator: 'Twórca: %player'
+      Created: 'Utworzono: %date'
+    Blocks:
+      Title: Statystyki Bloku
+      TotalAmount: Suma zniszczonych bloków %amount
+      TitlePage: Statystyki Bloku dla %tool - %pageNo
+      AmountBroken: '%amount razy uszkodzone'
+    Modifiers:
+      TitlePage: Statystyki modyfikowania dla %tool - %pageNo
+    Combat:
+      Title: Statystyki Bojowe
+      TitlePage: Statystyki Bojowe dla %tool - %pageNo
+      AmountKilled: '%amount razy zabito'
+      DamageDealt: '%amount razy zadano obrażenia'
+      DamageReceived: '%amount razy otrzymano obrażenia'
+  Enchantable:
+    Title: 'Wybierz modyfikator do zaklinania:'
+ModManager:
+  RegisterModifier: '%GREEN%Zarejestrowano %mod %GREEN%modyfikator od %plugin.'
+  UnregisterModifier: '%GREEN%Niezarejestrowano %mod %GREEN%modyfikator od %plugin.'
+  IncompatibilityWrongSyntax: Zła składnia wiersza lub niepoprawna nazwa modyfikatora
+    znaleziona w niezgodności modyfikatora w wierszu '%line'.
+ModifierFailCause:
+  IncompatibleModifiers: Niezgodne modyfikatory!
+  InvalidToolType: Nieprawidłowy typ narzędzia!
+  MaximumSlotsReached: Osiągnięto maksymalną liczbę miejsc!
+  ModMaxLevel: Modyfikator ma już maksymalny poziom!
+  NoFreeSlots: Za mało wolnych slotów na przedmiocie!
+  NoPermission: Brak pozwolenia!
+  PlayerFailure: Graczowi nie powiodło się zastosowanie modyfikacji!
+  ToolLevelToLow: 'Narzędzie nie jest wystarczająco wypoziomowane! '
+GrindStone:
+  PossibleSlotsAfterGrind: 'Możliwe wolne sloty po użyciu kamienia szlifierskiego:
+    %amount'
+ActionBar:
+  ExpGain: Zdobyto %amount exp'a!
+LanguageManager:
+  LoadedLanguage: LanguageManager pomyślnie załadował %lang!
+TinkerListener:
+  ToolUpgrade: '%tool zostało ulepszone do %type!'
+  ModifierApply: '%tool ma teraz %mod i %slots pozostałe wolne sloty!'
+  ModifierFail: Nie udało się zastosować %mod na %tool (%cause)!
+  ToolLevelUp: '%tool osiągnęło nowy poziom i jest teraz na poziomie %level!'
+Modifier:
+  Enchantable:
+    LevelsRequired: '%amount poziomy wymagane!'
+  Anti-Arrow-Plating:
+    Name: 'Poszycie Anty-Strzałowe '
+    Description: Pancerz zmniejsza obrażenia pocisków!
+    ModifierItemName: Odporny na Przebicie Metal
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Poszycie Anty-Strzałowe"
+  Anti-Blast-Plating:
+    Name: Opancerzenie Przeciwwybuchowe
+    Description: Pancerz zmniejsza obrażenia wybuchowe!
+    ModifierItemName: Metal Przeciwwybuchowy
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Opancerzenie Przeciwwybuchowe"
+  Aquaphilic:
+    Name: Aquaphil
+    Description: Pływaj i niszcz bloki pod wodą szybciej oraz nurkuj dłużej.
+    ModifierItemName: Perła oceanu
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Aquaphil"
+  Auto-Smelt:
+    Name: Auto-Wytapianie
+    Description: Przetapiaj rudy i inne bloki podczas kopania! %chance% szans na aktywację
+      na poziom.
+    ModifierItemName: Ulepszony Piec
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Auto-Wytapianie"
+    Statistic_Used: Używane %amount razy
+    Statistic_Luck: 'Dodatkowe surowce przez %modifier: %amount'
+  Beheading:
+    Name: Kat
+    Description: '%chance% szans na upuszczenie głowy zabitego moba na poziom.'
+    ModifierItemName: Zaklęta Czaszka Wither'a
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Kat"
+    Statistic_Used: 'Udane ścięcia: %amount'
+  Berserk:
+    Name: Berserk
+    Description: Zdobądź dodatkowe wzmocnienie siły na %duration sekund, gdy twoje
+      zdrowie spadnie poniżej %percent%!
+    ModifierItemName: Krwawy Redstone
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Berserk"
+    Statistic_Used: Aktywowane %amount razy
+  Channeling:
+    Name: Wyładowanie
+    Description: Masz %amount szans na poziom by przywołać błyskawicę!
+    ModifierItemName: Odłamek Błyskawicy
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Wyładowanie"
+  Directing:
+    Name: W Zasięgu Ręki
+    Description: Łup z zabitych mobów lub zniszczonych bloków trafia bezpośrednio
+      do ekwipunku!
+    ModifierItemName: Ulepszony Kompas
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "W Zasięgu Ręki"
+    Statistic_Used: 'Przedmioty przekierowane bezpośrednio do ekwipunku: %amount'
+  Drilling:
+    Name: Wiercenie
+    Description: Wywierć jeden blok głębiej w ziemi na poziom!
+    ModifierItemName: Wzmocnione Wiertło
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Wiercenie"
+  Echoing:
+    Name: Echo
+    Description: Zobacz pobliskie byty w zasięgu %amount bloków na poziom!
+    ModifierItemName: Wszystko Widzące Oko
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Echo"
+  Ender:
+    Name: Ender
+    Description: Teleportuje cię podczas skradania się do miejsca lądowania strzał!
+    ModifierItemName: Specjalne Oko Endera
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Ender"
+    TeleportationProhibited: Nie możesz zamieniać się miejscami z tym graczem!
+    Statistic_Used: 'Podszywanie się pod Endermana: %amount '
+    Statistic_Distance: 'Suma pominiętego dystansu: %amount bloków'
+    Statistic_Swapped: 'Liczba zamienionych jednostek: %amount'
+  Evasive:
+    Name: Unik
+    Description: Szansa na uniknięcie nadchodzących ataków (%chance szans na poziom)
+      - %sneakX podczas skradania się, %sprintX podczas sprintu, %pvpX podczas PvP
+    ModifierItemName: Szybkie Pióro
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Unik"
+  Experienced:
+    Name: Doświadczenie
+    Description: Narzędzie ma %chance% szans na poziom, aby wydropić %amount XP podczas
+      używania!
+    ModifierItemName: Esencja Doświadczenia
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Doświadczenie"
+    Statistic_Amount: 'Wyrzucona ilość doświadczenia: %amount'
+  Extra-Modifier:
+    Name: Extra-Modyfikator
+    Description: Dodaje %amount dodatkowe sloty modyfikatora do narzędzia!
+    ModifierItemName: Udoskonalona Netherowa Gwiazda
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Extra"
+  Fiery:
+    Name: Ogień
+    Description: Jeden modyfikator, by wszystkich spalić! Jeden, by wszystkich w popiół
+      zamienić!
+    ModifierItemName: Zaklęta Płomienna Różdżka
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Ogień"
+  Freezing:
+    Name: Zamrożenie
+    Description: Zamroź wodę wokół siebie!
+    ModifierItemName: Lodowy Kryształ
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Zamrożenie"
+  Glowing:
+    Name: Blask
+    Description: Rozjaśnij wrogów na %durationmin do %durationmax sekund (w zależności
+      od poziomu)
+    ModifierItemName: Enderowy Jasnogłaz
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Blask"
+  Hardened:
+    Name: Umocnienie
+    Description: Umocnij swoją zbroję o %aamount, a wytrzymałość o %tamount punktów
+      na poziom!
+    ModifierItemName: Żelazo Udoskonalone Diamentem
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Umocnienie"
+  Haste:
+    Name: Pośpiech
+    Description: Niszcz bloki i strzelaj z kuszy szybciej!
+    ModifierItemName: Skompresowany Blok Redstone'a
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Pośpiech"
+  Homing:
+    Name: Samonaprowadzanie
+    Description: Strzały trafiają w cele w promieniu %radius bloków! Wyższe poziomy
+      zwiększają celność.
+    ModifierItemName: Procesor Balistyczny
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Procesor Balistyczny"
+  Infinity:
+    Name: Bezgraniczność
+    Description: Potrzebujesz tylko jednej strzały, aby wystrzelić z łuku/kuszy! Również
+      twój trójząb wróci do ciebie!
+    ModifierItemName: Zaklęta Strzała
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Bezgraniczność"
+  Insulating:
+    Name: Izolacja
+    Description: Pancerz zmniejsza obrażenia od gorąca!
+    ModifierItemName: Żaroodporny Stop
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Izolacja"
+  KineticPlating:
+    Name: Poszycie Kinetyczne
+    Description: Zmniejsza obrażenia otrzymywane przez rozbicie się z Elytrą o %amount%
+      na poziom.
+    ModifierItemName: Płyta Kinetyczna
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Poszycie Kinetyczne"
+  Knockback:
+    Name: Odrzucenie
+    Description: Odeprzyj wrogów dalej z każdym uderzeniem!
+    ModifierItemName: Zaklęte TNT
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Odrzucenie"
+  Lifesteal:
+    Name: Kradzież Życia
+    Description: Leczy cię o %amount% zadanych obrażeń na poziom. %chance% szans do
+      wywołania efektu.
+    ModifierItemName: Netherrack Z Krwią
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Kradzież Życia"
+  Light-Weight:
+    Name: Lekka Waga
+    Description: Upadasz jak piórko - jakby...
+    ModifierItemName: Ulepszone Pióro
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Lekka Waga"
+  Luck:
+    Name: Szczęście
+    Description: Zdobądź więcej łupów z mobów i bloków!
+    ModifierItemName: Skompresowany Blok Lapisu
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Szczęście"
+  Magical:
+    Name: Pocisk
+    Description: Wystrzel magiczny pocisk, na którą nie ma wpływu grawitacja, ale
+      leci do %amount% wolniej! Jeśli pocisk trafi w cel, zadaje od %min% do %max%
+      dodatkowych obrażeń (w zależności od poziomu)! Strzelanie kosztuje %xp XP!
+    ModifierItemName: Magiczna Strzała
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Pocisk"
+  Melting:
+    Name: Topienie
+    Description: '%amount% dodatkowych obrażeń przeciwko płonącym wrogom i %amount%
+      mniej obrażeń otrzymanych od ognia!'
+    ModifierItemName: Zaklęty Blok Magmy
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Topienie"
+  Multishot:
+    Name: Wielostrzał
+    Description: Wystrzel jeszcze jedną strzałę na poziom podczas strzału!
+    ModifierItemName: Wielo-Strzała
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Wielostrzał"
+  Multijump:
+    Name: Wieloskok
+    Description: 'Skocz jeden dodatkowy raz na poziom! '
+    ModifierItemName: Magiczna Stopa Królika
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Wieloskok"
+  Nightseeker:
+    Name: Poszukiwacz Nocy
+    Description: Zadawaj więcej lub otrzymuj mniej obrażeń (od %amountmin% do %amountmax%),
+      gdy świeci księżyc (zależy od poziomu i pozycji księżyca). Ten efekt zostaje
+      odwrócony w ciągu dnia i w Netherze, ale ma pełną moc w Endzie!
+    ModifierItemName: Ciemny Detektor Światła Dziennego
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Poszukiwacz Nocy"
+  Photosynthesis:
+    Name: Fotosynteza
+    Description: Napraw swój przedmiot z wytrzymałością %amount na poziom co %ticks
+      Tików, gdy świeci słońce. Im dłużej stoisz, tym szybciej przedmiot się naprawia.
+      (%multiplier%)
+    ModifierItemName: Wyekstrahowany Chlorofil
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Fotosynteza"
+    NotifyWhenActive: Fotosynteza aktywna...
+    Statistic_Healed: 'Całkowita przywrócona wytrzymałość: %amount'
+  Piercing:
+    Name: Przeszycie
+    Description: Strzały przechodzą przez wielu wrogów!
+    ModifierItemName: Punkt Szpilki
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Przeszycie"
+  Poisonous:
+    Name: Trutka
+    Description: Zatruwa cel na %duration Tików * %multiplier na poziom!
+    ModifierItemName: Zaklęte Zgniłe Mięso
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Trutka"
+  Power:
+    Name: Energia
+    Description: Zniszcz więcej bloków za pomocą swojego narzędzia!
+    ModifierItemName: Zaklęty Szmaragd
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Energia"
+  Propelling:
+    Name: Napęd
+    Description: Przyśpiesz, skradając się podczas szybowania z elytrą lub rzucając
+      trójzębem podczas stania w wodzie!
+    ModifierItemName: Zaklęta Gwiazda
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Napęd"
+  Protecting:
+    Name: Osłona
+    Description: Twoja zbroja lepiej chroni cię przed obrażeniami!
+    ModifierItemName: Wzbogacony Obsydian
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Osłona"
+  Reinforced:
+    Name: Wzmacniacz
+    Description: Możliwe, że nie zużyjesz wytrzymałości podczas używania narzędzia/zbroi!
+      Sprawia, że narzędzie jest bardziej trwałe!
+    ModifierItemName: Skompresowany Obsydian
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Wzmacniacz"
+  Scotopic:
+    Name: Kocie Oczy
+    Description: 'Zapewnia %amount sekund/y widzenia w ciemności na poziom, jeśli
+      poziom światła spadnie poniżej %light! Czas odnowienia: od %cmax do %cmin sekund
+      (w zależności od poziomu)'
+    ModifierItemName: Nocne Oko
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Kocie Oczy"
+  Shadow-Dive:
+    Name: Kamuflaż Cienia
+    Description: Zniknij całkowicie z pola widzenia, skradając się w ciemnych miejscach!
+      (Poziom światła <= %level)
+    ModifierItemName: Znikający Kryształ
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Kamuflaż Cienia"
+    LightToHigh: Poziom światła jest zbyt wysoki!
+    InCombat: Jesteś w walce!
+  Self-Repair:
+    Name: Samo-Naprawa
+    Description: '%chance% szans na poziom do naprawy narzędzia/zbroi o wytrzymałości
+      %amount podczas używania!'
+    ModifierItemName: Zaklęty Zamszony Bruk
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Samo-Naprawa"
+  Sharpness:
+    Name: Brzytwa
+    Description: Broń zadaje wszystkim dodatkowe obrażenia!
+    ModifierItemName: Skompresowany Blok Kwarcu
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Brzytwa"
+  Shrouded:
+    Name: Zasłona
+    Description: Tworzy chmurę cząstek, która oślepia przez %durationmin do %durationmax
+      sekund, gdy lądują strzały! Synergizuje się z innym modyfikatorem efektu mikstury.
+    ModifierItemName: Butelka Dymu
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Zasłona"
+  Shulking:
+    Name: Shulkering
+    Description: Spraw, by wrogowie lewitowali i byli nieruchomi na %duration Tików!
+      Efekt staje się silniejszy z każdym poziomem.
+    ModifierItemName: Ulepszona Skorupa Shulkera
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Shulkering"
+  Silk-Touch:
+    Name: Gładki Dotyk
+    Description: Zdobądź blok, który niszczysz!
+    ModifierItemName: Ulepszona Pajęczyna
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Gładki Dotyk"
+  Smite:
+    Name: Odegnanie Nieumarłych
+    Description: Twoja broń zadaje dodatkowe obrażenia nieumarłym!
+    ModifierItemName: Święta Kość
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Odegnanie Nieumarłych"
+  Soul-Speed:
+    Name: Prędkość Dusz
+    Description: Chodź szybciej po piasku dusz!
+    ModifierItemName: Starożytny Piasek Dusz
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Prędkość Duszy"
+  Soulbound:
+    Name: Związana Dusza
+    Description: Nie tracisz przedmiotów podczas śmierci.
+    ModifierItemName: Zasilona Energią Latarnia
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Związana Dusza"
+  Speedy:
+    Name: Przyspieszenie
+    Description: Musisz pędzić! Sprawia, że idziesz i biegasz o %amount% szybciej
+      na poziom!
+    ModifierItemName: Ulepszona Skóra Królika
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Przyspieszenie"
+  Spiders-Bane:
+    Name: Zmora Pająków
+    Description: Broń zadaje dodatkowe obrażenia pająkom!
+    ModifierItemName: Oczyszczone Oko Pająka
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Zmora Pająków"
+  Sunblazer:
+    Name: Strażnik Światła
+    Description: Zadawaj więcej lub otrzymuj mniej obrażeń (od %amountmin% do %amountmax%),
+      gdy świeci słońce (zależy od poziomu i pozycji słońca). Ten efekt zostaje odwrócony
+      w nocy i w Endzie, ale ma pełną moc w Netherze!
+    ModifierItemName: Złoty Detektor Światła Dziennego
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Strażnik Światła"
+  Sweeping:
+    Name: Siła Odśrodkowa
+    Description: Zadawaj więcej obrażeń na większym obszarze!
+    ModifierItemName: Zaklęte Żelazo
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Siła Odśrodkowa"
+  Swift-Sneaking:
+    Name: Rychłe Skradanie
+    Description: Poruszaj się szybciej podczas skradania się!
+    ModifierItemName: Pióro Prędkości
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Rychłe Skradanie"
+  Tanky:
+    Name: Pancerz
+    Description: Zrób sobie dodatkowy pasek z %amount dodatkowymi sercami na poziom!
+    ModifierItemName: Obsydian Z Krwią
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Pancerz"
+  Thorned:
+    Name: Cierpienie
+    Description: Twoja zbroja wyrządza szkodę innym, gdy zadadzą ci obrażenia!
+    ModifierItemName: Kolczaste Poszycie
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Cierpienie"
+  Timber:
+    Name: Rębacz
+    Description: Ścinaj drzewa w mgnieniu oka!
+    ModifierItemName: Drewniany Szmaragd
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Rębacz"
+  Undead:
+    Name: Nieumarły
+    Description: Potwór nie będzie cię już atakował, ale ty nie możesz też nikogo
+      atakować!
+    ModifierItemName: Serum Z Zombie
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Nieumarły"
+  Vigilant:
+    Name: Strażnik
+    Description: Zyskujesz tymczasową tarczę równą %amount otrzymanych obrażeń. Tarcza
+      utrzymuje się przez %duration sekund na poziom.
+    ModifierItemName: Zapomniane Jabłko
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Strażnik"
+  Void-Netting:
+    Name: Siatka Pustki
+    Description: 'Teleportuje cię w bezpieczne miejsce w promieniu %radius bloków
+      na poziom, gdy wpadniesz w próżnię. Czas odnowienia: od %cmax do %cmin sekund
+      (w zależności od poziomu)'
+    ModifierItemName: Sieć Pustki
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Siatka Pustki"
+    CouldNotFindBlock: Nie można znaleźć bezpiecznego miejsca do teleportacji!
+  Webbed:
+    Name: Płetwonogi
+    Description: Spowolnij wrogów, gdy ich trafisz lub trafią cię oni na %duration
+      Tików * %multiplier na poziom!
+    ModifierItemName: Skompresowana Pajęczyna
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Płetwonogi"
+  Withered:
+    Name: Obumarcie
+    Description: Cel obumiera przez %duration Tików * %multiplier na poziom!
+    ModifierItemName: Czaszka Mrocznego Szkieleta
+    DescriptionModifierItem: Element modyfikujący dla modyfikatora "Obumarcie"
+DataType:
+  Boolean: Boolean (prawda/fałsz)
+  String: Sznur
+  List: Lista
+  Integer: Liczba całkowita
+  Double: Liczba zmiennoprzecinkowa (podwójna)
+ToolType:
+  ALL: Wszystko
+  AXE: Siekiery
+  BOOTS: Buty
+  BOW: Łuki
+  CHESTPLATE: Napierśniki
+  CROSSBOW: Kusze
+  ELYTRA: Elytry
+  FISHINGROD: Wędki
+  HELMET: Hełmy
+  HOE: Motyki
+  INVALID: Nieprawidłowy
+  LEGGINGS: Nogawice
+  OTHER: Inne
+  PICKAXE: Kilofy
+  SHEARS: Nożyce
+  SHIELD: Tarcze
+  SHOVEL: Łopaty
+  SWORD: Miecze
+  TRIDENT: Trójzęby
+Enchantment:
+  power: Moc
+  flame: Płomień
+  infinity: Nieskończoność
+  punch: Uderzenie
+  binding_curse: Klątwa uwiązania
+  channeling: Porażenie
+  sharpness: Ostrość
+  bane_of_arthropods: Zmora stawonogów
+  smite: Pogromca nieumarłych
+  depth_strider: Głębinowy wędrowiec
+  efficiency: Wydajność
+  unbreaking: Niezniszczalność
+  fire_aspect: Zaklęty ogień
+  frost_walker: Mroźny piechur
+  impaling: Przebicie
+  knockback: Odrzut
+  fortune: Szczęście
+  looting: Grabież
+  loyalty: Lojalność
+  luck_of_the_sea: Morska fortuna
+  lure: Przynęta
+  mending: Naprawa
+  multishot: Wielostrzał
+  respiration: Oddychanie
+  piercing: Przeszycie
+  protection: Ochrona
+  blast_protection: Ochrona od wybuchów
+  feather_falling: Powolne opadanie
+  fire_protection: Ochrona przed ogniem
+  projectile_protection: Ochrona przed pociskami
+  quick_charge: Szybkie przeładowanie
+  riptide: Torpeda
+  silk_touch: Jedwabny dotyk
+  sweeping: Szerokie ostrze
+  thorns: Ciernie
+  vanishing_curse: Klątwa znikania
+  aqua_affinity: Wydajność pod wodą
+  soul_speed: Szybkość dusz
+  swift_sneak: Szybkie Skradanie
+Updater:
+  Unable: Nie można sprawdzić aktualizacji!
+  UpdateAvailable: Na spigotmc.org dostępna jest aktualizacja!
+  YourVersion: 'Twoja Wersja: %ver'
+  OnlineVersion: 'Wersja Online: %ver'
+  UpToDate: Masz zainstalowaną najnowszą wersję MineTinker!

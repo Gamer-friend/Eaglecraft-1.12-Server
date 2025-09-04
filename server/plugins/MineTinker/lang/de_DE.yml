@@ -1,0 +1,607 @@
+Alert:
+  OnItemBreak: '%RED%Es scheint so, als ob dein Werkzeug zerstört wurde! Es wurde
+    dir mit einer Haltbarkeit zurückgegeben.'
+  OnItemGrind: '%RED%Du kannst keinen Schleifstein für MineTinker-Items benutzen!'
+  ToolUpgradeFailure: '%RED%Verbesserung ist fehlgeschlagen!'
+  InternalError: '%RED%Ein interner Fehler ist aufgetreten!'
+  OnCooldown: '%RED%Diese Fähigkeit ist noch auf Abklinkzeit!'
+  MinecraftAPI: '%RED%Die Verbindung zur Minecraft API konnte nicht hergestellt werden!'
+StartUp:
+  Commands: Befehle registriert!
+  BuildersWands: Baumeisterstäbe registriert!
+  EasyHarvest: EasyHarvest aktiviert!
+  Events: Events registriert!
+  GUIs: Lade GUIs!
+  StdLogging: Standard Logging ist aktiviert. Sie können es in der Konfigurationsdatei
+    unter Logging.Standard deaktivieren!
+  DebugLogging: Debug Logging ist aktiviert. Sie sollten es in der Konfigurationsdatei
+    unter Logging.Debug deaktivieren!
+Builderswand:
+  Name:
+    Wood: Hölzerner Baumeisterstab
+    Stone: Steinerner Baumeisterstab
+    Iron: Eiserner Baumeisterstab
+    Gold: Goldener Baumeisterstab
+    Diamond: Diamantener Baumeisterstab
+    Netherite: Netherite Baumeisterstab
+  Description: '%WHITE%MineTinker - Baumeisterstab'
+  Error: 'Das Crafting Rezept für des %wandes konnte nicht registriert werden! '
+Commands:
+  Info:
+    Line1: MineTinker (%ver) ist ein Plugin programmiert von Flo56958.
+    Line2: Es ist inspiriert von verschiedenen Modifikationen (z.B. TinkersConstruct)
+  InvalidArguments: Sie haben ungültige Befehlsargumente eingegeben!
+  InvalidTool: Sie müssen ein valides Item in der Haupthand halten, um diesen Befehl
+    auszuführen!
+  NoPermission: Du hast nicht die erforderlichen Befugnisse, um diese Aktion durchzuführen!
+  Reload:
+    Note1: 'BEACHTE: Es ist möglich, dass das Plugin nach einem Neuladen nicht mehr
+      richtig funktioniert und es zu Fehlern kommen könnte. Ein Neustarten des Servers
+      ist empfohlen!'
+    Recipes: Entfernen der Crafting Rezepte!
+    Configs: Neuladen der Konfigurationen!
+    ModManager: Neuladen des Modifikationsmanagers!
+    Builderswands: Neuladen der Stäbe der Erbauer!
+    GUIs: Neuladen der GUIs!
+    Finish: Neuladen fertiggestellt!
+  ModList: 'Mögliche Modifikationen:'
+  CheckUpdate:
+    Start: Es wird nach Updates gesucht...
+    Disabled: Das Suchen von Updates wurde vom Server-Administrator deaktiviert!
+  ItemStatistics:
+    Head: Item-Statistiken für %toolname
+    Level: '%GOLD%Level: %WHITE%%level'
+    Exp: '%GOLD%XP: %WHITE%%current / %nextlevel'
+    FreeSlots: '%GOLD%Freie Modifikationsplätze: %WHITE%%slots'
+    Modifiers: '%WHITE%Modifizierungen:'
+  Failure:
+    Main: 'Befehl fehlgeschlagen: %cause'
+    Cause:
+      PlayerNotFound: Spieler %p wurde nicht gefunden!
+      PlayerMissing: Benötigte Spieler Information fehlt!
+      InvalidArguments: Ungültige Argumente!
+      NumberFormatException: Zahlen sind im falschen Format!
+      PlayerOnlyCommand: Der Befehl ist nur für Spieler!
+      UnknownCommand: Unbekannter Befehl!
+      NoPermission: Keine Rechte!
+      InvalidItem: Ungültiges Item!
+      NameNotAllowed: Dieser Name ist nicht erlaubt!
+GUI:
+  ButtonAction:
+    REQUEST_INPUT: Deine Eingabe für %data wird benötigt. Die nächste Chatnachricht,
+      die du sendest, wird von MineTinker abgefangen und als deine Eingabe gewertet.
+GUIs:
+  Forward: Vorwärts
+  Back: Zurück
+  LeftClick: Linksklick
+  RightClick: Rechtsklick
+  MiddleClick: Mittlere Maustaste
+  BackOtherMenu: Zurück zum anderen Menü
+  Modifiers:
+    Title: MineTinker-Modifizierungen, %pageNo
+    MaxLevel: 'Maximales Level: %maxLevel'
+    WorksOn: 'Kann modifizieren:'
+    CanApply: 'Kann auftragen:'
+    IncompatibleWith: 'Inkompatibel mit:'
+    EnchantCost: 'Verzauberungskosten: %WHITE%%enchantCost'
+    ClickToRecipe: Drücke %key, um das Craftingrezept anzuzeigen.
+    BlockToEnchant: Drücke %key mit %mat auf %block, um den Modifier zu verzaubern.
+    SlotCost: 'Benötigt Plätze pro Level: %WHITE%%amount'
+    MinimumToolLevel: 'Minimal benötigtes Werkzeuglevel: %WHITE%%level'
+  ConfigurationEditor:
+    ReloadPlugin: MineTinker neuladen
+    Change: '%key wurde von %old zu %new geändert!'
+    Type: 'Typ: %type'
+    Value: 'Wert: %GOLD%%value'
+    UnsupportedType: Dieser Typ wird derzeit leider nicht unterstützt und kann nicht
+      editiert werden!
+    WrongInput: 'Deine Eingabe war nicht richtig! Erwartet: %type! Eigegeben: %input!'
+    Title: Konfigurationsmanager, Seite %pageNo
+    TitleConfigs: '%config, Seite %pageNo'
+    IncrementValueClick: '%key um den Wert um %amount zu inkrementieren!'
+    DecrementValueClick: '%key um den Wert um %amount zu dekrementieren!'
+    InsertValue: '%key um einen neuen Wert einzugeben!'
+    ToggleValue: '%key um Wert umzukehren!'
+    config:
+      PluginIncompatibility:
+        Check: Aktiviert die Suche nach inkompatiblen Plugins and MineTinker versucht
+          angemessen die Konfigurationseinstellungen anzupassen
+        SkippedPlugins: Deaktiviert die Suche für die Plugins in der Liste
+      CheckForUpdates: Prüft beim Start und beim Neuladen nach Plugin-Updates
+      chat-messages: Aktiviert Chatnachrichten (wie Befehlsausgaben)
+      LevelStep: Wert *(LevelFactor^LevelDesWerkzeugs) [Exponentiell]; *(LevelFactor*LevelDesWerkzeugs)
+        [Linear]
+      ProgressionIsLinear: 'falsch: exponentiell, wahr: linear'
+      ResetAtVarOverflow: 'Setzt Level und XP bei Integer.MAX_VALUE oder Long.MAX_VALUE
+        auf 1 und 0 zurück. Wenn falsch: kein weiteres XP-farmen möglich'
+      logging:
+        standard: Notiert wichtige Spieler Aktivitäten mit MineTinker in der Konsole
+        debug: Mehr Informationen werden in die Konsole geschrieben
+        metrics: bStats-Metrics für anonyme Statistiken über die Nutzung von MineTinker
+  Statistics:
+    Title: Item-Statistiken für %tool
+    General:
+      Title: Allgemeine Statistiken
+      Creator: 'Ersteller: %player'
+      Created: 'Erstellt: %date'
+    Blocks:
+      Title: Block Statistiken
+      TotalAmount: 'Anzahl Blöcke zerstört: %amount'
+      TitlePage: Block Statistiken für %tool - %pageNo
+      AmountBroken: '%amount male Gebrochen'
+    Modifiers:
+      TitlePage: Modifizierungsstatistiken für %tool - %pageNo
+    Combat:
+      Title: Kampf Statistiken
+      TitlePage: Kampf Statistiken für %tool - %pageNo
+      AmountKilled: '%amount mal getötet'
+      DamageDealt: '%amount Schaden ausgeteilt'
+      DamageReceived: '%amount Schaden eingesteckt'
+  Enchantable:
+    Title: 'Wähle die zu verzaubernde Modifikation '
+ModManager:
+  RegisterModifier: '%GREEN%Die Modifikation %mod %GREEN%von %plugin wurde erfolgreich
+    registriert.'
+  UnregisterModifier: '%GREEN%Die Modifikation %mod %GREEN%von %plugin wurde erfolgreich
+    deregistriert.'
+  IncompatibilityWrongSyntax: Es wurde ein falscher Syntax oder falscher Modifizierungsname
+    in den nicht kompatiblen Modifizierungseinstellungen gefunden in Zeile '%line'.
+ModifierFailCause:
+  IncompatibleModifiers: Inkompatible Modifikationen!
+  InvalidToolType: Ungültiger Werkzeug-Typ!
+  MaximumSlotsReached: Die maximale Anzahl an Plätzen für Modifikationen wurde erreicht!
+  ModMaxLevel: Die Modifikation ist bereits auf dem höchsten Level!
+  NoFreeSlots: Nicht genug freie Modifikationsplätze auf dem Item!
+  NoPermission: Keine Berechtigung!
+  PlayerFailure: Spieler hat versagt beim Modifizieren!
+  ToolLevelToLow: Werkzeug ist nicht hoch genug gelevelt!
+GrindStone:
+  PossibleSlotsAfterGrind: 'Mögliche freie Modifizierungsplätze nach dem Schleifen:
+    %amount'
+ActionBar:
+  ExpGain: '%amount Exp hinzugewonnen!'
+LanguageManager:
+  LoadedLanguage: Sprachmanager hat Sprache %lang erfolgreich geladen!
+TinkerListener:
+  ToolUpgrade: '%tool wurde erfolgreich zu %type geupgradet!'
+  ModifierApply: '%tool hat nun %mod und noch %slots freie Modifikationsplätze!'
+  ModifierFail: Das Modifizieren mit %mod ist fehlgeschlagen (%cause)!
+  ToolLevelUp: '%tool hat ein Level Up bekommen und ist nun Level %level!'
+Modifier:
+  Enchantable:
+    LevelsRequired: '%amount Level benötigt!'
+  Anti-Arrow-Plating:
+    Name: Anti-Pfeil-Panzerung
+    Description: Rüstung reduziert den erlittenen Projektilschaden!
+    ModifierItemName: Undurchdringbares Metall
+    DescriptionModifierItem: Modifizierungs-Item für die Anti-Pfeil-Panzerungs-Modifizierung
+  Anti-Blast-Plating:
+    Name: Explosionsschutz
+    Description: Rüstung reduziert erlittenen Schaden durch Explosionen!
+    ModifierItemName: Explosionssicheres Metall
+    DescriptionModifierItem: Modifizierungs-Item für die Explosionsschutz-Modifizierung
+  Aquaphilic:
+    Name: Aquaphil
+    Description: Schwimme schneller, tauche länger und zerstöre Blöcke unter Wasser
+      mit mehr Effizienz
+    ModifierItemName: Perle des Meeres
+    DescriptionModifierItem: Modifizierungs-Item für die Aquaphil-Modifizierung
+  Auto-Smelt:
+    Name: Auto-Ofen
+    Description: Schmelzt Erze und andere Blöcke während des Abbauens! %chance% Wahrscheinlichkeit
+      pro Level.
+    ModifierItemName: Verbesserter Schmelzofen
+    DescriptionModifierItem: Modifizierungs-Item für die Auto-Ofen-Modifikation
+    Statistic_Used: 'Anzahl der Benutzungen: %amount'
+    Statistic_Luck: 'Extra Ressourcen durch %modifier bekommen: %amount'
+  Beheading:
+    Name: Enthauptend
+    Description: '%chance% Wahrscheinlichkeit pro Level den Kopf eines getöteten Gegners
+      fallen zu lassen.'
+    ModifierItemName: Verzauberter Wither-Schädel
+    DescriptionModifierItem: Modifizierungs-Item für die Enthauptend-Modifizierung
+    Statistic_Used: 'Erfolgreiche Enthauptungen: %amount'
+  Berserk:
+    Name: Berserker
+    Description: Verfalle in Rage, welche dich stärker macht, für %duration Sekunden
+      wenn dein Leben unter %percent% fällt!
+    ModifierItemName: Blutiges Redstone
+    DescriptionModifierItem: Modifizierungs-Item für die Berserker-Modifikation
+    Statistic_Used: 'Anzahl Aktivierungen: %amount'
+  Channeling:
+    Name: 'Kanalisierend '
+    Description: Werde zum Gott des Donners und beschwöre Blitze mit jedem Angriff!
+      (%amount Wahrscheinlichkeit pro Level)
+    ModifierItemName: Blitzende Scherbe
+    DescriptionModifierItem: Modifizierungs-Item für die Kanalisierend-Modifizierung
+  Directing:
+    Name: Direkt
+    Description: Drops von getöteten Mobs oder zerstörten Blöcken wird automatisch
+      dem Inventar hinzugefügt.
+    ModifierItemName: Verbesserter Kompass
+    DescriptionModifierItem: Modifizierungs-Item für die Direkt-Modifikation
+    Statistic_Used: 'Anzahl Items herangezogen: %amount'
+  Drilling:
+    Name: Tiefenbohrung
+    Description: Zerstöre mehr Blöcke tiefer in der Welt pro Level!
+    ModifierItemName: Verstärkter Bohraufsatz
+    DescriptionModifierItem: Modifizierungs-Item für die Tiefenbohrung-Modifikation
+  Echoing:
+    Name: Echo
+    Description: Nahe Gegner werden auch durch Wände mit einer Entfernung von maximal
+      %amount Blöcken per Level angezeigt!
+    ModifierItemName: Allsehendes Auge
+    DescriptionModifierItem: Modifizierungs-Item für die Echo-Modifizierung
+  Ender:
+    Name: Ender
+    Description: Teleportiert dich, wenn du schleichst, zum Einschlagsort des Pfeils!
+    ModifierItemName: Besonderes Enderauge
+    DescriptionModifierItem: Modifizierungs-Item für die Ender-Modifizierung
+    TeleportationProhibited: Du kannst keine Plätze mit diesem Spieler tauschen!
+    Statistic_Used: 'Anzahl Enderman verkörpert: %amount'
+    Statistic_Distance: 'Distanz überwunden: %amount Blöcke'
+    Statistic_Swapped: 'Anzahl Mobs teleportiert: %amount'
+  Evasive:
+    Name: Ausweichend
+    Description: '%chance Wahrscheinlichkeit pro Level Angriffen auszuweichen (Modifikatoren:
+      %sneakX wenn schleichend, %sprintX wenn sprintend, %pvpX wenn in PvP)'
+    ModifierItemName: Schnelle Feder
+    DescriptionModifierItem: Modifizierungs-Item für die Ausweichend-Modifikation
+  Experienced:
+    Name: Erfahrend
+    Description: Das Werkzeug hat die %chance% Wahrscheinlichkeit pro Level, um bei
+      Benutzung %amount XP fallen zu lassen!
+    ModifierItemName: Essenz der Erfahrung
+    DescriptionModifierItem: Modifizierungs-Item für die Erfahrend-Modifizierung
+    Statistic_Amount: 'Anzahl XP generiert: %amount'
+  Extra-Modifier:
+    Name: Zusätzlicher Modifizierungsplatz
+    Description: Fügt %amount zusätzliche Modifizierungsplätze hinzu!
+    ModifierItemName: Rafinierter Netherstern
+    DescriptionModifierItem: Modifizierungs-Item für einen zusätzlichen Modifizierungsplatz
+  Fiery:
+    Name: Feurig
+    Description: Eine Modifizierung sie alle zu verbrennen!
+    ModifierItemName: Verzauberte Lohenrute
+    DescriptionModifierItem: Modifizierungs-Item für die Feurig-Modifizierung
+  Freezing:
+    Name: Eisig
+    Description: Friere das Wasser um dich herum!
+    ModifierItemName: Eisiger Kristall
+    DescriptionModifierItem: Modifizierungs-Item für die Eisig-Modifizierung
+  Glowing:
+    Name: Leuchtend
+    Description: Bringe deine Feinde für %durationmin bis zu %durationmax Sekunden
+      zum Leuchten! (abhängig vom Level)
+    ModifierItemName: Ender-Glowstone
+    DescriptionModifierItem: Modifizierungs-Item für die Leuchtend-Modifizierung
+  Hardened:
+    Name: Gehärtet
+    Description: 'Verstärke deine Rüstung um %aamount Rüstungspunkte und %tamount
+      Rüstungshärte pro Level! '
+    ModifierItemName: Diamant-Raffiniertes Eisen
+    DescriptionModifierItem: Modifizierungs-Item für die Gehärtet-Modifizierung
+  Haste:
+    Name: Eile
+    Description: Zerstöre Blöcke und schieße Armbrüste schneller!
+    ModifierItemName: Komprimierter Redstoneblock
+    DescriptionModifierItem: Modifizierungs-Item für die Eile-Modifizierung
+  Homing:
+    Name: Zielsuchend
+    Description: Pfeile erkennen Ziele im Radius von %radius Blöcken und visieren
+      diese an! Höhere Level erhöhen die Genauigkeit.
+    ModifierItemName: Ballistik-Prozessor
+    DescriptionModifierItem: Modifizierungs-Item für die Zielsuchend-Modifizierung
+  Infinity:
+    Name: Unendlich
+    Description: Du benötigst nur einen Pfeil zum Bogenschießen und der Dreizack kommt
+      zurück!
+    ModifierItemName: Verzauberter Pfeil
+    DescriptionModifierItem: Modifizierungs-Item für die Unendlich-Modifizierung
+  Insulating:
+    Name: Isolierend
+    Description: Rüstung reduziert den Hitzeschaden!
+    ModifierItemName: Hitzeresistente Legierung
+    DescriptionModifierItem: Modifizierungs-Item für die Isolierend-Modifikation
+  KineticPlating:
+    Name: Kinetik-Schutz
+    Description: Reduziert den Schaden eines Absturzes einer Elytra um %amount% pro
+      Level.
+    ModifierItemName: Kinetische Platte
+    DescriptionModifierItem: Modifizierungs-Item für den Kinetik-Schutz-Modifier
+  Knockback:
+    Name: Rückstoß
+    Description: Stoße Gegner weiter zurück mit jedem Schlag!
+    ModifierItemName: Verzaubertes TNT
+    DescriptionModifierItem: Modifizierungs-Item für die Rückstoß-Modifikation
+  Lifesteal:
+    Name: Lebensraub
+    Description: Heilt dich für %amount% des von dir zugefügten Schadens. %chance%
+      Wahrscheinlichkeit um zu Aktivieren.
+    ModifierItemName: Blutgetränkter Höllenstein
+    DescriptionModifierItem: Modifizierungs-Item für die Lebensraub-Modifikation
+  Light-Weight:
+    Name: Leichtgewichtig
+    Description: Du fällst wie eine Feder - teilweise...
+    ModifierItemName: Verzauberte Feder
+    DescriptionModifierItem: Modifizierungs-Item für die Leichtgewichtig-Modifikation
+  Luck:
+    Name: Glück
+    Description: Bekomme mehr Beute von Gegnern und Blöcken!
+    ModifierItemName: 'Komprimierter Lapis-Lazuli-Block '
+    DescriptionModifierItem: Modifizierungs-Item für die Glück-Modifikation
+  Magical:
+    Name: Magisch
+    Description: Schieße ein magisches Projektil, welches nicht von Gravitation beeinflusst
+      wird aber %amount% langsamer fliegt! Wenn das Projektil ein Ziel trifft, macht
+      es %min% bis %max% zusätzlichen Schaden (abhängig vom Level)! Kostet %xp XP
+      zum Schießen!
+    ModifierItemName: Magischer Pfeil
+    DescriptionModifierItem: Modifizierungs-Item für die Magisch-Modifikation
+  Melting:
+    Name: Schmelzend
+    Description: '%amount% zusätzlicher Schaden gegen brennende Gegner und %amount%
+      weniger erlittener Schaden während du brennst!'
+    ModifierItemName: Verzauberter Magma-Block
+    DescriptionModifierItem: Modifizierungs-Item für die Schmelzend-Modifikation
+  Multishot:
+    Name: Multischuss
+    Description: Schieße ein Pfeil pro Level mehr pro Schuss!
+    ModifierItemName: Multi-Pfeil
+    DescriptionModifierItem: Modifizierungs-Item für die Multischuss-Modifikation
+  Multijump:
+    Name: Mehrfachsprung
+    Description: Springe pro Level ein zusätzliches Mal in der Luft!
+    ModifierItemName: Magischer Hasenfuss
+    DescriptionModifierItem: Modifizierungs-Item für die Mehrfachsprung-Modifikation
+  Nightseeker:
+    Name: Nachtsucher
+    Description: Mache mehr oder bekomme weniger Schaden (%amountmin% - %amountmax%)
+      wenn der Mond scheint (abhängig vom Level und der Mondposition). Dieser Effekt
+      ist invertiert am Tag und im Nether hat aber volle Stärke im Ende!
+    ModifierItemName: Dunkler Tageslicht Detektor
+    DescriptionModifierItem: Modifizierungs-Item für die Nachtsucher-Modifizierung
+  Photosynthesis:
+    Name: Photosynthese
+    Description: Repariere dein Item im Sonnenlicht mit %amount Haltbarkeit pro Level
+      jede %ticks Ticks. Je länger du in der Sonne bleibst desto schneller wird das
+      Item repariert. (%multiplier%)
+    ModifierItemName: Extrahiertes Chlorophyll
+    DescriptionModifierItem: Modifizierungs-Item für die Photosynthese-Modifikation
+    NotifyWhenActive: Photosynthese aktiv...
+    Statistic_Healed: 'Haltbarkeit zurückgewonnen: %amount'
+  Piercing:
+    Name: Durchbohrend
+    Description: Pfeile durchbohren mehrere Gegner!
+    ModifierItemName: Bodkin-Spitze
+    DescriptionModifierItem: Modifizierungs-Item für die Durchbohrend-Modifikation
+  Poisonous:
+    Name: Vergiftend
+    Description: Vergiftet das Ziel für %duration Ticks * %multiplier pro Level!
+    ModifierItemName: Verzaubertes verrottetes Fleisch
+    DescriptionModifierItem: Modifizierungs-Item für die Vergiftend-Modifikation
+  Power:
+    Name: Kräftig
+    Description: Zerstöre mehr Blöcke pro Schlag mit deinem Werkzeug!
+    ModifierItemName: Verzauberter Smaragd
+    DescriptionModifierItem: Modifizierungs-Item für die Kräftig-Modifikation
+  Propelling:
+    Name: Antreibend
+    Description: Treibe dich in der Luft an wenn du Schleichst während du gleitest
+      mit einer Elytra oder im Wasser stehst mit einem Dreizack!
+    ModifierItemName: Verzauberter Feuerwerksstern
+    DescriptionModifierItem: Modifizierungs-Item für die Antreibend-Modifizierung
+  Protecting:
+    Name: Beschützend
+    Description: Rüstung schütz besser gegen Schaden!
+    ModifierItemName: Angereichertes Obsidian
+    DescriptionModifierItem: Modifizierungs-Item für die Beschützend-Modifikation
+  Reinforced:
+    Name: Verstärkt
+    Description: Erhöht die Wahrscheinlichkeit Haltbarkeit nicht zu verbrauchen bei
+      Benutzung! Macht das Werkzeug haltbarer!
+    ModifierItemName: Komprimiertes Obsidian
+    DescriptionModifierItem: Modifizierungs-Item für die Verstärkt-Modifizierung
+  Scotopic:
+    Name: Skotopisch
+    Description: 'Bekomme %amount Sekunden Nachtsicht pro Level, wenn das Lichtlevel
+      unter %light fällt! Abklinkzeit: %cmax - %cmin Sekunden (abhängig vom Level)'
+    ModifierItemName: Nächtliches Auge
+    DescriptionModifierItem: Modifizierungs-Item für die Skotopisch-Modifikation
+  Shadow-Dive:
+    Name: Schattentaucher
+    Description: Werde komplett unsichtbar in dunklen Umgebungen wenn du schleichst!
+      (Licht muss dunkler als %level sein)
+    ModifierItemName: Verschwindender Kristall
+    DescriptionModifierItem: Modifizierungs-Item für die Schattentaucher-Modifikation
+    LightToHigh: Das Lichtlevel ist zu hoch!
+    InCombat: Du bist im Kampf!
+  Self-Repair:
+    Name: Selbst-Reparatur
+    Description: '%chance% Wahscheinlichkeit pro Level das benutzte Item mit %amount
+      Haltbarkeit zu reparieren.'
+    ModifierItemName: Verzauberter bemooster Bruchstein
+    DescriptionModifierItem: Modifizierungs-Item für die Selbst-Reparatur-Modifizierung
+  Sharpness:
+    Name: Schärfe
+    Description: Waffe fügt jedem zusätzlichen Schaden zu!
+    ModifierItemName: Komprimierter Quartzblock
+    DescriptionModifierItem: Modifizierungs-Item für die Schärfe-Modifizierung
+  Shrouded:
+    Name: Verhüllt
+    Description: Erschafft eine Partikelwolke, die alle innerhalb erblindet, für %durationmin
+      - %durationmax Sekunden an der Pfeilauftrittstelle! Synergiert mit anderen Modifikationen.
+    ModifierItemName: Rauchige Flasche
+    DescriptionModifierItem: Modifizierungs-Item für die Verhüllt-Modifikation
+  Shulking:
+    Name: Shulkend
+    Description: 'Bringe Gegner für %duration Ticks zum Schweben! Der Effekt wird
+      stärker mit jedem Level. '
+    ModifierItemName: Verbesserte Shulkerschale
+    DescriptionModifierItem: Modifizierungs-Item für die Shulkend-Modifizierung
+  Silk-Touch:
+    Name: Behutsamkeit
+    Description: Fügt Behutsamkeit hinzu!
+    ModifierItemName: Verzauberte Spinnenweben
+    DescriptionModifierItem: Modifizierungs-Item für die Behutsamkeit-Modifizierung
+  Smite:
+    Name: Bann
+    Description: Waffen machen zusätzlichen Schaden gegen Untote!
+    ModifierItemName: Heilige Gebeine
+    DescriptionModifierItem: Modifizierungs-Item für die Bann-Modifizierung
+  Soul-Speed:
+    Name: Seelengeschwindigkeit
+    Description: Man läuft schneller über Seelensand!
+    ModifierItemName: Alter Seelensand
+    DescriptionModifierItem: Modifizierungs-Item für die Seelengeschwindigkeit-Modifikation
+  Soulbound:
+    Name: Seelengebunden
+    Description: Verliere deine Items nicht wenn du stirbst.
+    ModifierItemName: Energiegeflutetes Leuchtfeuer
+    DescriptionModifierItem: Modifizierungs-Item für die Seelengebunden-Modifizierung
+  Speedy:
+    Name: Zügig
+    Description: Laufe und sprinte %amount% schneller pro Level!
+    ModifierItemName: Verbessertes Hasenfell
+    DescriptionModifierItem: Modifizierungs-Item für die Zügig-Modifizierung
+  Spiders-Bane:
+    Name: Fluch der Spinnen
+    Description: Waffe fügt Spinnen zusätzlichen Schaden zu!
+    ModifierItemName: Gereinigtes Spinnenauge
+    DescriptionModifierItem: Modifizierungs-Item für die Fluch-der-Spinnen-Modifizierung
+  Sunblazer:
+    Name: Sonnenanbeter
+    Description: Mache mehr oder bekomme weniger Schaden (%amountmin% - %amountmax%)
+      wenn die Sonne scheint (abhängig vom Level und der Sonnenposition). Dieser Effekt
+      ist invertiert in der Nacht und im Ende hat aber volle Stärke im Nether!
+    ModifierItemName: Goldener Tageslicht Detektor
+    DescriptionModifierItem: Modifizierungs-Item für die Sonnenanbeter-Modifizierung
+  Sweeping:
+    Name: Schwungkraft
+    Description: Mache mehr Schaden über eine größere Fläche!
+    ModifierItemName: Verzauberter Eisenbarren
+    DescriptionModifierItem: Modifizierungs-Item für die Schwungkraft-Modifizierung
+  Swift-Sneaking:
+    Name: Huschen
+    Description: Bewege dich schneller, wenn du schleichst!
+    ModifierItemName: Feder der Schnelligkeit
+    DescriptionModifierItem: Modifizierungs-Item für die Huschen-Modifikation
+  Tanky:
+    Name: Panzer
+    Description: '%amount extra Herzen pro Level!'
+    ModifierItemName: Blutgetränkter Obsidian
+    DescriptionModifierItem: Modifizierungs-Item für die Panzer-Modifizierung
+  Thorned:
+    Name: Dornen
+    Description: Rüstung wirft Schaden zurück auf Gegner die dir Schaden zufügen!
+    ModifierItemName: Gedornte Panzerung
+    DescriptionModifierItem: Modifizierungs-Item für die Dornen-Modifizierung
+  Timber:
+    Name: Holzfäller
+    Description: Fälle Bäume durch nur einen abgebauten Block!
+    ModifierItemName: Hölzerner Smaragd
+    DescriptionModifierItem: Modifizierungs-Item für die Holzfäller-Modifizierung
+  Undead:
+    Name: Untot
+    Description: Monster werden dich nicht mehr angreifen, aber du kannst auch keinen
+      angreifen!
+    ModifierItemName: Zombie Serum
+    DescriptionModifierItem: Modifizierungs-Item für die Untot-Modifizierung
+  Vigilant:
+    Name: Wachsam
+    Description: Bekomme ein temporäres Schild mit der Größe %amount des erhaltenen
+      Schadens. Diese Schild hält für %duration Sekunden pro Level.
+    ModifierItemName: Verbotener Apfel
+    DescriptionModifierItem: Modifizierungs-Item für die Wachsam-Modifikation
+  Void-Netting:
+    Name: Leerensicherung
+    Description: 'Teleportiert dich zu einem sicheren Platz in einem Radius von %radius
+      Blöcken pro Level wenn du in die Leere fällst. Abklinkzeit: %cmax - %cmin Sekunden
+      (abhängig vom Level)'
+    ModifierItemName: Leerennetz
+    DescriptionModifierItem: Modifizierungs-Item für die Leerensicherung-Modifikation
+    CouldNotFindBlock: Es konnte kein sicherer Platz gefunden werden!
+  Webbed:
+    Name: Vernetzend
+    Description: Verlangsame Gegner mit jedem Treffer für %duration Ticks * %multiplier
+      per Level!
+    ModifierItemName: Komprimierte Spinnenweben
+    DescriptionModifierItem: Modifizierungs-Item für die Vernetzend-Modifizierung
+  Withered:
+    Name: Verwelkend
+    Description: Macht zusätzlichen Witherschaden für %duration Ticks * %multiplier
+      pro Level!
+    ModifierItemName: Verwelkender Witherskelettschädel
+    DescriptionModifierItem: Modifizierungs-Item für die Verwelkend-Modifizierung
+DataType:
+  Boolean: Boolean (wahr/falsch)
+  String: String (Zeichenkette)
+  List: Liste
+  Integer: Integer (Ganzzahl)
+  Double: Double (Fließkommazahl)
+ToolType:
+  ALL: Alles
+  AXE: Äxte
+  BOOTS: Schuhe
+  BOW: Bögen
+  CHESTPLATE: Brustplatten
+  CROSSBOW: Armbrüste
+  ELYTRA: Elytren
+  FISHINGROD: Angeln
+  HELMET: Helme
+  HOE: Hacken
+  INVALID: Ungültig
+  LEGGINGS: Hosen
+  OTHER: Andere
+  PICKAXE: Spitzhacken
+  SHEARS: Scheren
+  SHIELD: Schilde
+  SHOVEL: Schaufeln
+  SWORD: Schwerter
+  TRIDENT: Dreizacke
+Enchantment:
+  power: Stärke
+  flame: Flamme
+  infinity: Unendlichkeit
+  punch: Schlag
+  binding_curse: Fluch der Bindung
+  channeling: Entladung
+  sharpness: Schärfe
+  bane_of_arthropods: Nemesis der Gliederfüßer
+  smite: Bann
+  depth_strider: Wasserläufer
+  efficiency: Effizienz
+  unbreaking: Haltbarkeit
+  fire_aspect: Verbrennung
+  frost_walker: Eisläufer
+  impaling: Harpune
+  knockback: Rückstoß
+  fortune: Glück
+  looting: Plünderung
+  loyalty: Treue
+  luck_of_the_sea: Glück des Meeres
+  lure: Köder
+  mending: Reparatur
+  multishot: Mehrfachschuss
+  respiration: Atmung
+  piercing: Durchschuss
+  protection: Schutz
+  blast_protection: Explosionsschutz
+  feather_falling: Federfall
+  fire_protection: Feuerschutz
+  projectile_protection: Schusssicher
+  quick_charge: Schnellladen
+  riptide: Sog
+  silk_touch: Behutsamkeit
+  sweeping: Schwungkraft
+  thorns: Dornen
+  vanishing_curse: Fluch des Verschwindens
+  aqua_affinity: Wasseraffinität
+  soul_speed: Seelengeschwindigkeit
+  swift_sneak: Huschen
+Updater:
+  Unable: Suche nach Updates fehlgeschlagen!
+  UpdateAvailable: Es ist ein Update verfügbar auf spigotmc.org!
+  YourVersion: 'Ihre Version: %ver'
+  OnlineVersion: 'Online Version: %ver'
+  UpToDate: Sie haben die neueste Version von MineTinker!

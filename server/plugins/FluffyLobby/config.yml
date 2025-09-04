@@ -1,0 +1,103 @@
+# Permissions can not be changed for now [Will be added later in a update]
+#
+#buildsystem to use /build commands on themself and others:
+#permission: lobby.build
+#fluffylobby commands:
+#permission: lobby.manage
+#setspawn
+#permissions : lobby.setspawn
+#spawn
+#permissions - No Permission for this command
+
+
+settings:
+  NoBlockUpdate: true # Blocks all physics updates (e.g. Redstone, liquids, etc.)
+  GameRules:
+    DO_DAYLIGHT_CYCLE: false
+    DO_WEATHER_CYCLE: false
+    DO_MOB_SPAWNING: false
+    RANDOM_TICK_SPEED: 0
+    DO_ENTITY_DROPS: false
+    DO_TILE_DROPS: false
+
+disablechat: false
+#Disable the full chat on the server
+
+hunger:
+  override: true
+  level: 20
+  saturation: true
+
+health:
+  enabled: true         # Whether to apply health settings on join
+  hearts: 10            # Current visible health (HP)
+  max_hearts: 20        # Max health the player can have
+  effect: "wither"      # Options: "none", "wither", "poison"
+
+messages:
+  join_message: "<yellow>Welcome to <gradient:#F5A623:#F574BA>This Server</gradient>, <gradient:#00FF00:#0000FF>%player%</gradient>! <bold>Enjoy your stay!</bold>"
+  quit_message: "<gradient:#FF4444:#FF8844>%player%</gradient> <gray>has left the server.</gray>"
+  setspawn_message: "<gradient:#00FF00:#00AAFF>Spawn point has been successfully set!</gradient>"
+  spawn_message: "<gradient:#FFD700:#FF4500>You have been teleported to the spawn!</gradient>"
+  build_mode_enabled: "<gradient:#32CD32:#7FFF00>Build mode enabled.</gradient> You can now build freely."
+  build_mode_disabled: "<gradient:#FF0000:#FFA500>Build mode disabled.</gradient> Building is now restricted."
+  only_players: "<gradient:#FF4444:#FF8844>Only players can execute this command!</gradient> Please join the game to use it."
+  reload_message: "<gradient:#00FF00:#00AAFF>Configuration successfully reloaded!</gradient>"
+  no_permission: "<gradient:#FF0000:#FF6347>You do not have permission to execute this command!</gradient>"
+  usage_message: "<yellow>Usage: <gradient:#32CD32:#7FFF00>%usage%</gradient>"
+
+
+  # Placeholder for the server click | <server>
+
+  connect_attempt: "<green>Connecting to <yellow><server></yellow>...</green>"
+  connect_error: "<red>Failed to connect to <yellow><server></yellow>!</red>"
+
+lobby_items:
+  bow:
+    name: '&dTeleporter-Bow'
+    material: BOW
+    slot: 1
+  paper:
+    name: '&eServer'
+    material: PAPER
+    slot: 9
+  arrow:
+    name: '&2Ender-Arrow'
+    material: ARROW
+    slot: 10
+
+#--> You can just add more items
+#--> just do it like the configs shows
+#--->Save Name:
+#--->- name: "Shown Name"
+#--->- material: "Material"
+#--->- slot: "Slot (0-9)"
+#
+#-> You get the EnderPearl back but it a bit bugged right now i work on a fix soon
+
+spawn:
+  world: "world"
+  x: 0
+  y: 72
+  z: 0
+  yaw: 0.0
+  pitch: 0.0
+
+################ Extra ################
+
+lobbyhalo: true
+joinfirework: true
+
+require_command_permissions: false
+#- If enable every none lobby command get added a permission fluffylobby.<name of the command>
+#- Player's without this permissions can't use /plugins or other stuff anymore
+
+boostpads:
+  enabled: true
+  forward: 1.5
+  upward: 0.4
+
+tablist:
+  enabled: true
+  header: "\n <gradient:#00ffcc:#3300ff><bold>Welcome, %player%</bold></gradient> \n <gray>in the Lobby</gray> \n"
+  footer: "\n <green>Online: %online_playercount% / 1000 </green> \n"

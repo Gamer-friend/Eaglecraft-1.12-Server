@@ -1,0 +1,49 @@
+# Message Prefix
+prefix: "<g:#fa1717:#ad1e08>KinglyBosses</g>:" #- If you want no prefix, leave it blank
+###################################
+# Custom Messages
+###################################
+# Additional messages for in-game interactions.
+messages:
+  Placeholder_spawn_location: "{world} {x} {y} {z}"
+  spectate_true: "Ahora eres invisible al boss."
+  spectate_false: "Ya no eres invisible al boss"
+  table_design: "&6| %position% &f| %player% &f| %damage% |"
+  TopDecoration: "&6===== Top Players ====="
+  BottomDecoration: "&6======================="
+  TopMessage: "%position%: %player% %damage%"# #temporarily disabled
+  playerDiedMessage: "%prefix% &cYou have died at the hands of %boss%."#temporarily disabled
+  bossDeathMessage: "%prefix% &e%boss% has been defeated by %player%!"
+  spectateMessage: "%  refix% are you waiting for the {boss}"
+  NoRewardMessage: '%prefix% &cUnfortunately you didn t get a reward this time! You need to be in the top 3 to get a reward.'
+  RewardMessage: '%prefix% You are one of the best at damage!'
+  bossRespawnWarning: "%prefix% &e{bossname} will respawn soon, get ready!"
+  playerLowHealthWarning: "%prefix% &c{playername}, your health is low! Seek cover!"
+  bossNearDeathMessage: "%prefix% &e{bossname} is near death. Finish it off!"
+  bossVictoryMessage: "%prefix% &a{playername} has defeated {bossname}! Congratulations!"
+  bossAggroChange: "%prefix% &c{bossname} is now focused on {playername}. Be careful!"
+###################################
+# System Messages
+###################################
+NO-PERMISSION: "&cYou don't have permission."
+ONLY-PLAYERS: "&cThis is only for players."
+Invalid-Args:
+  - '&b-=-&r &9&lkinglyBosses &b-=-'
+  - ''
+  - '&d/kboss item <item name> <amount> (bossname) &7- Summons item custom.'
+  - ''
+  - '&d/kboss spectate <boss_name> &7- Allows players to observe the ongoing boss battle from a safe position.'
+  - ''
+  - '&d/kboss spawn (bossname) &7- Summons a boss into the world.'
+  - ''
+  - '&d/kboss list &7- View the list of bosses.'
+  - ''
+  - '&d/kboss setspawn &7- Sets the boss spawn zone.'
+  - ''
+  - '&d/kboss reload &7- Sets the boss spawn zone.'
+  - ''
+  - '&d/kboss spectate &7- serves to spectate the boss without taking damage from it.'
+  - ''
+  - '&d/kboss additems &7- add an item that you have in your hand ah items.yml.'
+  - ''
+  - '&b-=-&r &9&lGet ready for battle! &b-=-'

@@ -1,0 +1,50 @@
+###################################
+# Please refrain from modifying this section
+# Define various item groups for boss encounters
+ItemGroupsVersion: 0.5 # Updated version
+###################################
+
+itemgroups:
+  grupo1:
+    rolls: 1 # Número de tiradas al azar
+    items:
+      - item: "item_1650972105000" # Identificador del ítem
+        probability: 70 # Probabilidad de obtener este ítem (%)
+      - item: "item_1650972105000"
+        probability: 30 # Probabilidad de obtener este ítem (%)
+
+  grupo2:
+    rolls: 2 # Este grupo permite 2 tiradas al azar
+    items:
+      - item: "item_1650972106000"
+        probability: 50 # Probabilidad del ítem nuevo
+      - item: "item_1650972107000"
+        probability: 25
+      - item: "item_1650972108000"
+        probability: 25 # Probabilidades balanceadas para sumar 100%
+
+  rare_group:
+    rolls: 1 # Solo se permite una tirada para este grupo raro
+    items:
+      - item: "item_rare_sword"
+        probability: 10 # Este ítem es raro, con baja probabilidad
+      - item: "item_rare_shield"
+        probability: 90 # Mayor probabilidad para un escudo raro
+
+  legendary_group:
+    rolls: 3 # Grupo con múltiples tiradas para objetos legendarios
+    items:
+      - item: "item_legendary_blade"
+        probability: 40
+      - item: "item_legendary_armor"
+        probability: 30
+      - item: "item_legendary_ring"
+        probability: 30
+
+###################################
+# Additional Notes:
+# - `rolls` define cuántas veces se seleccionan ítems de un grupo.
+# - Las probabilidades para cada grupo pueden ajustarse según el balance deseado.
+# - Cada ítem tiene su clave única para evitar conflictos.
+# - Probabilidades de cada grupo pueden sumar más o menos del 100%, dependiendo de la mecánica implementada.
+###################################

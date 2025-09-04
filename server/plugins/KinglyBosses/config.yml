@@ -1,0 +1,112 @@
+###################################
+# Please refrain from modifying this section
+ConfigVersion: 0.5 # Updated version with new features and adjustments
+###################################
+# No worries, this field is neither mandatory nor necessary.
+License: ''
+###################################
+# Some options were disabled for improvement reasons for the next update
+###################################
+
+###################################
+# Main Configuration File
+###################################
+
+# General plugin settings.
+settings:
+  language: "en_us" # Set the language for messages.
+  check-for-updates: true # Enable update notifications.
+  debug-mode: false # Enable debug messages for troubleshooting.
+
+# Logging settings. Beta
+logging:
+  enable-logs: true # Enable or disable logging.
+  log-file: "logs/kinglybosses.log" # Log file path.
+
+# Boss Plugin Configuration
+general:
+  spawnRandom: true # Temporarily disabled; bosses only spawn randomly.
+  spawnInterval: 300 # Time interval in seconds between boss spawns.
+  broadcastBossSpawn: true # Show broadcast message when a boss appears.
+  location:
+    world: "world" # Temporarily in beta; default world for boss spawning.
+    coordinates:
+      x: 0
+      y: 0
+      z: 0
+
+# Boss health bar settings.
+bossHealthBar:
+  active: true
+  title: "&c&lBoss: &7{boss}" # Title displayed on the BossBar.
+  color: "RED" # Available options: 'red', 'blue', 'green', 'yellow', etc.
+  style: "SOLID" # Style of the bar: 'solid', 'segmented_6', etc.
+  progress: 1.0 # Initial progress of the BossBar (value between 0 and 1).
+  update_interval: 0.1 # Update interval in seconds.
+  display_distance:
+    enabled: true # Show the BossBar only to players near the boss.
+    radius: 100 # Distance radius for displaying the bar.
+  permission_based_display:
+    enabled: false # Show BossBar only to players with specific permissions.
+    permission: "bossbar.view"
+  hide_on_death:
+    enabled: true # Automatically hide the BossBar when the boss dies.
+
+###################################
+# Abilities and Special Options
+###################################
+abilities:
+  enableBossAbilities: true # Temporarily disabled; abilities for bosses.
+  abilityCooldown: 10 # Default cooldown for abilities in seconds.
+  abilityList: # Predefined list of boss abilities.
+    - "fireball"
+    - "lightning"
+    - "teleport"
+    - "summon_minions"
+
+# Optional advanced boss mechanics.
+advancedMechanics:
+  enrage:
+    enabled: true # Allow bosses to enter an enraged state.
+    trigger_health_percentage: 20 # Percentage of health at which the boss enrages.
+    effect:
+      particle: "FLAME" # Particle effect during enraged state.
+      sound: "ENTITY_ENDER_DRAGON_GROWL" # Sound effect during enraged state.
+    damage_multiplier: 1.5 # Increase in boss attack damage.
+  phases:
+    enabled: true # Allow bosses to have multiple phases.
+    phaseList: # List of phases with health thresholds.
+      - health_percentage: 50
+        message: "&cThe boss grows stronger!"
+        abilities: ["lightning", "summon_minions"]
+      - health_percentage: 25
+        message: "&cThe boss is in a frenzy!"
+        abilities: ["fireball", "teleport"]
+
+###################################
+# Permissions Configuration
+###################################
+permissions:
+  kinglybosses.summon:
+    description: "Permission to summon bosses."
+    default: "op"
+  kinglybosses.disable:
+    description: "Permission to disable bosses."
+    default: "op"
+  kinglybosses.reload:
+    description: "Permission to reload the plugin."
+    default: "op"
+  kinglybosses.info:
+    description: "Permission to view boss information."
+    default: "op"
+  kinglybosses.bypass:
+    description: "Permission to bypass restrictions."
+    default: "op"
+
+###################################
+# Additional Notes:
+# - Abilities and advanced mechanics are designed to enhance gameplay.
+# - Boss health bars provide real-time feedback during battles.
+# - Logging has been disabled but can be re-enabled for debugging.
+# - Advanced mechanics like "phases" and "enrage" add dynamic challenges.
+###################################

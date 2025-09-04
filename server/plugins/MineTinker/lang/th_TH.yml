@@ -1,0 +1,43 @@
+Alert:
+  OnItemBreak: '%RED%ดูเหมือนว่าเครื่องมือของคุณพัง! เพิ่มความคงทนให้ 1 ค่า'
+StartUp:
+  BuildersWands: ได้เปิด Builderswands แล้ว!
+  EasyHarvest: ได้เปิด EasyHarvest แล้ว!
+  GUIs: กำลังโหลด GUIs!
+Builderswand:
+  NameWood: คฑาก่อสร้างไม้
+  NameStone: คฑาก่อสร้างหิน
+  NameIron: คฑาก่อสร้างเหล็ก
+  NameGold: คฑาก่อสร้างทอง
+  NameDiamond: คฑาก่อสร้างเพชร
+Commands:
+  Info:
+    Line1: MineTinker (%ver) คือปลั๊กอินที่สร้างขึ้นโดย Flo56958
+    Line2: ได้รับแรงบัลดานใจ จากมอดต่างๆ (เช่น TinkerConstruct)
+  InvalidArguments: การทำงานของ command ผิดพลาด!
+  InvalidTool: ต้องถืออุปกรณ์ที่ถูกต้องก่อนที่ใช้ command นี้!
+  NoPermission: คุณไม่สามารถใช้ command นี้ได้!
+  Reload:
+    Note1: 'คำเตือน: ปลั๊กอินจะทำงานไม่เต็มที่ ถ้าคุณไม่ รีสตาร์ตเซิฟของคูณ'
+  ItemStatistics:
+    Level: '%GOLD%เลเวล: %WHITE%%level'
+    Exp: '%GOLD%ค่าประสบการณ์: %WHITE%%current / %nextlevel'
+  Failure:
+    Cause:
+      PlayerNotFound: ไม่เจอผู้เล่น %p !
+GUIs:
+  Forward: ต่อไป
+  Back: กลับไป
+  LeftClick: คลิกซ้าย
+  RightClick: คลิกขวา
+  MiddleClick: คลิกลูกเลื่อน
+  BackOtherMenu: กลับไปเมนูอื่น
+  Modifiers:
+    Title: MineTinker-Modifiers, %pageNo
+    MaxLevel: 'เลเวลสูงสุด: %maxLevel'
+    WorksOn: 'ใช้กับ:'
+    CanApply: 'ใช้ได้กับ:'
+    IncompatibleWith: 'ใช้ไม่ได้กับ:'
+  ConfigurationEditor:
+    Type: 'ชนิด: %type'
+    Value: 'คุณค่า: %GOLD%%value'

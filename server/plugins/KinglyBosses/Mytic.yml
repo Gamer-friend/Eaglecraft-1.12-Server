@@ -1,0 +1,16 @@
+###################################
+# Please refrain from modifying this section
+MyticVersion: 0.1
+###################################
+mythics:
+  example:
+    SpawnerName: MiSpawner  # Name of the spawner that generates the mob
+    enabled: false          # Enables or disables the spawner
+    MobName: MiJefe         # Name of the mob that will be spawned
+    World: world            # Name of the world where the spawner is located
+    X: 0                    # X coordinate of the spawner's location
+    Y: 0                    # Y coordinate of the spawner's location
+    Z: 0                    # Z coordinate of the spawner's location
+    UseTimer: false         # Indicates whether the spawner should use a timer to generate mobs
+    Timer: 200              # Time interval in ticks between each mob spawn, if UseTimer is true
+    MobLevel: 1             # Level of the spawned mob

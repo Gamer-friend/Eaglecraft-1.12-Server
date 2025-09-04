@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756864657566
+  login: 1756864590481
+money: '1000000000000000000'
+nickname: §fOliver123§r
+last-account-name: Oliver123
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 163.42512239837254
+  y: 65.0
+  z: 299.3499304922324
+  yaw: 2.10003662109375
+  pitch: 34.650001525878906

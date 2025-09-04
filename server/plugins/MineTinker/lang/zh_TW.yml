@@ -1,0 +1,17 @@
+Alert:
+  OnItemBreak: '%RED%看上去你的工具被用壞了! 已以1耐久返還.'
+  OnItemGrind: '%RED%砂輪不能用於MineTinker物品'
+  ToolUpgradeFailure: '%RED%升級失敗!'
+  InternalError: '%RED%發生內部錯誤!'
+  OnCooldown: '%RED%技能尚在冷卻!'
+StartUp:
+  Commands: 指令已註冊!
+  BuildersWands: 已啟用建造工具杖!
+  EasyHarvest: 簡易農作物收割已啟用!
+  Events: 事件已註冊!
+  GUIs: 正在加載用戶界面!
+  StdLogging: 標准信息日誌已啟用. 你可以在配置文件中的Logging.Standard一欄禁用!
+  DebugLogging: 調試信息日誌已啟用. 你應該在在配置文件中的Logging.Debug一欄禁用!
+  Incompatible:
+    Start: 正在搜索%RED%不兼容%WHITE%插件... 你可以在配置文件中關閉這一功能!
+    Found: '%plugin插件已找到. 正在調整MineTinker以獲得最佳兼容性!'

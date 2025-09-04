@@ -1,0 +1,159 @@
+Alert:
+  OnItemBreak: '%RED%Úgy látszik, eltört az eszközöd. Visszakapod 1 tartóssággal.'
+  OnItemGrind: '%RED%Nem használhatod a Köszörűkövet MineTinker elemeken.'
+  ToolUpgradeFailure: '%RED%Nem sikerült a fejlesztés!'
+  InternalError: '%RED%Belső hiba történt!'
+  OnCooldown: '%RED%Ezt a képességet még nem tudod újra használni!'
+StartUp:
+  Commands: Parancsok regisztrálva!
+  BuildersWands: Builderswands aktiválva!
+  EasyHarvest: EasyHarvest aktiválva!
+  Events: Események regisztrálva!
+  GUIs: GUI betöltése
+  StdLogging: Az alap logolás be van kapcsolva. A kikapcsolásához keresd a Logging.Standard
+    sort a config fájlban.
+  DebugLogging: A hibakereső logolás be van kapcsolva. Ezt ki kellene kapcsolnod,
+    keresd a Logging.Debug sort a config fájlban!
+  Incompatible:
+    Start: Inkompatibilis pluginok keresése... Ezt a funkciót kikapcsolhatod a config
+      fájlban.
+    Found: '%plugin felismerve. A MineTinker finomhangolása a jobb kompatibilitás
+      érdekében...'
+Builderswand:
+  NameWood: Fa Építőpálca
+  NameStone: Kő Építőpálca
+  NameIron: Vas Építőpálca
+  NameGold: Arany Építőpálca
+  NameDiamond: Gyémánt Építőpálca
+  Description: '%WHITE%MineTinker-Építőpálca'
+  Error:
+    CraftWood: A Fa Építőpálca receptjét nem lehet regisztrálni!
+    CraftStone: A Kő Építőpálca receptjét nem lehet regisztrálni!
+    CraftIron: A Vas Építőpálca receptjét nem lehet regisztrálni!
+    CraftGold: Az Arany Építőpálca receptjét nem lehet regisztrálni!
+    CraftDiamond: A Gyémánt Építőpálca receptjét nem lehet regisztrálni!
+Commands:
+  Info:
+    Line1: A MineTinker (%ver) egy kiegészítő, melyet Flo56958 készített.
+    Line2: Különböző modok inspirálták (mint például a TinkersConstruct).
+  InvalidArguments: Érvénytelen parancsot adtál meg.
+  InvalidTool: Megfelelő eszközt kell a jobb kezedben tartanod ahhoz, hogy működjön
+    ez a parancs!
+  NoPermission: Nincs jogosultságod ennek a műveletnek a végrehajtására!
+  Reload:
+    Note1: 'Megjegyzés: Előfordulhat, hogy ez a plugin nem működik megfelelően újratöltés
+      után. Biztonságosabb, ha újraindítod a szervert magát!'
+    Recipes: Receptek alaphelyzetbe állítása.
+    Configs: Beállítások újratöltése.
+    ModManager: ModManager újratöltése.
+    Builderswands: Építőpálcák újratöltése.
+    GUIs: GUI-k újratöltése.
+    Finish: Az újratöltés kész!
+  ModList: 'Lehetséges Bővítések:'
+  CheckUpdate:
+    Start: Frissítések keresése...
+    Disabled: A frissítések keresését kikapcsolta a szerver adminisztrátora!
+  ItemStatistics:
+    Head: 'Statisztika ehhez: %toolname'
+    Level: '%GOLD%Szint: %WHITE%%level'
+    Exp: '%GOLD%Tapaszt.: %WHITE%%current / %nextlevel'
+    FreeSlots: '%GOLD%Szabad bővítőhelyek: %WHITE%%slots'
+    Modifiers: '%WHITE%Bővítések:'
+  Failure:
+    Main: 'A parancs végrehajtása nem sikerült: %cause'
+    Cause:
+      PlayerNotFound: '%p nevű játékos nem található!'
+      PlayerMissing: A szükséges játékos információ hiányzik!
+      InvalidArguments: Hibás paraméterek!
+      NumberFormatException: NumberFormatException!
+      PlayerOnlyCommand: Ezt a parancsot csak játékos használhatja!
+      UnknownCommand: Ismeretlen parancs!
+      NoPermission: Hiányzó jogosultság!
+      InvalidItem: Nem megfelelő tárgy!
+      NameNotAllowed: A név nem engedélyezett!
+GUI:
+  ButtonAction:
+    REQUEST_INPUT: 'Adatra van szükség ehhez: %data. Add meg chat üzenetként, ezt
+      a MineTinker figyeli, és beolvassa.'
+GUIs:
+  Forward: Tovább
+  Back: Vissza
+  LeftClick: Bal katt
+  RightClick: Jobb katt
+  MiddleClick: Középső katt
+  BackOtherMenu: Vissza a másik menübe
+  Modifiers:
+    Title: MineTinker Bővítések, %pageNo
+    MaxLevel: 'Maximum szint: %maxLevel'
+    WorksOn: 'Ezeken működik:'
+    CanApply: 'Alkalmazható:'
+    IncompatibleWith: 'Nem támogatják:'
+    EnchantCost: 'A fejlesztés ára: %WHITE%%enchantCost'
+    ClickToRecipe: '%key megmutatja a receptet.'
+    BlockToEnchant: ''
+    SlotCost: 'Szükséges szabad bővítőhelyek szintenként: %amount'
+  ConfigurationEditor:
+    ReloadPlugin: MineTinker újratöltése
+    Change: '%key értéke megváltozott; régi=%old, új=%new.'
+    Type: 'Típus: %type'
+    Value: 'Érték: %GOLD%%value'
+    UnsupportedType: Ez a típus jelenleg nem támogatott, ezért nem szerkeszthető.
+    WrongInput: 'A megadott adat nem helyes! Várt: %type, megadott: %input'
+    Title: 'Beállításkezelő - oldalszám: %pageNo'
+    TitleConfigs: '%config, Oldal: %pageNo'
+    IncrementValueClick: '%key megnövelése ennyivel: %amount!'
+    DecrementValueClick: '%key csökkentése ennyivel: %amount!'
+    config:
+      PluginIncompatibility:
+        Check: Lehetővé teszi inkompatibilis pluginok keresését, és a MineTinker megpróbál
+          megfelelően reagálni (pl. módosítja a beállításait).
+        SkippedPlugins: Kikapcsolja a listán meghatározott Pluginok keresését.
+      CheckForUpdates: Induláskor frissítéseket keres, és újratölt.
+      chat-messages: Üzenetek engedélyezése (pl. parancsok kimenete)
+      ProgressionIsLinear: 'false: exponenciális, true: lineáris'
+      logging:
+        standard: Logolja a fontosabb játékos tevékenységeket.
+        debug: Még több adat jelenik meg a konzolon.
+        metrics: bStats - Névtelen statisztikai adatokat gyűjt a MineTinker használatával
+          kapcsolatban.
+ModManager:
+  RegisterModifier: '%GREEN%Regisztrálva a(z) %mod %GREEN%módosítás ebből a pluginból:
+    %plugin.'
+  UnregisterModifier: '%GREEN%Eltávolítva a(z) %mod %GREEN%módosítás ebből a pluginból:
+    %plugin.'
+  IncompatibilityWrongSyntax: 'Helytelen formátum vagy rossz Módosítás név szerepel
+    a Modifier Incompatibilities listán a következő sorban: ''%line''.'
+ModifierFailCause:
+  IncompatibleModifiers: Inkompatibilis Módosítások!
+  InvalidToolType: Érvénytelen ToolType!
+  MaximumSlotsReached: Elérted a maximális bővítőhely számot!
+  ModMaxLevel: Ez a Módosítás már a maximális szinten van!
+  NoFreeSlots: Nincs elegendő szabad bővítőhely ezen az elemen!
+  NoPermission: Hiányzó jogosultság!
+  PlayerFailure: A módosítás nem sikerült!
+GrindStone:
+  PossibleSlotsAfterGrind: 'A köszörülés után várható szabad bővítőhelyek száma: %amount'
+ActionBar:
+  ExpGain: '%amount tapasztalatot gyűjtöttél!'
+LanguageManager:
+  LoadedLanguage: 'A LanguageManager sikeresen betöltötte a következő nyelvet: %lang'
+TinkerListener:
+  ToolUpgrade: '%tool sikeresen fejlesztve lett a következő típusra: %type!'
+  ModifierApply: '%tool mostantól rendelkezik ezzel a bővítéssel: %mod és %slots szabad
+    bővítőhely maradt.'
+  ModifierFail: 'Nem sikerült a(z) %mod bővítést alkalmazni ezen az eszközön: %tool
+    (ok: %cause)!'
+  ToolLevelUp: '%tool szintet lépett! Az új szint: %level.'
+Modifier:
+  Enchantable:
+    LevelsRequired: '%amount szint szükséges!'
+  Anti-Arrow-Plating:
+    Name: Nyílvesszőálló Bevonat
+    Description: A páncél csökkenti a lövedékek okozta sebzést.
+    ModifierItemName: Szúrásálló fém
+    DescriptionModifierItem: Nyílvesszőálló Bevonat Módosítás
+  Anti-Blast-Plating:
+    Name: Robbanásálló Bevonat
+    Description: A páncél csökkenti a robbanások okozta sebzést.
+    ModifierItemName: Robbanásálló Fém
+    DescriptionModifierItem: Robbanásálló Bevonat Módosítás

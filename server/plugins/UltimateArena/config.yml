@@ -1,0 +1,106 @@
+######################################################
+#+--------------------------------------------------+#
+#|                                                  |#
+#|                   UltimateArena                  |#
+#|               Global Configuration               |#
+#|                                                  |#
+#+--------------------------------------------------+#
+######################################################
+
+# By dmulloy2
+#
+# If you get configuration errors, check here:
+# https://github.com/MineSworn/UltimateArena/blob/master/src/main/resources/config.yml
+#
+# Configuration Explanation found here:
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+#
+# This configuration follows standard YAML procedure, found here:
+# http://yaml.org/
+
+# Whether or not monetary rewards are given upon completion
+# This requires Vault and a compatible economy plugin
+# Input: boolean; default: true
+moneyRewards: true
+
+# Time a player must stand still before joining the arena
+# Enabled - boolean
+# Wait - integer (in seconds)
+joinTimer:
+  enabled: true
+  wait: 3
+  
+# Whether or not the plugin will save inventories
+# Input: boolean; default: true
+saveInventories: true
+
+# Extra output to console
+# Input: boolean; default: false
+debug: false
+
+# Whether or not to show the timer in the XP bar
+# Input: boolean; default: true
+timerXPBar: true
+
+# Class Selection GUI
+# title - Inventory title
+# automatic - Open automatically in lobby
+classSelector:
+  title: "         &l&nSelect a class!&r"
+  automatic: true
+
+# Whether or not to restrict commands
+# See: whitelistedCommands
+# Input: boolean; default: true
+restrictCommands: true
+
+# Whitelisted Commands
+# Commands players can use in arenas
+# # See: restrictCommands
+# Input - List<String>
+whitelistedCommands:
+- "/f c"
+- "/msg"
+- "/r"
+- "/who"
+- "/god off"
+- "/list"
+- "/t"
+- "/tell"
+
+# Global messages
+# Input: boolean; default: true
+globalMessages: true
+
+# Whether or not to force players to respawn
+# Input: boolean; default: false
+forceRespawn: false
+
+# Whether or not to show unavailable classes in the GUI
+# Input: boolean; default: false
+showUnavailableClasses: false
+
+# Scoreboard settings
+# enabled: boolean; default: true
+scoreboard:
+  enabled: true
+
+# Spectator settings
+# flight: whether or not to allow flying
+# invisible: whether or not to hide spectators
+spectator:
+  flight: true
+  invisible: true
+
+# Persistent entities
+# These entities won't be removed when the arena stops
+persistentEntities:
+- "PLAYER"
+- "PAINTING"
+- "ITEM_FRAME"
+- "VILLAGER"
+
+# Configuration for integration
+integration:
+  # Whether or not to use WorldEdit for point selection
+  useWorldEdit: true

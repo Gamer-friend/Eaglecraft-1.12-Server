@@ -1,0 +1,25 @@
+# How long the hunters should get blindness and slowness when the match starts.
+headStartDuration: 30
+compassEnabledInNether: true
+sendUsageData: true
+huntersColor: '&c'
+runnersColor: '&a'
+spectatorsColor: '&b'
+setRunnersToSpecOnDeath: true
+clearRunnerInvOnStart: false
+clearHunterInvOnStart: false
+clearItemDropsOnStart: false
+setTimeToZero: true
+startGameByHit: false
+preGameWorldBorder: false
+preGameBorderSize: 100
+enableDiscord: false
+discordToken: XXXXX
+ip: a minecraft server
+processDiscordCommands: true
+discordServerId: XXXXX
+musicChannelId: XXXXX
+hunterRoleId: XXXXX
+runnerRoleId: XXXXX
+spectatorRoleId: XXXXX
+uuid: c8b35b91-9892-4215-86b9-8bbb4aeabb8e

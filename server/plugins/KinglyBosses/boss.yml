@@ -1,0 +1,209 @@
+###################################
+###################################
+# Boss Configuration
+###################################
+###################################
+# Please refrain from modifying this section
+BossVersion: 0.5 # Actualizado
+###################################
+
+# This section defines individual bosses and their settings.
+
+# Define a common value for the respawn interval
+respawn-interval: &respawn-interval 1800 # Temporarily in beta
+bosses:
+  'epic_boss':
+    boss-id: "3" # Identificador único para el jefe.
+    level: 10 # Nivel alto para indicar su dificultad.
+    enabled: true # Habilitar este jefe.
+    fire_damage: false # El jefe no recibe daño por fuego.
+    chance: 30 # 30% de probabilidad de que aparezca.
+    Skin: 'epic_dragon_skin' # Skin personalizada para el jefe.
+    allowBossRespawn: true # Permitir que el jefe reaparezca.
+    MaxRespawn: 3 # Máximo de veces que puede reaparecer.
+    RespawnMessages:
+      - "¡El temible {bossname} ha regresado para causar estragos!"
+    respawnInterval: 3600 # Intervalo de respawn de 1 hora.
+    activespawnInterval: true # Usar un intervalo de spawn personalizado.
+    spawnInterval: 1200 # Intervalo de spawn personalizado (20 minutos).
+    spawnZone: true # Usar una zona de spawn personalizada.
+    spawn-message: '¡Un dragón épico ha emergido de las profundidades!' # Mensaje de spawn.
+    spawn-sound: 'ENTITY_ENDER_DRAGON_AMBIENT' # Sonido de spawn.
+    mob-type: ENDER_DRAGON # Tipo de criatura (Ender Dragon).
+    display-name: 'Dragón del Caos' # Nombre visible del jefe.
+    attack-damage: 25 # Daño alto, pero no excesivo.
+    health: 1000 # Gran cantidad de vida para un desafío épico.
+    movement-speed: 0.3 # Velocidad moderada para equilibrar la dificultad.
+    enable-equipment: true # Equipamiento personalizado.
+    attack: true # Habilidades de ataque activadas.
+    bossRespawnMessage: "%prefix% &c¡Cuidado! {bossname} ha regresado más fuerte que nunca."
+    triggers:
+      on_invoke: "Structure" # Trigger al derrotar al jefe.
+    particle:
+      particles_options:
+        active: true
+      particles:
+        part1:
+          event: spawn
+          particle: "flame"
+        part2:
+          event: attack
+          particle: "lava"
+    attacks:
+      - "fire_breath" # Aliento de fuego que quema a los jugadores.
+      - "tail_whip" # Ataque de cola que lanza a los jugadores lejos.
+      - "summon_minions" # Invoca esbirros para ayudar al jefe.
+    location:
+      world: "epic_boss_arena" # Mundo personalizado para el jefe.
+      coordinates:
+        x: 0
+        y: 100
+        z: 0
+    equipment:
+      main-hand: 'dragon_sword' # Espada poderosa.
+      helmet: 'dragon_helm' # Casco de dragón.
+      chestplate: 'dragon_armor' # Armadura de dragón.
+    rewards:
+      top_1: # Recompensa para el jugador que más daño hizo.
+        reward:
+          type: command
+          commands:
+            - 'give %player% elytra 1' # Elytra como recompensa épica.
+            - 'give %player% dragon_egg 1' # Huevo de dragón.
+      top_2: # Recompensa para el segundo jugador.
+        reward:
+          type: item
+          item: 'dragon_scale'
+          amount: 5
+      top_3: # Recompensa para el tercer jugador.
+        reward:
+          type: itemgroup
+          item: 'epic_loot'
+          amount: 3
+  'example_2':
+    boss-id: "1" # Unique identifier for the boss.
+    level: 1 # Boss level, affects its strength and rewards.
+    enabled: false # Enable or disable this boss.
+    fire_damage: true # Whether the boss can take fire damage.
+    chance: 0 # The chance that this boss will spawn in the world.
+    Skin: 'default' # The boss's skin name, should be in the 'skins' folder.
+    allowBossRespawn: true # Allow the boss to respawn after being defeated.
+    MaxRespawn: 2 # Maximum number of times the boss can respawn.
+    RespawnMessages:
+      - "{bossname} has respawned" # Message displayed when the boss respawns.
+    respawnInterval: *respawn-interval # The time interval in seconds between boss respawns.
+    activespawnInterval: false # Whether to use the spawn interval defined here or the global one.
+    spawnInterval: 1000 # Custom spawn interval for this boss.
+    spawnZone: false # Whether to use a normal or custom spawn zone.
+    spawn-message: 'A formidable foe has emerged!' # Message displayed when the boss spawns.
+    spawn-sound: 'ENTITY_WITHER_SPAWN' # Sound played when the boss spawns.
+    mob-type: ZOMBIE # The boss's creature type.
+    display-name: 'Mighty Guardian' # The visible name of the boss.
+    attack-damage: 10 # Damage dealt by the boss in its attacks.
+    health: 100 # Maximum health of the boss.
+    movement-speed: 0.2 # Movement speed of the boss.
+    enable-equipment: false # Whether the boss has equipment or not.
+    attack: false # Use the mob's default attack, temporarily disabled.
+    bossRespawnMessage: "%prefix% &e{bossname} has respawned!" # Message displayed when the boss respawns.
+    triggers: # Nueva sección para triggers específicos del boss
+      on_defeat: "end_crystal_spawn" # ID del trigger a activar
+    particle:
+      particles_options: # Global options for all particles.
+        active: true
+      particles:
+        part1: # Particle type.
+          event: spawn # Event that triggers the particle (spawn, death, attack).
+          particle: "left_wing"
+    attacks:
+      - "basic_attack"
+      - "Invoke"
+    location:
+      world: "world" # The world where the boss will spawn.
+      coordinates:
+        x: 150
+        y: 90
+        z: -50
+    equipment: # The equipment worn by the boss.
+      main-hand: '' # Item in the main hand.
+      off-hand: '' # Item in the off hand.
+      helmet: '' # Boss's helmet.
+      chestplate: '' # Boss's chestplate.
+      leggings: '' # Boss's leggings.
+      boots: '' # Boss's boots.
+    rewards:
+      top_1: # Reward for the player who dealt the most damage.
+        reward:
+          type: denarius
+          item: 'gold_coin' # ID del ítem específico.
+          amount: 2
+      top_2: # Reward for the second player who dealt the most damage.
+        reward:
+          type: item
+          item: 'item_1650972105000' # ID del ítem específico.
+          amount: 2
+      top_3: # Reward for the third player who dealt the most damage.
+        reward:
+          type: itemgroup
+          item: 'grupo1' # Group of items as a reward.
+          amount: 2
+
+  'example_3': # Nuevo boss añadido como ejemplo.
+    boss-id: "2"
+    level: 3
+    enabled: false
+    fire_damage: false
+    chance: 50 # Este boss tiene un 50% de probabilidad de aparecer.
+    Skin: 'mythic_skin'
+    allowBossRespawn: true
+    MaxRespawn: 5
+    RespawnMessages:
+      - "{bossname} returns stronger than ever!"
+    respawnInterval: 900 # Este boss tiene un intervalo de respawn personalizado.
+    activespawnInterval: true
+    spawnInterval: 500
+    spawnZone: true
+    spawn-message: 'A mythic beast arises from the shadows!'
+    spawn-sound: 'ENTITY_ENDER_DRAGON_GROWL'
+    mob-type: ENDER_DRAGON
+    display-name: 'Shadow Beast'
+    attack-damage: 20
+    health: 300
+    movement-speed: 0.4
+    enable-equipment: true
+    attack: true
+    bossRespawnMessage: "%prefix% &e{bossname} ha vuelto para vengarse."
+    particle:
+      particles_options:
+        active: true
+      particles:
+        part1:
+          event: attack
+          particle: "explosion"
+    attacks:
+      - "fire_breath"
+      - "shadow_slash"
+    location:
+      world: "shadow_realm"
+      coordinates:
+        x: -200
+        y: 50
+        z: 300
+    equipment:
+      main-hand: 'shadow_sword'
+      helmet: 'shadow_helm'
+    rewards:
+      top_1:
+        reward:
+          type: command
+          commands:
+            - 'give %player% nether_star 1'
+      top_2:
+        reward:
+          type: item
+          item: 'item_rare_sword'
+          amount: 1
+      top_3:
+        reward:
+          type: itemgroup
+          item: 'legendary_group'
+          amount: 1

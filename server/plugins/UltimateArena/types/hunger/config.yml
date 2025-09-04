@@ -1,0 +1,13 @@
+# Main configuration file for the hunger arena type
+# https://github.com/MineSworn/UltimateArena/wiki/Configuration
+
+gameTime: 9000
+lobbyTime: 70
+maxDeaths: 1
+allowTeamKilling: true
+countMobKills: false
+rewardBasedOnXp: false
+cashReward: 1000
+rewards:
+- GOLD_INGOT, 3
+- TNT, 1

@@ -1,0 +1,9 @@
+ID: 1
+Name: "Pistol"
+Damage: 5.0
+Ammo: 12
+Lore:
+  - "A basic pistol."
+  - "Reliable and easy to use."
+firingMode: "SINGLE"
+AmmoID: 1

@@ -1,0 +1,32 @@
+# 
+# SOUNDS - 1.8 
+# docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+# 
+# SOUNDS - 1.9 + , 1.10 + , 1.11 + , 1.12 +
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+
+Config:
+  JoinSound: true
+  Sound: NOTE_PLING
+  Permissions: true
+Glass:
+  BlueName: '&1Blue'
+  OrangeName: '&6Orange'
+  GreenName: '&aGreen'
+  CianName: '&9Cian'
+  YellowName: '&eYellow'
+  MagentaName: '&5Magenta'
+  BlackName: '&7Black'
+  PinkName: '&dPink'
+  TransparentName: '&7Transparent'
+Message:
+  Blue: '&7Your crystal color is blue'
+  Orange: '&7Your crystal color is orange'
+  Green: '&7Your crystal color is green'
+  Cian: '&7Your crystal color is cian'
+  Yellow: '&7Your crystal color is yellow'
+  Magenta: '&7Your crystal color is magenta'
+  Black: '&7Your crystal color is black'
+  Pink: '&7Your crystal color is pink'
+  Transparent: '&7Your crystal color is transparent'
+ReloadConfig: '&aReloaded Configuration'

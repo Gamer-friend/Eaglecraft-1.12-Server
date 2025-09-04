@@ -1,0 +1,50 @@
+GlobalDisplayService:
+  scoreboard:
+    title: '§7[§5Fk§7] '
+    sidebar:
+    - §f§a§k§e
+    - §6Day {D} §2{H}h{M}
+    - §m------------
+    - 'Team: §e{TEAM}'
+    - 'Deaths: §e{DEATHS}'
+    - 'Kills: §e{KILLS}'
+    - '{BASE_PORTAL} §e{DIST} §l{ARROW}'
+    - Pvp {PVP?}
+    - Assaults {TNT?}
+    - Nether {NETHER?}
+    - End {END?}
+    - §m------------
+    - §1§odevsylone
+  progressbar:
+    type: hologram
+    text: '{PROGRESS}%'
+  tick-format:
+    countdown: false
+    twelve-hours: false
+    start-time-day: 6
+    type: cycle
+  death-sound:
+    sound: entity.wither.spawn
+    volume: 0.8
+    pitch: 1.0
+    category: PLAYERS
+  game-start-sound:
+    sound: entity.generic.explode
+    volume: 0.8
+    pitch: 1.0
+    category: PLAYERS
+  elimination-sound:
+    sound: entity.enderdragon.death
+    volume: 0.8
+    pitch: 1.0
+    category: PLAYERS
+  event-sound:
+    sound: entity.enderdragon.growl
+    volume: 0.8
+    pitch: 1.0
+    category: PLAYERS
+  bools: §2✔:§4✘
+  no-info: §4?
+  arrows: ↑↗→↘↓↙←↖
+  notification:
+    region-change: chat

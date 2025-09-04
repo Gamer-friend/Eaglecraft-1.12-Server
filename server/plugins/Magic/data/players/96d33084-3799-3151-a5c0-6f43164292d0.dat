@@ -1,0 +1,39 @@
+id: 96d33084-3799-3151-a5c0-6f43164292d0
+name: Dev90909
+created: 1756665169113
+updated: 1756912635872
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 80aec557a5b6,d14c2a494474,1babd1745b08
+    mana_timestamp: 1756912635666
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 25.333332061767578

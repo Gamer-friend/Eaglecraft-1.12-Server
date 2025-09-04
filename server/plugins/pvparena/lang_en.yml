@@ -1,0 +1,676 @@
+__version__: 2.0.0
+arena:
+  create:
+    done: Arena '%1%' with goal %2% created!
+  disable:
+    done: Arena disabled!
+  edit:
+    disabled: 'Disabled edit mode for arena: %1%'
+    enabled: 'Enabled edit mode for arena: %1%'
+  enable:
+    done: Arena enabled!
+    fail: '&cArena failed to load. Please check the config.'
+  arenalist: 'Arenas: &a%1%&r'
+  reload:
+    done: Arena reloaded!
+  remove:
+    done: 'Arena removed: &e%1%&r'
+  startingin: Enough players ready. Starting in %1%!
+  start:
+    done: Arena force started!
+  stop:
+    done: Arena force stopped!
+cmd:
+  blacklist:
+    added: Added &a%1%&r to &e%2%&r blacklist!
+    allcleared: All blacklists cleared!
+    cleared: Blacklist &e%1%&r cleared!
+    help: 'Usage: /pa blacklist clear | /pa blacklist <type> <clear|add|remove> <id>'
+    removed: Removed &a%1%&r from &e%2%&r blacklist!
+    show: 'Blacklist &e%1%&r:'
+  whitelist:
+    added: Added &a%1%&r to &e%2%&r whitelist!
+    allcleared: All whitelists cleared!
+    cleared: Whitelist &e%1%&r cleared!
+    help: 'Usage: /pa whitelist clear | /pa whitelist <type> <clear|add|remove> <id>'
+    removed: Removed &a%1%&r from &e%2%&r whitelist!
+    show: 'Whitelist &e%1%&r:'
+  class:
+    list: 'Available classes: %1%'
+    preview: 'You are now previewing the class: %1%. Run &e/pa leave&r to quit preview
+      mode.'
+    removed: 'Class removed: %1%'
+    saved: 'Class saved: %1%'
+  arenaclass:
+    selected: You have switched to the &e%1%&r class.
+    selectedrespawn: You will switch to the &e%1%&f class on next respawn.
+  classchest:
+    done: Successfully set the class items of %1% to the contents of %2%. Please reload
+      the arena when you are done setting chests!
+  goal:
+    added: 'Goal set: &a%1%&r'
+    editing: 'Edit arena goal with command: &a/pa <arena> goal %1%&r'
+  help:
+    message: Documentation and all help about commands are available online on &9%1%&r
+    link: https://github.com/Eredrim/pvparena
+  setowner:
+    done: '&a%1%&r is now owner of arena &a%2%&r!'
+  spawn:
+    notset: 'Spawn not set: &a%1%&r'
+    removed: 'Spawn removed: %1%'
+    set: 'Spawn set: %1%'
+    setagain: 'Spawn set again: %1%'
+    unknown: 'Spawn not found: &a%1%&r'
+  togglemod:
+    battle: '&cYou activated a module that requires a BATTLE region! If this arena
+      already has a region, type: &r/pa <arena> !rt <region> BATTLE'
+    replacement: Module &a%1%&r will replace &a%2%&r module.
+    disabled: 'Module disabled: &a%1%&r'
+    notremovable: Module &a%1%&r can't be removed. It have to be replaced by a module
+      having the same type (%2%)
+    enabled: 'Module enabled: &a%1%&r'
+check:
+  done: Check done! No errors!
+deathcause:
+  BLOCK_EXPLOSION: an explosion
+  CONTACT: a cactus
+  CUSTOM: Herobrine
+  DROWNING: water
+  ENTITY_EXPLOSION: an Explosion
+  FALL: gravity
+  FIRE_TICK: fire
+  FIRE: a fire
+  LAVA: lava
+  LIGHTNING: Thor
+  MAGIC: Magical Powers
+  POISON: Poison
+  PROJECTILE: something they didn't see coming
+  STARVATION: hunger
+  SUFFOCATION: lack of air
+  SUICIDE: self
+  THORNS: thorns
+  VOID: the Void
+  FALLING_BLOCK: a falling block
+  HOT_FLOOR: a magma block
+  CRAMMING: a collision surplus
+  DRAGON_BREATH: dragon breath
+  CREEPER: a creeper
+  SKELETON: a skeleton
+  SPIDER: a spider
+  GIANT: a giant
+  ZOMBIE: a zombie
+  SLIME: a slime
+  GHAST: a ghast
+  PIG_ZOMBIE: a pig zombie
+  ENDERMAN: an enderman
+  CAVE_SPIDER: a cave spider
+  SILVERFISH: silverfish
+  BLAZE: a blaze
+  MAGMA_CUBE: a magma cube
+  ENDER_DRAGON: an ender dragon
+  WITHER: a wither boss
+  WITCH: a witch
+  WOLF: a wolf
+  IRON_GOLEM: an iron golem
+  SPLASH_POTION: a splash potion
+error:
+  arena:
+    alreadyplaying: You are already part of &a%1%&r!
+  arenaexists: Arena already exists!
+  arenanotexists: 'Arena does not exist: %1%'
+  arenaconfig: 'Error when loading arena config: %1%'
+  argumenttype: '&cInvalid argument type:&r &e%1%&r is no proper &a%2%&r.'
+  argument: '&cArgument not recognized:&r %1% - possible arguments: &a%2%&r'
+  blacklist:
+    disallowed: You may not %1% this! Blacklisted!
+    unknownsubcommand: 'Unknown subcommand. Valid commands: &a%1%&r'
+    unknowntype: 'Unknown type. Valid types: &e%1%&r'
+  class:
+    full: The class &a%1%&r is full!
+    notenoughexp: You don't have enough EXP to choose &a%1%&r!
+    notfound: 'Class not found: &a%1%&r'
+    notgiven: No class was given!
+    needsautoclass: '%1% module requires autoclass setting to be defined'
+    needsjoinduringmatchgoal: '%1% module requires enabling join.allowDuringMatch
+      and a goal that allows join during match'
+    incompatiblesetting: '%1% module is not compatible with %2% setting'
+  cmdblocked: '&cCommand blocked: %1%'
+  invalidcmd: 'Invalid command: %1%'
+  unknowncmd: Unknown command
+  arenadisabled: Arena disabled, please try again later!
+  editmode: Edit mode!
+  error: '&cError: %1%'
+  fightinprogress: A fight is already in progress!
+  goal:
+    goalnotfound: 'Goal &a%1%&& unknown found in &a%2%&&. Valid goals: &a%3%&r'
+  install: Error while installing &a%1%&r!
+  invalid_argument_count: '&cInvalid number of arguments&r (%1% instead of %2%)!'
+  valuenotfound: 'Invalid value: &a%1%&r!'
+  existingvalue: '&a%1%&r value already exist in &e%2%&r!'
+  nonexistingvalue: '&a%1%&r value doesn''t exist in &e%2%&r!'
+  invfull: Your inventory was full. You did not receive all rewards!
+  arenafull: Arena is full!
+  joinrange: You are too far away to join this arena!
+  notjoinregion: You are not in the join region! Move there to join!
+  nojoinmodule: There is no join module in your arena configuration. You have to set
+    one!
+  teamfull: Team %1% is full!
+  log:
+    matnotfound: 'Unrecognized material: %1%'
+  missingspawn: 'Spawn(s) missing: &r%1%'
+  missingblock: 'Block(s) missing: &r%1%'
+  outofboudsspawn: 'Following spawn(s) are out of bounds of your BATTLE region(s):
+    &r%1%'
+  noarenas: No arenas found!
+  valueneg: 'Negative values: &c%1%&r'
+  nochest: You are not looking at a chest!
+  nocontainer: You are not looking at a container!
+  nogoal: You did not add a goal! &a/pa <arena> goal <goalname>
+  nospawns: No spawns set!
+  classperms: You do not have permission for class &a%1%&r!
+  permjoin: You don't have permission to join this arena!
+  noperm: '&cNo permission to %1%!'
+  noplayerfound: No player found!
+  notinarena: You are not part of an arena!
+  notnumeric: '&cArgument not numeric:&r %1%'
+  onlyplayers: '&cThis command can only be used by players!'
+  playernotfound: '&cPlayer not found: &r%1%&c'
+  positives: 'Positive values: &b%1%&r'
+  potioneffecttypenotfound: 'PotionEffectType not found: &e%1%&r'
+  needsameblocktype: All of your blocks must have the same type/material
+  ready:
+    notready0: At least one player is not ready!
+    notready1: You are alone in the arena!
+    notready2: Your team is alone in the arena!
+    notready3: A team is missing players!
+    notready4: The arena is missing players!
+    notready5: At least one player has not chosen a class!
+    noclass: You don't have a class!
+  region:
+    flagnotfound: 'RegionFlag &a%1%&r unknown! Valid values: %2%'
+    invalid: Region selection is invalid. Region will have no volume and will be useless!
+    notfound: Region &a%1%&r not found!
+    protectionnotfound: RegionProtection &a%1%&r unknown!
+    typenotfound: 'RegionType &a%1%&r unknown! Valid values: %2%'
+    youselect: You are already selecting a region for an arena!
+    youselect2: Type the command again to cancel selection mode!
+    youselectexit: Region selection cancelled!
+  select2: Select two points before trying to save.
+  teamnotfound: 'Team not found: &a%1%&r'
+  noteamavailable: No Team available.
+  uninstall: 'Error while uninstalling: &a%1%&r'
+  uninstall2: PVP Arena will try to uninstall on server restart!
+  unknownmodule: 'Module not found: %1%'
+  whitelist:
+    disallowed: You may not %1% this! (not whitelisted)
+    unknownsubcommand: 'Unknown subcommand. Valid commands: &a%1%&r'
+    unknowntype: 'Unknown type. Valid types: &e%1%&r'
+nopermto:
+  madmin: administrate
+  create: create an arena
+  disable: disable
+  edit: edit an arena
+  enable: enable
+  nopermjoin: join an arena
+  reload: reload
+  remove: remove an arena
+  set: set a config node
+  teleport: teleport to an arena spawn
+  user: use PVP Arena
+  cmds:
+    blacklist: use the blacklist command
+    check: use the check command
+    class: use the class command
+    create: use the create command
+    debug: use the debug command
+    disable: use the disable command
+    edit: use the edit command
+    enable: use the enable command
+    gamemode: use the gamemode command
+    goal: use the goal command
+    playerclass: use the playerclass command
+    playerjoin: use the playerjoin command
+    protection: use the protection command
+    region: use the region command
+    regionflag: use the regionflag command
+    regions: use the regions command
+    regiontype: use the regiontype command
+    reload: use the reload command
+    remove: use the remove command
+    set: use the set command
+    setowner: use the setowner command
+    spawn: use the spawn command
+    start: use the start command
+    stop: use the stop command
+    teams: use the teams command
+    teleport: use the teleport command
+    template: use the template command
+    togglemod: use the togglemod command
+    uninstall: use the modules command
+    whitelist: use the whitelist command
+    arenaclass: use the arenaclass command
+    chat: use the chat command
+    join: use the join command
+    leave: use the leave command
+    spectate: use the spectate command
+    arenalist: use the arenalist command
+    help: use the help command
+    info: use the info command
+    list: use the list command
+    ready: use the ready command
+    shutup: use the shutup command
+    stats: use the stats command
+    version: use the version command
+fight:
+  begins: Let the fight begin!
+  draw: This match was a draw! No winners!
+  killedbyremaining: '%1% has been killed by %2%! %3% lives remaining.'
+  killedbyremainingfrags: '%1% has been killed by %2%! %3% kills remaining.'
+  killedbyremainingteam: '%1% has been killed by %2%! %3% lives remaining for %4%.'
+  killedbyremainingteamfrags: '%1% has been killed by %2%! %3% kills remaining for
+    %4%.'
+  killedby: '%1% has been killed by %2%!'
+  playerleft: '%1% has left the fight!'
+permission:
+  break: break
+  place: place
+info:
+  classes: 'Classes: &a%1%&r'
+  goal_active: 'Goal: &a%1%&r'
+  head_headlin: 'Arena Information about: &a%1%&r | [&a%2%&r]'
+  head_teams: 'Teams: &a%1%&r'
+  mod_active: 'Module: &a%1%&r'
+  owner: 'Owner: &a%1%&r'
+  regions: 'Regions: &a%1%&r'
+  section: '----- &a%1%&r -----'
+general:
+  installed: 'Installed: &a%1%&r'
+  uninstalled: 'Uninstalled: &a%1%&r'
+  plugindisabled: disabled (version %1%)
+  pluginenabled: enabled (version %1%)
+list:
+  arenas: 'Available arenas: %1%'
+  dead: 'Dead: %1%'
+  fighting: 'Fighting: %1%'
+  lost: 'Lost: %1%'
+  lounge: 'Lounge: %1%'
+  'null': 'Glitched: %1%'
+  players: 'Players: %1%'
+  team: 'Team %1%: %2%'
+  ready: 'Ready: %1%'
+  warm: 'Warm: %1%'
+  watching: 'Watching: %1%'
+messages:
+  toArena: You are now talking to the arena!
+  toPublic: You are now talking to the public!
+  toTeam: You are now talking to your team!
+  general: '&e[%1%&e] &r%2%'
+notice:
+  closedselection: '&eSelection mode has been closed'
+  nodropitem: Not so fast! No cheating!
+  noteleport: Please use '/pa leave' to exit the fight!
+  notice: 'Notice: %1%'
+  rewardedplayer: '%1% has earned %2%.'
+  remove: '&cThis will permanently remove the arena &a%1%&c. Are you sure? Then commit
+    the command again!&r To disable this message, see ''safeadmin'' in your config.yml!'
+  waitingequal: Waiting for the teams to have an equal player number!
+  waitingforarena: Waiting for a running arena to finish!
+  welcomespec: Welcome to the spectator's area!
+  youdeath: You entered a DEATH region. Goodbye!
+  youescaped: You escaped the battlefield. Goodbye!
+  arenabounds: You reached bounds of the arena.
+  arenaintrusion: This is an area closed to visitors. If you want to play this arena,
+    type &e/pa %1%&r. If you want to spectate, type &e/pa %1% spectate&r.
+  youleft: You left the arena!
+  younocamp: You are in a NOCAMP region. Move!
+announce:
+  playerhaswon: '%1% is the Champion!'
+  playerready: '%1%&e is ready!'
+player:
+  prevented:
+    break: '&cYou may not break blocks!'
+    place: '&cYou may not place blocks!'
+    tnt: '&cYou may not use TNT!'
+    tntbreak: '&cYou may not break TNT!'
+    drop: '&cYou may not drop items!'
+    inventory: '&cYou may not access this!'
+    craft: '&cYou may not craft!'
+ready:
+  list: 'Players: %1%'
+  done: You have been flagged as ready!
+region:
+  clear:
+    added: 'Added to region entity clearing whitelist: &a%1%&r'
+    list: 'Region entity clearing whitelist: &a%1%&r'
+    removed: 'Removed from region entity clearing whitelist: &a%1%&r'
+  flag:
+    added: 'Region flag added: &a%1%&r'
+    removed: 'Region flag removed: &a%1%&r'
+  expanded: Region has been extended &a%1%&r blocks to the &a%2%&r direction
+  contracted: Region has been reduced by &a%1%&r blocks to the &a%2%&r direction
+  pos1: First position set.
+  pos2: Second position set.
+  protection_added: 'RegionProtection added: &a%1%&r'
+  protection_removed: 'RegionProtection removed: &a%1%&r'
+  shifted: Region has been moved &a%1%&r blocks to the &a%2%&r direction
+  removed: 'Region removed: %1%'
+  saved: Region saved.
+  saved_notice: '&6You created a &oCUSTOM&6 region. It has no function yet! To turn
+    it into a battlefield region, type &r/pvparena %1% !rt %2% BATTLE.'
+  select: Select two points with your wand item, left click first and then right click!
+  typeset: 'Region Type set: &e%1%'
+  youselect: You are now selecting a region for arena &a%1%&r!
+  shapeunknown: 'Arena Shape ''%1%'' unknown. Available shapes: Cuboid, Spheric, Cylindric.'
+regions:
+  flags: 'Region Flags: &a%1%&r'
+  head: '--- &aArena Region&r [&e%1%&r]---'
+  listhead: '--- &aArena Regions&r [&e%1%&r]---'
+  listvalue: '&a%1%&r: %2%, %3%'
+  protections: 'Region Protections: &a%1%&r'
+  shape: 'Region Shape: &a%1%&r'
+  type: 'Region Type: &a%1%&r'
+cfg:
+  reloaded: '&2Config of %1% reloaded.'
+  reloadfail: '&cFail to reload arena %1%.&f Please check the arena config.'
+  set:
+    done: '&a%1%&r set to &e%2%&r!'
+    help: Use /pa <arena> set [page] to get a node list.
+    unknown: 'Unknown node: &e%1%&r!'
+    items_not: Please use either hand or inventory to set an item node!
+  add:
+    done: '&e%2%&r added to &a%1%&r!'
+  remove:
+    done: '&e%2%&r removed from &a%1%&r!'
+lang:
+  reloaded: Languages reloaded!
+stats:
+  head: Statistics TOP %1% (%2%)
+  typenotfound: 'Statistics type not found! Valid values: &e%1%&r'
+stattype:
+  DAMAGE: total damage given
+  DAMAGE_TAKEN: total damage taken
+  DEATHS: deaths
+  KILLS: kills
+  LOSSES: matches lost
+  MAX_DAMAGE: maximum damage given
+  MAX_DAMAGE_TAKEN: maximum damage taken
+  WINS: matches won
+team:
+  haswon: Team %1%&r are the Champions!
+  ready: Team %1%&r is ready!
+teams:
+  list: 'Available teams: %1%'
+  add: 'Team added: %1%'
+  set: 'Team set: %1%'
+  remove: 'Team removed: %1%'
+time:
+  minutes: minutes
+  seconds: seconds
+timer:
+  countdowninterrupt: Countdown interrupted! Waiting for ready players...
+  ending: The match will end in %1%!
+  resetting: The arena will reset in %1%!
+  warmingup: Warming up... %1%!
+  pvpactivating: PVP will be activated in %1%!
+updater:
+  plugin: PVP Arena
+  modules: PVP Arena modules pack
+  announce: '%1% %2% is now available ! Your version: %3%'
+  success: '%1% has been updated to %2%.'
+  restart: Restart your server to apply update.
+  downloading: Downloading %1%...
+  downloaderror: Error while downloading %1%
+goal:
+  blockdestroy:
+    score: '%1% destroyed the block of team %2%! Remaining destructions: %3%'
+    setblock: Block successfully set for team %1%&r
+    tosetflag: Left click the block for team %1%&r
+    notfound: Block can not be found for team %1%
+    removed: Block was removed for team %1%
+  checkpoints:
+    score: '%1% &ereached checkpoint #%2%!'
+    youmissed: 'You missed checkpoint #%1%! This is #%2%'
+  dom:
+    bossbar_claiming: Unclaiming...
+    claiming: '&eTeam %1% is claiming a flag!'
+    claimed: '&eTeam %1% has claimed a flag!'
+    score: '&eTeam %1% scored %2% points by holding a flag!'
+    contesting: '&eA flag claimed by team %1% is being contested!'
+    unclaiming: '&eA flag claimed by team %1% is being unclaimed!'
+    setflag: '&eClick on flags to register them, they need to be colorable blocks.
+      Type this command again to close selection mode.'
+    existingflag: '&eThis flag was already set'
+  flag:
+    flaghomeleft: '%1% brought home the flag of team %2%! Captures remaining: %3%'
+    touchhomeleft: '%1% brought home the touchdown flag! Other teams loses one life!'
+    flagsave: '%1% dropped the flag of team %2%!'
+    flagsavetouch: '%1% dropped the touchdown flag!'
+    flaggrab: '%1% grabbed the flag of team %2%!'
+    flaggrabtouch: '%1% grabbed the touchdown flag!'
+    flagnotsafe: Your flag is taken! Cannot bring back an enemy flag!'
+    setflag: '%1% flag has been set'
+    tosetflag: Left-click the desired flag for the %1% team
+    notfound: 'Flag not found: &e%1%'
+    removed: Flag &e%1%&r has been removed
+  food:
+    notyourfood: This is not your furnace!
+    tosetfood: '&eClick on each &f%1%&e to register it. Then, type this command again
+      to close selection mode'
+    notfound: 'Block not found: %1% %2% #%3%'
+    removed: '%1% %2% #%3% has been removed'
+    existingblock: This block has already been set for team %1%
+    foodfurnaceset: 'Furnace #%1% set for team %2%'
+    foodchestset: 'Food chest #%1% set for team %2%'
+    itemsput: 'Team %1% has put %2% items in their chest! Score: %3%/%4%'
+    itemsremoved: 'Team %1% has removed %2% items from their chest! Score: %3%/%4%'
+  infected:
+    lost: '&6The infected players have been killed!'
+    player: '&c%1% is infected!'
+    you: '&cYou are infected!'
+    won: '&6The infected players have won the game!'
+    iprotect: 'The infected team is prevented from: %1%'
+    iprotectset: '&ePlayerProtection &f%1%&f set to: %2%'
+  killreward:
+    added: 'Kill reward added: &e%1%&r->&a%2%'
+    removed: 'Kill reward removed: &e%1%'
+  liberation:
+    liberated: Team %1% has been liberated!
+    setbutton: '%1% button has been set'
+    scoreboardheading: 'Players in jail:'
+    scoreboardseparator: '----------------'
+    tosetbutton: Click on the button of the %1% team to register it
+    buttonnotfound: '%1% button doesn''t exist'
+    buttonremoved: '%1% button has been removed'
+  physicalflags:
+    holdflag: You have to hold the flag to bring it back!
+  sabotage:
+    tntignite: '%1% ignited the TNT of team %2%!'
+    set: '%1% TNT has been set'
+    toset: Click on the TNT of the %1% team to register it
+    noselfdestroy: You can not ignite your own TNT!
+    notgooditem: You need a flint and steel to ignite the TNT.
+    youtnt: You now carry the sabotage tool.
+    tntnotfound: '%1% tnt doesn''t exist'
+    tntremoved: '%1% tnt has been removed'
+  tank:
+    tankdown: The tank is down!
+    tankmode: TANK MODE! Everyone kill %1%, the tank!
+    tankwon: The tank has won! Congratulations to %1%!
+  tdc:
+    denied: '%1% denied a kill!'
+    remaining: '%1% kills remaining for %2%.'
+    scored: '%1% scored a kill!'
+    youdenied: You denied a kill!
+    youscored: You scored a kill!
+mod:
+  aftermatch:
+    aftermatch: The aftermatch has begun!
+    startingin: AfterMatch in %1%!
+    spawnnotset: Spawn 'after' not set!
+  announcements:
+    ignoreon: You are now ignoring announcements!
+    ignoreoff: You are now receiving announcements!
+  battlefieldjoin:
+    lang:
+      remainingtime: Players can continue joining the arena during the next %1% seconds
+  bankick:
+    lang:
+      playerbanned: 'Player banned: %1%'
+      playerkicked: 'Player kicked: %1%'
+      playernotonline: 'Player is not online: %1%'
+      playerunbanned: 'Player unbanned: %1%'
+      youwerebanned: You are banned from arena %1%!
+      youwerekicked: You were kicked from arena %1%!
+      youwereunbanned: You are unbanned from arena %1%!
+  betterclasses:
+    add: PotionEffect &e%2%&r added to ArenaClass &e%1%&r!
+    clear: ArenaClass &e%1%&r cleared!
+    listhead: '--- Potion Effects for class &e%1%&r ---'
+    remove: PotionEffect &e%2%&r removed from ArenaClass &e%1%&r!
+    respawncommand_remove: Respawn command removed from ArenaClass &e%1%&r!
+    classchange:
+      mteam: '&cYour team has exceeded the class change limit!'
+      mplayer: '&cYou have exceeded the class change limit!'
+  bettergears:
+    showteam: Team %1% has Color %2%.
+    teamdone: Team %1% now has Color %2%.
+  blockrestore:
+    clearinvdone: Inventories cleared! Expect lag on next arena start!
+    addedtolist: Container (%1%) has been added to inventories to restore!
+  chestfiller:
+    sourceChest: The container at "%1%" becomes the new source chest of the arena.
+    removedSource: The source container of the arena has been removed, now using 'chestfiller.items'
+      config to fill chests.
+    clear: List of chests to fill has been cleared!
+    addedToList: 'Successfully added to the list to be filled: %1%'
+  duel:
+    accepted: '%1% &eaccepted the challenge! The game is starting.'
+    announce: '%1% &echallenged you! Accept the duel with &r/pa %2% accept&e.'
+    announcemoney: '&eThey set up a fee of &c%1%&e!'
+    announce2: '&eCancel the duel with &r/pa %2% decline&e.'
+    cancelled: '&cThe duel has been cancelled!'
+    busy: '%1% &eis already in a fight Please try again later.'
+    declineds: Your opponent declined the request. The duel has been cancelled.
+    declinedr: You declined the duel request!
+    requested: You &echallenged &r%1%&e!
+    requestedalready: You already have challenged someone!
+    requestexpireds: Your opponent did not accept the request in time. The duel has
+      been cancelled.
+    requestexpiredr: You did not accept the request in time. The duel has been cancelled.
+    starting: The duel begins!
+    nodirectjoin: 'You can''t join this arena directly! Duel someone with: &e/pa %1%
+      duel <player>'
+  latelounge:
+    announce: 'Arena %1% is starting! Player %2% wants to start. Join with: /pa %1%'
+    position: 'You are in queue. Position: #%1%'
+    rejoin: Ready check has caught you not being able to join. Rejoin when you can!
+    wait: Arena will be starting soon, please wait!
+    leave: You have left the queue of the %1% arena.
+  playerfinder:
+    near: 'Nearest player: %1% blocks!'
+    point: Compass pointing to nearest player!
+  powerups:
+    invalidpowerupeffect: 'Invalid PowerupEffect: %1%'
+    puplayer: '%1% has collected PowerUp: %2%'
+    puserver: PowerUp deployed!
+    livesplayer: Due to a PowerUp, %1% has lost %2% lives/points!
+    livesteams: Due to a PowerUp, %1% team has lost %2% lives/points!
+    frozen: You are frozen for the next %1% seconds!
+  realspectate:
+    info: You're spectating in immersive view! Sneak to switch to next fighter and
+      press "throw item" key to switch back to previous one.
+  respawnrelay:
+    respawning: Respawning in %1%!
+    choice: 'If you want to respawn to a particular spawn point, just type the spawn
+      number in your chat. Available spawns: %1%'
+    chosen: Your next spawn point choice has been registered.
+  skins:
+    dc: Hooking into DisguiseCraft!
+    ld: Hooking into LibsDisguises!
+    nomod: No disguise plugin found, Skins module is inactive!
+    showclass: 'Class &e%1%&r will be disguised to: &a%2%'
+    showteam: 'Team %1% will be disguised to: &a%2%'
+  spawncollections:
+    saved: The spawn collection "%1%" has been saved
+    use: As of now, arena uses spawns of "%1%" spawn collection
+    notexist: Spawn collection "%1%" doesn't exist
+    removed: Spawn collection "%1%" has been removed
+    list: 'Saved spawn collections for arena: %1%'
+    empty: There's no saved spawn collection
+  squads:
+    nosquad: 'No squads loaded! Add some: /pa <arena> !sq add <name>'
+    listhead: Squads for arena &b%1%
+    listitem: 'Squad %1% (max: %2%) %3%'
+    added: Squad %1% has been added
+    set: Squad %1% has been set
+    removed: Squad %1% has been removed
+    notexist: Squad %1% doesn't exist!
+    join: You have joined the squad &b%1%&r!
+    leave: You left the squad &b%1%&r!
+    error: Error while editing squads, syntax is not correct!
+    full: This squad is full!
+    help: |-
+      /pa !sq | show the arena squads
+      /pa !sq add <name> <limit> | add squad with player limit (set to 0 for no limit)
+      /pa !sq set <name> <limit> | set player limit for squad
+      /pa !sq remove <name> | remove squad <name>
+  startfreeze:
+    announce: The game will start in %1% seconds!
+  tempperms:
+    noperms: Permissions plugin not found, defaulting to OP.
+    head: 'Temporary permissions of &e%1%&r:'
+    added: Temporary permissions &e%1%&r added to &a%2%&r.
+    removed: Temporary permissions &e%1%&r removed from &a%2%&r.
+  vault:
+    notenough: You don't have %1%.
+    noaccount: A bank account is required to use this command or play this arena.
+    theynotenough: '%1% doesn''t have enough cash!'
+    bettimeover: Betting time is over!
+    beforebettime: Betting time is not started yet! Please wait until beginning of
+      the match.
+    betnotyours: Cannot place bets on your own match!
+    betonlyteams: You can only bet on (non-empty) teams!
+    betonlyplayers: You can only bet on players!
+    wrongamount: Bet amount must be between %1% and %2%!
+    invalidamount: 'Invalid amount: %1%'
+    betplaced: Your %1% bet on %2% has been placed.
+    betchanged: Your bet has been changed. From now on, you bet %1% on %2%.
+    youearned: You have earned %1%!
+    joinpay: You paid %1% to join the arena!
+    killreward: You received %1% for killing %2%!
+    refunding: Refunding %1%!
+  walls:
+    fallingin: 'Walls fall in: %1%'
+    separator: '--------------------'
+    timer: Walls will be removed in %1%!
+  worldedit:
+    created: 'Region created: &e%1%&r'
+    list:
+      added: '&e%1%&r has been added to region list.'
+      removed: '&e%1%&r has been removed from region list.'
+      show: 'These regions will be automatically saved or loaded (depending of autosave/autoload
+        config): &e%1%&r'
+      empty: No region has been added to the list. So, all BATTLE regions will be
+        saved or loaded instead (depending of autosave/autoload config).
+    loaded: 'Region loaded: &e%1%&r'
+    saved: 'Region saved: &e%1%&r'
+time_intervals:
+  '1': 1..
+  '2': 2..
+  '3': 3..
+  '4': 4..
+  '5': 5..
+  '10': 10 %s
+  '20': 20 %s
+  '30': 30 %s
+  '60': 60 %s
+  '120': 2 %m
+  '180': 3 %m
+  '240': 4 %m
+  '300': 5 %m
+  '600': 10 %m
+  '1200': 20 %m
+  '1800': 30 %m
+  '2400': 40 %m
+  '3000': 50 %m
+  '3600': 60 %m

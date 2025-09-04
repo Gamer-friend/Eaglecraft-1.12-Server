@@ -1,0 +1,565 @@
+Alert:
+  OnItemBreak: '%RED%Il semblerait que votre outil se soit cassé! Ré-assemblage avec
+    une durabilité de 1.'
+  OnItemGrind: '%RED%Tu ne peux pas utiliser le Grindstone avec les outils MineTinker
+    !'
+  ToolUpgradeFailure: '%RED%L''upgrade n''a pas fonctionné !'
+  InternalError: '%RED%Erreur interne !'
+  OnCooldown: '%RED%Cette capacité est toujours en recharge !'
+  MinecraftAPI: '%RED%Impossible de se connecter aux API Minecraft !'
+StartUp:
+  Commands: Commandes enregistrées !
+  BuildersWands: Outil de construction Activé!
+  EasyHarvest: EasyHarvest Activer !
+  Events: Événements enregistrés !
+  GUIs: Chargement du GUI !
+  StdLogging: La journalisation standard est activée. Vous pouvez le désactiver dans
+    la configuration sous Logging.Standard!
+  DebugLogging: Le mode Debug est activée Vous devriez le désactiver dans la configuration
+    sous Logging.Debug!
+Builderswand:
+  Name:
+    Wood: Outil de construction en bois
+    Stone: Outil de construction en pierre
+    Iron: Outil de construction en fer
+    Gold: Outil de construction en or
+    Diamond: Outil de construction en diamant
+    Netherite: Outil de construction en netherite
+  Description: '%WHITE%Outil de construction MineTinker'
+  Error: Impossible d'enregistrer la recette pour %wand !
+Commands:
+  Info:
+    Line1: MineTinker (%ver)  est un Plugin fait par Flo56958
+    Line2: 'il est inspiré par différents mods (Ex: TinkersConstruct)'
+  InvalidArguments: Vous avez entrer un argument de commande invalide!
+  InvalidTool: Vous devez avoir un outil valide dans votre main principale pour exécuter
+    cette commande!
+  NoPermission: Vous n'avez pas la permission pour effectuer cette action!
+  Reload:
+    Note1: 'Note: Il est possible que le plugin ne fonctionne pas correctement après
+      le rechargement! Il est recommandé de redémarrer le serveur!'
+    Recipes: Recettes effacer!
+    Configs: Configuration recharger!
+    ModManager: ModManager recharger!
+    Builderswands: Builderswands recharger!
+    GUIs: GUI recharger!
+    Finish: Rechargement finis!
+  ModList: 'Modificateurs possible: '
+  CheckUpdate:
+    Start: Vérification des mises à jour...
+    Disabled: La vérification des mises à jour est désactivée par l'administrateur
+      du serveur!
+  ItemStatistics:
+    Head: Item-Statistiques pour %toolname
+    Level: 'Niveau: %level'
+    Exp: 'Expérience: %current / %nextlevel'
+    FreeSlots: 'Slots de Modification Libre: %slots'
+    Modifiers: 'Modificateurs:'
+  Failure:
+    Main: 'La commande a échoué: %cause'
+    Cause:
+      PlayerNotFound: Le joueur %p est introuvable !
+      PlayerMissing: Informations sur le joueur manquantes !
+      InvalidArguments: Arguments invalides !
+      NumberFormatException: NumberFormatException!
+      PlayerOnlyCommand: Commande joueur uniquement !
+      UnknownCommand: Commande inconnue !
+      NoPermission: Pas la permission!
+      InvalidItem: Objet invalide !
+      NameNotAllowed: Nom non autorisé !
+GUI:
+  ButtonAction:
+    REQUEST_INPUT: Votre entrée est requise pour %data. Le prochain message que vous
+      allez envoyer sera enregistré par MineTinker et sera votre entrée.
+GUIs:
+  Forward: Suivant
+  Back: Retour
+  LeftClick: Clique gauche
+  RightClick: Clique droit
+  MiddleClick: Clique molette
+  BackOtherMenu: Retour au menu principal
+  Modifiers:
+    Title: MineTinker-Modificateur, %pageNo
+    MaxLevel: 'Niveau Maximal: %maxLevel'
+    WorksOn: 'Fonctionne en:'
+    CanApply: 'Est appliqué :'
+    IncompatibleWith: 'Incompatible avec:'
+    EnchantCost: 'Coût de l''enchantement: %WHITE%%enchantCost'
+    ClickToRecipe: '%key pour voir la recette d''un craft.'
+    BlockToEnchant: '%key avec %mat sur %block pour enchanter l’item.'
+    SlotCost: 'Nombre d''emplacements libres requis par niveau: %WHITE%%amount'
+    MinimumToolLevel: 'Niveau minimum de l''outil: %WHITE%%level'
+  ConfigurationEditor:
+    ReloadPlugin: Recharge MineTinker
+    Change: Modification de %key de %old à %new !
+    Type: 'Type: %type'
+    Value: 'Valeur: %GOLD%%value'
+    UnsupportedType: Ce type est actuellement non pris en charge et ne peut pas être
+      modifié !
+    WrongInput: Votre entrée n'était pas correct ! %type attendu, %input obtenu !
+    Title: Gestionnaire de configuration, page %pageNo
+    TitleConfigs: '%config, Page %pageNo'
+    IncrementValueClick: '%key pour augmenter de %amount!'
+    DecrementValueClick: '%key pour diminuer de %amount!'
+    InsertValue: '%key pour insérer la nouvelle valeur !'
+    ToggleValue: '%key pour basculer la valeur !'
+    config:
+      PluginIncompatibility:
+        Check: Active la recherche de plugins incompatibles et MineTinker tente de
+          réagir en conséquence (par ex. modifier les paramètres de configuration)
+        SkippedPlugins: Désactive la recherche de Plugins spécifiés dans cette Liste
+      CheckForUpdates: Vérifie les mises à jour au démarrage et au rechargement
+      chat-messages: Activer Chatmessages (comme la sortie de commande)
+      LevelStep: value *(LevelFactor^LevelOfTool) [EXPONENTIAL]; *(LevelFactor*LevelOfTool)
+        [LINEAR]
+      ProgressionIsLinear: 'faux: exponentiel, vrai: linéaire'
+      ResetAtVarOverflow: 'Réinitialise Level et Exp à Integer.MAX_VALUE ou Long.MAX_VALUE
+        avec 1 et 0. faux: plus de gain d''Exp'
+      logging:
+        standard: enregistre les activités importantes du joueur avec MineTinker
+        debug: encore plus d’informations sont imprimées dans la console
+        metrics: bStats-Métriques pour statistiques anonymes sur l’utilisation de
+          Minetinker
+  Statistics:
+    Title: Statistique-Objet pour %tool
+    General:
+      Title: Statistiques Générales
+      Creator: 'Créateur : %player'
+      Created: 'Créé le : %date'
+    Blocks:
+      Title: Statistiques de Bloc
+      TitlePage: Statistiques de Bloc pour %tool - %pageNo
+      AmountBroken: '%amount fois cassé'
+    Combat:
+      Title: Statistiques de Combat
+      TitlePage: Statistiques de Combat pour %tool -%pageNo
+      AmountKilled: '%amount fois tué'
+      DamageDealt: '%amount dégâts infligés'
+      DamageReceived: '%amount dégâts reçus'
+  Enchantable:
+    Title: 'Sélectionnez le Modificateur à enchanter:'
+ModManager:
+  RegisterModifier: '%GREEN%Enregistrement du %mod %GREEN%modificateur de %plugin.'
+  UnregisterModifier: '%GREEN%Non enregistré le %mod %GREEN%modifier de %plugin.'
+  IncompatibilityWrongSyntax: Syntaxe de ligne incorrecte ou nom de modificateur incorrect
+    trouvé dans la ligne '%line' d'incompatibilités des modificateurs.
+ModifierFailCause:
+  IncompatibleModifiers: Modifications Incompatibles !
+  InvalidToolType: Type d’outil invalide !
+  MaximumSlotsReached: Quantité maximum d'emplacements atteints !
+  ModMaxLevel: Le modificateur est déjà au niveau maximum !
+  NoFreeSlots: Pas assez de slots de libre sur l'item !
+  NoPermission: Pas la permission !
+  PlayerFailure: Le joueur n'a pas réussi à appliquer la modification !
+  ToolLevelToLow: L'outil a un niveau trop faible !
+GrindStone:
+  PossibleSlotsAfterGrind: 'Emplacements libres possibles après le broyage : %amount'
+ActionBar:
+  ExpGain: '%amount exp gagné'
+LanguageManager:
+  LoadedLanguage: LanguageManager charger %lang successfully!
+TinkerListener:
+  ToolUpgrade: '%tool a été mis à niveau vers %type !'
+  ModifierApply: '%tool a maintenant %mod et %slots libres restant !'
+  ModifierFail: Application impossible de %mod sur %tool (%cause)!
+  ToolLevelUp: '%tool à monté en niveau et est maintenant au niveau %level !'
+Modifier:
+  Enchantable:
+    LevelsRequired: '%amount Niveaux requis !'
+  Anti-Arrow-Plating:
+    Name: Plaque-Anti-Flèche
+    Description: Armure atténuant les dégâts de projectiles!
+    ModifierItemName: Métal résistant à la perforation
+    DescriptionModifierItem: Objet Modificateur pour la Modification Plaque Anti-Flèche
+  Anti-Blast-Plating:
+    Name: Plaque-Anti-Explosion
+    Description: Armure atténuant les dommages d’explosion!
+    ModifierItemName: Métal résistant aux explosions
+    DescriptionModifierItem: Objet Modificateur pour la Modification Plaque Anti-Explosion
+  Aquaphilic:
+    Name: Aquaphilic
+    Description: Nager plus vite, plonger plus longtemps et durabilité sous l’eau
+      plus efficace
+    ModifierItemName: Perle de l’océan
+    DescriptionModifierItem: Objet Modificateur pour la Modification Aquaphilic
+  Auto-Smelt:
+    Name: Fonte-Automatique
+    Description: Minerais fondus et autres blocs pendant l’exploitation minière! %chance%
+      chance d’activer par niveau.
+    ModifierItemName: Four enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Fonte-Automatique
+  Beheading:
+    Name: Décapitation
+    Description: '%chance% chance de récupérer la tête du mob tué par niveau.'
+    ModifierItemName: Tête de Wither Enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Décapitation
+  Berserk:
+    Name: Berserk
+    Description: Gagnez une force supplémentaire pendant %duration secondes lorsque
+      votre santé chute en dessous de %percent%!
+    ModifierItemName: Redstone Sanglante
+    DescriptionModifierItem: Objet Modificateur pour la Modification Berserk
+  Channeling:
+    Name: Canalisation
+    Description: Crée un éclair !
+    ModifierItemName: Éclat infusé par la foudre
+    DescriptionModifierItem: Objet Modificateur pour la Modification Canalisation
+  Directing:
+    Name: Niffleur
+    Description: Le butin des mobs tués va directement dans votre inventaire !
+    ModifierItemName: Compas Enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Niffleur
+  Drilling:
+    Name: Perceur
+    Description: Perce d'un block plus profond par level !
+    ModifierItemName: Perceur renforcé
+    DescriptionModifierItem: Objet Modificateur pour la modification Perceur
+  Ender:
+    Name: Ender
+    Description: Vous téléporte tout en se faufilant à l’emplacement d’atterrissage
+      des flèches!
+    ModifierItemName: Oeil de l'end spécial
+    DescriptionModifierItem: Objet Modificateur pour la Modification Ender
+    TeleportationProhibited: Vous ne pouvez pas échanger de place avec ce Joueur !
+  Evasive:
+    Name: Esquive
+    Description: Vous donne une chance d'esquiver les attaques (%chance par level).
+      %sneakX en sneak, %sprintX en courant, %pvpX en PvP
+    ModifierItemName: Plume d'ésquive
+    DescriptionModifierItem: Objet Modificateur pour la Modification Esquive
+  Experienced:
+    Name: Expérimenté
+    Description: L’outil a %chance% chances par niveau de déposer %amount XP tout
+      en l’utilisant!
+    ModifierItemName: Essence d'Experience
+    DescriptionModifierItem: Objet Modificateur pour la Modification Expérimentation
+  Extra-Modifier:
+    Name: Modificateur-Supplémentaire
+    Description: Ajoute %amount Slots de Modification supplémentaires à l'outil !
+    ModifierItemName: Etoile du Nether Raffinée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Extra
+  Fiery:
+    Name: Enflammé
+    Description: Un modificateur pour tous les brûler !
+    ModifierItemName: Bâton de Blaze Enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Enflammé
+  Freezing:
+    Name: Congélation
+    Description: Congèle l'eau autour de vous!
+    ModifierItemName: Cristal de glace
+    DescriptionModifierItem: Objet Modificateur pour la Modification Congélation
+  Glowing:
+    Name: Brillant
+    Description: Faites briller les ennemis pendant %durationmin à %durationmax secondes
+      ! (en fonction du niveau)
+    ModifierItemName: Pierre-End-Lumineux
+    DescriptionModifierItem: Objet Modificateur pour la Modification Brillant
+  Hardened:
+    Name: Endurcis
+    Description: Endurcis votre armure par %aamount en protection et en ténacité par
+      %tamount points par level!
+    ModifierItemName: Diamant endurcis
+    DescriptionModifierItem: Objet Modificateur pour la Modification Endurcis
+  Haste:
+    Name: Hâte
+    Description: Détruisez les blocs et tirez avec votre arbalètes plus vite!
+    ModifierItemName: Bloc de Redstone Compressé
+    DescriptionModifierItem: Objet Modificateur pour la Modification Hâte
+  Infinity:
+    Name: Infinité
+    Description: Vous avez seulement besoin d’une flèche pour tirer à arc et le Trident
+      revient à vous!
+    ModifierItemName: Flèche Enchantée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Infinité
+  Insulating:
+    Name: Isolant
+    Description: L'armure atténue les dommages causés par la chaleur !
+    ModifierItemName: Alliage résistant à la chaleur
+    DescriptionModifierItem: Objet Modificateur pour la Modification Isolant
+  KineticPlating:
+    Name: Plaque Cinétique
+    Description: Réduit les dommages subis en tombant avec une paire d'Elytre de %amount%
+      par niveau.
+    ModifierItemName: Plaque Cinétique
+    DescriptionModifierItem: Objet Modificateur pour la Modification Plaque Cinétique
+  Knockback:
+    Name: Repoussement
+    Description: Repoussez vos ennemis à chaque coups !
+    ModifierItemName: TNT Enchantée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Repoussement
+  Lifesteal:
+    Name: Sangsue
+    Description: Vous rend %amount% de soin par niveau des dégâts infligés. %chance%
+      de chance de ce déclencher.
+    ModifierItemName: Netherrack Infusé de sang
+    DescriptionModifierItem: Objet Modificateur pour la Modification Sangsue
+  Light-Weight:
+    Name: Poids-Plume
+    Description: Tu tombes comme une plume...
+    ModifierItemName: Plume Enchantée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Poids-Plume
+  Luck:
+    Name: Chance
+    Description: Obtenez plus de butin des mobs et des blocs!
+    ModifierItemName: Bloc de Lapis comprimé
+    DescriptionModifierItem: Objet Modificateur pour la Modification Chance
+  Magical:
+    Name: Magique
+    Description: Tir une orbe magique qui n’est pas affecté par la gravité mais vole
+      %amount% plus lentement! Si l’orbe frappe une cible elle fait %min% à %max%
+      dégâts de plus (selon le niveau)! Cela coûte %xp XP par tir!
+    ModifierItemName: Flèche Magique
+    DescriptionModifierItem: Objet Modificateur pour la Modification Magique
+  Melting:
+    Name: Fusion
+    Description: '%amount% dommages supplémentaires de combustion des ennemis et %amount%
+      de moins de dommages pris pendant une brûlure. '
+    ModifierItemName: Bloc de Magma Enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Fustion
+  Multishot:
+    Name: Tir Multiple
+    Description: Tir une flèche de plus par niveau par coup!
+    ModifierItemName: Flèche Multiple
+    DescriptionModifierItem: Objet Modificateur pour la Modification Tir-Multiple
+  Multijump:
+    Name: Multisaut
+    Description: Sautez une fois de plus par niveau !
+    ModifierItemName: Patte de Lapin Magique
+    DescriptionModifierItem: Objet Modificateur pour le Modificateur Multisaut
+  Nightseeker:
+    Name: Chercheur de nuit
+    Description: Infligez plus ou recevez moins de dégâts (%amountmin% à %amountmax%)
+      lorsque la lune brille (cela dépend du niveau et de la position de la lune).
+      Cet effet est inversé pendant la journée et dans le Nether mais a toute sa force
+      à la fin !
+    ModifierItemName: Détecteur de lumière du jour sombre
+    DescriptionModifierItem: Objet Modificateur pour la Modification Chercheur de
+      nuit
+  Photosynthesis:
+    Name: Photosynthèse
+    Description: Réparez votre item avec %amount durabilité par niveau chaque %ticks
+      tiques en restant immobile alors que le soleil brille. Plus vous restez longtemps,
+      plus les réparations sont rapides. (%multiplier%)
+    ModifierItemName: Extrait Chlorophylle
+    DescriptionModifierItem: Objet Modificateur pour la Modification Photosynthèse
+  Piercing:
+    Name: Perforation
+    Description: Les flèches traversent plusieurs ennemis!
+    ModifierItemName: Pointe Bodkin
+    DescriptionModifierItem: Objet Modificateur pour la Modification Perforation
+  Poisonous:
+    Name: Empoisonné
+    Description: Empoisonne la cible pour %duration Ticks * %multiplier par niveau!
+    ModifierItemName: Chair Putréfiée Enchantée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Empoisonné
+  Power:
+    Name: Puissance
+    Description: Détruisez plus de blocs par utilisation de votre outil!
+    ModifierItemName: 'Émeraude Enchantée '
+    DescriptionModifierItem: Objet Modificateur pour la Modification Puissance
+  Propelling:
+    Name: Propulseur
+    Description: Propulsez-vous dans l’air en glissant avec l’élytre ou debout dans
+      l’eau avec le trident !
+    ModifierItemName: Feu d'artifice Enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Propulseur
+  Protecting:
+    Name: Protecteur
+    Description: Votre armure vous protège mieux contre les dommages!
+    ModifierItemName: Obsidienne Enrichie
+    DescriptionModifierItem: Objet Modificateur pour la Modification Protecteur
+  Reinforced:
+    Name: Renforcement
+    Description: Chance de ne pas utiliser la durabilité lors de l’utilisation de
+      l’outil / armure! Rend l’outil plus durable!
+    ModifierItemName: Obsidienne Comprimée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Renforcement
+  Scotopic:
+    Name: Scotopic
+    Description: 'Accorde %amount secondes de vision nocturne par niveau si le niveau
+      de lumière descend en dessous de %light ! Temps de recharge: %cmax à %cmin secondes
+      (selon le niveau)'
+    ModifierItemName: Oeil de Nuit
+    DescriptionModifierItem: Objet Modificateur pour la Modification Oeil de Nuit
+  Shadow-Dive:
+    Name: Plongée de l'Ombre
+    Description: Vous élimine complètement de la vue lorsque vous vous faufilez dans
+      des endroits sombres! (Niveau de lumière <= %level)
+    ModifierItemName: Cristal de Disparition
+    DescriptionModifierItem: Objet Modificateur pour la Modification Plongée de l'Ombre
+    LightToHigh: Le niveau de lumière est trop haut  !
+    InCombat: Vous êtes au combat !
+  Self-Repair:
+    Name: Auto-Réparation
+    Description: '%chance% de chance par niveau de réparer l''outil / l''armure avec
+      %amount points de durabilité tout en l''utilisant !'
+    ModifierItemName: Pierre Moussue Enchantée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Réparation
+  Sharpness:
+    Name: Tranchant
+    Description: L’arme fait des dégâts supplémentaires à tout le monde!
+    ModifierItemName: 'Bloc de Quartz Compressé '
+    DescriptionModifierItem: Objet Modificateur pour la Modification Tranchant
+  Shrouded:
+    Name: Voilé d'un linceul
+    Description: Génère un nuage de particules qui aveugle pendant %durationmin à
+      %durationmax secondes où les flèches atterrissent ! Synergie avec d'autres modificateurs
+      d'effet de potion.
+    ModifierItemName: Bouteille de fumée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Voilé d'un Linceuil
+  Shulking:
+    Name: Shulking
+    Description: Faire léviter et immobiliser les ennemis pour %duration ticks! L’effet
+      devient plus fort à chaque niveau.
+    ModifierItemName: Boîte de Shulker Enchantée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Shulking
+  Silk-Touch:
+    Name: Toucher de Soie
+    Description: Applique le Toucher de Soie
+    ModifierItemName: Toile d'Araignée Enchantée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Toucher de Soie
+  Smite:
+    Name: Châtiment
+    Description: Votre arme fait des dégâts supplémentaires vers les morts-vivants
+      !
+    ModifierItemName: Os Saint
+    DescriptionModifierItem: Objet Modificateur pour la Modification Châtiment
+  Soul-Speed:
+    Name: Vitesse de l'Âme
+    Description: Marchez plus vite sur le sable des âmes !
+    ModifierItemName: Sable des Âmes Antique
+    DescriptionModifierItem: Objet Modificateur pour la Modification Vitesse le l'Âme
+  Soulbound:
+    Name: Lié à l'Âme
+    Description: Ne perdez pas vos items en mourant.
+    ModifierItemName: Balise Electrique
+    DescriptionModifierItem: Objet Modificateur pour la Modification Lié à l'Âme
+  Speedy:
+    Name: Accélérant
+    Description: Je dois aller vite! Vous fait marcher et sprint %amount% plus rapide
+      par niveau !
+    ModifierItemName: Peau de Lapin Enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Accélérant
+  Spiders-Bane:
+    Name: Fléau des Araignées
+    Description: L’arme fait des dégâts supplémentaires aux araignées !
+    ModifierItemName: Oeil d'araignée nettoyée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Fléau des Araignées
+  Sunblazer:
+    Name: Flamme du Soleil
+    Description: Infligez plus ou recevez moins de dégâts (%amountmin% à %amountmax%)
+      lorsque le soleil brille (dépend du niveau et de la position du soleil). Cet
+      effet est inversé la nuit et à la fin mais a toute sa force dans le Nether !
+    ModifierItemName: Détecteur de Lumière Dorée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Flamme du Soleil
+  Sweeping:
+    Name: Balayage
+    Description: Infligez plus de dégâts sur une plus grande zone!
+    ModifierItemName: Lingot de fer enchanté
+    DescriptionModifierItem: Objet Modificateur pour la Modification Balayage
+  Tanky:
+    Name: Tank
+    Description: Foncez dans le tas sans réfléchir avec %amount coeurs de plus par
+      niveau!
+    ModifierItemName: Obsidienne infusée de sang
+    DescriptionModifierItem: Objet Modificateur pour la Modification Tank
+  Thorned:
+    Name: Epineux
+    Description: Votre armure blesse les autres lorsqu'ils vous frappent !
+    ModifierItemName: Plaque à Pointes
+    DescriptionModifierItem: 'Objet Modificateur pour la Modification Épines '
+  Timber:
+    Name: Charpente
+    Description: Coupe les arbres en un instant !
+    ModifierItemName: Emeraude en bois
+    DescriptionModifierItem: Objet Modificateur pour la Modification Charpente
+  Void-Netting:
+    Name: Filets du Néant
+    Description: 'Vous téléporte vers un endroit sûr dans un rayon de %radius blocs
+      par niveau lorsque vous tombez dans le vide. Temps de recharge: %cmax à %cmin
+      secondes (selon le niveau)'
+    ModifierItemName: Filets dans le Vide
+    DescriptionModifierItem: Objet Modificateur pour la Modification Filets du Néant
+    CouldNotFindBlock: Impossible de trouver un endroit sûr pour se téléporter !
+  Webbed:
+    Name: Toile
+    Description: Ralentissez les ennemis lorsque vous les frappez ou qu’ils vous frappent
+      pour %duration ticks x %multiplier par niveau !
+    ModifierItemName: Toile d'araignée compressée
+    DescriptionModifierItem: Objet Modificateur pour la Modification Toile
+  Withered:
+    Name: Flétrissure
+    Description: Flétrie la cible de %duration ticks * %multiplier par niveau!
+    ModifierItemName: Crâne de Wither Squelette Blanc
+    DescriptionModifierItem: Objet Modificateur pour la Modification Flétrissure
+DataType:
+  Boolean: Booléen (vrai/faux)
+  String: Ficelle
+  List: Liste
+  Integer: Entier
+  Double: Nombre à virgule flottante (Double)
+ToolType:
+  ALL: Tout
+  AXE: Hache
+  BOOTS: Bottes
+  BOW: Arcs
+  CHESTPLATE: Plastron
+  CROSSBOW: 'Arbalètes '
+  ELYTRA: Elytres
+  FISHINGROD: Cannes à Pêche
+  HELMET: Casques
+  HOE: Houes
+  INVALID: Invalide
+  LEGGINGS: Pantalons
+  OTHER: Autre
+  PICKAXE: Pioches
+  SHEARS: Cisailles
+  SHIELD: Boucliers
+  SHOVEL: Pelles
+  SWORD: Epées
+  TRIDENT: Tridents
+Enchantment:
+  power: Puissance
+  flame: Flamme
+  infinity: Infinité
+  punch: Frappe
+  binding_curse: Malédiction du lien éternel
+  channeling: Canalisation
+  sharpness: Tranchant
+  bane_of_arthropods: Fléau des Arthropodes
+  smite: Châtiment
+  depth_strider: Marcheur des Profondeurs
+  efficiency: Efficacité
+  unbreaking: Solidité
+  fire_aspect: Aura de feu
+  frost_walker: Semelles givrantes
+  impaling: Empalement
+  knockback: Recul
+  fortune: Fortune
+  looting: Butin
+  loyalty: Loyauté
+  luck_of_the_sea: Chance de la Mer
+  lure: Appât
+  mending: Raccommodage
+  multishot: Tir multiple
+  respiration: Respiration
+  piercing: Perforation
+  protection: Protection
+  blast_protection: Protection contre les explosions
+  feather_falling: Chute amortie
+  fire_protection: Protection contre le feu
+  projectile_protection: Protection contre les projectiles
+  quick_charge: Charge rapide
+  riptide: Impulsion
+  silk_touch: Toucher de soie
+  sweeping: Affilage
+  thorns: Épines
+  vanishing_curse: Malédiction de disparition
+  aqua_affinity: Affinité aquatique
+  soul_speed: Vitesse de l'âme
+Updater:
+  Unable: Impossible de vérifier les mises à jour!
+  UpdateAvailable: Il y a une mise à jour disponible sur spigotmc.org!
+  YourVersion: 'Votre Version: %ver'
+  OnlineVersion: 'Version en ligne: %ver'
+  UpToDate: Vous avez la dernière version de MineTinker installée!

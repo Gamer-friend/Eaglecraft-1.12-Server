@@ -1,0 +1,33 @@
+debug:
+  enable: false
+  output: BOTH
+  level: FINE
+stats: true
+language: en
+onlyPVPinArena: false
+safeadmin: true
+spawnOffset:
+  x: 0.5
+  y: 0.5
+  z: 0.5
+wandItem: STICK
+whitelist:
+- ungod
+whitelist_wildcard: false
+update:
+  plugin: announce
+  modules: announce
+globalPrefix: 'PVP Arena'
+signHeaders:
+  - '[arena]'
+  - '[PVP Arena]'
+database:
+  type: sqlite
+  mysql:
+    hostname: localhost
+    port: 3306
+    user: root
+    password: ''
+    ssl: true
+    database: 'pvparena'
+ver: 2

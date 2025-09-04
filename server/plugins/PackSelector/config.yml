@@ -1,0 +1,21 @@
+default: "https://www.google.com"
+
+# Should I kick the player if he refuses the pack?
+kick-refuse: true
+kick-message: "&cYou declined the texture pack."
+
+done-message: "&ePack %pack-name% downloaded."
+error-message: "&cUnable to download pack %pack-name%. Download it at: %pack-url%"
+
+packs:
+  default: "https://www.google.com"
+
+database:
+  # FLAT, MYSQL
+  type: "FLAT"
+  # Only for MySQL
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: ""
+  name: ""

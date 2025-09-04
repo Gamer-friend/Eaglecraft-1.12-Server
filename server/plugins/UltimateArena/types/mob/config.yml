@@ -1,0 +1,35 @@
+# Main Configuration for the Mob Arena Type
+# https://github.com/MineSworn/UltimateArena/wiki/Configuration
+
+gameTime: 1800
+lobbyTime: 90
+maxDeaths: 0
+allowTeamKilling: false
+countMobKills: true
+rewardBasedOnXp: true
+maxWave: 15
+cashReward: 750
+scaledRewards:
+  - "GOLD_INGOT, 500"
+  - "SLIME_BALL, 550"
+  - "GLOWSTONE_DUST, 450"
+  - "SULPHUR, 425"
+waves:
+  1:
+    - "ZOMBIE"
+    - "ZOMBIE"
+    - "ZOMBIE"
+  2:
+    - "ZOMBIE"
+    - "ZOMBIE"
+    - "SKELETON"
+  4:
+    - "SPIDER"
+  7:
+    - "BLAZE"
+    - "BLAZE"
+  10:
+    - "PIG_ZOMBIE"
+    - "ENDERMAN"
+  13:
+    - "GHAST"

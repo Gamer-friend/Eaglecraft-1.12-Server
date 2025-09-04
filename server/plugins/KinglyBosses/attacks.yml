@@ -1,0 +1,177 @@
+###################################
+# Please refrain from modifying this section
+# Define various attacks for the boss encounter
+AttacksVersion: 0.6 # Updated version with additional features
+###################################
+
+# Boss attacks section. Here, you can define different attacks
+# that the boss will use during the fight. Each attack can be
+# physical, magical, summon creatures, or special mechanisms.
+attacks:
+  basic_attack:
+    name: "Basic Attack"
+    type: "physical"
+    damage: 20
+    probability: 0.8
+    cooldown: 2
+    targets: "RANDOM"
+
+  magical:
+    name: "Magical Blast"
+    type: "magical"
+    damage: 35
+    probability: 0.5
+    effect_id: 2 # Potion effect ID [https://mcreator.net/wiki/potion-effect-ids]
+    amplifier: 1
+    users: "C" # C=Nearby players, D=Players who damaged the boss, T=Top players
+    duration_ticks: 20
+    cooldown: 5
+    area_of_effect:
+      radius: 5
+      shape: "CIRCLE"
+
+  special_attack:
+    name: "Summon Minions"
+    type: "summon"
+    probability: 0.5
+    type_Mob: ZOMBIE
+    amount: 3
+    tag: "minion"
+    attack-damage: 30
+    movement-speed: 60
+    health: 50
+    spawn-message: "A magical portal appears, summoning allies!"
+    spawn-effects:
+      particle: "PORTAL"
+      sound: "ENTITY_ZOMBIE_AMBIENT"
+    cooldown: 10
+
+  trap_attack:
+    name: "Trap Enclosure"
+    type: "enclose"
+    probability: 0.4
+    shape: "square"
+    players: "NEARBY-LOCK"
+    radius: 4
+    duration: 10
+    visual_effects:
+      particle: "CAMPFIRE_COSY_SMOKE"
+      sound: "BLOCK_ANVIL_LAND"
+    damage_on_escape: 15
+
+  advanced_special:
+    name: "Elemental Fury"
+    type: "combo"
+    probability: 0.3
+    combo_attacks:
+      - basic_attack
+      - magical
+      - trap_attack
+    combo_message: "The boss unleashes its ultimate fury!"
+    cooldown: 20
+
+  healing:
+    name: "Regenerate"
+    type: "heal"
+    probability: 0.2
+    heal_amount: 50
+    cooldown: 15
+    visual_effects:
+      particle: "HEART"
+      sound: "ENTITY_VILLAGER_AMBIENT"
+
+  # Nuevos ataques agregados
+  fire_breath:
+    name: "Fire Breath"
+    type: "magical"
+    damage: 40
+    probability: 0.4
+    effect_id: 12 # Fire effect
+    amplifier: 2
+    users: "C"
+    duration_ticks: 40
+    cooldown: 8
+    area_of_effect:
+      radius: 6
+      shape: "CONE"
+
+  thunder_strike:
+    name: "Thunder Strike"
+    type: "magical"
+    damage: 50
+    probability: 0.3
+    effect_id: 1 # Instant Damage
+    amplifier: 3
+    users: "RANDOM"
+    duration_ticks: 10
+    cooldown: 12
+    visual_effects:
+      particle: "CRIT"
+      sound: "ENTITY_LIGHTNING_BOLT_THUNDER"
+
+  earthquake:
+    name: "Earthquake"
+    type: "physical"
+    damage: 25
+    probability: 0.5
+    targets: "ALL"
+    cooldown: 15
+    visual_effects:
+      particle: "BLOCK_CRACK"
+      sound: "ENTITY_GENERIC_EXPLODE"
+    knockback: 2 # Knockback strength
+
+  poison_cloud:
+    name: "Poison Cloud"
+    type: "magical"
+    damage: 10
+    probability: 0.6
+    effect_id: 19 # Poison effect
+    amplifier: 1
+    users: "C"
+    duration_ticks: 60
+    cooldown: 10
+    area_of_effect:
+      radius: 7
+      shape: "CIRCLE"
+
+  shadow_clone:
+    name: "Shadow Clone"
+    type: "summon"
+    probability: 0.4
+    type_Mob: WITHER_SKELETON
+    amount: 2
+    tag: "shadow_clone"
+    attack-damage: 20
+    movement-speed: 70
+    health: 40
+    spawn-message: "The boss creates shadow clones!"
+    spawn-effects:
+      particle: "SMOKE_LARGE"
+      sound: "ENTITY_ENDERMAN_TELEPORT"
+    cooldown: 18
+
+  meteor_shower:
+    name: "Meteor Shower"
+    type: "magical"
+    damage: 60
+    probability: 0.2
+    effect_id: 4 # Slowness effect
+    amplifier: 2
+    users: "ALL"
+    duration_ticks: 30
+    cooldown: 25
+    visual_effects:
+      particle: "LAVA"
+      sound: "ENTITY_GHAST_SCREAM"
+    area_of_effect:
+      radius: 8
+      shape: "CIRCLE"
+
+###################################
+# Additional Notes:
+# - Each attack has a cooldown to prevent overuse.
+# - Visual and sound effects improve the player's experience.
+# - Added a "healing" option for a more dynamic fight.
+# - Combo attacks introduce advanced mechanics for the boss.
+###################################

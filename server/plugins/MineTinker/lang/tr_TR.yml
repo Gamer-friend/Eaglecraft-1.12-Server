@@ -1,0 +1,439 @@
+Alert:
+  OnItemBreak: '%RED%Görünüşe göre aletin kırılmış! 1 sağlamlıkla geri veriyorum.'
+StartUp:
+  Commands: Kayıtlı komutlar!
+  BuildersWands: İnşaatçı Asaları etkinleştirildi!
+  EasyHarvest: KolayHasat etkinleştirildi!
+  Events: Kayıtlı Etkinlikler!
+  GUIs: GUIler yükleniyor!
+  StdLogging: Standart Günlükleme etkin. Günlükleme'nin içindeki ayardan bunu devre
+    dışı bırakabilirsiniz. Standart!
+  DebugLogging: Hata Ayıklama Günlüklemesi etkin. Günlükleme'nin içindeki ayardan
+    bunu devre dışı bırakmalısınız. Hata ayıklama!
+  Incompatible:
+    Start: Uyuşmayan eklentiler için arama başlatılıyor... Bunu Ana Ayarlar'dan kapatabilirsiniz.
+    Found: '%plugin bulundu. En iyi uyumluluk için MineTinker''a ince ayarlar yapılıyor!'
+Builderswand:
+  NameWood: Tahta İnşaatçı Asası
+  NameStone: Taş İnşaatçı Asası
+  NameIron: Demir İnşaatçı Asası
+  NameGold: Altın İnşaatçı Asası
+  NameDiamond: Elmas İnşaatçı Asası
+  Description: '%WHITE%Mine-Tinker-İnşaatçıAsası'
+  Error:
+    CraftWood: Tahta İnşaatçı Asası için tarif kaydedilemedi!
+    CraftStone: Taş İnşaatçı Asası için tarif kaydedilemedi!
+    CraftIron: Demir İnşaatçı Asası için tarif kaydedilemedi!
+    CraftGold: Altın İnşaatçı Asası için tarif kaydedilemedi!
+    CraftDiamond: Elmas İnşaatçı Asası için tarif kaydedilemedi!
+Commands:
+  Info:
+    Line1: MineTinker (%ver) Flo56958 tarafından yapılan bir plugindir.
+    Line2: MineTinker başka modlardan esinlenerek yapılmıştır. (örn. TinkersConstruct)
+  InvalidArguments: Geçersiz komut argümanları girdiniz!
+  InvalidTool: Bu komutu gerçekleştirebilmek için ana elinizde geçerli bir alet tutmanız
+    gerekiyor!
+  NoPermission: Onu yapmak için yetkin yok!
+  Reload:
+    Note1: 'NOT: Yeniden yükledikten sonra eklenti düzgün çalışmama ihtimali var.
+      Sunucuyu yeniden başlatmak tavsiye edilir.'
+    Recipes: Tarifler temizleniyor!
+    Configs: Ayarlar yeniden yükleniyor!
+    ModManager: ModYöneticisi yeniden yükleniyor!
+    Builderswands: İnşaatçı Asaları yeniden yükleniyor!
+    GUIs: GUIler yeniden yükleniyor!
+    Finish: Yeniden yükleme bitti!
+  ModList: 'Kullanılabilir Modifikasyonlar:'
+  CheckUpdate:
+    Start: Güncellemeler denetleniyor...
+    Disabled: Sunucu yöneticisi güncelleme kontrolünü devre dışı bıraktı!
+  ItemStatistics:
+    Head: '%toolname için Eşya-İstatistikleri'
+    Level: '%GOLD%Seviye: %WHITE%%level'
+    Exp: '%GOLD%Deneyim: %WHITE%%current / %nextlevel'
+    FreeSlots: '%GOLD%Boşta modifikasyon yuvaları: %WHITE%%slots'
+    Modifiers: '%WHITE%Modifikasyonlar:'
+  Failure:
+    Main: 'Komut başarısız oldu: %cause'
+    Cause:
+      PlayerNotFound: Oyuncu %p bulunamadı!
+      PlayerMissing: Gereken Oyuncu Bilgisi yok!
+      InvalidArguments: Geçersiz argümanlar!
+      NumberFormatException: SayıFormatlamasıHatası!
+      PlayerOnlyCommand: Komut oyuncuya özel!
+      UnknownCommand: Bilinmeyen komut!
+      NoPermission: İzin yok!
+      InvalidItem: Geçersiz eşya!
+GUI:
+  ButtonAction:
+    REQUEST_INPUT: Girişiniz %data için gerekiyor. Sonraki sohbet mesajınız MineTinker
+      tarafından yakalanacak ve girişiniz olacak.
+GUIs:
+  Forward: İleri
+  Back: Geri
+  LeftClick: Sol-Tıklama
+  RightClick: Sağ-Tıklama
+  MiddleClick: Orta-Tıklama
+  BackOtherMenu: Diğer Menüye dönün
+  Modifiers:
+    Title: MineTinker-Modifikasyonları, %pageNo
+    MaxLevel: 'Maksimum Seviye: %maxLevel'
+    WorksOn: 'Şunlara İşler:'
+    CanApply: 'Şunları Ekleyebilir:'
+    IncompatibleWith: 'Şunlarla Uyumsuzdur:'
+    EnchantCost: 'Efsun Masrafı: %WHITE%%enchantCost'
+    ClickToRecipe: Üretim tarifini göstermek için %key tuşuna basın.
+    BlockToEnchant: '%mat eşyasını %block bloğunun üzerine %key tuşuyla yerleştirin
+      ve efsunlayın.'
+  ConfigurationEditor:
+    ReloadPlugin: MineTinker'ı yeniden yükle
+    Change: '%key artık %old değil, %new!'
+    Type: 'Çeşit: %type'
+    Value: 'Değer: %GOLD%%value'
+    UnsupportedType: Bu çeşit desteklenmiyor ve değiştirilemez!
+    WrongInput: Girdiniz doğru değildi! %type beklerken, %input buldum!
+    Title: Ayarlar Yöneticisi, Sayfa %pageNo
+    TitleConfigs: '%config, %pageNo. sayfa'
+    IncrementValueClick: '%key ile %amount arttırın!'
+    DecrementValueClick: '%key ile %amount azaltın!'
+    InsertValue: '%key ile yeni bir değer girin!'
+    ToggleValue: '%key ile kapatıp açın!'
+    config:
+      PluginIncompatibility:
+        Check: Uyumsuz eklentiler için aramayı etkinleştirir ve MineTinker düzgün
+          bir şekilde davranmaya çalışır (mesela ayarları değiştirerek)
+        SkippedPlugins: Listede belirtilen eklentiler için aramayı kapatır.
+      CheckForUpdates: Başlatmada ve yeniden yüklemelerde güncellemeleri kontrol eder
+      chat-messages: 'SohbetMesajları''nı (örn. Komut çıktıları) etkinleştir '
+      LevelStep: değer *( SeviyeFaktörü^AletSeviyesi) [Üslü]; *(SeviyeFaktörü * AletSeviyesi)
+        [Düz]
+      ProgressionIsLinear: false:Üslü, true:Düz
+      ResetAtVarOverflow: 'Deneyimi ve seviyeyi Integer.MAX_VALUE de veya Long.MAX_VALUE
+        de 0 ve 1 ile sıfırlar. false: Deneyim artık kazanılmaz'
+      logging:
+        standard: önemli oyuncu aktivitelerini MineTinker ile günlükler
+        debug: daha da fazla bilgi konsola yazdırılır
+        metrics: MineTinker'ın anonim kullanım istatistikleri için bStats-Ölçümleri
+ModManager:
+  RegisterModifier: '%mod %GREEN%modifikasyonu %plugin %GREEN%tarafından kaydedildi.'
+  UnregisterModifier: '%mod %GREEN%modifikasyonu %plugin %GREEN%tarafından kaldırıldı.'
+ModifierFailCause:
+  IncompatibleModifiers: Modifikasyonlar uyuşmuyor!
+  InvalidToolType: Geçersiz Alet Tipi (ToolType)!
+  MaximumSlotsReached: Maksimum yuva adedine ulaşıldı!
+  ModMaxLevel: Modifikasyon zaten maksimum seviyede!
+  NoPermission: Yetkin yok!
+LanguageManager:
+  LoadedLanguage: DilYöneticisi başarıyla %lang dilini yükledi!
+TinkerListener:
+  ToolUpgrade: '%tool %type düzeyine yükseltildi!'
+  ModifierApply: '%tool artık %mod moduna sahip ve %slots boş yuvası var!'
+  ModifierFail: '%tool için %mod uygulaması başarısız oldu! (%cause)'
+  ToolLevelUp: '%tool seviye atladı ve artık Seviye %level!'
+Modifier:
+  Enchantable:
+    LevelsRequired: '%amount seviye gerekli!'
+  Anti-Arrow-Plating:
+    Name: Anti-Ok-Plaka
+    Description: Zırhınız atılan cisimlerin hasarını azaltır!
+    ModifierItemName: Delinme Korumalı Metal
+    DescriptionModifierItem: Anti-Ok-Plaka-Modifikasyonu için Modifikasyon-Eşyası
+  Anti-Blast-Plating:
+    Name: Patlama-Önleyici-Plaka
+    Description: Zırhınız patlama hasarlarını azaltır!
+    ModifierItemName: Patlama Korumalı Metal
+    DescriptionModifierItem: Patlama-Önleyici-Plaka-Modifikasyonu için Modifikasyon-Eşyası
+  Aquaphilic:
+    Name: Aquaphilic
+    Description: Daha hızlı yüzün, daha derine dalın ve su altında daha verimli kazın
+    ModifierItemName: Okyanus İncisi
+    DescriptionModifierItem: Aquaphilic-Modifikasyonu için Modifikasyon-Eşyası
+  Auto-Smelt:
+    Name: Oto-Pişirme
+    Description: Cevherleri ve diğer blokları kazarken pişirin! Seviye başına %chance%
+      ihtimalle aktif olur.
+    ModifierItemName: Geliştirilmiş Fırın
+    DescriptionModifierItem: Oto-Pişirme-Modifikasyonu için Modifikasyon-Eşyası
+  Beheading:
+    Name: Kelle Uçurma
+    Description: Seviye başına %chance% ihtimalle öldürdüğünüz canavarın kafasını
+      düşürür.
+    ModifierItemName: Büyülü Wither Kafası
+    DescriptionModifierItem: Kafa Uçurma-Modifikasyonu için Modifikasyon-Eşyası
+  Berserk:
+    Name: Barbar
+    Description: Sağlığın %%percent altına düşünce %duration saniye boyunca fazladan
+      güç artışı al!
+    ModifierItemName: Kan Taşı
+    DescriptionModifierItem: Barbar-Modifikasyonu için Modifikasyon-Eşyası
+  Channeling:
+    Name: İyonlaşma
+    Description: Üçlü Mızrak bir düşamnına vurduğunda yıldırım yağdırır!
+    ModifierItemName: Elektrikle Kaynaşmış Kristal
+    DescriptionModifierItem: İyonlaşma-Modifikasyonu için Modifikasyon-Eşyası
+  Directing:
+    Name: Yönlendirme
+    Description: ''
+    ModifierItemName: Geliştirilmiş Pusula
+    DescriptionModifierItem: Yönlendirme-Modifikasyonu için Modifikasyon-Eşyası
+  Ender:
+    Name: Ender
+    Description: Sen eğilirken okun indiği yere ışınlanırsın!
+    ModifierItemName: Özel Ender Gözü
+    DescriptionModifierItem: Ender-Modifikasyonu için Modifikasyon-Eşyası
+  Experienced:
+    Name: Deneyimli
+    Description: Alet, onu kullanırken %chance ihtimalle %amount XP düşürür!
+  Extra-Modifier:
+    Name: Ekstra-Modifikasyo
+    Description: Alete fazladan %amount Modifikasyon-Yuvası ekler!
+  Fiery:
+    Name: Ateşli
+    Description: Hepsini yakmak için tek modifikasyon!
+    ModifierItemName: Büyülü Blaze Çubuğu
+    DescriptionModifierItem: Ateşli-Modifikasyonu için Modifikasyon-Eşyası
+  Freezing:
+    Name: Dondurma
+    Description: Etrafındaki suları dondur!
+    ModifierItemName: Buzlu Kristal
+    DescriptionModifierItem: Dondurma-Modifikasyonu için Modifikasyon-Eşyası
+  Glowing:
+    Name: Parlama
+    ModifierItemName: Ender Parlayan Taş
+    DescriptionModifierItem: Parlama-Modifikasyonu için Modifikasyon-Eşyası
+  Haste:
+    Name: Hız
+    Description: Blokları daha hızlı kır ve arbaletini daha hızlı sık!
+    ModifierItemName: Sıkılaştırılmış Kızıltaş Bloğu
+    DescriptionModifierItem: Hız-Modifikasyonu için Modifikasyon-Eşyası
+  Infinity:
+    Name: Sonsuzluk
+    Description: Yay kullanmak için sadece bir oka ihtiyacın var ve Üçlü Mızrağın
+      sana geri döner!
+    ModifierItemName: Büyülü Ok
+    DescriptionModifierItem: Sonsuzluk-Modifikasyonu için Modifikasyon-Eşyası
+  Insulating:
+    Name: Yalıtım
+    Description: Zırhınız ateş hasarını azaltır!
+    ModifierItemName: Isı Yalıtımlı Alaşım
+    DescriptionModifierItem: Yalıtım-Modifikasyonu için Modifikasyon-Eşyası
+  KineticPlating:
+    Name: Kinetik Yalıtım
+    Description: Elitra ile alınan çakılma hasarını her seviye %%amount azaltır.
+    ModifierItemName: Esnek Plaka
+    DescriptionModifierItem: Kinetik Yalıtım-Modifikasyonu için Modifikasyon-Eşyası
+  Knockback:
+    Name: Geri-Tepme
+    Description: Her yumruğunuzla düşmanlarınızı daha da geriye uçurun!
+    ModifierItemName: Büyülü TNT
+    DescriptionModifierItem: Geri-Tepme-Modifikasyonu için Modifikasyon-Eşyası
+  Lifesteal:
+    Name: Kan-Emici
+    Description: Verilen hasarın %amount% kadarıyla canını doldurur. %chance% ihtimalle
+      tetiklenir.
+    ModifierItemName: Kanlı Nether Taşı
+    DescriptionModifierItem: Kan-Emici-Modifikasyonu için Modifikasyon-Eşyası
+  Light-Weight:
+    Name: Hafiflik
+    Description: Bir tüy gibi düşüyorsun - bir parça...
+    ModifierItemName: Gelişmiş Tüy
+    DescriptionModifierItem: Hafiflik-Modifikasyonu için Modifikasyon-Eşyası
+  Luck:
+    Name: Şans
+    Description: Bloklardan ve canlılardan daha fazla şey alın!
+    ModifierItemName: Sıkılaştırılmış Lapis Lazuli Bloğu
+    DescriptionModifierItem: Şans-Modifikasyonu için Modifikasyon-Eşyası
+  Magical:
+    Name: Büyülü
+    Description: Yer çekiminden etkilenmeyen ancak %%amount daha yavaş uçan bir büyü
+      topu at! Eğer top hedefine değerse (seviyeye bağlı olarak) %%min - %%max daha
+      fazla hasar verir! Fırlatmak %xp XP harcar!
+    ModifierItemName: Büyülü Ok
+    DescriptionModifierItem: Büyülü-Modifikasyonu için Modifikasyon-Eşyası
+  Melting:
+    Name: Erime
+    Description: Yanan düşmanlara vurduğunuzda %amount% ekstra hasar verin ve yandığınızda
+      %amount% daha az hasar alın!
+    ModifierItemName: Büyülü Magma Bloğu
+    DescriptionModifierItem: Erime-Modifikasyonu için Modifikasyon-Eşyası
+  Multishot:
+    Name: Çoklu-Sıkım
+    Description: Her seviye başına fazladan bir ok daha sıkın!
+    ModifierItemName: Çoklu-Ok
+    DescriptionModifierItem: Çoklu-Sıkım-Modifikasyonu için Modifikasyon-Eşyası
+  Photosynthesis:
+    Name: Fotosentez
+    Description: Gün ışığı altında dururken, her %ticks tikte bir, eşyanın %amount
+      hasarını tamir et! Ne kadar durursan o kadar hızlı tamir olur. (%%multiplier)
+    ModifierItemName: Arındırılmış Klorofil
+    DescriptionModifierItem: Fotosentez-Modifikasyonu için Modifikasyon-Eşyası
+  Piercing:
+    Name: Delici
+    Description: Oklar düşmanları delip geçer!
+    ModifierItemName: Delici Ok Başlığı
+    DescriptionModifierItem: Delici-Modifikasyonu için Modifikasyon-Eşyası
+  Poisonous:
+    Name: Zehirli
+    Description: Hedefi seviye başına %multiplier * %duration tik boyunca zehirle!
+    ModifierItemName: Büyülü Çürük Et
+    DescriptionModifierItem: Zehirli-Modifikasyonu için Modifikasyon-Eşyası
+  Power:
+    Name: Güç
+    Description: Aletini her sallayışında daha fazla blok kır!
+    ModifierItemName: Büyülü Zümrüt
+    DescriptionModifierItem: Güç-Modifikasyonu için Modifikasyon-Eşyası
+  Propelling:
+    Name: İticiler
+    Description: Üçlü Mızrağınla suda dururken yada havada Elitra ile süzülürken eğilerek
+      kendini yükselt!
+    ModifierItemName: Büyülü Fişek Yıldızı
+    DescriptionModifierItem: İticiler-Modifikasyonu için Modifikasyon-Eşyası
+  Protecting:
+    Name: Koruma
+    Description: Zırhın seni hasarlara karşı daha iyi koruyacak!
+    ModifierItemName: Zenginleştirilmiş Obsidyen
+    DescriptionModifierItem: Koruma-Modifikasyonu için Modifikasyon-Eşyası
+  Reinforced:
+    Name: Sağlamlaştırılmış
+    Description: Bir ihtimalle kullandığın aletin/zırhın sağlamlığını kaybetme! Aleti
+      daha sağlam yapar!
+    ModifierItemName: Sıkılaştırılmış Obsidyen
+    DescriptionModifierItem: Sağlamlaştırılmış-Modifikasyonu için Modifikasyon-Eşyası
+  Self-Repair:
+    Name: Kendini-Tamir-Etme
+    Description: ''
+    ModifierItemName: Büyülü Yosunlu Kırık Taş
+    DescriptionModifierItem: Kendini-Tamir-Etme-Modifikasyonu için Modifikasyon-Eşyası
+  Sharpness:
+    Name: Keskinlik
+    Description: Silahın herekese karşı daha çok hasar vuruyor!
+    ModifierItemName: Sıkılaştırılmış Kuvars Bloğu
+    DescriptionModifierItem: Keskinlik-Modifikasyonu için Modifikasyon-Eşyası
+  Shulking:
+    Name: Yükselme
+    Description: Düşamnlarını %duration tik boyunca yükselt ve hareketsiz kıl! Bu
+      efekt her seviye artışıyla daha da güçlenir.
+    ModifierItemName: Gelişmiş Shulker Kabuğu
+    DescriptionModifierItem: Yükselme-Modifikasyonu için Modifikasyon-Eşyası
+  Silk-Touch:
+    Name: İpeksi-Dokunuş
+    Description: İpeksi Dokunuş büyüsünü uygular!
+    ModifierItemName: Gelişmiş Örümcek Ağı
+    DescriptionModifierItem: İpeksi-Dokunuş-Modifikasyonu için Modifikasyon-Eşyası
+  Smite:
+    Name: Darbe
+    Description: Silahın yarı-ölülere karşı daha fazla hasar vuruyor!
+    ModifierItemName: Kutsanmış Kemik
+    DescriptionModifierItem: Darbe-Modifikasyonu için Modifikasyon-Eşyası
+  Soulbound:
+    Name: Ruh-Bağı
+    Description: Öldüğünde MineTinker-Eşyanı kaybetme.
+    ModifierItemName: Güçlendirilmiş Fener
+    DescriptionModifierItem: Ruh-Bağı-Modifikasyonu için Modifikasyon-Eşyası
+  Speedy:
+    Name: Hızlı
+    Description: Yakalayamazsın ki! Her seviye seni %amount% daha hızlı yürümeni ve
+      koşmanı sağlar!
+    ModifierItemName: Geliştirilmiş Tavşan Derisi
+    DescriptionModifierItem: Hızlı-Modifikasyonu için Modifikasyon-Eşyası
+  Spiders-Bane:
+    Name: Örümceklerin Kabusu
+    Description: Silahın örümceklere daha fazla hasar verir!
+    ModifierItemName: Temizlenmiş Örümcek Gözü
+    DescriptionModifierItem: Örümceklerin-Kabusu-Modifikasyonu için Modifikasyon-Eşyası
+  Sweeping:
+    Name: Süpürücü-Kenar
+    Description: Daha büyük bir bölgeye hasar ver!
+    ModifierItemName: Büyülü Demir Külçesi
+    DescriptionModifierItem: Süpürücü-Kenar-Modifikasyonu için Modifikasyon-Eşyası
+  Tanky:
+    Name: Tankçı
+    Description: Seviye başına %amount fazladan kalp alarak kendini tanka çevir!
+    ModifierItemName: Kanlı Obsidyen
+    DescriptionModifierItem: Tankçı-Modifikasyonu için Modifikasyon-Eşyası
+  Thorned:
+    Name: Dikenli
+    Description: Zırhın başkaları sana hasar verdiğinde onların canını acıtır!
+    ModifierItemName: Dikenli Plaka
+    DescriptionModifierItem: Dikenli-Modifikasyonu için Modifikasyon-Eşyası
+  Timber:
+    Name: Oduncu
+    Description: Ağaçları göz açıp kapayıncaya kadar devir!
+    ModifierItemName: Tahta Zümrüt
+    DescriptionModifierItem: Oduncu-Modifikasyonu için Modifikasyon-Eşyası
+  Webbed:
+    Name: Ağlı
+    Description: Düşmanlar sana vurduğunda ya da sen onlara vurduğunda onları seviye
+      başına %multiplier * %duration tik boyunca yavaşlat!
+    ModifierItemName: Sıkılaştırılmış Örümcek Ağı
+    DescriptionModifierItem: Ağlı-Modifikasyonu için Modifikasyon-Eşyası
+DataType:
+  Boolean: Doğruluk (true/false)
+  String: Yazı/Dizge
+  List: Liste
+  Integer: Sayı
+  Double: Küsüratlı sayı (Double)
+ToolType:
+  ALL: Hepsi
+  AXE: Baltalar
+  BOOTS: Botlar
+  BOW: Yaylar
+  CHESTPLATE: Göğüslükler
+  CROSSBOW: Arbaletler
+  ELYTRA: Elitralar
+  FISHINGROD: Balık Oltaları
+  HELMET: Kasklar
+  HOE: Çapalar
+  INVALID: Geçersiz
+  LEGGINGS: Pantolonlar
+  OTHER: Diğer
+  PICKAXE: Kazmalar
+  SHEARS: Makaslar
+  SHIELD: Kalkanlar
+  SHOVEL: Kürekler
+  SWORD: Kılıçlar
+  TRIDENT: Üçlü Mızraklar
+Enchantment:
+  power: Güç
+  flame: Alevler
+  infinity: Sonsuzluk
+  punch: Yumruk
+  binding_curse: Bağlanma Laneti
+  channeling: Yıldırım Yönlendirmesi
+  sharpness: Keskinlik
+  bane_of_arthropods: Eklembacaklıların Kıyameti
+  smite: Darbe
+  depth_strider: Derin Koşucu
+  efficiency: Verimlilik
+  unbreaking: Kırılmazlık
+  fire_aspect: Alevden Çehre
+  frost_walker: ''
+  impaling: Şişleme
+  knockback: Geri-Tepme
+  fortune: ''
+  looting: Ganimet
+  loyalty: Sadakat
+  luck_of_the_sea: ''
+  lure: ''
+  mending: Tamir
+  multishot: Çoklu-Sıkım
+  respiration: ''
+  piercing: Delici
+  protection: Koruma
+  blast_protection: Patlama Koruması
+  feather_falling: Tüy Düşüşü
+  fire_protection: ''
+  projectile_protection: ''
+  quick_charge: ''
+  riptide: ''
+  silk_touch: İpeksi Dokunuş
+  sweeping: ''
+  thorns: Dikenler
+  vanishing_curse: Kaybolma Laneti
+  aqua_affinity: ''
+Updater:
+  Unable: Güncellemeler kontrol edilemedi!
+  UpdateAvailable: spigotmc.org'da bir güncelleme var!
+  YourVersion: 'Sizin Sürümünüz: %ver'
+  OnlineVersion: 'İnternet''teki Sürüm: %ver'
+  UpToDate: En yeni MineTinker sürümüne sahipsiniz!

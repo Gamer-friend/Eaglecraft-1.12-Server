@@ -13,7 +13,7 @@ listeners:
   bind_local_address: false
   host: 127.0.0.1:25577
   max_players: 1
-  tab_size: 60
+  tab_size: 1000
   force_default_server: true
 remote_ping_cache: -1
 network_compression_threshold: 256
@@ -29,8 +29,8 @@ permissions:
   - bungeecord.command.kick
 log_pings: true
 connection_throttle_limit: 3
-server_connect_timeout: 5000
-timeout: 30000
+server_connect_timeout: 500000
+timeout: 3000000000000000000000000000000000000000
 stats: 614623bd-e602-4a2e-b09d-0acb68d88c3e
 player_limit: -1
 ip_forward: false

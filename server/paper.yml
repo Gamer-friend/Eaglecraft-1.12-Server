@@ -40,9 +40,9 @@ settings:
   limit-player-interactions: true
 messages:
   kick:
+    authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
-    authentication-servers-down: ''
 timings:
   enabled: true
   verbose: true
@@ -68,12 +68,12 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    prevent-moving-into-unloaded-chunks: false
+    use-vanilla-world-scoreboard-name-coloring: false
     optimize-explosions: false
     remove-corrupt-tile-entities: false
     use-chunk-inhabited-timer: true
     queue-light-updates: false
-    prevent-moving-into-unloaded-chunks: false
-    use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
     max-chunk-gens-per-tick: 10
     max-chunk-sends-per-tick: 81
@@ -176,8 +176,8 @@ world-settings:
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
     spawner-nerfed-mobs-should-jump: false
-    allow-leashing-undead-horse: false
     baby-zombie-movement-speed: 0.5
+    allow-leashing-undead-horse: false
     mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: false
     squid-spawn-height:

@@ -1,0 +1,174 @@
+chat-prefix: '[MineTinker]'
+CheckForUpdates: true
+Language: en_US
+LowSpecMode: false
+logging:
+  standard: false
+  debug: false
+  metrics: true
+  modifiers: false
+chat-messages: true
+actionbar-messages: true
+actionbar-on-exp-gain: false
+BroadcastConfigChanges: true
+LanguageManagerNotifyOP: true
+NameCommandBlacklist:
+- BlacklistExample
+LevelStep: 100
+LevelFactor: 2.0
+ProgressionIsLinear: false
+ResetAtVarOverflow: true
+ExpPerBlockBreak: 1
+ExpPerEntityHit: 1
+ExpPerArrowShot: 1
+DisableExpFromFalldamage: false
+DisableNonPvPDamageExpArmor: false
+DisableNonPvPDamageExpWeapons: false
+ExtraExpPerBlock:
+  ApplicableToSilkTouch: false
+  DIAMOND_ORE: 2
+  EMERALD_ORE: 5
+  GOLD_ORE: 1
+ExtraExpPerEntityHit:
+  ENDER_DRAGON: 2
+ExtraExpPerEntityDeath:
+  ENDER_DRAGON: 500
+  WITHER: 250
+DisableExpFromEntity:
+- AREA_EFFECT_CLOUD
+- ARMOR_STAND
+- ARROW
+- BOAT
+- CHEST_BOAT
+- DROPPED_ITEM
+- ENDER_SIGNAL
+- EXPERIENCE_ORB
+- FALLING_BLOCK
+- FIREWORK
+- FISHING_HOOK
+- GLOW_ITEM_FRAME
+- ITEM_FRAME
+- LEASH_HITCH
+- LIGHTNING
+- MARKER
+- MINECART
+- MINECART_CHEST
+- MINECART_COMMAND
+- MINECART_FURNACE
+- MINECART_HOPPER
+- MINECART_MOB_SPAWNER
+- MINECART_TNT
+- PAINTING
+- PRIMED_TNT
+- SPECTRAL_ARROW
+- SPLASH_POTION
+- THROWN_EXP_BOTTLE
+- TRIDENT
+- UNKNOWN
+EnableDamageExp: true
+BlockExpCooldownInSeconds: 60
+AddModifierSlotsPerLevel: 1
+StartingModifierSlots: 1
+Upgradeable: true
+Repairable: true
+Combinable: false
+ModifiableInInventory: false
+UnbreakableTools: true
+Grindstone:
+  Enabled: true
+  ChanceToGetSlotsBack: 100
+  ChanceToGetModifierItemBack: 100
+UseSmithingTable: false
+AllowEnchanting: false
+EnchantingCostsSlots: true
+AllowCrafting: true
+AllowConverting: true
+BlockToEnchantModifiers: BOOKSHELF
+HideEnchants: true
+HideAttributes: true
+ConvertBookToModifier: true
+EnableLore: true
+ConvertEnchantmentsOnEnchant: true
+RefundLostEnchantmentsAsItems: true
+ConvertEnchantsAndAttributes: true
+ToolIdentifier: IdentifierTool
+ArmorIdentifier: IdentifierArmor
+ChanceToFailModifierApply: 0
+ChanceToFailToolUpgrade: 0
+ItemBehaviour:
+  ConvertItemsOnUse: true
+  TrackStatistics: true
+  ShowName: true
+  SetGlowing: true
+  SetInvulnerable: true
+  SetPersistent: false
+  ForModItems: true
+  DisableDroppingBehaviour: false
+  StopBreakEvent: true
+  AlertPlayerOnBreak: false
+  ApplyOnPlayerDeath: true
+ModifiersCanBeUsedForCrafting: false
+ConvertLoot:
+  MobDrops: true
+  ChestLoot: true
+  Chance: 100
+  ApplyModifiers: true
+  MaximumNumberOfModifiers: 4
+  AppliedModifiersConsiderSlots: true
+  ApplyExp: true
+  MaximumNumberOfExp: 650
+MobDropModifierItems:
+  Enabled: true
+  Chance: 100
+  MaximumAmount: 2
+  ExcludeModifiers:
+  - Extra-Modifier
+  ConsiderIncludedMobs: true
+  IncludedMobs:
+  - ENDER_DRAGON
+  - WITHER
+LevelUpEvents:
+  enabled: true
+  DurabilityRepair:
+    enabled: true
+    percentage: 50
+  RandomModifier:
+    enabled: true
+    percentage: 10
+    MaximumAmountOfModifiers: 1
+    DisableAddingNewSlots: false
+    AllowExtraModifier: true
+    DropAsItem: false
+  DropLoot:
+    enabled: true
+    percentage: 25
+    minimumDrop: 1
+    maximumDrop: 5
+    Items:
+    - DIAMOND
+    - IRON_INGOT
+    - GOLD_INGOT
+    - EMERALD
+  DropXP:
+    enabled: true
+    percentage: 25
+    amount: 100
+Sound:
+  OnLevelUp: true
+  OnCrafting: true
+  OnEveryCrafting: false
+  OnModding: true
+  OnFail: true
+  OnEnchanting: true
+  OnUpgrade: true
+  OnBreaking: true
+BannedWorlds:
+- bannedExample1
+- bannedExample2
+EasyHarvest:
+  enabled: true
+  replant: true
+  Sound: true
+  BannedWorlds:
+  - bannedExample1
+  - bannedExample2

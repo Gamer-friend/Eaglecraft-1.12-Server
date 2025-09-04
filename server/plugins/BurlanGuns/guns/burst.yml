@@ -1,0 +1,11 @@
+ID: 2
+Name: "Kar98k"
+Damage: 7.0
+Ammo: 30
+Lore:
+  - "KAR98K MOMENT"
+  - "KAR98K MOMENT"
+firingMode: "BURST"
+AmmoID: 1
+CustomModelData: 41
+ADSModelData: 42

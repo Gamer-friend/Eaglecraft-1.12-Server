@@ -1,0 +1,49 @@
+# Prefijo del mensaje
+prefix: "<g:#fa1717:#ad1e08>KinglyBosses</g>:" #- Si no deseas un prefijo, déjalo en blanco
+###################################
+# Mensajes personalizados
+###################################
+# Mensajes adicionales para interacciones en el juego.
+messages:
+  Placeholder_spawn_location: "{world} {x} {y} {z}"
+  spectate_true: "&a¡Ahora eres invisible para el jefe!"
+  spectate_false: "&c¡Ya no eres invisible para el jefe!"
+  table_design: "&6| &e%position% &6| &a%player% &6| &c%damage% &6|"
+  TopDecoration: "&6&m========&r &e&lMejores Jugadores &6&m========"
+  BottomDecoration: "&6&m=============================="
+  TopMessage: "&e%position%: &a%player% &c%damage%" # Temporalmente deshabilitado
+  playerDiedMessage: "%prefix% &4&l¡Has muerto a manos de &c&l%boss%&4&l!" # Temporalmente deshabilitado
+  bossDeathMessage: "%prefix% &6&l¡%boss% &e&lha sido derrotado por &a&l%player%&e&l!"
+  spectateMessage: "%prefix% &7¿Estás esperando al &c&l{boss}&7?"
+  NoRewardMessage: '%prefix% &4&lDesafortunadamente no obtuviste una recompensa esta vez. &c&l¡Debes estar entre los 3 mejores para obtenerla!'
+  RewardMessage: '%prefix% &a&l¡Eres uno de los mejores en daño! &6&l¡Felicidades!'
+  bossRespawnWarning: "%prefix% &e&l{bossname} &6&lreaparecerá pronto, ¡prepárate!"
+  playerLowHealthWarning: "%prefix% &4&l{playername}, &c&l¡tu salud está baja! &4&l¡Busca refugio!"
+  bossNearDeathMessage: "%prefix% &6&l{bossname} &e&lestá cerca de morir. &c&l¡Termínalo!"
+  bossVictoryMessage: "%prefix% &a&l{playername} &2&lha derrotado a &a&l{bossname}. &6&l¡Felicidades!"
+  bossAggroChange: "%prefix% &c&l{bossname} &4&lahora está enfocado en &c&l{playername}. &4&l¡Ten cuidado!"
+###################################
+# Mensajes del sistema
+###################################
+NO-PERMISSION: "&c&lNo tienes permiso."
+ONLY-PLAYERS: "&c&lEsto es solo para jugadores."
+Invalid-Args:
+  - '&b&m-=-&r &9&l&nKinglyBosses &b&m-=-'
+  - ''
+  - '&d/kboss item <nombre del objeto> <cantidad> (nombre del jefe) &7- Invoca un objeto personalizado.'
+  - ''
+  - '&d/kboss spectate <nombre_del_jefe> &7- Permite a los jugadores observar la batalla contra el jefe desde una posición segura.'
+  - ''
+  - '&d/kboss spawn (nombre_del_jefe) &7- Invoca un jefe en el mundo.'
+  - ''
+  - '&d/kboss list &7- Muestra la lista de jefes.'
+  - ''
+  - '&d/kboss setspawn &7- Establece la zona de aparición del jefe.'
+  - ''
+  - '&d/kboss reload &7- Recarga las configuraciones del plugin.'
+  - ''
+  - '&d/kboss spectate &7- Sirve para observar al jefe sin recibir daño de él.'
+  - ''
+  - '&d/kboss additems &7- Agrega un objeto que tengas en la mano al archivo items.yml.'
+  - ''
+  - '&b&m-=-&r &9&l&n¡Prepárate para la batalla! &b&m-=-'

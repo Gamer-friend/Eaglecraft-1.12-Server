@@ -1,0 +1,104 @@
+############################################
+# Please refrain from modifying this section
+StructuresVersion: 0.5 # Updated version with new features
+############################################
+
+Structures:
+  MiEstructura:
+    Time_Remove: 100 # Time in milliseconds before structure is removed
+    effects_on_build:
+      enabled: true # Toggle particle effects when structure is built
+      particle: "CRIT_MAGIC" # Particle type displayed during construction temporarily disable
+      sound: "BLOCK_ANVIL_PLACE" # Sound played during construction
+    effects_on_remove:
+      enabled: true # Toggle particle effects when structure is removed
+      particle: "SMOKE_LARGE" # Particle type displayed during removal
+      sound: "BLOCK_ANVIL_BREAK" # Sound played during removal
+    replacement_behavior:
+      replace_existing: true # Whether the structure replaces existing blocks
+      drop_items: false # Whether destroyed blocks drop as items
+    blocks:
+      # Iron floor
+      - iron_block 0,0,0
+      - iron_block 1,0,0
+      - iron_block -1,0,0
+      - iron_block 0,0,1
+      - iron_block 0,0,-1
+      - iron_block 1,0,1
+      - iron_block 1,0,-1
+      - iron_block -1,0,1
+      - iron_block -1,0,-1
+
+      # Iron ceiling
+      - iron_block 0,3,0
+      - iron_block 1,3,0
+      - iron_block -1,3,0
+      - iron_block 0,3,1
+      - iron_block 0,3,-1
+      - iron_block 1,3,1
+      - iron_block 1,3,-1
+      - iron_block -1,3,1
+      - iron_block -1,3,-1
+
+      # Iron bars around the user
+      - iron_bars 1,1,0
+      - iron_bars -1,1,0
+      - iron_bars 0,1,1
+      - iron_bars 0,1,-1
+      - iron_bars 1,1,1
+      - iron_bars 1,1,-1
+      - iron_bars -1,1,1
+      - iron_bars -1,1,-1
+      - iron_bars 1,2,0
+      - iron_bars -1,2,0
+      - iron_bars 0,2,1
+      - iron_bars 0,2,-1
+      - iron_bars 1,2,1
+      - iron_bars 1,2,-1
+      - iron_bars -1,2,1
+      - iron_bars -1,2,-1
+
+  AdvancedStructure:
+    Time_Remove: 500 # Time in milliseconds before structure is removed
+    effects_on_build:
+      enabled: true
+      particle: "END_ROD"
+      sound: "BLOCK_NOTE_BLOCK_PLING"
+    effects_on_remove:
+      enabled: true
+      particle: "CLOUD"
+      sound: "BLOCK_GLASS_BREAK"
+    replacement_behavior:
+      replace_existing: false # Prevent overwriting existing blocks
+      drop_items: true # Allow destroyed blocks to drop as items
+    blocks:
+      # Base layer of structure (Diamond floor)
+      - diamond_block 0,0,0
+      - diamond_block 1,0,0
+      - diamond_block -1,0,0
+      - diamond_block 0,0,1
+      - diamond_block 0,0,-1
+
+      # Walls around the structure
+      - glass 1,1,0
+      - glass -1,1,0
+      - glass 0,1,1
+      - glass 0,1,-1
+      - glass 1,2,0
+      - glass -1,2,0
+      - glass 0,2,1
+      - glass 0,2,-1
+
+      # Ceiling
+      - emerald_block 0,3,0
+      - emerald_block 1,3,0
+      - emerald_block -1,3,0
+      - emerald_block 0,3,1
+      - emerald_block 0,3,-1
+
+############################################
+# Additional Notes:
+# - Added particle and sound effects for building and removing structures.
+# - Introduced `replacement_behavior` to handle interactions with existing blocks.
+# - `AdvancedStructure` demonstrates how to build using other materials like diamond, glass, and emerald.
+############################################

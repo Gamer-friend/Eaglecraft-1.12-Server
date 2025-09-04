@@ -1,0 +1,38 @@
+id: dce42194-39bd-30b7-8e8b-c480daff920a
+name: Legend
+created: 1756927660351
+updated: 1756927669414
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: 1ed88e3ee329,bef5582545cf,11e56861cf57
+    mana_timestamp: 1756927669314
+    mana: 42.395004
+modifiers: {}
+active_class: mage
+health: 20.0

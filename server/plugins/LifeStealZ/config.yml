@@ -1,0 +1,199 @@
+#     _      _  __        _____ _             _   ______
+#    | |    (_)/ _|      / ____| |           | | |___  /
+#    | |     _| |_ ___  | (___ | |_ ___  __ _| |    / /
+#    | |    | |  _/ _ \  \___ \| __/ _ \/ _` | |   / /
+#    | |____| | ||  __/  ____) | ||  __/ (_| | |  / /__
+#    |______|_|_| \___| |_____/ \__\___|\__,_|_| /_____|
+
+# === COLOR CODES ===
+# This plugin supports old color codes like: &c, &l, &o, etc.
+# It also supports MiniMessage, a more advanced way to format messages:
+# https://docs.advntr.dev/minimessage/format.html
+# With MiniMessage, you can add HEX colors, gradients, hover and click events, etc.
+
+
+# === GENERAL SETTINGS ===
+
+# If set to true, LifeStealZ will check for updates and let you know if there's a newer version
+checkForUpdates: true
+
+# Set the language to any code found in the "lang" folder (don't add the .yml extension)
+# You can add your own language files. Use https://github.com/KartoffelChipss/LifeStealZ/tree/main/src/main/resources/lang/en-US.yml as a template
+# If you want to help translating the plugin, please refer to this article: https://lsz.strassburger.dev/contributing/localization
+#  | en-US | de-DE | es-ES | fr-FR | cs-CZ | vi-VN | zh-CN | pl-PL | nl-NL | ru-RU
+lang: "en-US"
+
+
+# === WORLD SETTINGS ===
+
+# If set to true, the plugin will only take effect in the worlds listed below
+enableWhitelist: false
+
+# A list of worlds, where the plugin should take effect.
+# Depending on how your server is arranged, these settings may need to change.
+# Ensure the default world on your server is named "world", otherwise rename here!
+worlds:
+  - "world"
+  - "world_nether"
+  - "world_the_end"
+
+# Enable to remove the warning message when a world is not whitelisted.
+supressWhitelistMessage: false
+
+
+# === HEART SETTINGS ===
+
+# The amount of hearts a player has, when joining for the first time
+startHearts: 10
+# The maximal amount of hearts, a player can have
+maxHearts: 20
+# The amount of hp a player should have after getting reived
+reviveHearts: 1
+# The amount of hearts the killer should gain and the victim should loose
+heartsPerKill: 1
+# The amount of hearts a player should loose, when dying naturally
+heartsPerNaturalDeath: 1
+# The minimal amount of hearts. If a player gets to this amount of hearts, they will be eliminated.
+# PLEASE ONLY CHANGE IF YOU KNOW WHAT YOU ARE DOING!
+minHearts: 0
+# This option will enforce the heart limit on admin commands like /lifestealz hearts <add, set> <player> <amount>
+enforceMaxHeartsOnAdminCommands: false
+# The custom items that should be used for the following scenarios (Must be an id from the items.yml)
+heartItem:
+  # This item will be used for anything that is not listed below (mostly legacy)
+  default: "defaultheart"
+  # This item will be given, when a user withdraws a heart
+  withdraw: "defaultheart"
+  # This item will be dropped when a player is killed by another player and "dropHeartsPlayer" is enabled
+  kill: "defaultheart"
+  # This item will be dropped when a player is killed by natural causes and "dropHeartsNatural" is enabled
+  naturalDeath: "defaultheart"
+  # This item will be dropped if a player is killed, the killer is still on cooldown and "heartGainCooldown.dropOnCooldown" is enabled
+  heartGainCooldown: "defaultheart"
+  # This item will be dropped if a player is killed, the killer has reached the max amount of hearts and "dropHeartsIfMax" is enabled
+  maxHearts: "defaultheart"
+
+
+# === HEART BEHAVIOR SETTINGS ===
+
+# If hearts should be dropped when killed by player
+dropHeartsPlayer: false
+# If hearts should be dropped when killed naturally
+dropHeartsNatural: true
+# If a heart should be dropped, when the killer already has the max amount of hearts
+dropHeartsIfMax: true
+# If a player should lose a heart, when dying to hostile mobs or falldamage, lava, etc
+looseHeartsToNature: true
+# If a player should lose a heart, when being killed by another player
+looseHeartsToPlayer: true
+# Whether it should be announced, when a player got eliminated (has no more hearts)
+announceElimination: true
+
+# Allows players to withdraw a heart, even if they only have one left
+allowDyingFromWithdraw: true
+# If a player should also heal the appropriate amount of hearts, when using a heart item
+healOnHeartUse: false
+# If the totem effect should be played, when you use a heart
+playTotemEffect: false
+# The time you have to wait, before you can use another heart in Milliseconds
+heartCooldown: 0
+# How many times a player can be revived. Set to -1 to make it infinite
+maxRevives: -1
+
+
+# === Disabling Features ===
+
+# If the use of totems of undying should be prevented
+preventTotems: false
+# If crystalpvp should be disabled
+preventCrystalPVP: false
+# If the use of respawn anchors in the overworld should be prevented
+preventRespawnAnchors: false
+# If the use of beds in the nether and end should be prevented
+preventBeds: false
+# If the use of custom items in item frames should be prevented
+# It is recommended to leave this enabled, as people may be able to duplicate items otherwise
+preventCustomItemsInItemFrames: true
+
+
+# === Extensive Customization ===
+
+# Only disable this option if you want to add custom commands on elimination and don't want the player to get banned
+disablePlayerBanOnElimination: false
+# If the killer should gain a heart on elimination
+heartRewardOnElimination: true
+
+# Execute custom commands on events:
+# You can use &player& to insert the player name
+# For example: tempban &player& banreason 1d
+eliminationCommands:
+# - "say &player& got eliminated"
+# - "niceCommandtwo"
+
+heartuseCommands:
+# - "say &player& used a heart item"
+
+reviveuseCommands:
+# - "say &player& revived &target&"
+
+gracePeriod:
+  # If a grace period should be enabled
+  enabled: false
+  # The time in seconds, the grace period should last
+  duration: 60
+  # If the end of the grace period should be announced
+  announce: true
+  # If a sound should be played, when the grace period ends
+  playSound: true
+
+  # Should a player be able to take damage from players during the grace period
+  damageFromPlayers: false
+  # Should a player be able to deal damage to players during the grace period
+  damageToPlayers: false
+  # Should a player be able to use hearts during the grace period
+  useHearts: false
+  # Should a player be able to loose hearts during the grace period (if set to false, the killer will also not gain a heart)
+  looseHearts: false
+  # Should a player be able to gain hearts during the grace period
+  gainHearts: false
+
+  # Custom commands to be executed when the grace period starts
+  startCommands:
+    # - "say The grace period for &player& has started"
+
+  # Custom commands to be executed when the grace period ends
+  endCommands:
+    # - "say The grace period for &player& has ended"
+
+heartGainCooldown:
+  # A cooldown for how often people can gain a heart.
+  enabled: false
+  # How long the cooldown should be in Milliseconds
+  cooldown: 120000
+  # Drops the heart on the ground if a player kills someone, while still on cooldown
+  dropOnCooldown: true
+  # Prevents picking up hearts from the groun while on cooldown
+  preventPickup: true
+
+antiAlt:
+  # If the anti alt system should be enabled
+  enabled: true
+  # If possible alt kill attempts should be logged
+  logAttempt: true
+  # If possible alt kill attempts should be prevented
+  preventKill: false
+  # If a message should be sent to the player, when an alt kill attempt is detected
+  sendMessage: false
+  # Add custom comamnds, to be executed when a possible alt kill attempt is detected
+  # You can use &player& to insert the player name (commands are executed for both players)
+  commands:
+    # - "say Please don't kill alts"
+    # - "ban &player& 1h"
+
+webhook:
+  # If a webhook should be sent, when a player is eliminated
+  elimination: false
+  # If a webhook should be sent, when a player is revived
+  revive: false
+  # The URL of the webhook
+  url: ""

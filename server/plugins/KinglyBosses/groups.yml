@@ -1,0 +1,58 @@
+###################################
+# Please refrain from modifying this section
+GroupsVersion: 0.5 # Updated version
+###################################
+
+groups:
+
+  boss_group_1:
+    type: "boss"
+    # Opciones específicas para el grupo de jefes 1
+    boss_options:
+      activespawnInterval: false   # Indica si se usará el intervalo de spawn activo para este grupo
+      spawnInterval: 1000          # Intervalo de aparición para los jefes de este grupo (en milisegundos)
+    # Lista de jefes que pertenecen a este grupo
+    bosses:
+      boss_1:
+        name: "boss1"   # Nombre del jefe en el grupo
+        active: false   # Indica si el jefe estará activo
+      boss_2:
+        name: "boss2"   # Nombre del jefe en el grupo
+        active: false   # Indica si el jefe estará activo
+
+  boss_group_2:
+    type: "mythic"
+    # Opciones específicas para el grupo de jefes 2
+    boss_options:
+      activespawnInterval: true    # Indica si se usará el intervalo de spawn activo para este grupo
+      spawnInterval: 2000          # Intervalo de aparición para los jefes de este grupo (en milisegundos)
+    # Lista de jefes que pertenecen a este grupo
+    bosses:
+      boss_1:
+        name: "boss1"   # Nombre del jefe en el grupo
+        active: false   # Indica si el jefe estará activo
+      boss_3:
+        name: "boss3"   # Nombre del jefe en el grupo
+        active: true    # Este jefe estará activo
+
+  elite_group_1:
+    type: "elite"
+    # Opciones específicas para el grupo de élite
+    boss_options:
+      activespawnInterval: true    # Indica si se usará el intervalo de spawn activo para este grupo
+      spawnInterval: 1500          # Intervalo de aparición para los jefes de este grupo (en milisegundos)
+    # Lista de jefes que pertenecen a este grupo
+    bosses:
+      elite_1:
+        name: "elite1"  # Nombre del jefe en el grupo
+        active: true    # Este jefe estará activo
+      elite_2:
+        name: "elite2"  # Nombre del jefe en el grupo
+        active: false   # Indica si el jefe estará activo
+
+###################################
+# Additional Notes:
+# - Se añadieron descripciones claras para cada configuración.
+# - Incluye un nuevo grupo de jefes de élite para expandir la flexibilidad.
+# - Cada jefe tiene configuraciones específicas, lo que permite personalización individual.
+###################################

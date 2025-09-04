@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756864346590
+  login: 1756864338370
+money: '1000000000000000000'
+nickname: §fKelswee§r
+last-account-name: Kelswee
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 193.4039652923058
+  y: 63.0
+  z: 265.30245482635814
+  yaw: -349.800048828125
+  pitch: 56.39999771118164

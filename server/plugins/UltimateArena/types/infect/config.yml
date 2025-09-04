@@ -1,0 +1,13 @@
+# Main configuration file for the infect arena type
+# https://github.com/MineSworn/UltimateArena/wiki/Configuration
+
+gameTime: 180
+lobbyTime: 90
+maxDeaths: 2
+allowTeamKilling: false
+countMobKills: false
+rewardBasedOnXp: false
+cashReward: 100
+rewards:
+- GOLD_INGOT, 3
+- TNT, 1

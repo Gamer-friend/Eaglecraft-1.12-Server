@@ -1,0 +1,5 @@
+# Configuration for DiamondRain plugin
+settings:
+  max-diamonds: 10 # Maximum number of diamonds that can fall during the rain event.
+  area-size: 20 # The radius around the player where diamonds can randomly spawn.
+  item-despawn-time: 1200 # Time (in ticks) before the dropped diamonds despawn (1 second = 20 ticks)

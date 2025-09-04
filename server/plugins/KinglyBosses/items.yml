@@ -1,0 +1,62 @@
+###################################
+# Please refrain from modifying this section
+ItemsVersion: 0.5 # Updated version
+###################################
+
+items:
+  item_1650972105000: # Clave basada en timestamp
+    type: "DIAMOND_SWORD"
+    name: "Espada de Diamante"
+    enchanted_effect: false
+    enchanted: true
+    lore:
+      - "Un ítem muy poderoso."
+      - "Desata tu verdadero potencial."
+    enchants:
+      DAMAGE_ALL: 5  # Daño adicional contra todos los enemigos
+      DURABILITY: 3  # Mayor duración de uso
+
+  item_1650972106000: # Nuevo ítem
+    type: "BOW"
+    name: "Arco Épico"
+    enchanted_effect: true
+    enchanted: true
+    lore:
+      - "Este arco nunca falla."
+      - "Forjado por los antiguos."
+    enchants:
+      INFINITY: 1     # Flechas infinitas
+      POWER: 4        # Aumenta el daño del arco
+      FLAME: 1        # Añade daño de fuego
+
+  item_1650972107000: # Nuevo ítem
+    type: "NETHERITE_AXE"
+    name: "Hacha del Guerrero"
+    enchanted_effect: true
+    enchanted: true
+    lore:
+      - "Corta incluso el acero más fuerte."
+      - "Portador de grandes batallas."
+    enchants:
+      DAMAGE_ALL: 6   # Daño elevado contra enemigos
+      EFFICIENCY: 5   # Velocidad al cortar bloques
+      UNBREAKING: 3   # Más resistencia al desgaste
+
+  item_1650972108000: # Nuevo ítem
+    type: "SHIELD"
+    name: "Escudo Indestructible"
+    enchanted_effect: true
+    enchanted: true
+    lore:
+      - "Protección absoluta."
+      - "Solo para los más valientes."
+    enchants:
+      UNBREAKING: 5   # Inmune al desgaste
+      THORNS: 3       # Devuelve daño al atacante
+
+###################################
+# Additional Notes:
+# - Cada ítem tiene una clave única basada en un timestamp para facilitar la gestión.
+# - Se añadieron nuevos ítems con descripciones más inmersivas.
+# - Los encantamientos están optimizados para una experiencia balanceada.
+###################################
