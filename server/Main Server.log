@@ -1,0 +1,521 @@
+Loading libraries, please wait...
+2025-09-05 14:54:18,360 main WARN Disabling terminal, you're running in an unsupported environment.
+[14:54:19 INFO]: Starting minecraft server version 1.12.2
+[14:54:19 INFO]: Loading properties
+[14:54:19 INFO]: Default game type: SURVIVAL
+[14:54:19 INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[14:54:19 INFO]: Debug logging is disabled
+[14:54:19 INFO]: Server Ping Player Sample Count: 12
+[14:54:19 INFO]: Using 4 threads for Netty based IO
+[14:54:19 INFO]: Generating keypair
+[14:54:19 INFO]: Starting Minecraft server on localhost:25565
+[14:54:19 INFO]: Using default channel type
+[14:54:19 ERROR]: Ambiguous plugin name `Spawn' for files `plugins/Spawn-2.4.1.jar' and `plugins/Spawn.jar' in `plugins'
+[14:54:19 INFO]: Set PluginClassLoader as parallel capable
+[14:54:19 INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[14:54:19 INFO]: [OreAnnouncer] Loading OreAnnouncer v2.8.5
+[14:54:19 INFO]: [OreAnnouncer] Loading libraries of OreAnnouncer v2.8.5, this may take a while
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for jar-relocator
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for asm
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for asm-commons
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for gson
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for jdbi3-core
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for geantyref
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for caffeine
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for jdbi3-stringtemplate4
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for ST4
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for antlr-runtime
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for jdbi3-sqlobject
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for slf4j-api
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for slf4j-simple
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for HikariCP
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for mariadb-java-client
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for mysql-connector-j
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for postgresql
+[14:54:19 INFO]: [OreAnnouncer] Verifying checksum for h2
+[14:54:19 INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[14:54:19 INFO]: [GlassJoin] Loading GlassJoin v1.1.1
+[14:54:19 INFO]: [ClansX] Loading ClansX v1.0.0
+[14:54:19 INFO]: [CustomJoinMessages] Loading CustomJoinMessages v1.0
+[14:54:19 INFO]: [FK] Loading FallenKingdom v2.24.6
+[14:54:19 INFO]: [Spawn] Loading Spawn v2.4.1
+[14:54:19 INFO]: [HubParkour] Loading HubParkour v2.7.4
+[14:54:19 INFO]: [squidgame] Loading squidgame v3.1
+[14:54:19 INFO]: [Holograms] Loading Holograms v1.0-SNAPSHOT
+[14:54:19 INFO]: [TheBridge] Loading TheBridge v3.2.0
+[14:54:19 INFO]: [LobbyUltimate] Loading LobbyUltimate v1.0-SNAPSHOT
+[14:54:19 INFO]: [MinecraftManhunt] Loading MinecraftManhunt v1.4.1
+[14:54:19 INFO]: [GreatLifeSteal] Loading GreatLifeSteal v1.7.1-SNAPSHOT
+[14:54:19 INFO]: [PackSelector] Loading PackSelector v1.0
+[14:54:19 INFO]: [DiamondRain] Loading DiamondRain v1.0
+[14:54:19 INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[14:54:19 INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[14:54:20 INFO]: [ViaVersion] Loading block connection mappings ...
+[14:54:20 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:54:20 INFO]: [ViaBackwards] Loading translations...
+[14:54:20 INFO]: [ViaBackwards] Registering protocols...
+[14:54:20 INFO]: [ViaRewind] Registering protocols...
+[14:54:20 INFO]: [Vault] Loading Vault v1.7.3-b131
+[14:54:20 INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[14:54:20 INFO]: [BurlanGuns] Loading BurlanGuns v1.0
+[14:54:20 INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[14:54:20 INFO]: [SimpleScore] Loading SimpleScore v3.12.6-dev
+[14:54:20 INFO]: [FAuction] Loading FAuction v1.8.12
+[14:54:20 INFO]: [Essentials] Loading Essentials v2.21.0
+[14:54:20 INFO]: [InvSee++] Loading InvSeePlusPlus v0.29.20
+[14:54:20 INFO]: [Magic] Loading Magic v9.0-SNAPSHOT-31c848c
+[14:54:20 INFO]: [Magic] Loading legacy compatibility layer for server version 1.12.0
+[14:54:20 WARN]: [Magic] [33m Player.openBook method not found, BookAction can't show virtual books[0m
+[14:54:20 WARN]: [Magic] [33m Skull profile method not available, this is normal if you're on a legacy Minecraft version[0m
+[14:54:20 WARN]: [Magic] [33m EntityTransformEvent not found, can't prevent mobs naturally transforming[0m
+[14:54:20 WARN]: [Magic] [33m TimeSkipEvent not found, can't synchronize time between worlds[0m
+[14:54:20 WARN]: [Magic] [33m Entity.persistentInvisibility field not found, invisibility may not reliably restore[0m
+[14:54:20 WARN]: [Magic] [33m Use an updated version of Spigot for better knowledge book recipes[0m
+[14:54:20 WARN]: [Magic] [33m Could not bind to chunk ticket API, chunk locking will not work[0m
+[14:54:20 WARN]: [Magic] [33m No phantoms on this version[0m
+[14:54:20 WARN]: [Magic] [33m Could not bind to persist entity tag, can't make mobs persistent[0m
+[14:54:20 WARN]: [Magic] [33m Could not bind to selectEntities method, command target selectors may not work[0m
+[14:54:20 WARN]: [Magic] [33m Couldn't find recipe removal method, this is odd since we did find NamespacedKey[0m
+[14:54:20 WARN]: [Magic] [33m Couldn't find recipe discover method, this is odd since we did find NamespacedKey[0m
+[14:54:20 WARN]: [Magic] [33m Could not bind to auto block state methods[0m
+[14:54:20 INFO]: [Magic] Persistent metadata is not available, will rely on custom names to restore persistent magic mobs
+[14:54:20 INFO]: [OpenAudioMc] Loading OpenAudioMc v6.10.10
+[14:54:20 INFO]: [UltimateArena] Loading UltimateArena v3.0
+[14:54:20 INFO]: [NameColor] Loading NameColor v1.9
+[14:54:20 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:54:20 INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:54:20 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:54:20 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:54:20 INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:54:20 INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[14:54:20 INFO]: [Magic] Enabling Magic v9.0-SNAPSHOT-31c848c
+[14:54:20 INFO]: [Magic] EffectLib initialized
+[14:54:20 INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
+[14:54:20 INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
+[14:54:20 INFO]: [Magic]  Using compatibility configs: examples/1.12/materials.yml
+[14:54:20 INFO]: [Magic]  Using compatibility configs: examples/1.12/spells.yml
+[14:54:21 INFO]: [Magic]  Using compatibility configs: examples/1.12/wands.yml
+[14:54:21 INFO]: [Magic]  Using compatibility configs: examples/1.12/items.yml
+[14:54:21 INFO]: [Magic]  Using inherited compatibility configs: examples/1.12/crafting.yml
+[14:54:21 INFO]: [Magic]  Using compatibility configs: examples/1.12/mobs.yml
+[14:54:21 INFO]: [Magic] Loaded 0 attributes
+[14:54:21 WARN]: [Magic] [33m Unknown entity type: fox in friendly_entity_types[0m
+[14:54:21 WARN]: [Magic] [33m Unknown entity type: cat in friendly_entity_types[0m
+[14:54:21 WARN]: [Magic] [33m Unknown entity type: strider in friendly_entity_types[0m
+[14:54:21 INFO]: [Magic] Unknown container type in unstashable_containers list: barrel
+[14:54:21 INFO]: [Magic] Unknown container type in unstashable_containers list: smoker
+[14:54:21 INFO]: [Magic] Unknown container type in unstashable_containers list: blast_furnace
+[14:54:21 INFO]: [Magic] Wand crafting is enabled
+[14:54:21 INFO]: [Magic] Skin-based spell icons disabled
+[14:54:21 INFO]: [Magic] Registered attributes: [bowpull, damage, damage_dealt, luck, weeks, target_hunger, location_x, location_y, target_mana, attack_damage, epoch, air, bowpower, degrees, knockback_resistance, seconds, location_z, target_air, target_mana_max, health_max, hours, target_luck, level, minutes, target_armor, health, fall_distance, target_air_max, hunger, play_time, target_health_max, moon, armor, air_max, mana, target_health, xp, target_location_x, mana_max, days, pi, target_location_y, target_knockback_resistance, target_location_z, time]
+[14:54:21 INFO]: [Magic] Loaded 0 customized worlds
+[14:54:21 INFO]: [Magic] Loaded 12 effect lists
+[14:54:21 INFO]: [Magic] Loaded 1248 items
+[14:54:21 INFO]: [Magic] Loaded 162 wands
+[14:54:21 INFO]: [Magic] Loaded 2 kits
+[14:54:21 INFO]: [Magic] Loaded 9 classes
+[14:54:21 INFO]: [Magic] Loaded 3 classes
+[14:54:21 WARN]: [Magic] [33m  Invalid entity type: drowned in mob config fireproof_drowned[0m
+[14:54:21 WARN]: [Magic] [33m  Invalid entity type: drowned in mob config trident_drowned[0m
+[14:54:21 INFO]: [Magic] Loaded 66 mob templates
+[14:54:21 INFO]: [Magic] Loaded 6 automata templates
+[14:54:21 INFO]: [Magic] Activated BStats
+[14:54:21 INFO]: [Magic] MobArena not found
+[14:54:21 INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
+[14:54:21 INFO]: [Magic] Vault found, 'currency' cost types available
+[14:54:21 INFO]: Magic checking resource pack for updates: http://rp.elmakers.com/Magic-RP-7.zip
+[14:54:21 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:54:21 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:54:21 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:54:21 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:54:21 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:54:21 INFO]: Preparing level "world"
+[14:54:21 INFO]: -------- World Settings For [world] --------
+[14:54:21 INFO]: Mob Spawn Range: 4
+[14:54:21 INFO]: Cactus Growth Modifier: 100%
+[14:54:21 INFO]: Cane Growth Modifier: 100%
+[14:54:21 INFO]: Melon Growth Modifier: 100%
+[14:54:21 INFO]: Mushroom Growth Modifier: 100%
+[14:54:21 INFO]: Pumpkin Growth Modifier: 100%
+[14:54:21 INFO]: Sapling Growth Modifier: 100%
+[14:54:21 INFO]: Wheat Growth Modifier: 100%
+[14:54:21 INFO]: NetherWart Growth Modifier: 100%
+[14:54:21 INFO]: Vine Growth Modifier: 100%
+[14:54:21 INFO]: Cocoa Growth Modifier: 100%
+[14:54:21 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:54:21 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:54:21 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:54:21 INFO]: Random Lighting Updates: false
+[14:54:21 INFO]: Structure Info Saving: true
+[14:54:21 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:54:21 INFO]: Max TNT Explosions: 100
+[14:54:21 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:54:21 INFO]: Item Despawn Rate: 6000
+[14:54:21 INFO]: Item Merge Radius: 2.5
+[14:54:21 INFO]: View Distance: 4
+[14:54:21 INFO]: Arrow Despawn Rate: 1200
+[14:54:21 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:54:21 INFO]: Experience Merge Radius: 3.0
+[14:54:21 INFO]: Zombie Aggressive Towards Villager: true
+[14:54:21 INFO]: Nerfing mobs spawned from spawners: false
+[14:54:21 INFO]: -------- World Settings For [world_nether] --------
+[14:54:21 INFO]: Mob Spawn Range: 4
+[14:54:21 INFO]: Cactus Growth Modifier: 100%
+[14:54:21 INFO]: Cane Growth Modifier: 100%
+[14:54:21 INFO]: Melon Growth Modifier: 100%
+[14:54:21 INFO]: Mushroom Growth Modifier: 100%
+[14:54:21 INFO]: Pumpkin Growth Modifier: 100%
+[14:54:21 INFO]: Sapling Growth Modifier: 100%
+[14:54:21 INFO]: Wheat Growth Modifier: 100%
+[14:54:21 INFO]: NetherWart Growth Modifier: 100%
+[14:54:21 INFO]: Vine Growth Modifier: 100%
+[14:54:21 INFO]: Cocoa Growth Modifier: 100%
+[14:54:21 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:54:21 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:54:21 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:54:21 INFO]: Random Lighting Updates: false
+[14:54:21 INFO]: Structure Info Saving: true
+[14:54:21 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:54:21 INFO]: Max TNT Explosions: 100
+[14:54:21 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:54:21 INFO]: Item Despawn Rate: 6000
+[14:54:21 INFO]: Item Merge Radius: 2.5
+[14:54:21 INFO]: View Distance: 4
+[14:54:21 INFO]: Arrow Despawn Rate: 1200
+[14:54:21 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:54:21 INFO]: Experience Merge Radius: 3.0
+[14:54:21 INFO]: Zombie Aggressive Towards Villager: true
+[14:54:21 INFO]: Nerfing mobs spawned from spawners: false
+[14:54:21 INFO]: -------- World Settings For [world_the_end] --------
+[14:54:21 INFO]: Mob Spawn Range: 4
+[14:54:21 INFO]: Cactus Growth Modifier: 100%
+[14:54:21 INFO]: Cane Growth Modifier: 100%
+[14:54:21 INFO]: Melon Growth Modifier: 100%
+[14:54:21 INFO]: Mushroom Growth Modifier: 100%
+[14:54:21 INFO]: Pumpkin Growth Modifier: 100%
+[14:54:21 INFO]: Sapling Growth Modifier: 100%
+[14:54:21 INFO]: Wheat Growth Modifier: 100%
+[14:54:21 INFO]: NetherWart Growth Modifier: 100%
+[14:54:21 INFO]: Vine Growth Modifier: 100%
+[14:54:21 INFO]: Cocoa Growth Modifier: 100%
+[14:54:21 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:54:21 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:54:21 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:54:21 INFO]: Random Lighting Updates: false
+[14:54:21 INFO]: Structure Info Saving: true
+[14:54:21 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:54:21 INFO]: Max TNT Explosions: 100
+[14:54:21 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:54:21 INFO]: Item Despawn Rate: 6000
+[14:54:21 INFO]: Item Merge Radius: 2.5
+[14:54:21 INFO]: View Distance: 4
+[14:54:21 INFO]: Arrow Despawn Rate: 1200
+[14:54:21 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:54:21 INFO]: Experience Merge Radius: 3.0
+[14:54:21 INFO]: Zombie Aggressive Towards Villager: true
+[14:54:21 INFO]: Nerfing mobs spawned from spawners: false
+[14:54:21 INFO]: Preparing start region for level 0 (Seed: 2271987458253385624)
+[14:54:22 INFO]: Preparing start region for level 1 (Seed: 2271987458253385624)
+[14:54:22 INFO]: Preparing start region for level 2 (Seed: 2271987458253385624)
+[14:54:22 INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[14:54:22 INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:54:22 WARN]: [WorldEdit] 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and biome-related functions.
+**
+** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
+**********************************************
+
+[14:54:22 INFO]: [OreAnnouncer] Enabling OreAnnouncer v2.8.5
+[14:54:22 INFO]: [OreAnnouncer] Initializing OreAnnouncer v2.8.5
+[14:54:22 WARN]: [OreAnnouncer] The file blocks.yml is outdated!
+[14:54:22 WARN]: [OreAnnouncer] The file blocks.yml is outdated!
+[14:54:22 INFO]: [OreAnnouncer] OreAnnouncer v2.8.5 enabled
+[14:54:22 INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[14:54:22 INFO]: [GlassJoin] Enabling GlassJoin v1.1.1
+[14:54:22 INFO]: ----------------------------------
+[14:54:22 INFO]: [GlassJoin] By @IEmatu Verion 1.0!
+[14:54:22 INFO]: [-----A-p-o-r-t-a--I-d-e-a-s-----]
+[14:54:22 INFO]: ----------------------------------
+[14:54:22 INFO]: Thanks for using my plugin by Ematu
+[14:54:22 INFO]: [ClansX] Enabling ClansX v1.0.0
+[14:54:22 INFO]: <------------------->
+[14:54:22 INFO]: ClansX (v1.0.0)
+[14:54:22 INFO]: has been activated!
+[14:54:22 INFO]: By X360
+[14:54:22 INFO]: <------------------->
+[14:54:22 INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v1.0
+[14:54:22 INFO]: [CustomJoinMessages] CustomMessages Plugin Enabled!
+[14:54:22 INFO]: [FK] Enabling FallenKingdom v2.24.6
+[14:54:23 INFO]: [FK] Enable asynchronous tab completion...
+[14:54:23 INFO]: [Spawn] Enabling Spawn v2.4.1
+[14:54:23 INFO]: [HubParkour] Enabling HubParkour v2.7.4
+[14:54:23 INFO]: [HubParkour] Legacy server version detected (1.8-1.12).
+[14:54:23 INFO]: [HubParkour] Server UUID has been registered as: 6a792b50-ec90-4aa3-aa24-d5bf92b89da8
+[14:54:23 INFO]: [HubParkour] DecentHolograms has been detected detected.
+[14:54:23 INFO]: [HubParkour] Plugin successfully enabled!
+[14:54:23 INFO]: [HubParkour] HubParkour v2.8.2 is out now! I highly recommend you download the new version!
+[14:54:23 INFO]: [squidgame] Enabling squidgame v3.1
+[14:54:23 INFO]: [squidgame] Hooked into WorldEdit
+[14:54:23 INFO]: [Holograms] Enabling Holograms v1.0-SNAPSHOT
+[14:54:23 INFO]: [TheBridge] Enabling TheBridge v3.2.0
+[14:54:23 INFO]: [TheBridge] Your server is running version v1_12_R1
+[14:54:23 INFO]: [LobbyUltimate] Enabling LobbyUltimate v1.0-SNAPSHOT
+[14:54:23 INFO]: [LobbyUltimate] Is Lobby Server: false
+[14:54:23 INFO]: [MinecraftManhunt] Enabling MinecraftManhunt v1.4.1
+[14:54:23 INFO]: [MinecraftManhunt] Minecraft Manhunt plugin enabled!
+[14:54:23 INFO]: [MinecraftManhunt] Send usage data: true
+[14:54:23 INFO]: [MinecraftManhunt] Found server uuid: c8b35b91-9892-4215-86b9-8bbb4aeabb8e
+[14:54:23 INFO]: [GreatLifeSteal] Enabling GreatLifeSteal v1.7.1-SNAPSHOT
+[14:54:23 INFO]: [GreatLifeSteal] Using v1.12.2 version of the adapter.
+[14:54:23 INFO]: [GreatLifeSteal] Choosing SQLite as a storage provider.
+[14:54:23 INFO]: [GreatLifeSteal] Added the new heart item recipe.
+[14:54:23 WARN]: [GreatLifeSteal] PlaceholderAPI plugin has not been found, external placeholders will not work.
+[14:54:23 WARN]: [GreatLifeSteal] You are using an outdated version of the plugin!
+[14:54:23 WARN]: [GreatLifeSteal] You can download the latest one here:
+[14:54:23 WARN]: [GreatLifeSteal] https://www.spigotmc.org/resources/greatlifesteal.102206/
+[14:54:23 INFO]: [PackSelector] Enabling PackSelector v1.0
+[14:54:23 INFO]: [PackSelector] Loading configured packs..
+[14:54:23 INFO]: [PackSelector] Loading database connection..
+[14:54:23 INFO]: [PackSelector] Loaded database connection. [SQLite]
+[14:54:23 INFO]: [PackSelector] Loading listeners..
+[14:54:23 INFO]: [PackSelector] PackSelector loaded.
+[14:54:23 INFO]: [DiamondRain] Enabling DiamondRain v1.0
+[14:54:23 INFO]: [DiamondRain] 📝 Loaded config values: maxDiamonds=10, areaSize=20, despawnTime=1200
+[14:54:23 INFO]: [DiamondRain] ✅💎 DiamondRain plugin has been enabled!
+[14:54:23 INFO]: [DiamondRain] ✅💎 DiamondRain plugin has been enabled!
+[14:54:23 INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[14:54:23 INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
+[14:54:23 INFO]: [BurlanGuns] Enabling BurlanGuns v1.0
+[14:54:23 INFO]: [BurlanGuns] Loaded gun: Pistol
+[14:54:23 INFO]: [BurlanGuns] Loaded gun: Kar98k
+[14:54:23 INFO]: [BurlanGuns] Loaded gun: Grenade Launcher
+[14:54:23 INFO]: [BurlanGuns] Loaded ammo: Pistol Ammo
+[14:54:23 INFO]: [BurlanGuns] Loaded grenade: Explosive Grenade
+[14:54:23 INFO]: [SimpleScore] Enabling SimpleScore v3.12.6-dev
+[14:54:23 INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[14:54:23 INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[14:54:23 INFO]: [FAuction] Enabling FAuction v1.8.12
+[14:54:23 INFO]: [FAuction] [ACF] Enabled Asynchronous Tab Completion Support!
+[14:54:23 INFO]: [FAuction] Registered Vault Permissions
+[14:54:23 INFO]: [FAuction] Registered Vault Economy
+[14:54:23 INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[14:54:23 INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[14:54:23 INFO]: [FAuction] Initialized database tables
+[14:54:23 INFO]: [Essentials] Enabling Essentials v2.21.0
+[14:54:23 INFO]: [Essentials] Loading Name->UUID cache from disk...
+[14:54:23 INFO]: [Essentials] Loading UUID cache from disk...
+[14:54:24 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:54:24 INFO]: [Essentials] No kits found to migrate.
+[14:54:24 INFO]: [Essentials] Registered provider BlockMetaSpawnerItemProvider for SpawnerItemProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflSpawnerBlockProvider for SpawnerBlockProvider
+[14:54:24 INFO]: [Essentials] Registered provider BukkitSpawnerBlockProvider for SpawnerBlockProvider
+[14:54:24 INFO]: [Essentials] Registered provider LegacySpawnEggProvider for SpawnEggProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflSpawnEggProvider for SpawnEggProvider
+[14:54:24 INFO]: [Essentials] Registered provider FlatSpawnEggProvider for SpawnEggProvider
+[14:54:24 INFO]: [Essentials] Registered provider PrehistoricPotionMetaProvider for PotionMetaProvider
+[14:54:24 INFO]: [Essentials] Registered provider LegacyPotionMetaProvider for PotionMetaProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernPotionMetaProvider for PotionMetaProvider
+[14:54:24 INFO]: [Essentials] Registered provider LegacyBannerDataProvider for BannerDataProvider
+[14:54:24 INFO]: [Essentials] Registered provider BaseBannerDataProvider for BannerDataProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflServerStateProvider for ServerStateProvider
+[14:54:24 INFO]: [Essentials] Registered provider PaperServerStateProvider for ServerStateProvider
+[14:54:24 INFO]: [Essentials] Registered provider PaperContainerProvider for ContainerProvider
+[14:54:24 INFO]: [Essentials] Registered provider PaperSerializationProvider for SerializationProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflKnownCommandsProvider for KnownCommandsProvider
+[14:54:24 INFO]: [Essentials] Registered provider PaperKnownCommandsProvider for KnownCommandsProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflFormattedCommandAliasProvider for FormattedCommandAliasProvider
+[14:54:24 INFO]: [Essentials] Registered provider BukkitMaterialTagProvider for MaterialTagProvider
+[14:54:24 INFO]: [Essentials] Registered provider PaperMaterialTagProvider for MaterialTagProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflSyncCommandsProvider for SyncCommandsProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernSyncCommandsProvider for SyncCommandsProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflPersistentDataProvider for PersistentDataProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernPersistentDataProvider for PersistentDataProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflOnlineModeProvider for OnlineModeProvider
+[14:54:24 INFO]: [Essentials] Registered provider LegacyItemUnbreakableProvider for ItemUnbreakableProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernItemUnbreakableProvider for ItemUnbreakableProvider
+[14:54:24 INFO]: [Essentials] Registered provider FixedHeightWorldInfoProvider for WorldInfoProvider
+[14:54:24 INFO]: [Essentials] Registered provider ReflDataWorldInfoProvider for WorldInfoProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernDataWorldInfoProvider for WorldInfoProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernSignDataProvider for SignDataProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernPlayerLocaleProvider for PlayerLocaleProvider
+[14:54:24 INFO]: [Essentials] Registered provider LegacyPlayerLocaleProvider for PlayerLocaleProvider
+[14:54:24 INFO]: [Essentials] Registered provider ModernDamageEventProvider for DamageEventProvider
+[14:54:24 INFO]: [Essentials] Registered provider LegacyDamageEventProvider for DamageEventProvider
+[14:54:24 INFO]: [Essentials] Registered provider LegacyInventoryViewProvider for InventoryViewProvider
+[14:54:24 INFO]: [Essentials] Registered provider BaseInventoryViewProvider for InventoryViewProvider
+[14:54:24 INFO]: [Essentials] Registered provider PaperBiomeKeyProvider for BiomeKeyProvider
+[14:54:24 INFO]: [Essentials] Registered provider PaperTickCountProvider for TickCountProvider
+[14:54:24 INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[14:54:24 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:54:24 INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[14:54:24 INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[14:54:24 INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:54:24 INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[14:54:24 INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[14:54:24 INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[14:54:24 INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[14:54:24 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:54:24 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:54:24 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:54:24 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:54:24 INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[14:54:24 INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[14:54:24 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:54:24 INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[14:54:24 INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[14:54:24 INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[14:54:24 INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[14:54:24 INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[14:54:24 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:54:24 INFO]: [Essentials] Loaded 853 items from items.csv.
+[14:54:24 INFO]: [Essentials] Trying to deserialize item 'blue_dye' with resolver 'essentials:custom_items'...
+[14:54:24 INFO]: [Essentials] Trying to deserialize item 'sand' with resolver 'essentials:custom_items'...
+[14:54:24 INFO]: [Essentials] Trying to deserialize item 'cooked_porkchop' with resolver 'essentials:custom_items'...
+[14:54:24 INFO]: [Essentials] Using locale en
+[14:54:24 INFO]: [Essentials] Registering Listeners
+[14:54:24 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:54:24 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:54:24 INFO]: [Essentials] Essentials load execution time: AdventureUpgrade: 77.671ms - I18n1: 4.927ms - Upgrade: 8.149ms - Settings: 46.196ms - Upgrade2: 0.012ms - Init(Mail): 0.599ms - Init(Usermap): 2.505ms - Init(BalanceTop): 0.315ms - Kits: 2.577ms - Init(RandomTeleport): 0.832ms - Upgrade3: 0.193ms - Init(Warp): 0.590ms - Init(Worth): 2.253ms - Init(ItemDB): 1.095ms - Init(CustomItemResolver): 0.551ms - Init(Jails): 0.647ms - Init(EconomyLayers): 0.167ms - Init(Providers): 22.948ms - Reload(Settings): 6.568ms - Reload(Kits): 0.599ms - Reload(RandomTeleport): 0.374ms - Reload(Warps): 0.041ms - Reload(Worth): 1.485ms - Reload(LegacyItemDb): 31.656ms - Reload(CustomItemResolver): 2.926ms - Reload(Jails): 0.122ms - RegHandler: 172.550ms - Init(External): 10.712ms - Total: 399.260ms
+[14:54:24 INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:54:24 INFO]: [Essentials] Using superperms-based permissions.
+[14:54:24 INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.20
+[14:54:24 INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.10.10
+[14:54:24 INFO]: [OpenAudioMc] [info] Starting OpenAudioMc, build 1543 by Mats
+[14:54:24 INFO]: [OpenAudioMc] [info] Using the main config file..
+[14:54:24 INFO]: [OpenAudioMc] [info] Starting configuration module
+[14:54:24 INFO]: [OpenAudioMc] [info] Using the main config file..
+[14:54:24 INFO]: [OpenAudioMc] [info] Starting configuration module
+[14:54:24 INFO]: [OpenAudioMc] [info] Detected md_5 chat support, using default user adapter
+[14:54:24 INFO]: [OpenAudioMc] [info] Skipped 45/45 migrations.
+[14:54:24 INFO]: [OpenAudioMc] [info] ModuleLoaderService: Loading modules from /workspaces/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces/server/plugins/OpenAudioMc/modules
+[14:54:24 INFO]: [OpenAudioMc] [info] Using networking class com.craftmend.openaudiomc.generic.networking.DefaultNetworkingService
+[14:54:24 INFO]: [OpenAudioMc] [info] Initializing connection service...
+[14:54:24 INFO]: [OpenAudioMc] [info] Starting authentication module
+[14:54:24 INFO]: [OpenAudioMc] [info] This server already has an account, skipping sign up.
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Adding spigot tables
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for Alias
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (alias<->Alias.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for ClientDataStore
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for MojangProfile
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for RegionProperties
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for Speaker
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for StoredWorldChunk
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for TimedRegionProperties
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for MediaRule
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Initializing account details
+[14:54:24 INFO]: [OpenAudioMc] [info] The server is empty! ignoring voice chat.
+[14:54:24 INFO]: [OpenAudioMc] [info] Loading aliases...
+[14:54:24 INFO]: [OpenAudioMc] [info] Loaded 0 aliases
+[14:54:24 INFO]: [OpenAudioMc] [info] Detected version type: LEGACY
+[14:54:24 INFO]: [OpenAudioMc] [info] Enabling the 1.12 speaker system
+[14:54:24 INFO]: [OpenAudioMc] [info] Hooking speakers attempt 1..
+[14:54:24 INFO]: [OpenAudioMc] [info] Starting redstone speaker tick task with interval 5 ticks
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for Playlist
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlists<->Playlist.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Registering storage table for PlaylistEntry
+[14:54:24 INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlist_entries<->PlaylistEntry.java)
+[14:54:24 INFO]: [OpenAudioMc] [info] Loaded 0 media chunks from file.
+[14:54:24 INFO]: [OpenAudioMc] [info] Loading static voice channels..
+[14:54:24 INFO]: [OpenAudioMc] [info] Created static channel: survival
+[14:54:24 INFO]: [OpenAudioMc] [info] Created static channel: off-topic
+[14:54:24 INFO]: [OpenAudioMc] [info] Created static channel: staff-chat
+[14:54:24 INFO]: [OpenAudioMc] [info] Loaded 3 static voice channels
+[14:54:24 INFO]: [OpenAudioMc] [info] Plugin Essentials is already enabled, running handler
+[14:54:24 INFO]: [OpenAudioMc] [info] The legacy cdn exporter is disabled, skipping boot.
+[14:54:24 INFO]: [OpenAudioMc] [info] Starting and loading took 5161MS
+[14:54:24 INFO]: [UltimateArena] Enabling UltimateArena v3.0
+[14:54:24 WARN]: [UltimateArena] UltimateArena does not support Minecraft 1.12.2. Check for an update!
+[14:54:24 INFO]: [UltimateArena] Loaded 8 classes.
+[14:54:24 INFO]: [UltimateArena] Loaded 0 signs.
+[14:54:24 INFO]: [UltimateArena] Essentials integration successful.
+[14:54:24 INFO]: [UltimateArena] Vault integration successful.
+[14:54:24 INFO]: [UltimateArena] WorldEdit integration successful.
+[14:54:24 INFO]: [UltimateArena] UltimateArena v3.0 has been enabled. Took 54 ms.
+[14:54:24 INFO]: [NameColor] Enabling NameColor v1.9
+[14:54:24 INFO]: [NameColor] Using Essentials mode
+[14:54:24 INFO]: [NameColor] Configuration found.
+[14:54:25 INFO]: +-----------[NameColor]-----------+
+[14:54:25 INFO]: |    A new update is available!   |
+[14:54:25 INFO]: |          Download at:           |
+[14:54:25 INFO]: |  https://wiicart.net/namecolor  |
+[14:54:25 INFO]: +---------------------------------+
+[14:54:25 INFO]: [NameColor] NameColor version 1.9 enabled.
+[14:54:25 WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[14:54:25 INFO]: Done (3.928s)! For help, type "help" or "?"
+[14:54:25 INFO]: Timings Reset
+[14:54:25 INFO]: [DecentHolograms] Loading holograms... 
+[14:54:25 INFO]: [Essentials] Fetching version information...
+[14:54:25 INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[14:54:25 WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[14:54:25 INFO]: [DecentHolograms] Loaded 1 holograms!
+[14:54:25 INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:54:25 INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
+[14:54:25 INFO]: 
+A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_column_up[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 INFO]: [Spawn] An update is available! Latest version: 2.4.2, you are using: 2.4.1
+[14:54:25 WARN]: [Magic] [33m Unknown particle type flash[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type campfire_signal_smoke[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type campfire_cosy_smoke[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type campfire_signal_smoke[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type campfire_cosy_smoke[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type bubble_pop[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul_fire_flame[0m
+[14:54:25 WARN]: [Magic] [33m Unknown particle type soul[0m
+[14:54:25 INFO]: [Magic] Loaded 527 spells
+[14:54:25 INFO]: [Magic] Loaded 12 progression paths
+[14:54:25 INFO]: [Magic] Loaded 32 crafting recipes
+[14:54:25 INFO]: [Magic] LogBlock not found
+[14:54:25 INFO]: [Magic] Integrating with Essentials for vanish detection
+[14:54:25 INFO]: [Magic] Integrating with Essentials for Recall warps
+[14:54:25 INFO]: [Magic] Essentials found, hooked up custom item handler
+[14:54:25 INFO]: [Magic] Factions not found
+[14:54:25 INFO]: [Magic] WorldGuard not found, region protection and pvp checks will not be used.
+[14:54:25 INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+[14:54:25 INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+[14:54:25 INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+[14:54:25 INFO]: [Magic] NoCheatPlus not found, will not integrate.
+[14:54:25 INFO]: [Magic] dynmap not found, not integrating.
+[14:54:25 INFO]: [Magic] Citizens not found, Magic trait unavailable.
+[14:54:25 INFO]: [Magic] LightAPI not found, Light action will not work
+[14:54:25 INFO]: [Magic] Finished loading configuration
+[14:54:25 INFO]: [Magic] Loading image map data from imagemaps.yml
+[14:54:25 INFO]: [Magic] Loaded 0 image maps
+[14:54:25 INFO]: [Magic] Finished loading data.
+[14:54:25 INFO]: Resource pack has not changed, using hash XXwMvDZbIpjdKdbSWZPDNBLHxIk= (1614208353000 <= 1614208353000)
+[14:54:25 INFO]: [Vault] Checking for Updates ... 
+[14:54:25 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:54:25 WARN]: [ViaVersion] There is a newer plugin version available: 5.4.2, you're on: 4.10.2
+[14:54:25 INFO]: [Vault] No new version available
+[14:54:26 WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
+[14:54:26 WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
