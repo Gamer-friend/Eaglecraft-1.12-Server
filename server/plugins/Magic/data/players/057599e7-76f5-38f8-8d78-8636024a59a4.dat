@@ -1,10 +1,10 @@
 id: 057599e7-76f5-38f8-8d78-8636024a59a4
 name: Kels_y
 created: 1756866796554
-updated: 1756872731260
+updated: 1757029974917
 last_cast: 0
 cooldown_expiration: 0
-last_death_location: 117.00519719088793,14.0,159.71430190930644,world,-169.50008,64.95
+last_death_location: 98.30000001192093,20.0,262.69999998807907,world,-142.0502,38.549995
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -32,8 +32,8 @@ classes:
   caster: {}
   mage:
     effect_color: 251aeaaff12,5cba50bfc1e9,a4bd9f4b8882
-    mana_timestamp: 1756872731160
+    mana_timestamp: 1757029784759
     mana: 50.0
 modifiers: {}
 active_class: mage
-health: 7.0
+health: 0.0

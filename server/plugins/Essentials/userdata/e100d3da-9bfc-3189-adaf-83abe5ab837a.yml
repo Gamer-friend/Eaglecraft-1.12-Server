@@ -16,16 +16,24 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756872067939
-  login: 1756871830499
-money: '1000000000000000000'
+  logout: 1757030077072
+  login: 1757029692900
+money: '1000000000000723809.6199999998'
 nickname: §fJXoliver§r
 last-account-name: JXoliver
 logoutlocation:
   world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
   world-name: world
-  x: 76.69999998807907
-  y: 13.0
-  z: 186.97005970144374
-  yaw: -102.300048828125
-  pitch: 40.499996185302734
+  x: 98.69999998807907
+  y: 25.0
+  z: 294.7228111385278
+  yaw: 347.249755859375
+  pitch: 20.849994659423828
+lastlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 98.5
+  y: 24.0
+  z: 297.5
+  yaw: -192.7501678466797
+  pitch: 90.0

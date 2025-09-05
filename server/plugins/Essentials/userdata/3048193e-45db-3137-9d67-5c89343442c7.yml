@@ -16,16 +16,24 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756869402469
-  login: 1756867647825
+  logout: 1757029675202
+  login: 1757029470445
 money: '1000000000000000000'
 nickname: §fOliver12§r
 last-account-name: Oliver12
 logoutlocation:
   world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
   world-name: world
-  x: 98.30840441662323
-  y: 25.0
-  z: 301.30000001192093
-  yaw: 60.750003814697266
-  pitch: 29.54999542236328
+  x: 107.24463323095739
+  y: 56.27046290913686
+  z: 622.9213943812775
+  yaw: -248.08128356933594
+  pitch: 44.69999694824219
+lastlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 98.34409346594323
+  y: 24.0
+  z: 286.69999998807907
+  yaw: -349.8001708984375
+  pitch: 23.9999942779541

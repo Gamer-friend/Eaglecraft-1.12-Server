@@ -1,2 +1,3 @@
 PortalsManager:
-  Portals: []
+  Portals:
+  - world:100:24:299

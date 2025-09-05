@@ -1,0 +1,39 @@
+id: bc1ad000-36f0-3e64-a312-8ea9509296ad
+name: Kels_y_
+created: 1756952752205
+updated: 1756952827797
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  ea8473b2-8aee-4e49-bac1-41b2ab009fc1: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_prompt: true
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 9ca721fb63a4,cccccd0a08c7,694d809a0689
+    mana_timestamp: 1756952827498
+    mana: 50.0
+modifiers: {}
+active_class: mage
+health: 20.0

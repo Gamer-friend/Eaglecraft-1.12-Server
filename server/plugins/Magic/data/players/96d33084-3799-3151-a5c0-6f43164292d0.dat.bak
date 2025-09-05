@@ -1,7 +1,7 @@
 id: 96d33084-3799-3151-a5c0-6f43164292d0
 name: Dev90909
 created: 1756665169113
-updated: 1756912254709
+updated: 1757040075957
 last_cast: 0
 cooldown_expiration: 0
 last_death_location: ''
@@ -32,8 +32,8 @@ classes:
   caster: {}
   mage:
     effect_color: 80aec557a5b6,d14c2a494474,1babd1745b08
-    mana_timestamp: 1756912254507
+    mana_timestamp: 1757040075757
     mana: 50.0
 modifiers: {}
 active_class: mage
-health: 20.0
+health: 21.333332061767578

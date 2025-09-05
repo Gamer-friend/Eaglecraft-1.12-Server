@@ -1,7 +1,10 @@
-last_version: 2.24.5
+last_version: 2.24.6
 FkPI:
   RulesManager:
     Rules:
+      VerticalLimit:
+        value: 40
+      DisabledPotions: {}
       AllowedBlocks:
         value:
         - TORCH
@@ -9,57 +12,54 @@ FkPI:
         - SIGN_POST
         - WALL_SIGN
         - REDSTONE_TORCH_ON
-      ChestLimit:
-        value: 20
-      PlaceBlockInCave:
-        value: false
-        MinimumBlocs: 3
-      TntCap:
-        value: 6
-      CaptureRate:
-        value: 100
-      BucketAssault:
-        value: false
-      FriendlyFire:
-        value: true
-      RespawnAtHome:
-        value: false
-      TntJump:
-        value: true
-      NetherCap:
-        value: 1
-      NetherAssault:
-        value: false
-      DisabledPotions: {}
-      DeathLimit:
-        value: 0
-      PrivateChests:
-        value: false
-      EternalDay:
-        value: false
       EndCap:
         value: 1
-      ChargedCreepers:
-        value: 10050001
+      FriendlyFire:
+        value: true
+      TntCap:
+        value: 6
+      DayDuration:
+        value: 24000
+      NetherCap:
+        value: 1
+      EternalDay:
+        value: false
+      DeepPause:
+        value: true
+      GlobalChatPrefix:
+        value: '!'
+      TntJump:
+        value: true
+      NetherAssault:
+        value: false
+      CaptureRate:
+        value: 100
+      HealthBelowName:
+        value: true
+      EnderpearlAssault:
+        value: true
+      BlastProofBase:
+        value: false
+      PrivateChests:
+        value: false
+      RespawnAtHome:
+        value: false
       AutoPause:
         after-day: false
         after-capture: false
-      BlastProofBase:
+      ChestLimit:
+        value: 20
+      DeathLimit:
+        value: 0
+      PlaceBlockInCave:
         value: false
-      VerticalLimit:
-        value: 40
-      GlobalChatPrefix:
-        value: '!'
-      HealthBelowName:
-        value: true
-      DeepPause:
-        value: true
+        MinimumBlocs: 3
+      BucketAssault:
+        value: false
       PvpCap:
         value: 3
-      DayDuration:
-        value: 24000
-      EnderpearlAssault:
-        value: true
+      ChargedCreepers:
+        value: 10050001
   TeamManager:
     nametag-integration:
       use-main-scoreboard: true
@@ -81,7 +81,19 @@ PlayerManager:
       Kills: 0
       Deaths: 0
       KnowsSbEdit: false
+    Kels_y_:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Oliver12:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
     Legend:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Ofliver12:
       Kills: 0
       Deaths: 0
       KnowsSbEdit: false
@@ -89,7 +101,24 @@ PlayerManager:
       Kills: 0
       Deaths: 0
       KnowsSbEdit: false
+    Kels_y:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
     Dev90909:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    JXoliver:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+      Portal:
+        World: world
+        X: 100
+        Y: 24
+        Z: 298
+    wasup:
       Kills: 0
       Deaths: 0
       KnowsSbEdit: false

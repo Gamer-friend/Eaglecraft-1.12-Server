@@ -35,7 +35,7 @@ blocks:
   EMERALD_ORE:
     enabled: true
     variants:
-      - DEEPSLATE_EMERALD_ORE
+      - EMERALD_ORE
     display-name: "Emerald Ore"
     display-color: "green"
     alerts:
@@ -51,7 +51,7 @@ blocks:
   DIAMOND_ORE:
     enabled: true
     variants:
-      - DEEPSLATE_DIAMOND_ORE
+      - DIAMOND_ORE
     display-name: "Diamond Ore"
     display-color: "aqua"
     alerts:
@@ -70,7 +70,7 @@ blocks:
   GOLD_ORE:
     enabled: true
     variants:
-      - DEEPSLATE_GOLD_ORE
+      - GOLD_ORE
     display-name: "Gold Ore"
     display-color: "gold"
     alerts:
@@ -86,9 +86,9 @@ blocks:
     count-on-destroy: false
     priority: 80
   REDSTONE_ORE:
-    enabled: false
+    enabled: true
     variants:
-      - DEEPSLATE_REDSTONE_ORE
+      - REDSTONE_ORE
     display-name: "Redstone Ore"
     display-color: "red"
     alerts:
@@ -100,25 +100,10 @@ blocks:
     light-level: 15
     count-on-destroy: false
     priority: -1
-  COPPER_ORE:
-    enabled: false
-    variants:
-      - DEEPSLATE_COPPER_ORE
-    display-name: "Copper Ore"
-    display-color: "dark_aqua"
-    alerts:
-      user: false
-      admin: false
-    name:
-      singular: copper
-      plural: coppers
-    light-level: 15
-    count-on-destroy: false
-    priority: -1
   IRON_ORE:
-    enabled: false
+    enabled: true
     variants:
-      - DEEPSLATE_IRON_ORE
+      - IRON_ORE
     display-name: "Iron Ore"
     display-color: "white"
     alerts:
@@ -130,32 +115,3 @@ blocks:
     light-level: 15
     count-on-destroy: false
     priority: -1
-  NETHER_QUARTZ_ORE:
-    enabled: false
-    display-name: "Quartz Ore"
-    display-color: "dark_red"
-    alerts:
-      user: true
-      admin: true
-    name:
-      singular: quartz
-      plural: quartzes
-    light-level: 15
-    count-on-destroy: false
-    priority: 60
-  ANCIENT_DEBRIS:
-    enabled: false
-    display-name: "Ancient Debris"
-    display-color: "dark_red"
-    alerts:
-      user: true
-      admin: true
-    name:
-      singular: ancient debris
-      plural: ancient debris
-    light-level: 15
-    count-on-destroy: false
-    priority: 80
-
-dont-edit-this:
-  version: 1

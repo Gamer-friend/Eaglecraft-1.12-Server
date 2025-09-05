@@ -3,7 +3,7 @@
 # That you read, understood and agree to everything mentioned in
 # https://github.com/Mindgamesnl/OpenAudioMc/blob/master/LICENCE_and_PRIVACY.md
 legal:
-  accepted: false
+  accepted: true
 keyset:
   key-version: 5
   private: 0f9e7a99-84d7-4471-be39-711cd2946d20

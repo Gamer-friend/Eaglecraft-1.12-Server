@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756953431007
+  login: 1756953353652
+money: '1000000000000000000'
+nickname: §fwasup§r
+last-account-name: wasup
+logoutlocation:
+  world: ea8473b2-8aee-4e49-bac1-41b2ab009fc1
+  world-name: world
+  x: 175.7635003358573
+  y: 64.0
+  z: 267.29767121736177
+  yaw: 357.1856994628906
+  pitch: 27.90000343322754

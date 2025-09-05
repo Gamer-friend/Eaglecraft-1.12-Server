@@ -1,7 +1,7 @@
 id: 3048193e-45db-3137-9d67-5c89343442c7
 name: Oliver12
 created: 1756508899777
-updated: 1756869402568
+updated: 1757029675250
 last_cast: 0
 cooldown_expiration: 0
 last_death_location: 178.79838488640988,33.0,234.00215124953684,world,-314.07242,-35.25001
@@ -32,7 +32,7 @@ classes:
   caster: {}
   mage:
     effect_color: 14cf92ab2d5b,62df0fc5815d,d4b3cc9142fa
-    mana_timestamp: 1756869402468
+    mana_timestamp: 1757029675000
     mana: 50.0
 modifiers: {}
 active_class: mage

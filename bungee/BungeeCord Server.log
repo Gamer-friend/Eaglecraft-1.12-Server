@@ -1,0 +1,33 @@
+2025-09-05T14:54:28.816250262Z main WARN Advanced terminal features are not available in this environment
+[14:54:29 INFO]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
+[14:54:29 INFO]: Loading localizations...
+[14:54:29 INFO]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[14:54:29 WARN]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[14:54:29 WARN]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[14:54:29 INFO]: Loading plugins...
+[14:54:29 ERROR]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:54:29 ERROR]: :>  
+[14:54:29 ERROR]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[14:54:29 ERROR]: :>  
+[14:54:29 ERROR]: :>  This plugin wasn't tested to be 'working'
+[14:54:29 ERROR]: :>  with ANY version of Velocity (and forks)
+[14:54:29 ERROR]: :>  apart from the versions listed below:
+[14:54:29 ERROR]: :>  
+[14:54:29 ERROR]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
+[14:54:29 ERROR]: :>  
+[14:54:29 ERROR]: :>  This is not a Bukkit/Spigot plugin!
+[14:54:29 ERROR]: :>  
+[14:54:29 ERROR]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[14:54:29 ERROR]: :>  
+[14:54:29 ERROR]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:54:29 INFO]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
+[14:54:29 INFO]: Loaded 2 plugins
+[14:54:29 WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[14:54:29 WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[14:54:30 ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[14:54:30 INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[14:54:30 INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[14:54:30 WARN] [eaglerxvelocity]: Voice chat enabled, not recommended for public servers!
+[14:54:30 INFO]: Listening on /[0:0:0:0:0:0:0:0]:25577
+[14:54:30 INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/Bungeecord-1.12.2-Eaglecraft-server-----self-host-with-github-codespaces/bungee/plugins/eaglerxvelocity/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[14:54:30 INFO]: Done (1.23s)!

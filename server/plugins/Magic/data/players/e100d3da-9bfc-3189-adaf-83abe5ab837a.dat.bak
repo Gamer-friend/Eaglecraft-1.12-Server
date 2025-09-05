@@ -1,10 +1,10 @@
 id: e100d3da-9bfc-3189-adaf-83abe5ab837a
 name: JXoliver
 created: 1756869425085
-updated: 1756870162655
+updated: 1757029975568
 last_cast: 0
 cooldown_expiration: 0
-last_death_location: ''
+last_death_location: -17.69999998807907,38.0,50.224270852813994,world_nether,-235.95026,54.449993
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -26,13 +26,14 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_prompt: true
 data: {}
-properties: {}
+properties:
+  version: 6
 classes:
   caster: {}
   mage:
     effect_color: 97026fa1dc0f,e1a506fb0bf4,2c59f0d05f8
-    mana_timestamp: 1756870162453
+    mana_timestamp: 1757029975367
     mana: 50.0
 modifiers: {}
 active_class: mage
-health: 9.71120548248291
+health: 20.0
