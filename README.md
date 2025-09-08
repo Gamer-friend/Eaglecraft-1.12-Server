@@ -1,9 +1,7 @@
 First, go to the top of the repo (on the `master` branch) and click on code > codespaces > create codespace
 now you have your own free server instance to host eaglercraft. Next you need to run the setup commands:
 
-'chmod -x ./start.sh'
-'./start sh'
-
+'chmod -x ./start.sh' and './start sh' 
 ## ⚠ MOST IMPORTANT! ⚠
 Copy the 8081 port address and it should be like, for example, `https://eagtek-files-392jejdw-8081.app.github.dev` . Copy this and paste it in your ⚠⚠⚠ browser BUT DONT,  ⚠⚠⚠⚠ DO NOT PRESS `ENTER` YET!⚠⚠⚠⚠ Instead, replace the `https` (in the beginning of the port address) and replace it with a `wss` . Here is some examples:
 ❌ WRONG: `https://eagtek-files-392jejdw-8081.app.github.dev`
