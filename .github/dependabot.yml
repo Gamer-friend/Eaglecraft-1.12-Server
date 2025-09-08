@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # Node.js (npm) updates
+  - package-ecosystem: "npm"
+    directory: "/"  # Location of package.json
+    schedule:
+      interval: "daily"  # Frequency of updates
+    commit-message:
+      prefix: "fix"  # Prefix for the commit message
+    open-pull-requests-limit: 5  # Limit for open PRs
